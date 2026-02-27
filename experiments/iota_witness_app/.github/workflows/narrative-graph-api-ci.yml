@@ -1,0 +1,56 @@
+name: Narrative Graph API CI
+
+on:
+  push:
+    paths:
+      - "narrative-graph-api/**"
+      - ".github/workflows/narrative-graph-api-ci.yml"
+  pull_request:
+    paths:
+      - "narrative-graph-api/**"
+      - ".github/workflows/narrative-graph-api-ci.yml"
+  workflow_dispatch:
+
+jobs:
+  lint-test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: narrative-graph-api
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install ruff
+
+      - name: Ruff
+        run: ruff check app tests
+
+      - name: Pytest
+        run: pytest -q
+
+  docker-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Build Docker image
+        uses: docker/build-push-action@v6
+        with:
+          context: ./narrative-graph-api
+          file: ./narrative-graph-api/Dockerfile
+          push: false
+          tags: narrative-graph-api:ci

@@ -1,0 +1,112 @@
+// Iota Verbum (IV) - Computational Theology Framework
+// Modal Logic + AI Ethics + Biblical Theology
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// Scripture passages with original language support
+model ScripturePassage {
+  id              String   @id @default(cuid())
+  book            String   // e.g., "John", "Genesis", "Matthew"
+  chapter         Int
+  verseStart      Int
+  verseEnd        Int?     // For verse ranges
+  textEn          String   // English translation
+  textOriginal    String?  // Greek/Hebrew original
+  originalLanguage String? // "Greek" | "Hebrew" | "Aramaic"
+  translation     String   @default("ESV") // Translation source
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  
+  modalEncodings  ModalEncoding[]
+  witnessCards    WitnessCard[]
+  
+  @@unique([book, chapter, verseStart])
+}
+
+// Modal logic encodings for passages
+model ModalEncoding {
+  id            String   @id @default(cuid())
+  passageId     String
+  operatorType  String   // "NECESSITY" | "POSSIBILITY" | "WITNESS" | "SEPARATION" | "STAYING"
+  symbol        String   // "□" | "◇" | "W" | "σ" | "π"
+  formula       String   // Modal logic formula
+  interpretation String  // Theological interpretation
+  scope         String?  // What the operator applies to
+  confidence    Float    @default(0.85)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  
+  passage       ScripturePassage @relation(fields: [passageId], references: [id], onDelete: Cascade)
+  
+  @@index([passageId])
+}
+
+// Witness cards - comprehensive analysis artifacts
+model WitnessCard {
+  id              String   @id @default(cuid())
+  passageId       String
+  title           String
+  summary         String   // Brief summary of the witness
+  modalAnalysis   String   // JSON string of modal analysis
+  themes          String   // JSON array of themes
+  ethicsCheck     String   // JSON of ethics review
+  proofHash       String   // SHA-256 hash for verification
+  signature       String?  // Digital signature
+  verified        Boolean  @default(false)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  
+  passage         ScripturePassage @relation(fields: [passageId], references: [id], onDelete: Cascade)
+  ethicsReviews   EthicsReview[]
+  
+  @@index([passageId])
+  @@index([proofHash])
+}
+
+// Ethics reviews for witness cards
+model EthicsReview {
+  id              String   @id @default(cuid())
+  witnessCardId   String
+  principle       String   // "SANCTITY_OF_LIFE" | "TRUTHFULNESS" | "STEWARDSHIP" | "LOVE" | "JUSTICE"
+  passed          Boolean
+  score           Float    // 0.0 to 1.0
+  reasoning       String   // Explanation of the review
+  concerns        String?  // JSON array of concerns
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  
+  witnessCard     WitnessCard @relation(fields: [witnessCardId], references: [id], onDelete: Cascade)
+  
+  @@index([witnessCardId])
+}
+
+// Modal graph for visualization
+model ModalGraph {
+  id          String   @id @default(cuid())
+  name        String
+  description String?
+  nodes       String   // JSON array of graph nodes
+  edges       String   // JSON array of graph edges
+  passageIds  String?  // JSON array of related passages
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+// Analysis sessions for deterministic AI
+model AnalysisSession {
+  id          String   @id @default(cuid())
+  input       String   // Original input text
+  output      String   // AI analysis result
+  modalContext String? // JSON of modal operators used
+  deterministic Boolean @default(true)
+  temperature Float   @default(0.0)
+  tokenCount  Int?
+  createdAt   DateTime @default(now())
+}

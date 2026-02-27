@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>NSPrivacyTracking</key>
+  <false/>
+  <key>NSPrivacyCollectedDataTypes</key>
+  <array>
+    <!-- Update this list for production according to your real collection/use. -->
+  </array>
+  <key>NSPrivacyAccessedAPITypes</key>
+  <array>
+    <!-- Add required API reasons here before App Store submission. -->
+  </array>
+</dict>
+</plist>

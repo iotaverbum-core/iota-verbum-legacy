@@ -1,0 +1,29 @@
+version: "3.9"
+services:
+  db:
+    image: postgres:16
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: iota
+      POSTGRES_PASSWORD: iota
+      POSTGRES_DB: iota_witness
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  api:
+    build:
+      context: ..
+      dockerfile: services/api/Dockerfile
+    environment:
+      IOTA_DATABASE_URL: postgresql+psycopg://iota:iota@db:5432/iota_witness
+      IOTA_ENV: prod
+      IOTA_OPENAI_MODEL: gpt-5.2
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+
+volumes:
+  pgdata:
