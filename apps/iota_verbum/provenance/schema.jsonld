@@ -1,0 +1,8 @@
+{
+  "@context": {
+    "source": "https://schema.iota.verbum/source",
+    "tradition": "https://schema.iota.verbum/tradition",
+    "reading": "https://schema.iota.verbum/reading",
+    "confidence": "https://schema.iota.verbum/confidence"
+  }
+}

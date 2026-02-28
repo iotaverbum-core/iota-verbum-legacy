@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Luke λ-files; safe to hand-edit after generation.",
+    "book": "Luke",
+    "passage_id": "Luk04_14_30",
+    "version": "Luk04_14_30_Lambda_IV_v0.1"
+  },
+  "passage_id": "Luk04_14_30",
+  "book": "Luke",
+  "chapter": 4,
+  "verses": "14-30",
+  "title": "Luke 4:14–30 – Spirit-Anointed Mission and Hometown Rejection",
+  "interpretive_frames": [
+    "Mission",
+    "Isaiah61",
+    "Rejection"
+  ],
+  "identity_invariants": [
+    "[]JesusIsSpiritAnointedMessiahProclaimingGoodNewsToPoorAndOppressed(Jesus, Spirit, Poor)"
+  ],
+  "units": [
+    {
+      "id": "Luk04_14_30_u1",
+      "label": "Today This Scripture Is Fulfilled",
+      "verses": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "illocution": "ProgrammaticDeclaration",
+      "agents": [
+        "Jesus",
+        "NazarethSynagogue",
+        "Spirit",
+        "Poor",
+        "Oppressed"
+      ],
+      "statements": [
+        {
+          "id": "Luk04_14_30_s1",
+          "type": "summary",
+          "description": "Jesus reads Isaiah, declares its fulfilment in himself, and is rejected by his hometown when he exposes their unbelief and announces grace beyond Israel.",
+          "lambda_iv": [
+            "[]JesusIsSpiritAnointedMessiahProclaimingGoodNewsToPoorAndOppressed(Jesus, Spirit, Poor)",
+            "EFF(RejectionOfProphetForeshadowsWiderResistanceToMercy(Nazareth, Jesus))"
+          ]
+        }
+      ]
+    }
+  ]
+}

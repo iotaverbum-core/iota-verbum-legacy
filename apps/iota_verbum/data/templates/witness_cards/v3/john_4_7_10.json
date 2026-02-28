@@ -1,0 +1,22 @@
+﻿{
+  "template_id": "john_4_7_10_v3",
+  "version": "v3",
+  "scene_title": "Give, ask, receive",
+  "focus_nouns": ["water", "drink", "gift", "living water"],
+  "witness_prompts": [
+    "{speaker_1} begins with '{command_1}'. What does that request surface for you?",
+    "{speaker_2} asks, '{question_1}'. What boundary does that name?",
+    "{speaker_1} responds, '{utterance_3}'. What is being offered here?",
+    "Where do you notice the movement from need to gift?",
+    "What would it mean to receive without bargaining?"
+  ],
+  "prayer_frames": [
+    "Jesus, You ask without coercion.",
+    "Teach me to name my questions.",
+    "Let Your gift become living water in me."
+  ],
+  "safety_notes_append": [
+    "Honor boundaries named in the passage.",
+    "Do not rush the exchange; let the dialogue breathe."
+  ]
+}

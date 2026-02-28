@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Matthew λ-files; safe to hand-edit after generation.",
+    "book": "Matthew",
+    "passage_id": "Mat05_21_48",
+    "version": "Mat05_21_48_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mat05_21_48",
+  "book": "Matthew",
+  "chapter": 5,
+  "verses": "21-48",
+  "title": "Matthew 5:21–48 – Antitheses and Heart Righteousness",
+  "interpretive_frames": [
+    "Ethic",
+    "Heart",
+    "LoveOfEnemies"
+  ],
+  "identity_invariants": [
+    "[]KingdomEthicInternalisesAndIntensifiesTheLawAtHeartLevel(Jesus, Law, Heart)"
+  ],
+  "units": [
+    {
+      "id": "Mat05_21_48_u1",
+      "label": "You Have Heard... But I Say to You",
+      "verses": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "illocution": "EthicalReframing",
+      "agents": [
+        "Jesus",
+        "Disciples",
+        "Enemies",
+        "Father"
+      ],
+      "statements": [
+        {
+          "id": "Mat05_21_48_s1",
+          "type": "summary",
+          "description": "Jesus deepens the Law's demands to anger, lust, oaths, retaliation, and enemy-love, revealing the Father's perfection.",
+          "lambda_iv": [
+            "[]KingdomEthicInternalisesAndIntensifiesTheLawAtHeartLevel(Jesus, Law, Heart)",
+            "<>LoveEnemiesAsChildrenOfFather(Disciples, Enemies, Father)"
+          ]
+        }
+      ]
+    }
+  ]
+}

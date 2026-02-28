@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Matthew λ-files; safe to hand-edit after generation.",
+    "book": "Matthew",
+    "passage_id": "Mat24_01_51",
+    "version": "Mat24_01_51_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mat24_01_51",
+  "book": "Matthew",
+  "chapter": 24,
+  "verses": "1-51",
+  "title": "Matthew 24:1–51 – Eschatological Discourse Part 1",
+  "interpretive_frames": [
+    "Eschatology",
+    "Watchfulness",
+    "BirthPains"
+  ],
+  "identity_invariants": [
+    "[]JesusIsPropheticSonOfManWhoForetellsJudgmentAndCallsToWatchfulness(Jesus, Disciples)"
+  ],
+  "units": [
+    {
+      "id": "Mat24_01_51_u1",
+      "label": "See That No One Leads You Astray",
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "illocution": "ApocalypticDiscourse",
+      "agents": [
+        "Jesus",
+        "Disciples"
+      ],
+      "statements": [
+        {
+          "id": "Mat24_01_51_s1",
+          "type": "summary",
+          "description": "Jesus foretells temple destruction, tribulation, and coming of the Son of Man, urging watchfulness.",
+          "lambda_iv": [
+            "[]JesusIsPropheticSonOfManWhoForetellsJudgmentAndCallsToWatchfulness(Jesus, Disciples)",
+            "<>StayAwakeAndEndureToTheEnd(Disciples)"
+          ]
+        }
+      ]
+    }
+  ]
+}

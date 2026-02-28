@@ -1,0 +1,54 @@
+{
+  "schema": "iv.modal.json.v1",
+  "passage": "John 13",
+  "source": {
+    "translation": "ESV"
+  },
+  "meta": {
+    "compiled_from": "cne.v1",
+    "compiled_at": "2026-02-13T14:23:56"
+  },
+  "nodes": [
+    {
+      "id": "n1",
+      "type": "scene",
+      "ref": "13:1-20",
+      "label": "Footwashing → cleansing + example"
+    },
+    {
+      "id": "n2",
+      "type": "scene",
+      "ref": "13:21-30",
+      "label": "Betrayer identified → night"
+    },
+    {
+      "id": "n3",
+      "type": "scene",
+      "ref": "13:31-38",
+      "label": "Glory + new command → Peter denial predicted"
+    }
+  ],
+  "edges": [
+    {
+      "from": "n1",
+      "to": "n2",
+      "type": "SEQ"
+    },
+    {
+      "from": "n2",
+      "to": "n3",
+      "type": "SEQ"
+    }
+  ],
+  "hinges": [
+    {
+      "id": "h1",
+      "refs": [
+        "John 13"
+      ],
+      "identity_□": "Jesus is Lord/Teacher who loves to the end.",
+      "enactment_◇": "He washes, teaches, reveals betrayal, commands love, and foretells denial.",
+      "effect_Δ": "The table becomes a place of cleansing and exposure; love is set as the community’s signature amid coming failure."
+    }
+  ]
+}

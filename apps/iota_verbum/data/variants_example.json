@@ -1,0 +1,18 @@
+﻿[
+  {
+    "id": "VAR001",
+    "location": "Mark 4:26",
+    "language": "grc",
+    "type": "spelling",
+    "witnesses": ["B", "D"],
+    "notes": "Minor orthographic difference, no impact on sense."
+  },
+  {
+    "id": "VAR002",
+    "location": "Mark 4:27",
+    "language": "grc",
+    "type": "word-order",
+    "witnesses": ["A", "C"],
+    "notes": "Alternative word order, emphasis unchanged."
+  }
+]

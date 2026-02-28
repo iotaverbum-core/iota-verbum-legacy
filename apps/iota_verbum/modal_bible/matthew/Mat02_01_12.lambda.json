@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Matthew λ-files; safe to hand-edit after generation.",
+    "book": "Matthew",
+    "passage_id": "Mat02_01_12",
+    "version": "Mat02_01_12_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mat02_01_12",
+  "book": "Matthew",
+  "chapter": 2,
+  "verses": "1-12",
+  "title": "Matthew 2:1–12 – Magi and the King of the Jews",
+  "interpretive_frames": [
+    "Epiphany",
+    "Nations",
+    "Worship"
+  ],
+  "identity_invariants": [
+    "[]JesusIsTheTrueKingOfTheJewsForIsraelAndNations(Jesus, Israel, Nations)"
+  ],
+  "units": [
+    {
+      "id": "Mat02_01_12_u1",
+      "label": "Gentile Worship of the King",
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "illocution": "Narration",
+      "agents": [
+        "Jesus",
+        "Herod",
+        "Magi",
+        "ChiefPriests",
+        "Scribes"
+      ],
+      "statements": [
+        {
+          "id": "Mat02_01_12_s1",
+          "type": "summary",
+          "description": "Gentile magi seek and worship the child as King of the Jews, while Herod and Jerusalem are troubled.",
+          "lambda_iv": [
+            "[]JesusIsTheTrueKingOfTheJewsForIsraelAndNations(Jesus, Israel, Nations)",
+            "<>NationsComeToWorship(Jesus, Nations)"
+          ]
+        }
+      ]
+    }
+  ]
+}

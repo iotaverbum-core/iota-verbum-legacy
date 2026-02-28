@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Matthew λ-files; safe to hand-edit after generation.",
+    "book": "Matthew",
+    "passage_id": "Mat19_13_30",
+    "version": "Mat19_13_30_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mat19_13_30",
+  "book": "Matthew",
+  "chapter": 19,
+  "verses": "13-30",
+  "title": "Matthew 19:13–30 – Children and the Rich Young Man",
+  "interpretive_frames": [
+    "ChildlikeFaith",
+    "Wealth",
+    "Reward"
+  ],
+  "identity_invariants": [
+    "[]KingdomBelongsToChildlikeAndWealthIsDangerousRivalMaster(Kingdom, Wealth)"
+  ],
+  "units": [
+    {
+      "id": "Mat19_13_30_u1",
+      "label": "Hard for the Rich",
+      "verses": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "illocution": "NarrationAndTeaching",
+      "agents": [
+        "Jesus",
+        "Children",
+        "Disciples",
+        "RichYoungMan"
+      ],
+      "statements": [
+        {
+          "id": "Mat19_13_30_s1",
+          "type": "summary",
+          "description": "Jesus welcomes children, confronts a rich seeker, and promises reward for those who leave all to follow him.",
+          "lambda_iv": [
+            "[]KingdomBelongsToChildlikeAndWealthIsDangerousRivalMaster(Kingdom, Wealth)",
+            "<>LeaveAllForJesusAndReceiveEternalLife(Disciple, Jesus)"
+          ]
+        }
+      ]
+    }
+  ]
+}

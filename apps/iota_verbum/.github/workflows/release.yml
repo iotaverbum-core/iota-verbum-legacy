@@ -1,0 +1,14 @@
+name: release
+on: [workflow_dispatch]
+jobs:
+  pack:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: python scripts/variant_provenance.py
+      - run: python scripts/policy_check.py
+      - run: python governance/foundation_bundle.py
+      - uses: actions/upload-artifact@v4
+        with: {name: bundle, path: dist/*.zip}

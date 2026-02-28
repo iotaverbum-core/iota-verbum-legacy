@@ -1,0 +1,267 @@
+﻿{
+    "ivb_version":  "1.0",
+    "doc_id":  "IVB.MRK.04",
+    "meta":  {
+                 "book_code":  "MRK",
+                 "chapter":  4,
+                 "language":  "grc",
+                 "book_name_en":  "Mark",
+                 "base_text_source":  "DEMO_TSV",
+                 "morph_source":  "DEMO_TSV",
+                 "generated_by":  "iota_verbum",
+                 "generated_at":  "2025-11-14T10:44:13.431853Z"
+             },
+    "units":  [
+                  {
+                      "unit_id":  "MRK.04.26",
+                      "unit_type":  "verse",
+                      "text_ref":  "Mark 4:26",
+                      "tokens":  [
+                                     {
+                                         "position":  1,
+                                         "surface":  "Kai",
+                                         "lemma_id":  "kai",
+                                         "morph_code":  "CONJ",
+                                         "strongs":  "G2532"
+                                     },
+                                     {
+                                         "position":  2,
+                                         "surface":  "elegen",
+                                         "lemma_id":  "lego",
+                                         "morph_code":  "V-IAI-3S",
+                                         "strongs":  "G3004"
+                                     },
+                                     {
+                                         "position":  3,
+                                         "surface":  "houtos",
+                                         "lemma_id":  "houtos",
+                                         "morph_code":  "DEM",
+                                         "strongs":  "G3778"
+                                     },
+                                     {
+                                         "position":  4,
+                                         "surface":  "estin",
+                                         "lemma_id":  "eimi",
+                                         "morph_code":  "V-PAI-3S",
+                                         "strongs":  "G1510"
+                                     },
+                                     {
+                                         "position":  5,
+                                         "surface":  "he",
+                                         "lemma_id":  "ho",
+                                         "morph_code":  "ART",
+                                         "strongs":  "G3588"
+                                     },
+                                     {
+                                         "position":  6,
+                                         "surface":  "basileia",
+                                         "lemma_id":  "basileia",
+                                         "morph_code":  "N-NSF",
+                                         "strongs":  "G932"
+                                     },
+                                     {
+                                         "position":  7,
+                                         "surface":  "tou",
+                                         "lemma_id":  "ho",
+                                         "morph_code":  "ART",
+                                         "strongs":  "G3588"
+                                     },
+                                     {
+                                         "position":  8,
+                                         "surface":  "theou",
+                                         "lemma_id":  "theos",
+                                         "morph_code":  "N-GSM",
+                                         "strongs":  "G2316"
+                                     }
+                                 ]
+                  },
+                  {
+                      "unit_id":  "MRK.04.27",
+                      "unit_type":  "verse",
+                      "text_ref":  "Mark 4:27",
+                      "tokens":  [
+                                     {
+                                         "position":  1,
+                                         "surface":  "kai",
+                                         "lemma_id":  "kai",
+                                         "morph_code":  "CONJ",
+                                         "strongs":  "G2532"
+                                     },
+                                     {
+                                         "position":  2,
+                                         "surface":  "katheude",
+                                         "lemma_id":  "katheudo",
+                                         "morph_code":  "V-PAS-3S",
+                                         "strongs":  "G2518"
+                                     },
+                                     {
+                                         "position":  3,
+                                         "surface":  "egeiretai",
+                                         "lemma_id":  "egeiro",
+                                         "morph_code":  "V-PMI-3S",
+                                         "strongs":  "G1453"
+                                     },
+                                     {
+                                         "position":  4,
+                                         "surface":  "nux",
+                                         "lemma_id":  "nux",
+                                         "morph_code":  "N-NSF",
+                                         "strongs":  "G3571"
+                                     },
+                                     {
+                                         "position":  5,
+                                         "surface":  "hemera",
+                                         "lemma_id":  "hemera",
+                                         "morph_code":  "N-NSF",
+                                         "strongs":  "G2250"
+                                     }
+                                 ]
+                  },
+                  {
+                      "unit_id":  "MRK.04.28",
+                      "unit_type":  "verse",
+                      "text_ref":  "Mark 4:28",
+                      "tokens":  [
+                                     {
+                                         "position":  1,
+                                         "surface":  "automate",
+                                         "lemma_id":  "automatos",
+                                         "morph_code":  "ADV",
+                                         "strongs":  "G844"
+                                     },
+                                     {
+                                         "position":  2,
+                                         "surface":  "he",
+                                         "lemma_id":  "ho",
+                                         "morph_code":  "ART",
+                                         "strongs":  "G3588"
+                                     },
+                                     {
+                                         "position":  3,
+                                         "surface":  "ge",
+                                         "lemma_id":  "ge",
+                                         "morph_code":  "N-NSF",
+                                         "strongs":  "G1093"
+                                     },
+                                     {
+                                         "position":  4,
+                                         "surface":  "karpophorei",
+                                         "lemma_id":  "karpophoreo",
+                                         "morph_code":  "V-PAI-3S",
+                                         "strongs":  "G2592"
+                                     }
+                                 ]
+                  },
+                  {
+                      "unit_id":  "MRK.04.29",
+                      "unit_type":  "verse",
+                      "text_ref":  "Mark 4:29",
+                      "tokens":  [
+                                     {
+                                         "position":  1,
+                                         "surface":  "hotan",
+                                         "lemma_id":  "hotan",
+                                         "morph_code":  "CONJ",
+                                         "strongs":  "G3752"
+                                     },
+                                     {
+                                         "position":  2,
+                                         "surface":  "ho",
+                                         "lemma_id":  "ho",
+                                         "morph_code":  "ART",
+                                         "strongs":  "G3588"
+                                     },
+                                     {
+                                         "position":  3,
+                                         "surface":  "karpos",
+                                         "lemma_id":  "karpos",
+                                         "morph_code":  "N-NSM",
+                                         "strongs":  "G2590"
+                                     },
+                                     {
+                                         "position":  4,
+                                         "surface":  "aposteilei",
+                                         "lemma_id":  "apostello",
+                                         "morph_code":  "V-AAS-3S",
+                                         "strongs":  "G649"
+                                     },
+                                     {
+                                         "position":  5,
+                                         "surface":  "to",
+                                         "lemma_id":  "to",
+                                         "morph_code":  "ART",
+                                         "strongs":  "G3588"
+                                     },
+                                     {
+                                         "position":  6,
+                                         "surface":  "drepanon",
+                                         "lemma_id":  "drepanon",
+                                         "morph_code":  "N-ASN",
+                                         "strongs":  "G1407"
+                                     }
+                                 ]
+                  }
+              ],
+    "pericopes":  [
+                      {
+                          "pericope_id":  "MRK.04.26-04.29.GROWING_SEED",
+                          "start_unit_id":  "MRK.04.26",
+                          "end_unit_id":  "MRK.04.29",
+                          "title_en":  "Parable of the Growing Seed",
+                          "title_iota":  "Ãâ-Seed-Grows-To-Ripeness",
+                          "genre":  "parable"
+                      }
+                  ],
+    "modals":  [
+                   {
+                       "iv_id":  "IV.MRK.04.26-29.GROWING_SEED",
+                       "scope":  "pericope",
+                       "pericope_id":  "MRK.04.26-04.29.GROWING_SEED",
+                       "unit_ids":  [
+                                        "MRK.04.26",
+                                        "MRK.04.27",
+                                        "MRK.04.28",
+                                        "MRK.04.29",
+                                        "MRK.04.26",
+                                        "MRK.04.27",
+                                        "MRK.04.28",
+                                        "MRK.04.29",
+                                        "MRK.04.26",
+                                        "MRK.04.27",
+                                        "MRK.04.28",
+                                        "MRK.04.29"
+                                    ],
+                       "primary_arc_id":  "ARC.KINGDOM_SEED_GROWTH",
+                       "modal":  {
+                                     "box":  {
+                                                 "label":  "â¡-Crucified-Sower-Sovereign",
+                                                 "description":  "Jesus, the Son, is the farmer who owns the field and is accountable for the harvest; He entrusts the growth of the kingdom to the Fatherâs hidden power."
+                                             },
+                                     "diamond":  {
+                                                     "label":  "â-Sows-Word-Sleeps-Trusting-Death",
+                                                     "description":  "He scatters the word of the kingdom and then \u0027sleeps\u0027âpassing through death and apparent inactivityâconfident that God alone gives life and growth in the unseen soil of human hearts and history."
+                                                 },
+                                     "delta":  {
+                                                   "label":  "Î-Hidden-Growth-Ripe-Harvest",
+                                                   "description":  "The seed of the word grows secretly yet certainly from first shoot to full head of grain until the moment of eschatological ripeness, when the Son sends in the sickle for final judgment and rescue."
+                                               }
+                                 },
+                       "confidence":  {
+                                          "textual":  0.97,
+                                          "interpretive":  0.9
+                                      },
+                       "summary":  "The parable of the growing seed reveals the crucified and risen Son as the sower who entrusts the kingdomâs hidden growth to the Father until the moment of ripe harvest and final judgment."
+                   }
+               ],
+    "variants":  [
+
+                 ],
+    "arcs":  [
+                 {
+                     "arc_id":  "ARC.KINGDOM_SEED_GROWTH",
+                     "label":  "Seed â Growth â Harvest",
+                     "description":  "Canon-wide pattern linking seed parables and eschatological harvest texts.",
+                     "links":  "[\"MRK.04.26-29\", \"1COR.15.35-49\", \"REV.14.14-20\"]"
+                 }
+             ]
+}

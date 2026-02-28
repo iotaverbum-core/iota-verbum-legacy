@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Matthew λ-files; safe to hand-edit after generation.",
+    "book": "Matthew",
+    "passage_id": "Mat01_01_17",
+    "version": "Mat01_01_17_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mat01_01_17",
+  "book": "Matthew",
+  "chapter": 1,
+  "verses": "1-17",
+  "title": "Matthew 1:1–17 – Genealogy of Jesus the Messiah",
+  "interpretive_frames": [
+    "Genealogy",
+    "DavidicMessiah",
+    "Fulfilment"
+  ],
+  "identity_invariants": [
+    "[]JesusIsTheChristSonOfDavidSonOfAbraham(Jesus, David, Abraham)"
+  ],
+  "units": [
+    {
+      "id": "Mat01_01_17_u1",
+      "label": "Genealogy and Messianic Identity",
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "illocution": "Narration",
+      "agents": [
+        "Matthew",
+        "Jesus",
+        "David",
+        "Abraham",
+        "Israel"
+      ],
+      "statements": [
+        {
+          "id": "Mat01_01_17_s1",
+          "type": "summary",
+          "description": "Matthew traces Jesus' lineage to show Jesus as Son of David, Son of Abraham, rooted in Israel's story.",
+          "lambda_iv": [
+            "[]JesusIsTheChristSonOfDavidSonOfAbraham(Jesus, David, Abraham)",
+            "EFF(AnchoredInCovenantStory(Jesus, IsraelHistory))"
+          ]
+        }
+      ]
+    }
+  ]
+}

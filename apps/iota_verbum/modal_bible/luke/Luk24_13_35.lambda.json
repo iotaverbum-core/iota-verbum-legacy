@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Luke λ-files; safe to hand-edit after generation.",
+    "book": "Luke",
+    "passage_id": "Luk24_13_35",
+    "version": "Luk24_13_35_Lambda_IV_v0.1"
+  },
+  "passage_id": "Luk24_13_35",
+  "book": "Luke",
+  "chapter": 24,
+  "verses": "13-35",
+  "title": "Luke 24:13–35 – Emmaus Road and Opened Scriptures",
+  "interpretive_frames": [
+    "Scripture",
+    "Recognition",
+    "TableFellowship"
+  ],
+  "identity_invariants": [
+    "[]RisenJesusInterpretsScripturesAboutHisSufferingsAndIsKnownInBreakingOfBread(Jesus, Disciples)"
+  ],
+  "units": [
+    {
+      "id": "Luk24_13_35_u1",
+      "label": "Our Hearts Burned Within Us",
+      "verses": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "illocution": "ResurrectionAppearance",
+      "agents": [
+        "Jesus",
+        "Cleopas",
+        "Companion"
+      ],
+      "statements": [
+        {
+          "id": "Luk24_13_35_s1",
+          "type": "summary",
+          "description": "The risen Jesus walks with two disciples, opens the Scriptures concerning his suffering and glory, and is recognised in the breaking of bread.",
+          "lambda_iv": [
+            "[]RisenJesusInterpretsScripturesAboutHisSufferingsAndIsKnownInBreakingOfBread(Jesus, Disciples)",
+            "EFF(UnderstandingCrossAndResurrectionRequiresScripturalReReading(Disciples))"
+          ]
+        }
+      ]
+    }
+  ]
+}

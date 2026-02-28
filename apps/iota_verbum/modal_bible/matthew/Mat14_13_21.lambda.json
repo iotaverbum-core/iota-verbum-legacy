@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Matthew λ-files; safe to hand-edit after generation.",
+    "book": "Matthew",
+    "passage_id": "Mat14_13_21",
+    "version": "Mat14_13_21_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mat14_13_21",
+  "book": "Matthew",
+  "chapter": 14,
+  "verses": "13-21",
+  "title": "Matthew 14:13–21 – Feeding the Five Thousand",
+  "interpretive_frames": [
+    "Provision",
+    "Compassion",
+    "Banquet"
+  ],
+  "identity_invariants": [
+    "[]JesusFeedsCrowdsInWildernessAsNewShepherdAndHost(Jesus, Crowds)"
+  ],
+  "units": [
+    {
+      "id": "Mat14_13_21_u1",
+      "label": "You Give Them Something to Eat",
+      "verses": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "illocution": "SignNarrative",
+      "agents": [
+        "Jesus",
+        "Disciples",
+        "Crowds"
+      ],
+      "statements": [
+        {
+          "id": "Mat14_13_21_s1",
+          "type": "summary",
+          "description": "Jesus has compassion on the crowds and feeds them abundantly in the wilderness.",
+          "lambda_iv": [
+            "[]JesusFeedsCrowdsInWildernessAsNewShepherdAndHost(Jesus, Crowds)",
+            "EFF(ScarcityBecomesAbundanceInHisHands(Loaves, Fish))"
+          ]
+        }
+      ]
+    }
+  ]
+}

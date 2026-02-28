@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Mark λ-files; safe to hand-edit after generation.",
+    "book": "Mark",
+    "passage_id": "Mar04_35_41",
+    "version": "Mar04_35_41_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mar04_35_41",
+  "book": "Mark",
+  "chapter": 4,
+  "verses": "35-41",
+  "title": "Mark 4:35–41 – Calming the Storm",
+  "interpretive_frames": [
+    "AuthorityOverCreation",
+    "Fear",
+    "Faith"
+  ],
+  "identity_invariants": [
+    "[]JesusCommandsWindAndSeaAndQuestionsDisciplesFear(Jesus, Creation, Disciples)"
+  ],
+  "units": [
+    {
+      "id": "Mar04_35_41_u1",
+      "label": "Who Then Is This?",
+      "verses": [
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "illocution": "MiracleNarrative",
+      "agents": [
+        "Jesus",
+        "Disciples"
+      ],
+      "statements": [
+        {
+          "id": "Mar04_35_41_s1",
+          "type": "summary",
+          "description": "On the lake Jesus rebukes wind and sea, bringing great calm, and exposes the disciples fear and lack of faith.",
+          "lambda_iv": [
+            "[]JesusCommandsWindAndSeaAndQuestionsDisciplesFear(Jesus, Creation, Disciples)",
+            "EFF(ThreateningChaosRevealsDepthOfTrustInJesus(Disciples))"
+          ]
+        }
+      ]
+    }
+  ]
+}

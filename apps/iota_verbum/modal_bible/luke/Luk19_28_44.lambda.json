@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Luke λ-files; safe to hand-edit after generation.",
+    "book": "Luke",
+    "passage_id": "Luk19_28_44",
+    "version": "Luk19_28_44_Lambda_IV_v0.1"
+  },
+  "passage_id": "Luk19_28_44",
+  "book": "Luke",
+  "chapter": 19,
+  "verses": "28-44",
+  "title": "Luke 19:28–44 – Triumphal Entry and Weeping Over Jerusalem",
+  "interpretive_frames": [
+    "Kingship",
+    "Visitation",
+    "Judgment"
+  ],
+  "identity_invariants": [
+    "[]JesusIsPeaceBringingKingWhoseRejectedVisitationLeadsToJudgment(Jesus, Jerusalem)"
+  ],
+  "units": [
+    {
+      "id": "Luk19_28_44_u1",
+      "label": "You Did Not Know the Time of Your Visitation",
+      "verses": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "illocution": "PropheticEntry",
+      "agents": [
+        "Jesus",
+        "Disciples",
+        "Crowds",
+        "Jerusalem"
+      ],
+      "statements": [
+        {
+          "id": "Luk19_28_44_s1",
+          "type": "summary",
+          "description": "Jesus enters Jerusalem as king amid praise, then weeps over the city that does not know the things for peace or the time of its visitation.",
+          "lambda_iv": [
+            "[]JesusIsPeaceBringingKingWhoseRejectedVisitationLeadsToJudgment(Jesus, Jerusalem)",
+            "EFF(MissingGodsVisitationBringsInevitableDesolation(City))"
+          ]
+        }
+      ]
+    }
+  ]
+}

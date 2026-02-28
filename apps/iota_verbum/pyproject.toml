@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "iota-verbum-legacy"
+version = "0.1.0"
+description = "Legacy CLI wrapper for consuming the pinned iota-verbum-core release."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Iota Verbum" }]
+dependencies = []
+
+[project.scripts]
+iv = "iota_verbum.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["iota_verbum", "iota_verbum.*"]

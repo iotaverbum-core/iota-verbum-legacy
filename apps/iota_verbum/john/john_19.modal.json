@@ -1,0 +1,54 @@
+{
+  "schema": "iv.modal.json.v1",
+  "passage": "John 19",
+  "source": {
+    "translation": "ESV"
+  },
+  "meta": {
+    "compiled_from": "cne.v1",
+    "compiled_at": "2026-02-13T14:23:56"
+  },
+  "nodes": [
+    {
+      "id": "n1",
+      "type": "scene",
+      "ref": "19:1-16",
+      "label": "Mocking → behold the man → sentence"
+    },
+    {
+      "id": "n2",
+      "type": "scene",
+      "ref": "19:17-30",
+      "label": "Crucifixion → care → thirst → finished → death"
+    },
+    {
+      "id": "n3",
+      "type": "scene",
+      "ref": "19:31-42",
+      "label": "Piercing sign → burial with spices"
+    }
+  ],
+  "edges": [
+    {
+      "from": "n1",
+      "to": "n2",
+      "type": "SEQ"
+    },
+    {
+      "from": "n2",
+      "to": "n3",
+      "type": "SEQ"
+    }
+  ],
+  "hinges": [
+    {
+      "id": "h1",
+      "refs": [
+        "John 19"
+      ],
+      "identity_□": "Jesus completes the Father’s work as the true King.",
+      "enactment_◇": "He endures mockery, is crucified, speaks fulfillment, declares completion, and gives up his spirit.",
+      "effect_Δ": "The sign is witnessed; his body is honored in burial; his care creates a new household at the cross."
+    }
+  ]
+}

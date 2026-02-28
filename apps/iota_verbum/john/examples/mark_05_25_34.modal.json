@@ -1,0 +1,220 @@
+{
+  "ref": "Mark 5:25-34",
+  "translation": "NRSV",
+  "nodes": [
+    {
+      "id": "n1",
+      "kind": "identity",
+      "lemma": "identity",
+      "text": "□ Jesus is the one whose power heals and whose speech names the healed into belonging (\"Daughter\").",
+      "span": "c1",
+      "confidence": 0.85
+    },
+    {
+      "id": "n2",
+      "kind": "enactment",
+      "lemma": "enactment",
+      "text": "◇ The woman comes in faith and touches; Jesus turns, seeks, receives her truth, and names her.",
+      "span": "c2",
+      "confidence": 0.82
+    },
+    {
+      "id": "n3",
+      "kind": "effect",
+      "lemma": "effect",
+      "text": "Δ She is made well and sent in peace — relief becomes restored identity.",
+      "span": "c3",
+      "confidence": 0.84
+    },
+    {
+      "id": "n4",
+      "kind": "enactment",
+      "lemma": "suffer",
+      "text": "H.suffer (hemorrhage) [ongoing] <P12Y>  (5:25-26)",
+      "span": "c4",
+      "confidence": 0.76
+    },
+    {
+      "id": "n5",
+      "kind": "enactment",
+      "lemma": "seek",
+      "text": "H.seek (physicians) [repeated]  (5:26)",
+      "span": "c5",
+      "confidence": 0.76
+    },
+    {
+      "id": "n6",
+      "kind": "enactment",
+      "lemma": "spend",
+      "text": "H.spend (all) [cost]  (5:26)",
+      "span": "c6",
+      "confidence": 0.76
+    },
+    {
+      "id": "n7",
+      "kind": "effect",
+      "lemma": "grow_worse",
+      "text": "H.grow_worse  (5:26)",
+      "span": "c7",
+      "confidence": 0.76
+    },
+    {
+      "id": "n8",
+      "kind": "enactment",
+      "lemma": "hear",
+      "text": "H.hear (about Jesus)  (5:27)",
+      "span": "c8",
+      "confidence": 0.76
+    },
+    {
+      "id": "n9",
+      "kind": "enactment",
+      "lemma": "approach",
+      "text": "H.approach (Jesus) [from_behind]  (5:27)",
+      "span": "c9",
+      "confidence": 0.76
+    },
+    {
+      "id": "n10",
+      "kind": "enactment",
+      "lemma": "reason",
+      "text": "H.reason (touch→heal) [internal_speech]  (5:28)",
+      "span": "c10",
+      "confidence": 0.76
+    },
+    {
+      "id": "n11",
+      "kind": "enactment",
+      "lemma": "touch",
+      "text": "H.touch (G.garment) [edge/fringe]  (5:27-28)",
+      "span": "c11",
+      "confidence": 0.76
+    },
+    {
+      "id": "n12",
+      "kind": "effect",
+      "lemma": "be_healed",
+      "text": "H.be_healed (hemorrhage_stops) [immediate]  (5:29)",
+      "span": "c12",
+      "confidence": 0.76
+    },
+    {
+      "id": "n13",
+      "kind": "enactment",
+      "lemma": "perceive",
+      "text": "G.perceive (power_gone_out) [immediate]  (5:30)",
+      "span": "c13",
+      "confidence": 0.76
+    },
+    {
+      "id": "n14",
+      "kind": "enactment",
+      "lemma": "turn",
+      "text": "G.turn (crowd)  (5:30)",
+      "span": "c14",
+      "confidence": 0.76
+    },
+    {
+      "id": "n15",
+      "kind": "enactment",
+      "lemma": "ask",
+      "text": "G.ask (Who touched my clothes?)  (5:30)",
+      "span": "c15",
+      "confidence": 0.76
+    },
+    {
+      "id": "n16",
+      "kind": "enactment",
+      "lemma": "protest",
+      "text": "D.protest (crowd_pressing)  (5:31)",
+      "span": "c16",
+      "confidence": 0.76
+    },
+    {
+      "id": "n17",
+      "kind": "enactment",
+      "lemma": "look_around",
+      "text": "G.look_around (to_see_who)  (5:32)",
+      "span": "c17",
+      "confidence": 0.76
+    },
+    {
+      "id": "n18",
+      "kind": "identity",
+      "lemma": "name",
+      "text": "G.name (Daughter)  (5:34)",
+      "span": "c18",
+      "confidence": 0.76
+    },
+    {
+      "id": "n19",
+      "kind": "effect",
+      "lemma": "send",
+      "text": "G.send (go_in_peace)  (5:34)",
+      "span": "c19",
+      "confidence": 0.76
+    },
+    {
+      "id": "n20",
+      "kind": "effect",
+      "lemma": "declare",
+      "text": "G.declare (be_healed_of_disease)  (5:34)",
+      "span": "c20",
+      "confidence": 0.76
+    }
+  ],
+  "edges": [
+    {
+      "from": "n1",
+      "to": "n2",
+      "relation": "grounds",
+      "confidence": 0.82
+    },
+    {
+      "from": "n2",
+      "to": "n3",
+      "relation": "produces",
+      "confidence": 0.8
+    },
+    {
+      "from": "n8",
+      "to": "n9",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n9",
+      "to": "n11",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n12",
+      "to": "n13",
+      "relation": "coheres",
+      "confidence": 0.68
+    },
+    {
+      "from": "n13",
+      "to": "n14",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n14",
+      "to": "n15",
+      "relation": "implies",
+      "confidence": 0.7
+    }
+  ],
+  "creed": {
+    "status": "pass",
+    "notes": []
+  },
+  "watermark": "772ed0e9e4346be2",
+  "meta": {
+    "postprocessed_at": "2026-02-12T14:26:58.077987Z",
+    "confidence": 0.9,
+    "source": "cne_compile_v1"
+  }
+}

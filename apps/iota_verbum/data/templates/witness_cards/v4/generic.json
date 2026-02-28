@@ -1,0 +1,21 @@
+﻿{
+  "template_id": "generic_v4",
+  "version": "v4",
+  "scene_title": "Witness Scene",
+  "focus_nouns": [],
+  "witness_prompts": [
+    "Where do you notice {frame_1} in the text?",
+    "What shifts after '{threshold_1}', even slightly?",
+    "What action in the scene feels most concrete today?",
+    "How does the passage invite you to witness without fixing?",
+    "What would it mean to stay present with {movement_1}?"
+  ],
+  "prayer_frames": [
+    "God of presence, stay close as we witness.",
+    "Let {action_1} be seen with clarity and care.",
+    "Give us grace to respond without haste."
+  ],
+  "safety_notes_append": [
+    "Keep language invitational and grounded in the text."
+  ]
+}

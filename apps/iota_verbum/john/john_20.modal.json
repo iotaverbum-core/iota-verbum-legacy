@@ -1,0 +1,54 @@
+{
+  "schema": "iv.modal.json.v1",
+  "passage": "John 20",
+  "source": {
+    "translation": "ESV"
+  },
+  "meta": {
+    "compiled_from": "cne.v1",
+    "compiled_at": "2026-02-13T14:23:56"
+  },
+  "nodes": [
+    {
+      "id": "n1",
+      "type": "scene",
+      "ref": "20:1-18",
+      "label": "Empty tomb → Mary named → sent"
+    },
+    {
+      "id": "n2",
+      "type": "scene",
+      "ref": "20:19-23",
+      "label": "Locked room → peace → Spirit breathed → commission"
+    },
+    {
+      "id": "n3",
+      "type": "scene",
+      "ref": "20:24-31",
+      "label": "Thomas doubt → invitation → confession → book’s purpose"
+    }
+  ],
+  "edges": [
+    {
+      "from": "n1",
+      "to": "n2",
+      "type": "SEQ"
+    },
+    {
+      "from": "n2",
+      "to": "n3",
+      "type": "SEQ"
+    }
+  ],
+  "hinges": [
+    {
+      "id": "h1",
+      "refs": [
+        "John 20"
+      ],
+      "identity_□": "Jesus is risen Lord and God.",
+      "enactment_◇": "He appears, speaks peace, breathes the Spirit, and invites the doubter into touchable faith.",
+      "effect_Δ": "Witness is commissioned; confession is formed; the Gospel’s purpose is stated for belief and life."
+    }
+  ]
+}

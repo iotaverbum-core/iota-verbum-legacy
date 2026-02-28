@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Luke λ-files; safe to hand-edit after generation.",
+    "book": "Luke",
+    "passage_id": "Luk22_39_46",
+    "version": "Luk22_39_46_Lambda_IV_v0.1"
+  },
+  "passage_id": "Luk22_39_46",
+  "book": "Luke",
+  "chapter": 22,
+  "verses": "39-46",
+  "title": "Luke 22:39–46 – Gethsemane and Prayer Under Trial",
+  "interpretive_frames": [
+    "Agony",
+    "Submission",
+    "Prayer"
+  ],
+  "identity_invariants": [
+    "[]JesusSubmitsHisWillToFathersPlanAndCallsDisciplesToPrayAgainstTemptation(Jesus, Father, Disciples)"
+  ],
+  "units": [
+    {
+      "id": "Luk22_39_46_u1",
+      "label": "Not My Will but Yours Be Done",
+      "verses": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "illocution": "AgonyNarrative",
+      "agents": [
+        "Jesus",
+        "Disciples",
+        "Father",
+        "Angel"
+      ],
+      "statements": [
+        {
+          "id": "Luk22_39_46_s1",
+          "type": "summary",
+          "description": "In anguish Jesus prays for the cup to pass yet submits to the Father’s will, while disciples fail to stay awake and pray.",
+          "lambda_iv": [
+            "[]JesusSubmitsHisWillToFathersPlanAndCallsDisciplesToPrayAgainstTemptation(Jesus, Father, Disciples)",
+            "EFF(PrayerfulSubmissionIsPathThroughComingTrial(Disciples))"
+          ]
+        }
+      ]
+    }
+  ]
+}

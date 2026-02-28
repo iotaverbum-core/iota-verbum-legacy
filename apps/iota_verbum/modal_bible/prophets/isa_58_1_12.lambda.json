@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "format": "iota.modal_bible.lambda_json",
+    "lambda_version": "v0.1",
+    "description": "Modal Bible encoding of Isaiah 58:1–12 using Iota Verbum's Λ v0.1 grammar (□ identity / ◇ enactment / Δ effect).",
+    "grammar_ref": "docs/Modal_Grammar_v1.0.md",
+    "notes": [
+      "All formulas in `identity_invariants` and `units[*].statements[*].lambda_iv` use Λ v0.1 ASCII syntax:",
+      "[] = □ (necessity / identity), <> = ◇ (possibility / enactment), EFF() = Δ (effect), !, &, |, -> for logic.",
+      "This file is a theological encoding, not just data. Corrections should preserve the Λ triad and syntax."
+    ],
+    "created_by": "Matthew + Iota (Λ)",
+    "version": "Isa58_1_12_Lambda_IV_v0.1"
+  },
+  "passage_id": "Isa58_1_12",
+  "book": "Isaiah",
+  "chapter": 58,
+  "verses": "1-12",
+  "title": "Isaiah 58:1–12 – True Fasting: Justice as Worship and Light as Effect",
+  "interpretive_frames": [
+    "PropheticJustice",
+    "TrueFasting",
+    "WorshipAsJustice"
+  ],
+  "identity_invariants": [
+    "I(WatcherOfWorship(YHWH)) -> []WatcherOfWorship(YHWH)",
+    "I(TruthfulJudge(YHWH)) -> []TruthfulJudge(YHWH)",
+    "I(DefenderOfOppressed(YHWH)) -> []DefenderOfOppressed(YHWH)",
+    "I(HealerAndRestorer(YHWH)) -> []HealerAndRestorer(YHWH)",
+    "I(LightGiver(YHWH)) -> []LightGiver(YHWH)",
+    "I(Guide(YHWH)) -> []Guide(YHWH)"
+  ],
+  "units": [
+    {
+      "id": "Isa58_1_5",
+      "label": "False Fast Exposed",
+      "verses": [1, 2, 3, 4, 5],
+      "illocution": "Indictment",
+      "agents": [
+        "YHWH",
+        "Prophet",
+        "People",
+        "Workers"
+      ],
+      "statements": [
+        {
+          "id": "Isa58_1_5_s1",
+          "type": "speech",
+          "speaker": "YHWH",
+          "target": "Prophet",
+          "description": "YHWH commands the prophet to cry aloud and expose the people's sins despite their outward zeal.",
+          "lambda_iv": [
+            "[]WatcherOfWorship(YHWH) -> <>CommissionToExpose(YHWH, Prophet, People)",
+            "<>CryAloud(Prophet, People)"
+          ]
+        },
+        {
+          "id": "Isa58_1_5_s2",
+          "type": "contrast",
+          "description": "The people complain that God ignores their fasting, but he indicts them for pursuing their own pleasure and oppressing workers.",
+          "lambda_iv": [
+            "EFF(Fast(People) & SeekOwnPleasure(People) & Oppress(Workers))",
+            "[]DefenderOfOppressed(YHWH) -> IncoherentWorshipState(People)"
+          ]
+        },
+        {
+          "id": "Isa58_1_5_s3",
+          "type": "contrast",
+          "description": "They fast while engaging in strife and striking with wicked fists; such fasting is not acceptable worship before the truthful Judge.",
+          "lambda_iv": [
+            "EFF(Fast(People) & Strife(People) & StrikeWithWickedFist(People))",
+            "[]TruthfulJudge(YHWH) -> !<>AcceptableWorship(People)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Isa58_6_7",
+      "label": "True Fast Defined",
+      "verses": [6, 7],
+      "illocution": "Instruction",
+      "agents": [
+        "YHWH",
+        "Community",
+        "Oppressed",
+        "Hungry",
+        "HomelessPoor",
+        "Naked"
+      ],
+      "statements": [
+        {
+          "id": "Isa58_6_7_s1",
+          "type": "enactment",
+          "description": "The fast God chooses is to loose bonds of wickedness, undo heavy burdens, let the oppressed go free, and break every yoke.",
+          "lambda_iv": [
+            "[]DefenderOfOppressed(YHWH) -> <>LooseBondsOfWickedness(Community, Oppressed)",
+            "[]DefenderOfOppressed(YHWH) -> <>UndoHeavyBurdens(Community, Oppressed)",
+            "[]DefenderOfOppressed(YHWH) -> <>LetOppressedGoFree(Community)",
+            "[]DefenderOfOppressed(YHWH) -> <>BreakEveryYoke(Community)"
+          ]
+        },
+        {
+          "id": "Isa58_6_7_s2",
+          "type": "enactment",
+          "description": "True fasting includes sharing bread with the hungry, housing the homeless poor, clothing the naked, and not hiding from one's own flesh.",
+          "lambda_iv": [
+            "[]DefenderOfOppressed(YHWH) -> <>ShareBread(Community, Hungry)",
+            "[]DefenderOfOppressed(YHWH) -> <>Shelter(Community, HomelessPoor)",
+            "[]DefenderOfOppressed(YHWH) -> <>Clothe(Community, Naked)",
+            "[]DefenderOfOppressed(YHWH) -> <>DoNotHideFromOwnFlesh(Community)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Isa58_8_9a",
+      "label": "First-Wave Effects: Light and Healing",
+      "verses": [8, 9],
+      "illocution": "Promise",
+      "agents": [
+        "YHWH",
+        "Community"
+      ],
+      "statements": [
+        {
+          "id": "Isa58_8_9a_s1",
+          "type": "effect",
+          "description": "When the true fast is enacted, light breaks forth, healing springs up, righteousness goes before, and the glory of YHWH is the rear guard.",
+          "lambda_iv": [
+            "EFF(TrueFast(Community)) -> Effect(LightBreaksForth(Community))",
+            "EFF(TrueFast(Community)) -> Effect(HealingSpringsUp(Community))",
+            "EFF(TrueFast(Community)) -> Effect(RighteousnessGoesBefore(Community))",
+            "EFF(TrueFast(Community)) -> Effect(YHWHRearGuardGlory(Community))"
+          ]
+        },
+        {
+          "id": "Isa58_8_9a_s2",
+          "type": "effect",
+          "description": "When the community practices the true fast, they call and YHWH answers; they cry, and he says 'Here I am.'",
+          "lambda_iv": [
+            "EFF(TrueFast(Community)) -> <>Call(Community, YHWH)",
+            "EFF(TrueFast(Community)) -> <>Answer(YHWH, Community, HereIAm)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Isa58_9b_12",
+      "label": "Deeper Conditions and Repair",
+      "verses": [9, 10, 11, 12],
+      "illocution": "ConditionalPromise",
+      "agents": [
+        "YHWH",
+        "Community",
+        "Hungry",
+        "Afflicted"
+      ],
+      "statements": [
+        {
+          "id": "Isa58_9b_12_s1",
+          "type": "enactment",
+          "description": "The community must remove the yoke, the pointing finger, and wicked speech from their midst.",
+          "lambda_iv": [
+            "<>RemoveYokeFromMidst(Community)",
+            "<>RemovePointingOfFinger(Community)",
+            "<>RemoveWickedSpeech(Community)"
+          ]
+        },
+        {
+          "id": "Isa58_9b_12_s2",
+          "type": "enactment",
+          "description": "They are called to pour themselves out for the hungry and satisfy the afflicted soul.",
+          "lambda_iv": [
+            "<>PourOutYourselfForHungry(Community, Hungry)",
+            "<>SatisfyAfflictedSoul(Community, Afflicted)"
+          ]
+        },
+        {
+          "id": "Isa58_9b_12_s3",
+          "type": "effect",
+          "description": "If these conditions are met, YHWH will guide continually, satisfy in scorched places, strengthen bones, and make the community like a watered garden whose waters do not fail.",
+          "lambda_iv": [
+            "EFF(DeepenedTrueFast(Community)) -> Effect(GuideContinually(YHWH, Community))",
+            "EFF(DeepenedTrueFast(Community)) -> Effect(SatisfySoulInDrought(YHWH, Community))",
+            "EFF(DeepenedTrueFast(Community)) -> Effect(StrengthenBones(YHWH, Community))",
+            "EFF(DeepenedTrueFast(Community)) -> Effect(LikeWateredGarden(Community))",
+            "EFF(DeepenedTrueFast(Community)) -> Effect(SpringWhoseWatersDoNotFail(Community))"
+          ]
+        },
+        {
+          "id": "Isa58_9b_12_s4",
+          "type": "effect",
+          "description": "The community will rebuild ancient ruins, raise up foundations of many generations, and be called repairer of the breach and restorer of streets to dwell in.",
+          "lambda_iv": [
+            "EFF(TrueFast(Community)) -> Effect(RebuildAncientRuins(Community))",
+            "EFF(TrueFast(Community)) -> Effect(RaiseUpManyGenerationsFoundations(Community))",
+            "EFF(TrueFast(Community)) -> Effect(RepairBreach(Community))",
+            "EFF(TrueFast(Community)) -> Effect(RestoreStreetsToDwellIn(Community))"
+          ]
+        }
+      ]
+    }
+  ]
+}

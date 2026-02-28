@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Luke λ-files; safe to hand-edit after generation.",
+    "book": "Luke",
+    "passage_id": "Luk02_41_52",
+    "version": "Luk02_41_52_Lambda_IV_v0.1"
+  },
+  "passage_id": "Luk02_41_52",
+  "book": "Luke",
+  "chapter": 2,
+  "verses": "41-52",
+  "title": "Luke 2:41–52 – In My Father’s House",
+  "interpretive_frames": [
+    "Sonship",
+    "Wisdom",
+    "Obedience"
+  ],
+  "identity_invariants": [
+    "[]JesusSelfConsciouslyBelongsToFathersBusinessWhileObeyingEarthlyParents(Jesus, Father, Parents)"
+  ],
+  "units": [
+    {
+      "id": "Luk02_41_52_u1",
+      "label": "Did You Not Know?",
+      "verses": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "illocution": "Narration",
+      "agents": [
+        "Jesus",
+        "Mary",
+        "Joseph",
+        "Teachers"
+      ],
+      "statements": [
+        {
+          "id": "Luk02_41_52_s1",
+          "type": "summary",
+          "description": "At twelve years old Jesus stays behind in the temple, amazing teachers and declaring his priority for the Father’s house while returning to Nazareth in obedience.",
+          "lambda_iv": [
+            "[]JesusSelfConsciouslyBelongsToFathersBusinessWhileObeyingEarthlyParents(Jesus, Father, Parents)",
+            "EFF(GrowingInWisdomAndFavourAsPatternOfTrueSonship(Jesus))"
+          ]
+        }
+      ]
+    }
+  ]
+}

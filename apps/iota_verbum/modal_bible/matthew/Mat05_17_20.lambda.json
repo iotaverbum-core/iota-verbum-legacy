@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Matthew λ-files; safe to hand-edit after generation.",
+    "book": "Matthew",
+    "passage_id": "Mat05_17_20",
+    "version": "Mat05_17_20_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mat05_17_20",
+  "book": "Matthew",
+  "chapter": 5,
+  "verses": "17-20",
+  "title": "Matthew 5:17–20 – Fulfilment of the Law and Prophets",
+  "interpretive_frames": [
+    "Law",
+    "Fulfilment",
+    "Righteousness"
+  ],
+  "identity_invariants": [
+    "[]JesusFulfilsLawAndProphetsWithoutAbolishingThem(Jesus, Law, Prophets)"
+  ],
+  "units": [
+    {
+      "id": "Mat05_17_20_u1",
+      "label": "Not an Iota, Not a Dot",
+      "verses": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "illocution": "ProgrammaticClaim",
+      "agents": [
+        "Jesus",
+        "Disciples",
+        "Law",
+        "Prophets",
+        "Scribes",
+        "Pharisees"
+      ],
+      "statements": [
+        {
+          "id": "Mat05_17_20_s1",
+          "type": "summary",
+          "description": "Jesus declares that he has come not to abolish the Law or the Prophets but to fulfil them, calling for exceeding righteousness.",
+          "lambda_iv": [
+            "[]JesusFulfilsLawAndProphetsWithoutAbolishingThem(Jesus, Law, Prophets)",
+            "EFF(KingdomRighteousnessExceedsScribesAndPharisees(Righteousness, Disciples))"
+          ]
+        }
+      ]
+    }
+  ]
+}

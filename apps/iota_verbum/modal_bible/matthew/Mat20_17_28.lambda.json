@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Matthew λ-files; safe to hand-edit after generation.",
+    "book": "Matthew",
+    "passage_id": "Mat20_17_28",
+    "version": "Mat20_17_28_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mat20_17_28",
+  "book": "Matthew",
+  "chapter": 20,
+  "verses": "17-28",
+  "title": "Matthew 20:17–28 – Third Passion Prediction and Servant Greatness",
+  "interpretive_frames": [
+    "Cross",
+    "Servanthood",
+    "Ambition"
+  ],
+  "identity_invariants": [
+    "[]SonOfManGivesHisLifeAsRansomForMany(SonOfMan, Many)"
+  ],
+  "units": [
+    {
+      "id": "Mat20_17_28_u1",
+      "label": "Not So Among You",
+      "verses": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "illocution": "PredictionAndEthic",
+      "agents": [
+        "Jesus",
+        "Disciples",
+        "James",
+        "John",
+        "MotherOfSons"
+      ],
+      "statements": [
+        {
+          "id": "Mat20_17_28_s1",
+          "type": "summary",
+          "description": "Jesus again foretells his suffering and redefines greatness as servanthood patterned after his own self-giving.",
+          "lambda_iv": [
+            "[]SonOfManGivesHisLifeAsRansomForMany(SonOfMan, Many)",
+            "<>BecomeServantAndSlaveForSakeOfOthers(Disciples, Others)"
+          ]
+        }
+      ]
+    }
+  ]
+}

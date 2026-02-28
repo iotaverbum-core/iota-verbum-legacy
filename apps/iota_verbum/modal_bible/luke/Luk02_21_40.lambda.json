@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Luke λ-files; safe to hand-edit after generation.",
+    "book": "Luke",
+    "passage_id": "Luk02_21_40",
+    "version": "Luk02_21_40_Lambda_IV_v0.1"
+  },
+  "passage_id": "Luk02_21_40",
+  "book": "Luke",
+  "chapter": 2,
+  "verses": "21-40",
+  "title": "Luke 2:21–40 – Consolation and Light for the Nations",
+  "interpretive_frames": [
+    "Temple",
+    "Consolation",
+    "LightToGentiles"
+  ],
+  "identity_invariants": [
+    "[]JesusIsConsolationOfIsraelAndLightForRevelationToGentiles(Jesus, Israel, Gentiles)"
+  ],
+  "units": [
+    {
+      "id": "Luk02_21_40_u1",
+      "label": "My Eyes Have Seen Your Salvation",
+      "verses": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "illocution": "Recognition",
+      "agents": [
+        "Jesus",
+        "Mary",
+        "Joseph",
+        "Simeon",
+        "Anna"
+      ],
+      "statements": [
+        {
+          "id": "Luk02_21_40_s1",
+          "type": "summary",
+          "description": "Simeon and Anna, waiting in the temple, recognise the child Jesus as God’s salvation, light for Gentiles and glory for Israel, yet a sign opposed.",
+          "lambda_iv": [
+            "[]JesusIsConsolationOfIsraelAndLightForRevelationToGentiles(Jesus, Israel, Gentiles)",
+            "EFF(ExposureOfHeartsThroughResponseToJesus(Hearts, Jesus))"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Matthew λ-files; safe to hand-edit after generation.",
+    "book": "Matthew",
+    "passage_id": "Mat17_01_13",
+    "version": "Mat17_01_13_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mat17_01_13",
+  "book": "Matthew",
+  "chapter": 17,
+  "verses": "1-13",
+  "title": "Matthew 17:1–13 – Transfiguration",
+  "interpretive_frames": [
+    "Glory",
+    "Sonship",
+    "Prophets"
+  ],
+  "identity_invariants": [
+    "[]JesusIsBelovedSonToWhomLawAndProphetsBearWitness(Jesus, Moses, Elijah)"
+  ],
+  "units": [
+    {
+      "id": "Mat17_01_13_u1",
+      "label": "Listen to Him",
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "illocution": "Theophany",
+      "agents": [
+        "Jesus",
+        "Peter",
+        "James",
+        "John",
+        "Moses",
+        "Elijah",
+        "Father"
+      ],
+      "statements": [
+        {
+          "id": "Mat17_01_13_s1",
+          "type": "summary",
+          "description": "Jesus is transfigured before three disciples as the beloved Son with Moses and Elijah.",
+          "lambda_iv": [
+            "[]JesusIsBelovedSonToWhomLawAndProphetsBearWitness(Jesus, Moses, Elijah)",
+            "<>ListenToHimAsClimacticRevelation(Disciples, Jesus)"
+          ]
+        }
+      ]
+    }
+  ]
+}

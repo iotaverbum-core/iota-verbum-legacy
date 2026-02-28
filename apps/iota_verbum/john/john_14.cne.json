@@ -1,0 +1,139 @@
+{
+  "schema": "cne.v1",
+  "ref": "John 14",
+  "translation": "ESV",
+  "agents": {
+    "G": "Jesus",
+    "D": "Disciples",
+    "F": "Father",
+    "S": "Spirit"
+  },
+  "events": [
+    {
+      "id": "e1",
+      "ref": "14:1",
+      "agent": "G",
+      "verb": "comfort",
+      "object": "let_not_hearts_troubled",
+      "mode": "pastoral"
+    },
+    {
+      "id": "e2",
+      "ref": "14:2-3",
+      "agent": "G",
+      "verb": "promise",
+      "object": "prepare_place_return_take_you",
+      "mode": "hope"
+    },
+    {
+      "id": "e3",
+      "ref": "14:6",
+      "agent": "G",
+      "verb": "declare",
+      "object": "I_am_way_truth_life",
+      "mode": "identity"
+    },
+    {
+      "id": "e4",
+      "ref": "14:9",
+      "agent": "G",
+      "verb": "declare",
+      "object": "who_seen_me_seen_Father",
+      "mode": "reveal"
+    },
+    {
+      "id": "e5",
+      "ref": "14:15-17",
+      "agent": "G",
+      "verb": "promise",
+      "object": "another_Helper_Spirit",
+      "mode": "gift"
+    },
+    {
+      "id": "e6",
+      "ref": "14:18",
+      "agent": "G",
+      "verb": "promise",
+      "object": "I_will_not_leave_orphans",
+      "mode": "presence"
+    },
+    {
+      "id": "e7",
+      "ref": "14:23",
+      "agent": "G",
+      "verb": "promise",
+      "object": "we_will_make_our_home_with_him",
+      "mode": "indwelling"
+    },
+    {
+      "id": "e8",
+      "ref": "14:26",
+      "agent": "S",
+      "verb": "teach",
+      "object": "all_things_remind",
+      "mode": "paraclete"
+    },
+    {
+      "id": "e9",
+      "ref": "14:27",
+      "agent": "G",
+      "verb": "give",
+      "object": "peace_not_as_world",
+      "mode": "bequest"
+    }
+  ],
+  "links": [
+    {
+      "op": "SEQ",
+      "from": "e1",
+      "to": "e3"
+    },
+    {
+      "op": "SEQ",
+      "from": "e3",
+      "to": "e7"
+    },
+    {
+      "op": "SEQ",
+      "from": "e7",
+      "to": "e9"
+    }
+  ],
+  "markers": [
+    {
+      "id": "m1",
+      "ref": "14:1",
+      "type": "CU",
+      "target": "troubled_hearts",
+      "justification": "pastoral address"
+    },
+    {
+      "id": "m2",
+      "ref": "14:23",
+      "type": "CU",
+      "target": "make_home",
+      "justification": "abiding/home imagery central"
+    },
+    {
+      "id": "m3",
+      "ref": "14:15-27",
+      "type": "SM",
+      "target": "Spirit_promises",
+      "justification": "extended promise discourse"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "type": "hinge_candidate",
+      "text": "Jesus comforts by promising his return and the Spirit: Father and Son make their home with those who love him.",
+      "supported_by": [
+        "e1",
+        "e5",
+        "e7",
+        "e9"
+      ],
+      "inference": true
+    }
+  ]
+}

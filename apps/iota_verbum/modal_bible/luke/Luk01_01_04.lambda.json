@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Luke λ-files; safe to hand-edit after generation.",
+    "book": "Luke",
+    "passage_id": "Luk01_01_04",
+    "version": "Luk01_01_04_Lambda_IV_v0.1"
+  },
+  "passage_id": "Luk01_01_04",
+  "book": "Luke",
+  "chapter": 1,
+  "verses": "1-4",
+  "title": "Luke 1:1–4 – Orderly Account for Certainty",
+  "interpretive_frames": [
+    "Witness",
+    "OrderlyAccount",
+    "Certainty"
+  ],
+  "identity_invariants": [
+    "[]GospelIsAnOrderlyAccountBasedOnEyewitnessTestimony(Gospel, Eyewitnesses)"
+  ],
+  "units": [
+    {
+      "id": "Luk01_01_04_u1",
+      "label": "Orderly Account for Certainty",
+      "verses": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "illocution": "Preface",
+      "agents": [
+        "Luke",
+        "Theophilus",
+        "Eyewitnesses",
+        "MinistersOfTheWord"
+      ],
+      "statements": [
+        {
+          "id": "Luk01_01_04_s1",
+          "type": "summary",
+          "description": "Luke carefully investigates everything from the beginning and writes an orderly account so that Theophilus may have certainty about the things taught.",
+          "lambda_iv": [
+            "[]GospelIsAnOrderlyAccountBasedOnEyewitnessTestimony(Gospel, Eyewitnesses)",
+            "EFF(WritingSoBelieversMayHaveCertainty(Luke, Theophilus))"
+          ]
+        }
+      ]
+    }
+  ]
+}

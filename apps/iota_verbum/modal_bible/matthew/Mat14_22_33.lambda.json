@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Matthew λ-files; safe to hand-edit after generation.",
+    "book": "Matthew",
+    "passage_id": "Mat14_22_33",
+    "version": "Mat14_22_33_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mat14_22_33",
+  "book": "Matthew",
+  "chapter": 14,
+  "verses": "22-33",
+  "title": "Matthew 14:22–33 – Jesus Walks on the Sea",
+  "interpretive_frames": [
+    "Presence",
+    "Faith",
+    "Worship"
+  ],
+  "identity_invariants": [
+    "[]JesusComesAsIDoNotBeAfraidLordOfSea(Jesus, Disciples)"
+  ],
+  "units": [
+    {
+      "id": "Mat14_22_33_u1",
+      "label": "Truly You Are the Son of God",
+      "verses": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "illocution": "SignNarrative",
+      "agents": [
+        "Jesus",
+        "Peter",
+        "Disciples"
+      ],
+      "statements": [
+        {
+          "id": "Mat14_22_33_s1",
+          "type": "summary",
+          "description": "Jesus walks on the water, saves sinking Peter, and receives worship as the Son of God.",
+          "lambda_iv": [
+            "[]JesusComesAsIDoNotBeAfraidLordOfSea(Jesus, Disciples)",
+            "EFF(WorshipArisesFromRescuedFear(Disciples, Jesus))"
+          ]
+        }
+      ]
+    }
+  ]
+}

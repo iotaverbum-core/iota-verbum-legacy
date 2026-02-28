@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Matthew λ-files; safe to hand-edit after generation.",
+    "book": "Matthew",
+    "passage_id": "Mat07_13_29",
+    "version": "Mat07_13_29_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mat07_13_29",
+  "book": "Matthew",
+  "chapter": 7,
+  "verses": "13-29",
+  "title": "Matthew 7:13–29 – Two Ways, True and False, Rock and Sand",
+  "interpretive_frames": [
+    "Warning",
+    "Discipleship",
+    "Judgment"
+  ],
+  "identity_invariants": [
+    "[]EntranceToLifeIsThroughNarrowGateAndDifficultWay(Gate, Way)"
+  ],
+  "units": [
+    {
+      "id": "Mat07_13_29_u1",
+      "label": "Narrow Gate and Wise Builder",
+      "verses": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "illocution": "Warning",
+      "agents": [
+        "Jesus",
+        "Disciples",
+        "FalseProphets",
+        "Crowds"
+      ],
+      "statements": [
+        {
+          "id": "Mat07_13_29_s1",
+          "type": "summary",
+          "description": "Jesus contrasts the narrow and broad ways, true and false prophets, genuine and counterfeit disciples, and wise and foolish builders.",
+          "lambda_iv": [
+            "[]EntranceToLifeIsThroughNarrowGateAndDifficultWay(Gate, Way)",
+            "!<>MereHearingWithoutDoingLeadsToRuin(Disciples)"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Luke λ-files; safe to hand-edit after generation.",
+    "book": "Luke",
+    "passage_id": "Luk02_01_20",
+    "version": "Luk02_01_20_Lambda_IV_v0.1"
+  },
+  "passage_id": "Luk02_01_20",
+  "book": "Luke",
+  "chapter": 2,
+  "verses": "1-20",
+  "title": "Luke 2:1–20 – Saviour, Christ, and Lord Announced",
+  "interpretive_frames": [
+    "Incarnation",
+    "DavidicCity",
+    "GoodNewsForPoor"
+  ],
+  "identity_invariants": [
+    "[]JesusIsSaviourChristAndLordBornInDavidCityForAllPeople(Jesus, DavidCity, Peoples)"
+  ],
+  "units": [
+    {
+      "id": "Luk02_01_20_u1",
+      "label": "Good News of Great Joy",
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "illocution": "BirthNarrative",
+      "agents": [
+        "Jesus",
+        "Mary",
+        "Joseph",
+        "Shepherds",
+        "Angels"
+      ],
+      "statements": [
+        {
+          "id": "Luk02_01_20_s1",
+          "type": "summary",
+          "description": "In humble circumstances, Jesus is born in David’s city while angels announce him to shepherds as Saviour, Christ, and Lord, good news of great joy for all people.",
+          "lambda_iv": [
+            "[]JesusIsSaviourChristAndLordBornInDavidCityForAllPeople(Jesus, DavidCity, Peoples)",
+            "EFF(HeavenlyAnnouncementFirstComesToLowlyShepherds(Angels, Shepherds))"
+          ]
+        }
+      ]
+    }
+  ]
+}

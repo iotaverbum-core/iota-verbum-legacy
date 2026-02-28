@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Luke λ-files; safe to hand-edit after generation.",
+    "book": "Luke",
+    "passage_id": "Luk08_40_56",
+    "version": "Luk08_40_56_Lambda_IV_v0.1"
+  },
+  "passage_id": "Luk08_40_56",
+  "book": "Luke",
+  "chapter": 8,
+  "verses": "40-56",
+  "title": "Luke 8:40–56 – Jairus Daughter and the Bleeding Woman",
+  "interpretive_frames": [
+    "Faith",
+    "Delay",
+    "Death"
+  ],
+  "identity_invariants": [
+    "[]JesusHonoursPersistentFaithAndHasAuthorityOverDeathAndDefilement(Jesus, Sufferers)"
+  ],
+  "units": [
+    {
+      "id": "Luk08_40_56_u1",
+      "label": "Do Not Fear, Only Believe",
+      "verses": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56
+      ],
+      "illocution": "MiracleNarrative",
+      "agents": [
+        "Jesus",
+        "Jairus",
+        "Daughter",
+        "BleedingWoman",
+        "Crowds"
+      ],
+      "statements": [
+        {
+          "id": "Luk08_40_56_s1",
+          "type": "summary",
+          "description": "On the way to Jairus dying daughter, Jesus heals a bleeding woman and then raises the girl, calling for faith not fear.",
+          "lambda_iv": [
+            "[]JesusHonoursPersistentFaithAndHasAuthorityOverDeathAndDefilement(Jesus, Sufferers)",
+            "EFF(ApparentDelaysBecomeStagesForDeeperRevelationOfJesusPower(Disciples))"
+          ]
+        }
+      ]
+    }
+  ]
+}

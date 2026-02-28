@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Luke λ-files; safe to hand-edit after generation.",
+    "book": "Luke",
+    "passage_id": "Luk08_26_39",
+    "version": "Luk08_26_39_Lambda_IV_v0.1"
+  },
+  "passage_id": "Luk08_26_39",
+  "book": "Luke",
+  "chapter": 8,
+  "verses": "26-39",
+  "title": "Luke 8:26–39 – Legion and the Delivered Man",
+  "interpretive_frames": [
+    "Exorcism",
+    "Restoration",
+    "Witness"
+  ],
+  "identity_invariants": [
+    "[]JesusLiberatesFromLegionOppressionAndSendsFreedOnesAsWitnesses(Jesus, DeliveredMan)"
+  ],
+  "units": [
+    {
+      "id": "Luk08_26_39_u1",
+      "label": "Return to Your Home and Declare",
+      "verses": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "illocution": "MiracleNarrative",
+      "agents": [
+        "Jesus",
+        "DemonisedMan",
+        "Demons",
+        "Townspeople"
+      ],
+      "statements": [
+        {
+          "id": "Luk08_26_39_s1",
+          "type": "summary",
+          "description": "Jesus drives out a legion of demons, restores the man to sanity, and sends him home to declare what God has done.",
+          "lambda_iv": [
+            "[]JesusLiberatesFromLegionOppressionAndSendsFreedOnesAsWitnesses(Jesus, DeliveredMan)",
+            "EFF(FearfulRejectionOfJesusContrastsWithGratefulWitness(Townspeople, DeliveredMan))"
+          ]
+        }
+      ]
+    }
+  ]
+}

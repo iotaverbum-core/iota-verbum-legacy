@@ -1,0 +1,172 @@
+{
+  "schema": "cne.v1",
+  "ref": "John 10",
+  "translation": "ESV",
+  "agents": {
+    "G": "Jesus",
+    "H": "Sheep/disciples",
+    "L": "Leaders",
+    "W": "Wolf/thief"
+  },
+  "events": [
+    {
+      "id": "e1",
+      "ref": "10:1-2",
+      "agent": "G",
+      "verb": "contrast",
+      "object": "thief_vs_shepherd",
+      "mode": "parable"
+    },
+    {
+      "id": "e2",
+      "ref": "10:3-4",
+      "agent": "G",
+      "verb": "call",
+      "object": "sheep_by_name",
+      "mode": "voice"
+    },
+    {
+      "id": "e3",
+      "ref": "10:11",
+      "agent": "G",
+      "verb": "declare",
+      "object": "I_am_good_shepherd",
+      "mode": "identity"
+    },
+    {
+      "id": "e4",
+      "ref": "10:11",
+      "agent": "G",
+      "verb": "lay_down",
+      "object": "life_for_sheep",
+      "mode": "sacrifice"
+    },
+    {
+      "id": "e5",
+      "ref": "10:16",
+      "agent": "G",
+      "verb": "bring",
+      "object": "other_sheep_one_flock",
+      "mode": "mission"
+    },
+    {
+      "id": "e6",
+      "ref": "10:17-18",
+      "agent": "G",
+      "verb": "claim_authority",
+      "object": "lay_down_and_take_up_life",
+      "mode": "volitional"
+    },
+    {
+      "id": "e7",
+      "ref": "10:22-23",
+      "agent": "T",
+      "verb": "note",
+      "object": "Feast_of_Dedication_winter",
+      "mode": "setting"
+    },
+    {
+      "id": "e8",
+      "ref": "10:24-26",
+      "agent": "L",
+      "verb": "press",
+      "object": "tell_us_plainly",
+      "mode": "interrogation"
+    },
+    {
+      "id": "e9",
+      "ref": "10:27-28",
+      "agent": "G",
+      "verb": "declare",
+      "object": "my_sheep_hear_voice; I_give_eternal_life",
+      "mode": "assurance"
+    },
+    {
+      "id": "e10",
+      "ref": "10:30",
+      "agent": "G",
+      "verb": "declare",
+      "object": "I_and_Father_are_one",
+      "mode": "unity"
+    },
+    {
+      "id": "e11",
+      "ref": "10:31",
+      "agent": "L",
+      "verb": "attempt_stone",
+      "object": "Jesus",
+      "mode": "violence"
+    },
+    {
+      "id": "e12",
+      "ref": "10:40-42",
+      "agent": "G",
+      "verb": "withdraw",
+      "object": "across_Jordan",
+      "mode": "retreat"
+    },
+    {
+      "id": "e13",
+      "ref": "10:41-42",
+      "agent": "C",
+      "verb": "believe",
+      "object": "many_believed_there",
+      "mode": "response"
+    }
+  ],
+  "links": [
+    {
+      "op": "SEQ",
+      "from": "e1",
+      "to": "e6"
+    },
+    {
+      "op": "SEQ",
+      "from": "e7",
+      "to": "e11"
+    },
+    {
+      "op": "SEQ",
+      "from": "e11",
+      "to": "e13"
+    }
+  ],
+  "markers": [
+    {
+      "id": "m1",
+      "ref": "10:3",
+      "type": "CU",
+      "target": "call_by_name",
+      "justification": "naming/voice foregrounded"
+    },
+    {
+      "id": "m2",
+      "ref": "10:11-18",
+      "type": "SM",
+      "target": "lay_down_take_up",
+      "justification": "extended self-giving discourse"
+    },
+    {
+      "id": "m3",
+      "ref": "10:22-31",
+      "type": "THR",
+      "target": "public_claim→stoning",
+      "justification": "identity claim triggers boundary/violence"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "type": "hinge_candidate",
+      "text": "Jesus shepherds by voice and naming, giving life by laying down his life in unity with the Father.",
+      "supported_by": [
+        "e2",
+        "e3",
+        "e4",
+        "e9",
+        "e10"
+      ],
+      "inference": true
+    }
+  ]
+}

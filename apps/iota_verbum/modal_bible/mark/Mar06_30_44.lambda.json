@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Mark λ-files; safe to hand-edit after generation.",
+    "book": "Mark",
+    "passage_id": "Mar06_30_44",
+    "version": "Mar06_30_44_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mar06_30_44",
+  "book": "Mark",
+  "chapter": 6,
+  "verses": "30-44",
+  "title": "Mark 6:30–44 – Feeding the Five Thousand",
+  "interpretive_frames": [
+    "Compassion",
+    "Provision",
+    "Shepherd"
+  ],
+  "identity_invariants": [
+    "[]JesusShepherdsSheeplessCrowdsAndMiraculouslyProvidesFood(Jesus, Crowds)"
+  ],
+  "units": [
+    {
+      "id": "Mar06_30_44_u1",
+      "label": "You Give Them Something to Eat",
+      "verses": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "illocution": "MiracleNarrative",
+      "agents": [
+        "Jesus",
+        "Apostles",
+        "Crowds"
+      ],
+      "statements": [
+        {
+          "id": "Mar06_30_44_s1",
+          "type": "summary",
+          "description": "Jesus has compassion on crowds like sheep without a shepherd and feeds them with five loaves and two fish through the apostles hands.",
+          "lambda_iv": [
+            "[]JesusShepherdsSheeplessCrowdsAndMiraculouslyProvidesFood(Jesus, Crowds)",
+            "EFF(ScarcityBecomesOccasionForTrustingJesusProvision(Disciples))"
+          ]
+        }
+      ]
+    }
+  ]
+}

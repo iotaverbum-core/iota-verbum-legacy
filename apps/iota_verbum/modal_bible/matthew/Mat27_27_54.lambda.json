@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Matthew λ-files; safe to hand-edit after generation.",
+    "book": "Matthew",
+    "passage_id": "Mat27_27_54",
+    "version": "Mat27_27_54_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mat27_27_54",
+  "book": "Matthew",
+  "chapter": 27,
+  "verses": "27-54",
+  "title": "Matthew 27:27–54 – Crucifixion and Signs",
+  "interpretive_frames": [
+    "Crucifixion",
+    "Mockery",
+    "Recognition"
+  ],
+  "identity_invariants": [
+    "[]CrucifiedJesusIsTrulySonOfGodWhoseDeathOpensAccessToGod(Jesus, Father)"
+  ],
+  "units": [
+    {
+      "id": "Mat27_27_54_u1",
+      "label": "Truly This Was the Son of God",
+      "verses": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "illocution": "PassionNarrative",
+      "agents": [
+        "Jesus",
+        "Soldiers",
+        "Crowds",
+        "Centurion",
+        "Bystanders"
+      ],
+      "statements": [
+        {
+          "id": "Mat27_27_54_s1",
+          "type": "summary",
+          "description": "Jesus is mocked, crucified, and dies with cosmic signs, leading the centurion to confess him as Son of God.",
+          "lambda_iv": [
+            "[]CrucifiedJesusIsTrulySonOfGodWhoseDeathOpensAccessToGod(Jesus, Father)",
+            "EFF(VeilTornAndEarthShakenAtHisDeath(Signs, Temple))"
+          ]
+        }
+      ]
+    }
+  ]
+}

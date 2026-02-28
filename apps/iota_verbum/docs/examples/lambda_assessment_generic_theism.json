@@ -1,0 +1,40 @@
+{
+  "attestation_id": "example-001",
+  "domain": "credit.desert_rule",
+  "decision": {
+    "outcome": "APPROVED",
+    "decision_reason_primary": "meets risk criteria",
+    "decision_reason_detailed": "score within acceptable band",
+    "risk_flags": [],
+    "conditions": []
+  },
+  "lambda_assessment": {
+    "status": "GENERIC_THEISM",
+    "theological_drift_risk": "high",
+    "recommended_action": "REVIEW_THEOLOGICAL_GROUNDING",
+    "concerns": [
+      "Love-language present but not explicitly grounded in Christ or the Triune God.",
+      "No reference to incarnation, cross, or resurrection in the lament context."
+    ],
+    "flags": {
+      "triune_confessed": false,
+      "christ_event_present": false,
+      "bodily_resurrection_confessed": false,
+      "new_creation_confessed": false,
+      "image_bearer": true,
+      "genuine_suffering": true,
+      "oriented_to_repentance_trust": true,
+      "explicit_christ_union": false,
+      "ambiguous_religious_context": true,
+      "gnostic_language_present": false,
+      "universalist_language_present": false,
+      "pre_incarnation_context": false,
+      "pre_rational_subject": false,
+      "cheap_lament_indicators": false,
+      "notes": [
+        "Subject uses 'higher power' and 'the universe' language.",
+        "No explicit Christological anchors detected."
+      ]
+    }
+  }
+}

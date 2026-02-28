@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>iota verbum • CNE Encoder (cne.v1)</title>
+  <style>
+    * { box-sizing: border-box; }
+    :root { color-scheme: light dark; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #0f172a;
+      color: #e5e7eb;
+      padding: 18px;
+    }
+    header {
+      display: flex;
+      gap: 12px;
+      align-items: flex-end;
+      justify-content: space-between;
+      margin-bottom: 12px;
+    }
+    h1 { margin: 0; font-size: 1.25rem; }
+    .sub { color: #cbd5e1; font-size: 0.85rem; }
+
+    .layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(0, 2.2fr) minmax(0, 1.3fr);
+      gap: 12px;
+    }
+    .card {
+      background: #020617;
+      border: 1px solid #1f2937;
+      border-radius: 14px;
+      padding: 12px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+      min-width: 0;
+    }
+    .card h2 {
+      margin: 0 0 10px;
+      font-size: 0.95rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #e5e7eb;
+    }
+    .chip {
+      font-size: 0.7rem;
+      padding: 2px 8px;
+      border-radius: 999px;
+      border: 1px solid #334155;
+      color: #9ca3af;
+      background: #0b1220;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+    }
+
+    label { display: block; font-size: 0.76rem; color: #9ca3af; margin: 8px 0 4px; }
+    input[type="text"], textarea, select {
+      width: 100%;
+      border-radius: 10px;
+      border: 1px solid #1f2937;
+      background: #0b1220;
+      color: #e5e7eb;
+      padding: 8px 10px;
+      font-size: 0.85rem;
+      outline: none;
+    }
+    textarea { min-height: 88px; resize: vertical; }
+    .row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .row3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; }
+    .btnbar { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+    button {
+      border: none;
+      border-radius: 999px;
+      padding: 8px 12px;
+      background: #1d4ed8;
+      color: #e5e7eb;
+      font-weight: 600;
+      font-size: 0.78rem;
+      cursor: pointer;
+    }
+    button.secondary { background: #111827; border: 1px solid #334155; color: #cbd5e1; }
+    button.danger { background: #7f1d1d; }
+    button:disabled { opacity: 0.5; cursor: not-allowed; }
+    .hint { margin-top: 8px; font-size: 0.78rem; color: #94a3b8; line-height: 1.3; }
+
+    table { width: 100%; border-collapse: collapse; font-size: 0.78rem; }
+    th, td { border-bottom: 1px solid #0b1220; padding: 6px; vertical-align: top; }
+    th { color: #9ca3af; font-weight: 600; position: sticky; top: 0; background: #020617; z-index: 1; }
+    td input, td select { font-size: 0.78rem; padding: 6px 8px; border-radius: 10px; }
+    .tablewrap { max-height: 520px; overflow: auto; border: 1px solid #111827; border-radius: 12px; }
+    .small { font-size: 0.72rem; color: #94a3b8; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    .toast {
+      position: fixed;
+      right: 18px;
+      bottom: 18px;
+      background: #0b1220;
+      border: 1px solid #334155;
+      border-radius: 12px;
+      padding: 10px 12px;
+      color: #e5e7eb;
+      font-size: 0.82rem;
+      display: none;
+      max-width: min(520px, calc(100vw - 36px));
+      box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+    }
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 2px 10px;
+      border-radius: 999px;
+      border: 1px solid #334155;
+      background: #0b1220;
+      color: #cbd5e1;
+      font-size: 0.72rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>iota verbum • CNE Encoder</h1>
+      <div class="sub">Encode verbs as actions, mark camera emphasis, then compile into an iota <span class="mono">*.modal.json</span> graph.</div>
+    </div>
+    <div class="pill"><span class="mono">schema</span> cne.v1</div>
+  </header>
+
+  <div class="layout">
+    <!-- LEFT: Passage + agents -->
+    <section class="card">
+      <h2>Passage <span class="chip">input</span></h2>
+      <div class="row">
+        <div>
+          <label>Reference</label>
+          <input id="ref" type="text" placeholder="Mark 5:25-34" />
+        </div>
+        <div>
+          <label>Translation</label>
+          <input id="translation" type="text" placeholder="ESV / NRSV / KJV" />
+        </div>
+      </div>
+      <label>Agents (short codes → names)</label>
+      <div class="row">
+        <input id="agentG" type="text" placeholder="G = Jesus" />
+        <input id="agentH" type="text" placeholder="H = (main human)" />
+      </div>
+      <div class="row">
+        <input id="agentD" type="text" placeholder="D = disciples" />
+        <input id="agentC" type="text" placeholder="C = crowd/creation" />
+      </div>
+
+      <div class="btnbar">
+        <button id="loadSample">Load sample (Mark 5)</button>
+        <button id="importBtn" class="secondary">Import cne.v1 JSON</button>
+        <input id="fileInput" type="file" accept="application/json" style="display:none" />
+      </div>
+      <div class="hint">
+        This is deliberately <b>manual</b>: the encoder won’t invent actions for you.
+        Start with the sample, then swap the ref + rewrite the verbs.
+      </div>
+    </section>
+
+    <!-- MIDDLE: Events -->
+    <section class="card">
+      <h2>Events <span class="chip">verbs → actions</span></h2>
+
+      <div class="btnbar" style="margin-top:0">
+        <button id="addEvent">+ Add event</button>
+        <button id="clearEvents" class="danger">Clear</button>
+      </div>
+
+      <div class="tablewrap" style="margin-top:10px">
+        <table>
+          <thead>
+            <tr>
+              <th style="width:70px">id</th>
+              <th style="width:90px">ref</th>
+              <th style="width:70px">agent</th>
+              <th style="width:110px">verb</th>
+              <th>object</th>
+              <th style="width:120px">mode</th>
+              <th style="width:110px">duration</th>
+              <th style="width:120px">kind</th>
+              <th style="width:70px"></th>
+            </tr>
+          </thead>
+          <tbody id="eventsBody"></tbody>
+        </table>
+      </div>
+      <div class="hint">
+        <span class="mono">kind</span> is how the compiler maps into iota nodes:
+        <span class="mono">identity / enactment / effect</span>.
+      </div>
+    </section>
+
+    <!-- RIGHT: Markers + hinge + export -->
+    <section class="card">
+      <h2>Frame + Compile <span class="chip">camera + □◇Δ</span></h2>
+
+      <label>Camera markers</label>
+      <div class="btnbar" style="margin-top:0">
+        <button id="addMarker">+ Add marker</button>
+        <button id="clearMarkers" class="danger">Clear</button>
+      </div>
+      <div id="markersWrap" style="margin-top:10px"></div>
+
+      <label style="margin-top:12px">Hinge (recommended — used to build primary iota triad)</label>
+      <textarea id="hingeIdentity" placeholder="□ Identity: what must be true about God / Christ here"></textarea>
+      <textarea id="hingeEnactment" placeholder="◇ Enactment: what God (and/or human) does in-scene"></textarea>
+      <textarea id="hingeEffect" placeholder="Δ Effect: what the action produces (healing, naming, fear, peace, etc.)"></textarea>
+      <label>Themes (comma-separated)</label>
+      <input id="hingeThemes" type="text" placeholder="faith, healing, naming, peace" />
+
+      <div class="btnbar">
+        <button id="exportCNE" class="secondary">Download cne.v1 JSON</button>
+        <button id="exportModal">Compile + Download *.modal.json</button>
+        <button id="copyJSON" class="secondary">Copy cne.v1 to clipboard</button>
+      </div>
+      <div class="small" id="status"></div>
+      <div class="hint">
+        For a full corpus bundle (folder + ref.txt), run:
+        <div class="mono">python Scripts/cne_compile.py &lt;file.cne.json&gt; --corpus-dir corpus --slug your_slug</div>
+      </div>
+    </section>
+  </div>
+
+  <div class="toast" id="toast"></div>
+
+  <script>
+    // -----------------------------
+    // State
+    // -----------------------------
+    const state = {
+      schema: "cne.v1",
+      ref: "",
+      translation: "",
+      agents: { G: "", H: "", D: "", C: "" },
+      events: [],
+      links: [],
+      markers: [],
+      claims: [],
+      hinge: { "identity_□": "", "enactment_◇": "", "effect_Δ": "", themes: [] },
+      meta: {}
+    };
+
+    // -----------------------------
+    // Helpers
+    // -----------------------------
+    const $ = (id) => document.getElementById(id);
+    const toast = (msg) => {
+      const t = $("toast");
+      t.textContent = msg;
+      t.style.display = "block";
+      clearTimeout(window.__toastTimer);
+      window.__toastTimer = setTimeout(() => (t.style.display = "none"), 2200);
+    };
+
+    const nextId = (prefix, list) => {
+      let i = list.length + 1;
+      const used = new Set(list.map(x => x.id));
+      while (used.has(prefix + i)) i++;
+      return prefix + i;
+    };
+
+    const download = (filename, text) => {
+      const blob = new Blob([text], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(url);
+    };
+
+    const parseThemes = (s) => (s || "").split(",").map(x => x.trim()).filter(Boolean);
+
+    // -----------------------------
+    // Renderers
+    // -----------------------------
+    function renderEvents() {
+      const tbody = $("eventsBody");
+      tbody.innerHTML = "";
+
+      const agentOptions = Object.entries(state.agents)
+        .filter(([k,v]) => (k && v))
+        .map(([k,v]) => `<option value="${k}">${k} — ${escapeHtml(v)}</option>`)
+        .join("");
+
+      state.events.forEach((ev, idx) => {
+        const tr = document.createElement("tr");
+
+        tr.innerHTML = `
+          <td><input data-k="id" data-i="${idx}" value="${escapeAttr(ev.id||"")}" /></td>
+          <td><input data-k="ref" data-i="${idx}" value="${escapeAttr(ev.ref||"")}" placeholder="5:27" /></td>
+          <td>
+            <select data-k="agent" data-i="${idx}">
+              <option value="">–</option>
+              ${agentOptions}
+              <option value="${escapeAttr(ev.agent||"")}" selected style="display:none"></option>
+            </select>
+          </td>
+          <td><input data-k="verb" data-i="${idx}" value="${escapeAttr(ev.verb||"")}" placeholder="touch" /></td>
+          <td><input data-k="object" data-i="${idx}" value="${escapeAttr(ev.object ?? "")}" placeholder="G.garment" /></td>
+          <td><input data-k="mode" data-i="${idx}" value="${escapeAttr(ev.mode ?? "")}" placeholder="from_behind" /></td>
+          <td><input data-k="duration" data-i="${idx}" value="${escapeAttr(ev.duration ?? "")}" placeholder="P12Y" /></td>
+          <td>
+            <select data-k="kind" data-i="${idx}">
+              <option value="enactment" ${ev.kind==="enactment"?"selected":""}>enactment</option>
+              <option value="effect" ${ev.kind==="effect"?"selected":""}>effect</option>
+              <option value="identity" ${ev.kind==="identity"?"selected":""}>identity</option>
+            </select>
+          </td>
+          <td><button class="secondary" data-del="${idx}" title="Remove">✕</button></td>
+        `;
+
+        // fix selected agent if not in options
+        const sel = tr.querySelector("select[data-k='agent']");
+        if (sel && ev.agent) sel.value = ev.agent;
+
+        tbody.appendChild(tr);
+      });
+    }
+
+    function renderMarkers() {
+      const wrap = $("markersWrap");
+      wrap.innerHTML = "";
+      state.markers.forEach((m, idx) => {
+        const card = document.createElement("div");
+        card.style.border = "1px solid #111827";
+        card.style.borderRadius = "12px";
+        card.style.padding = "10px";
+        card.style.marginBottom = "8px";
+        card.style.background = "#0b1220";
+        card.innerHTML = `
+          <div class="row3">
+            <div>
+              <label style="margin-top:0">id</label>
+              <input data-mk="id" data-i="${idx}" value="${escapeAttr(m.id||"")}" />
+            </div>
+            <div>
+              <label style="margin-top:0">ref</label>
+              <input data-mk="ref" data-i="${idx}" value="${escapeAttr(m.ref||"")}" placeholder="5:30-32" />
+            </div>
+            <div>
+              <label style="margin-top:0">type</label>
+              <select data-mk="type" data-i="${idx}">
+                ${["CU","WS","SM","CA","SIL","THR","STAY"].map(t => `<option value="${t}" ${m.type===t?"selected":""}>${t}</option>`).join("")}
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div>
+              <label>target</label>
+              <input data-mk="target" data-i="${idx}" value="${escapeAttr(m.target||"")}" placeholder="touch_garment" />
+            </div>
+            <div>
+              <label>justification</label>
+              <input data-mk="justification" data-i="${idx}" value="${escapeAttr(m.justification||"")}" placeholder="text slows here" />
+            </div>
+          </div>
+          <div class="btnbar" style="margin-top:8px">
+            <button class="danger" data-mdel="${idx}">Remove marker</button>
+          </div>
+        `;
+        wrap.appendChild(card);
+      });
+    }
+
+    function escapeHtml(s) {
+      return String(s || "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]));
+    }
+    function escapeAttr(s) {
+      return escapeHtml(s).replace(/\n/g, " ");
+    }
+
+    function syncHeaderInputs() {
+      $("ref").value = state.ref;
+      $("translation").value = state.translation;
+      $("agentG").value = state.agents.G;
+      $("agentH").value = state.agents.H;
+      $("agentD").value = state.agents.D;
+      $("agentC").value = state.agents.C;
+
+      $("hingeIdentity").value = state.hinge["identity_□"] || "";
+      $("hingeEnactment").value = state.hinge["enactment_◇"] || "";
+      $("hingeEffect").value = state.hinge["effect_Δ"] || "";
+      $("hingeThemes").value = (state.hinge.themes || []).join(", ");
+    }
+
+    function renderAll() {
+      syncHeaderInputs();
+      renderEvents();
+      renderMarkers();
+      $("status").textContent = `${state.events.length} events • ${state.markers.length} markers`;
+      persist();
+    }
+
+    // -----------------------------
+    // Persistence
+    // -----------------------------
+    function persist() {
+      try {
+        localStorage.setItem("cne_encoder_state_v1", JSON.stringify(state));
+      } catch (_) {}
+    }
+    function loadPersisted() {
+      try {
+        const raw = localStorage.getItem("cne_encoder_state_v1");
+        if (!raw) return;
+        const obj = JSON.parse(raw);
+        if (obj && obj.schema === "cne.v1") Object.assign(state, obj);
+      } catch (_) {}
+    }
+
+    // -----------------------------
+    // Sample
+    // -----------------------------
+    const SAMPLE = {
+      schema: "cne.v1",
+      ref: "Mark 5:25-34",
+      translation: "NRSV",
+      agents: { G: "Jesus", H: "Woman with hemorrhage", D: "Disciples", C: "Crowd" },
+      events: [
+        {id:"e1", ref:"5:25-26", agent:"H", verb:"suffer", object:"hemorrhage", duration:"P12Y", mode:"ongoing", kind:"enactment"},
+        {id:"e2", ref:"5:26", agent:"H", verb:"seek", object:"physicians", mode:"repeated", kind:"enactment"},
+        {id:"e3", ref:"5:26", agent:"H", verb:"spend", object:"all", mode:"cost", kind:"enactment"},
+        {id:"e4", ref:"5:26", agent:"H", verb:"grow_worse", object:null, kind:"effect"},
+        {id:"e5", ref:"5:27", agent:"H", verb:"hear", object:"about Jesus", kind:"enactment"},
+        {id:"e6", ref:"5:27", agent:"H", verb:"approach", object:"Jesus", mode:"from_behind", kind:"enactment"},
+        {id:"e7", ref:"5:28", agent:"H", verb:"reason", object:"touch→heal", mode:"internal_speech", kind:"enactment"},
+        {id:"e8", ref:"5:27-28", agent:"H", verb:"touch", object:"G.garment", mode:"edge/fringe", kind:"enactment"},
+        {id:"e9", ref:"5:29", agent:"H", verb:"be_healed", object:"hemorrhage_stops", mode:"immediate", kind:"effect"},
+        {id:"e10", ref:"5:30", agent:"G", verb:"perceive", object:"power_gone_out", mode:"immediate", kind:"enactment"},
+        {id:"e11", ref:"5:30", agent:"G", verb:"turn", object:"crowd", kind:"enactment"},
+        {id:"e12", ref:"5:30", agent:"G", verb:"ask", object:"Who touched my clothes?", kind:"enactment"},
+        {id:"e13", ref:"5:31", agent:"D", verb:"protest", object:"crowd_pressing", kind:"enactment"},
+        {id:"e14", ref:"5:32", agent:"G", verb:"look_around", object:"to_see_who", kind:"enactment"},
+        {id:"e15", ref:"5:33", agent:"H", verb:"come_forward", object:"Jesus", mode:"fear_trembling", kind:"enactment"},
+        {id:"e16", ref:"5:33", agent:"H", verb:"fall", object:"before Jesus", kind:"enactment"},
+        {id:"e17", ref:"5:33", agent:"H", verb:"tell", object:"whole_truth", kind:"enactment"},
+        {id:"e18", ref:"5:34", agent:"G", verb:"name", object:"Daughter", kind:"identity"},
+        {id:"e19", ref:"5:34", agent:"G", verb:"attribute", object:"faith_has_made_you_well", kind:"enactment"},
+        {id:"e20", ref:"5:34", agent:"G", verb:"send", object:"go_in_peace", kind:"effect"},
+        {id:"e21", ref:"5:34", agent:"G", verb:"declare", object:"be_healed_of_disease", kind:"effect"}
+      ],
+      links: [
+        {op:"SEQ", from:"e5", to:"e6"},
+        {op:"SEQ", from:"e6", to:"e8"},
+        {op:"SIM", events:["e9","e10"]},
+        {op:"SEQ", from:"e10", to:"e11"},
+        {op:"SEQ", from:"e11", to:"e12"},
+        {op:"SEQ", from:"e14", to:"e15"},
+        {op:"SEQ", from:"e15", to:"e18"}
+      ],
+      markers: [
+        {id:"m1", ref:"5:24-27", type:"WS", target:"crowd+woman_in_margins", justification:"crowd pressing; woman moves within it"},
+        {id:"m2", ref:"5:25-26", type:"SM", target:"twelve_years", justification:"duration expanded"},
+        {id:"m3", ref:"5:27-28", type:"CU", target:"touch_garment", justification:"touch is hinge-act"},
+        {id:"m4", ref:"5:30-32", type:"SM", target:"search_sequence", justification:"turn→ask→look-around slows the scene"},
+        {id:"m5", ref:"5:33", type:"STAY", target:"fear_after_healing", justification:"fear+trembling remain post-healing"},
+        {id:"m6", ref:"5:33-34", type:"THR", target:"crowd→presence", justification:"hidden contact → revealed encounter"}
+      ],
+      claims: [],
+      hinge: {
+        "identity_□": "Jesus is the one whose power heals and whose naming claims belonging.",
+        "enactment_◇": "A suffering woman touches in faith; Jesus turns, seeks, hears her truth, and names her.",
+        "effect_Δ": "Healing becomes peace: her body is restored and her identity is re-situated as 'Daughter'.",
+        themes: ["faith","healing","naming","peace","fear"]
+      },
+      meta: { created_by: "cne_encoder.html" }
+    };
+
+    // -----------------------------
+    // Modal compiler (JS mirror of Scripts/cne_compile.py)
+    // -----------------------------
+    function sha16(s) {
+      // very small sha256 → 16 hex chars (browser crypto)
+      const enc = new TextEncoder();
+      return crypto.subtle.digest("SHA-256", enc.encode(s)).then(buf => {
+        const bytes = new Uint8Array(buf);
+        return Array.from(bytes).map(b => b.toString(16).padStart(2,"0")).join("").slice(0,16);
+      });
+    }
+
+    async function compileToModal(cne) {
+      const ref = cne.ref || "";
+      const translation = cne.translation || "";
+      const events = Array.isArray(cne.events) ? cne.events : [];
+
+      const EFFECT_VERBS = new Set(["be_healed","heal","cleanse","restore","raise","made_well","forgive","deliver","be_saved"]);
+      const IDENTITY_VERBS = new Set(["name","declare","reveal","identify"]);
+
+      const nodes = [];
+      const edges = [];
+      let span_i = 1;
+
+      const addNode = (kind, lemma, text, confidence) => {
+        const id = `n${nodes.length+1}`;
+        nodes.push({ id, kind, lemma, text: String(text||"").trim(), span: `c${span_i++}`, confidence });
+        return id;
+      };
+
+      const hinge = cne.hinge || {};
+      const idText = hinge["identity_□"]; 
+      const enText = hinge["enactment_◇"]; 
+      const efText = hinge["effect_Δ"]; 
+
+      let id_id = null, en_id = null, ef_id = null;
+      if (idText && String(idText).trim()) id_id = addNode("identity","identity",`□ ${idText}`,0.85);
+      if (enText && String(enText).trim()) en_id = addNode("enactment","enactment",`◇ ${enText}`,0.82);
+      if (efText && String(efText).trim()) ef_id = addNode("effect","effect",`Δ ${efText}`,0.84);
+      if (id_id && en_id) edges.push({from:id_id,to:en_id,relation:"grounds",confidence:0.82});
+      if (en_id && ef_id) edges.push({from:en_id,to:ef_id,relation:"produces",confidence:0.8});
+
+      const eventNodeIds = new Map();
+      const MAX_ENACT = 12;
+      let enactCount = 0;
+
+      for (const ev of events) {
+        const evId = (ev.id && String(ev.id).trim()) ? String(ev.id).trim() : `e${eventNodeIds.size+1}`;
+        const evRef = ev.ref ? String(ev.ref).trim() : "";
+        const agent = ev.agent ? String(ev.agent).trim() : "";
+        const verb = ev.verb ? String(ev.verb).trim() : "";
+        const obj = (ev.object === null || ev.object === undefined) ? "" : String(ev.object);
+        const mode = (ev.mode === null || ev.mode === undefined) ? "" : String(ev.mode);
+        const dur  = (ev.duration === null || ev.duration === undefined) ? "" : String(ev.duration);
+        let kind = (ev.kind ? String(ev.kind).toLowerCase() : "").trim();
+        if (!kind) {
+          if (EFFECT_VERBS.has(verb)) kind = "effect";
+          else if (IDENTITY_VERBS.has(verb)) kind = "identity";
+          else kind = "enactment";
+        }
+        if (kind === "enactment") {
+          if (enactCount >= MAX_ENACT) continue;
+          enactCount++;
+        }
+        const parts = [`${agent}.${verb}`];
+        if (obj) parts.push(`(${obj})`);
+        if (mode) parts.push(`[${mode}]`);
+        if (dur) parts.push(`<${dur}>`);
+        let txt = parts.join(" ");
+        if (evRef) txt += `  (${evRef})`;
+        const nid = addNode(kind, verb || kind, txt, 0.76);
+        eventNodeIds.set(evId, nid);
+      }
+
+      const links = Array.isArray(cne.links) ? cne.links : [];
+      if (links.length) {
+        for (const link of links) {
+          const op = String(link.op||"").toUpperCase();
+          if (op === "SEQ") {
+            const a = eventNodeIds.get(String(link.from||""));
+            const b = eventNodeIds.get(String(link.to||""));
+            if (a && b) edges.push({from:a,to:b,relation:"implies",confidence:0.7});
+          }
+          if (op === "SIM") {
+            const evs = Array.isArray(link.events) ? link.events : [];
+            if (evs.length >= 2) {
+              const a = eventNodeIds.get(String(evs[0]));
+              const b = eventNodeIds.get(String(evs[1]));
+              if (a && b) edges.push({from:a,to:b,relation:"coheres",confidence:0.68});
+            }
+          }
+        }
+      } else {
+        const ids = Array.from(eventNodeIds.values());
+        for (let i=0;i<ids.length-1;i++) edges.push({from:ids[i],to:ids[i+1],relation:"implies",confidence:0.65});
+      }
+
+      const kinds = new Set(nodes.map(n => n.kind));
+      const hasTri = kinds.has("identity") && kinds.has("enactment") && kinds.has("effect");
+      const creed = { status: hasTri ? "pass" : "warn", notes: hasTri ? [] : ["one or more modal kinds missing"] };
+      const sig = nodes.map(n => n.kind[0]).join("") + edges.map(e => e.relation[0]).join("") + ref;
+      const watermark = await sha16(sig);
+      return {
+        ref,
+        translation,
+        nodes,
+        edges,
+        creed,
+        watermark,
+        meta: {
+          postprocessed_at: new Date().toISOString(),
+          confidence: hasTri ? 0.9 : 0.6,
+          source: "cne_encoder.html"
+        }
+      };
+    }
+
+    // -----------------------------
+    // Wiring
+    // -----------------------------
+    function pullFormIntoState() {
+      state.ref = $("ref").value.trim();
+      state.translation = $("translation").value.trim();
+      state.agents.G = $("agentG").value.trim();
+      state.agents.H = $("agentH").value.trim();
+      state.agents.D = $("agentD").value.trim();
+      state.agents.C = $("agentC").value.trim();
+
+      state.hinge["identity_□"] = $("hingeIdentity").value.trim();
+      state.hinge["enactment_◇"] = $("hingeEnactment").value.trim();
+      state.hinge["effect_Δ"] = $("hingeEffect").value.trim();
+      state.hinge.themes = parseThemes($("hingeThemes").value);
+    }
+
+    document.addEventListener("input", (e) => {
+      const t = e.target;
+      if (t.matches("#ref,#translation,#agentG,#agentH,#agentD,#agentC,#hingeIdentity,#hingeEnactment,#hingeEffect,#hingeThemes")) {
+        pullFormIntoState();
+        renderAll();
+      }
+      if (t.matches("tbody#eventsBody input, tbody#eventsBody select")) {
+        const i = Number(t.dataset.i);
+        const k = t.dataset.k;
+        if (!Number.isNaN(i) && k) {
+          state.events[i][k] = (t.tagName === "SELECT") ? t.value : t.value;
+          // normalize null-ish fields
+          if (k === "object" || k === "mode" || k === "duration") {
+            if (state.events[i][k] === "") state.events[i][k] = "";
+          }
+          renderAll();
+        }
+      }
+      if (t.matches("[data-mk]")) {
+        const i = Number(t.dataset.i);
+        const k = t.dataset.mk;
+        if (!Number.isNaN(i) && k) {
+          state.markers[i][k] = (t.tagName === "SELECT") ? t.value : t.value;
+          renderAll();
+        }
+      }
+    });
+
+    document.addEventListener("click", async (e) => {
+      const t = e.target;
+      if (t.id === "addEvent") {
+        state.events.push({ id: nextId("e", state.events), ref:"", agent:"", verb:"", object:"", mode:"", duration:"", kind:"enactment" });
+        renderAll();
+      }
+      if (t.id === "clearEvents") {
+        state.events = [];
+        renderAll();
+      }
+      if (t.dataset && t.dataset.del !== undefined) {
+        state.events.splice(Number(t.dataset.del), 1);
+        renderAll();
+      }
+      if (t.id === "addMarker") {
+        state.markers.push({ id: nextId("m", state.markers), ref:"", type:"CU", target:"", justification:"" });
+        renderAll();
+      }
+      if (t.id === "clearMarkers") {
+        state.markers = [];
+        renderAll();
+      }
+      if (t.dataset && t.dataset.mdel !== undefined) {
+        state.markers.splice(Number(t.dataset.mdel), 1);
+        renderAll();
+      }
+      if (t.id === "loadSample") {
+        Object.assign(state, JSON.parse(JSON.stringify(SAMPLE)));
+        renderAll();
+        toast("Loaded Mark 5 sample");
+      }
+      if (t.id === "importBtn") {
+        $("fileInput").click();
+      }
+      if (t.id === "exportCNE") {
+        pullFormIntoState();
+        const file = `${(state.ref||"cne").replace(/[^a-z0-9]+/gi,"_")}.cne.json`;
+        download(file, JSON.stringify(state, null, 2));
+        toast("Downloaded cne.v1 JSON");
+      }
+      if (t.id === "copyJSON") {
+        pullFormIntoState();
+        await navigator.clipboard.writeText(JSON.stringify(state, null, 2));
+        toast("Copied cne.v1 JSON");
+      }
+      if (t.id === "exportModal") {
+        pullFormIntoState();
+        const modal = await compileToModal(state);
+        const base = (state.ref||"cne").replace(/[^a-z0-9]+/gi,"_");
+        download(`${base}.modal.json`, JSON.stringify(modal, null, 2));
+        toast("Compiled + downloaded modal.json");
+      }
+    });
+
+    $("fileInput").addEventListener("change", async (e) => {
+      const f = e.target.files && e.target.files[0];
+      if (!f) return;
+      const txt = await f.text();
+      try {
+        const obj = JSON.parse(txt);
+        if (obj && obj.schema === "cne.v1") {
+          Object.assign(state, obj);
+          renderAll();
+          toast("Imported cne.v1 JSON");
+        } else {
+          toast("That file doesn't look like cne.v1");
+        }
+      } catch (err) {
+        toast("Could not parse JSON");
+      }
+      e.target.value = "";
+    });
+
+    // init
+    loadPersisted();
+    if (!state.ref && state.events.length === 0) Object.assign(state, JSON.parse(JSON.stringify(SAMPLE)));
+    renderAll();
+  </script>
+</body>
+</html>

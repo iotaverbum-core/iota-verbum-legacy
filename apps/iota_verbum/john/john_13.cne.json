@@ -1,0 +1,152 @@
+{
+  "schema": "cne.v1",
+  "ref": "John 13",
+  "translation": "ESV",
+  "agents": {
+    "G": "Jesus",
+    "D": "Disciples",
+    "P": "Peter",
+    "J": "Judas"
+  },
+  "events": [
+    {
+      "id": "e1",
+      "ref": "13:1",
+      "agent": "T",
+      "verb": "note",
+      "object": "Jesus_loved_to_end",
+      "mode": "frame"
+    },
+    {
+      "id": "e2",
+      "ref": "13:4-5",
+      "agent": "G",
+      "verb": "wash",
+      "object": "disciples_feet",
+      "mode": "servant_action"
+    },
+    {
+      "id": "e3",
+      "ref": "13:6-10",
+      "agent": "P",
+      "verb": "resist_then_yield",
+      "object": "washing",
+      "mode": "misunderstanding"
+    },
+    {
+      "id": "e4",
+      "ref": "13:11",
+      "agent": "T",
+      "verb": "note",
+      "object": "one_not_clean",
+      "mode": "foreknowledge"
+    },
+    {
+      "id": "e5",
+      "ref": "13:12-17",
+      "agent": "G",
+      "verb": "teach",
+      "object": "example_of_service",
+      "mode": "command"
+    },
+    {
+      "id": "e6",
+      "ref": "13:21",
+      "agent": "G",
+      "verb": "trouble",
+      "object": "spirit",
+      "mode": "emotion"
+    },
+    {
+      "id": "e7",
+      "ref": "13:26-27",
+      "agent": "G",
+      "verb": "identify",
+      "object": "betrayer_by_morsel",
+      "mode": "sign"
+    },
+    {
+      "id": "e8",
+      "ref": "13:30",
+      "agent": "J",
+      "verb": "go_out",
+      "object": "night",
+      "mode": "departure"
+    },
+    {
+      "id": "e9",
+      "ref": "13:34",
+      "agent": "G",
+      "verb": "command",
+      "object": "love_one_another",
+      "mode": "new_command"
+    },
+    {
+      "id": "e10",
+      "ref": "13:38",
+      "agent": "G",
+      "verb": "predict",
+      "object": "Peter_denial",
+      "mode": "foretell"
+    }
+  ],
+  "links": [
+    {
+      "op": "SEQ",
+      "from": "e1",
+      "to": "e2"
+    },
+    {
+      "op": "SEQ",
+      "from": "e2",
+      "to": "e5"
+    },
+    {
+      "op": "SEQ",
+      "from": "e7",
+      "to": "e8"
+    },
+    {
+      "op": "SEQ",
+      "from": "e8",
+      "to": "e10"
+    }
+  ],
+  "markers": [
+    {
+      "id": "m1",
+      "ref": "13:4-5",
+      "type": "SM",
+      "target": "washing_sequence",
+      "justification": "detailed physical steps"
+    },
+    {
+      "id": "m2",
+      "ref": "13:30",
+      "type": "THR",
+      "target": "night_departure",
+      "justification": "betrayal exits into darkness"
+    },
+    {
+      "id": "m3",
+      "ref": "13:34",
+      "type": "CU",
+      "target": "new_command",
+      "justification": "love framed as defining marker"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "type": "hinge_candidate",
+      "text": "Jesus loves to the end: he stoops to wash, exposes betrayal, and binds the community by a new command to love.",
+      "supported_by": [
+        "e1",
+        "e2",
+        "e8",
+        "e9"
+      ],
+      "inference": true
+    }
+  ]
+}

@@ -1,0 +1,529 @@
+{
+  "schema": "cne.v1",
+  "ref": "John 9",
+  "translation": "ESV",
+  "agents": {
+    "G": "Jesus",
+    "H": "Man born blind",
+    "D": "Disciples",
+    "P": "Pharisees",
+    "N": "Neighbors",
+    "F": "Parents",
+    "C": "Crowd"
+  },
+  "events": [
+    {
+      "id": "e1",
+      "ref": "9:1",
+      "agent": "G",
+      "verb": "see",
+      "object": "H(blind_from_birth)",
+      "mode": "passing_by"
+    },
+    {
+      "id": "e2",
+      "ref": "9:2",
+      "agent": "D",
+      "verb": "ask",
+      "object": "cause_of_blindness(sin?)",
+      "mode": "theological_question"
+    },
+    {
+      "id": "e3",
+      "ref": "9:3",
+      "agent": "G",
+      "verb": "answer",
+      "object": "not_this_man_nor_parents",
+      "mode": "reframe"
+    },
+    {
+      "id": "e4",
+      "ref": "9:3",
+      "agent": "G",
+      "verb": "declare",
+      "object": "works_of_God_must_be_displayed",
+      "mode": "purpose"
+    },
+    {
+      "id": "e5",
+      "ref": "9:4",
+      "agent": "G",
+      "verb": "say",
+      "object": "we_must_work_while_day",
+      "mode": "urgency"
+    },
+    {
+      "id": "e6",
+      "ref": "9:5",
+      "agent": "G",
+      "verb": "declare",
+      "object": "I_am_light_of_world",
+      "mode": "identity"
+    },
+    {
+      "id": "e7",
+      "ref": "9:6",
+      "agent": "G",
+      "verb": "spit",
+      "object": "ground",
+      "mode": "physical"
+    },
+    {
+      "id": "e8",
+      "ref": "9:6",
+      "agent": "G",
+      "verb": "make",
+      "object": "mud_with_spit",
+      "mode": "mix"
+    },
+    {
+      "id": "e9",
+      "ref": "9:6",
+      "agent": "G",
+      "verb": "anoint",
+      "object": "H.eyes_with_mud",
+      "mode": "touch"
+    },
+    {
+      "id": "e10",
+      "ref": "9:7",
+      "agent": "G",
+      "verb": "command",
+      "object": "wash_in_pool_of_Siloam",
+      "mode": "send"
+    },
+    {
+      "id": "e11",
+      "ref": "9:7",
+      "agent": "H",
+      "verb": "go",
+      "object": "pool_of_Siloam",
+      "mode": "obedience"
+    },
+    {
+      "id": "e12",
+      "ref": "9:7",
+      "agent": "H",
+      "verb": "wash",
+      "object": "eyes",
+      "mode": "ritual"
+    },
+    {
+      "id": "e13",
+      "ref": "9:7",
+      "agent": "H",
+      "verb": "return",
+      "object": "seeing",
+      "mode": "result"
+    },
+    {
+      "id": "e14",
+      "ref": "9:8-9",
+      "agent": "N",
+      "verb": "argue",
+      "object": "identity_of_man",
+      "mode": "debate"
+    },
+    {
+      "id": "e15",
+      "ref": "9:11",
+      "agent": "H",
+      "verb": "testify",
+      "object": "man_called_Jesus_made_mud...",
+      "mode": "simple_report"
+    },
+    {
+      "id": "e16",
+      "ref": "9:12",
+      "agent": "N",
+      "verb": "ask",
+      "object": "where_is_he",
+      "mode": "locate"
+    },
+    {
+      "id": "e17",
+      "ref": "9:12",
+      "agent": "H",
+      "verb": "say",
+      "object": "I_do_not_know",
+      "mode": "silence_about_Jesus_location"
+    },
+    {
+      "id": "e18",
+      "ref": "9:13",
+      "agent": "N",
+      "verb": "bring",
+      "object": "H_to_Pharisees",
+      "mode": "escalation"
+    },
+    {
+      "id": "e19",
+      "ref": "9:14",
+      "agent": "T",
+      "verb": "note",
+      "object": "it_was_Sabbath",
+      "mode": "temporal_marker"
+    },
+    {
+      "id": "e20",
+      "ref": "9:15",
+      "agent": "P",
+      "verb": "question",
+      "object": "how_received_sight",
+      "mode": "interrogation"
+    },
+    {
+      "id": "e21",
+      "ref": "9:15",
+      "agent": "H",
+      "verb": "answer",
+      "object": "mud_on_eyes_washed_now_see",
+      "mode": "repeat_report"
+    },
+    {
+      "id": "e22",
+      "ref": "9:16",
+      "agent": "P",
+      "verb": "divide",
+      "object": "from_God? vs sinner?",
+      "mode": "conflict"
+    },
+    {
+      "id": "e23",
+      "ref": "9:17",
+      "agent": "P",
+      "verb": "ask",
+      "object": "what_do_you_say_about_him",
+      "mode": "pressure"
+    },
+    {
+      "id": "e24",
+      "ref": "9:17",
+      "agent": "H",
+      "verb": "confess",
+      "object": "he_is_prophet",
+      "mode": "growth"
+    },
+    {
+      "id": "e25",
+      "ref": "9:18",
+      "agent": "P",
+      "verb": "refuse_believe",
+      "object": "until_parents_called",
+      "mode": "skepticism"
+    },
+    {
+      "id": "e26",
+      "ref": "9:19-21",
+      "agent": "P",
+      "verb": "question",
+      "object": "parents_about_birth_and_sight",
+      "mode": "investigation"
+    },
+    {
+      "id": "e27",
+      "ref": "9:20-21",
+      "agent": "F",
+      "verb": "confirm",
+      "object": "he_is_our_son_born_blind",
+      "mode": "fact"
+    },
+    {
+      "id": "e28",
+      "ref": "9:21",
+      "agent": "F",
+      "verb": "withhold",
+      "object": "how_now_sees",
+      "mode": "fear"
+    },
+    {
+      "id": "e29",
+      "ref": "9:22",
+      "agent": "T",
+      "verb": "explain",
+      "object": "fear_of_expulsion",
+      "mode": "narrator_note"
+    },
+    {
+      "id": "e30",
+      "ref": "9:24",
+      "agent": "P",
+      "verb": "summon_again",
+      "object": "H",
+      "mode": "second_trial"
+    },
+    {
+      "id": "e31",
+      "ref": "9:24",
+      "agent": "P",
+      "verb": "command",
+      "object": "give_glory_to_God; this_man_is_sinner",
+      "mode": "coercion"
+    },
+    {
+      "id": "e32",
+      "ref": "9:25",
+      "agent": "H",
+      "verb": "reply",
+      "object": "one_thing_I_know_I_was_blind_now_I_see",
+      "mode": "witness"
+    },
+    {
+      "id": "e33",
+      "ref": "9:26-27",
+      "agent": "P",
+      "verb": "badger",
+      "object": "what_did_he_do",
+      "mode": "repeat"
+    },
+    {
+      "id": "e34",
+      "ref": "9:27",
+      "agent": "H",
+      "verb": "counter",
+      "object": "why_do_you_want_to_hear_again; become_disciples?",
+      "mode": "irony"
+    },
+    {
+      "id": "e35",
+      "ref": "9:28-29",
+      "agent": "P",
+      "verb": "revile",
+      "object": "H; claim_disciples_of_Moses",
+      "mode": "hostility"
+    },
+    {
+      "id": "e36",
+      "ref": "9:30-33",
+      "agent": "H",
+      "verb": "reason",
+      "object": "if_not_from_God_could_do_nothing",
+      "mode": "logic"
+    },
+    {
+      "id": "e37",
+      "ref": "9:34",
+      "agent": "P",
+      "verb": "cast_out",
+      "object": "H",
+      "mode": "expulsion"
+    },
+    {
+      "id": "e38",
+      "ref": "9:35",
+      "agent": "G",
+      "verb": "hear",
+      "object": "H_cast_out",
+      "mode": "attention"
+    },
+    {
+      "id": "e39",
+      "ref": "9:35",
+      "agent": "G",
+      "verb": "find",
+      "object": "H",
+      "mode": "seek"
+    },
+    {
+      "id": "e40",
+      "ref": "9:35",
+      "agent": "G",
+      "verb": "ask",
+      "object": "do_you_believe_in_Son_of_Man",
+      "mode": "invitation"
+    },
+    {
+      "id": "e41",
+      "ref": "9:36",
+      "agent": "H",
+      "verb": "ask",
+      "object": "who_is_he",
+      "mode": "seeking"
+    },
+    {
+      "id": "e42",
+      "ref": "9:37",
+      "agent": "G",
+      "verb": "reveal",
+      "object": "you_have_seen_him; he_is_speaking_with_you",
+      "mode": "self_disclosure"
+    },
+    {
+      "id": "e43",
+      "ref": "9:38",
+      "agent": "H",
+      "verb": "confess",
+      "object": "Lord_I_believe",
+      "mode": "faith"
+    },
+    {
+      "id": "e44",
+      "ref": "9:38",
+      "agent": "H",
+      "verb": "worship",
+      "object": "Jesus",
+      "mode": "adoration"
+    },
+    {
+      "id": "e45",
+      "ref": "9:39",
+      "agent": "G",
+      "verb": "declare",
+      "object": "judgment: blind_see; see_become_blind",
+      "mode": "paradox"
+    },
+    {
+      "id": "e46",
+      "ref": "9:40-41",
+      "agent": "P",
+      "verb": "challenge",
+      "object": "are_we_blind?",
+      "mode": "defensive"
+    },
+    {
+      "id": "e47",
+      "ref": "9:41",
+      "agent": "G",
+      "verb": "answer",
+      "object": "if_blind_no_guilt; claim_see guilt_remains",
+      "mode": "exposure"
+    }
+  ],
+  "links": [
+    {
+      "op": "SEQ",
+      "from": "e1",
+      "to": "e2"
+    },
+    {
+      "op": "SEQ",
+      "from": "e2",
+      "to": "e6"
+    },
+    {
+      "op": "SEQ",
+      "from": "e6",
+      "to": "e10"
+    },
+    {
+      "op": "SEQ",
+      "from": "e10",
+      "to": "e13"
+    },
+    {
+      "op": "SEQ",
+      "from": "e13",
+      "to": "e18"
+    },
+    {
+      "op": "SEQ",
+      "from": "e18",
+      "to": "e22"
+    },
+    {
+      "op": "SEQ",
+      "from": "e22",
+      "to": "e24"
+    },
+    {
+      "op": "SEQ",
+      "from": "e24",
+      "to": "e37"
+    },
+    {
+      "op": "SEQ",
+      "from": "e37",
+      "to": "e39"
+    },
+    {
+      "op": "SEQ",
+      "from": "e39",
+      "to": "e44"
+    },
+    {
+      "op": "SEQ",
+      "from": "e44",
+      "to": "e47"
+    }
+  ],
+  "markers": [
+    {
+      "id": "m1",
+      "ref": "9:1",
+      "type": "CU",
+      "target": "man_born_blind",
+      "justification": "Jesus 'saw' him; scene centers on him"
+    },
+    {
+      "id": "m2",
+      "ref": "9:1-3",
+      "type": "THR",
+      "target": "cause_question→purpose_reframe",
+      "justification": "disciples' blame frame crossed into divine purpose frame"
+    },
+    {
+      "id": "m3",
+      "ref": "9:6-7",
+      "type": "SM",
+      "target": "mud_make_anoint_send",
+      "justification": "text lingers on tactile sequence (spit/mud/anoint/wash)"
+    },
+    {
+      "id": "m4",
+      "ref": "9:14",
+      "type": "THR",
+      "target": "Sabbath_boundary",
+      "justification": "narrator marks Sabbath; healing becomes trial"
+    },
+    {
+      "id": "m5",
+      "ref": "9:24-34",
+      "type": "STAY",
+      "target": "witness_under_pressure",
+      "justification": "repeated interrogation, escalating hostility, expulsion"
+    },
+    {
+      "id": "m6",
+      "ref": "9:35-38",
+      "type": "CU",
+      "target": "Jesus_finds_cast_out_man",
+      "justification": "Jesus seeks the expelled; intimate dialogue"
+    },
+    {
+      "id": "m7",
+      "ref": "9:39-41",
+      "type": "WS",
+      "target": "judgment_pronouncement",
+      "justification": "scene widens to principle about sight/blindness"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "type": "hinge_candidate",
+      "text": "The Light of the world works while it is day: he gives sight and then seeks the one cast out to bring him to worship.",
+      "supported_by": [
+        "e6",
+        "e13",
+        "e37",
+        "e39",
+        "e42",
+        "e44"
+      ],
+      "inference": true
+    },
+    {
+      "id": "c2",
+      "type": "scene_theology",
+      "text": "The miracle triggers courtroom pressure; true sight culminates in confession and worship, while claimed sight hardens into guilt.",
+      "supported_by": [
+        "m4",
+        "m5",
+        "e43",
+        "e44",
+        "e47"
+      ],
+      "inference": true
+    }
+  ]
+}

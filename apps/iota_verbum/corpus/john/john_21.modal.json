@@ -1,0 +1,54 @@
+{
+  "schema": "iv.modal.json.v1",
+  "passage": "John 21",
+  "source": {
+    "translation": "ESV"
+  },
+  "meta": {
+    "compiled_from": "cne.v1",
+    "compiled_at": "2026-02-13T14:23:56"
+  },
+  "nodes": [
+    {
+      "id": "n1",
+      "type": "scene",
+      "ref": "21:1-14",
+      "label": "Sea of Tiberias sign → abundance → breakfast"
+    },
+    {
+      "id": "n2",
+      "type": "scene",
+      "ref": "21:15-23",
+      "label": "Peter restored → feed sheep → follow me → redirected comparisons"
+    },
+    {
+      "id": "n3",
+      "type": "scene",
+      "ref": "21:24-25",
+      "label": "Witness closure"
+    }
+  ],
+  "edges": [
+    {
+      "from": "n1",
+      "to": "n2",
+      "type": "SEQ"
+    },
+    {
+      "from": "n2",
+      "to": "n3",
+      "type": "SEQ"
+    }
+  ],
+  "hinges": [
+    {
+      "id": "h1",
+      "refs": [
+        "John 21"
+      ],
+      "identity_□": "The risen Jesus is the Shepherd-King who restores and commissions.",
+      "enactment_◇": "He directs abundance, hosts a meal, questions Peter’s love, commissions feeding, and calls him to follow.",
+      "effect_Δ": "Peter is restored into shepherding; disciples are anchored in witness, not comparison."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Matthew λ-files; safe to hand-edit after generation.",
+    "book": "Matthew",
+    "passage_id": "Mat22_34_40",
+    "version": "Mat22_34_40_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mat22_34_40",
+  "book": "Matthew",
+  "chapter": 22,
+  "verses": "34-40",
+  "title": "Matthew 22:34–40 – The Great Commandment",
+  "interpretive_frames": [
+    "Law",
+    "Love",
+    "Summary"
+  ],
+  "identity_invariants": [
+    "[]WholeLawAndProphetsHangOnLoveForGodAndNeighbour(Law, Love)"
+  ],
+  "units": [
+    {
+      "id": "Mat22_34_40_u1",
+      "label": "On These Two Commandments",
+      "verses": [
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "illocution": "Teaching",
+      "agents": [
+        "Jesus",
+        "Pharisees",
+        "Lawyer"
+      ],
+      "statements": [
+        {
+          "id": "Mat22_34_40_s1",
+          "type": "summary",
+          "description": "In response to a test, Jesus summarises the Law and the Prophets as love for God and neighbour.",
+          "lambda_iv": [
+            "[]WholeLawAndProphetsHangOnLoveForGodAndNeighbour(Law, Love)",
+            "EFF(LoveOfGodAndNeighbourIsCanonicalSummation(Commands))"
+          ]
+        }
+      ]
+    }
+  ]
+}

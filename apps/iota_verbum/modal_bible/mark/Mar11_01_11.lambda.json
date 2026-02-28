@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Mark λ-files; safe to hand-edit after generation.",
+    "book": "Mark",
+    "passage_id": "Mar11_01_11",
+    "version": "Mar11_01_11_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mar11_01_11",
+  "book": "Mark",
+  "chapter": 11,
+  "verses": "1-11",
+  "title": "Mark 11:1–11 – Triumphal Entry",
+  "interpretive_frames": [
+    "Kingship",
+    "TempleExpectation"
+  ],
+  "identity_invariants": [
+    "[]JesusEntersAsDavidicKingYetWithAmbiguousReception(Jesus, Jerusalem)"
+  ],
+  "units": [
+    {
+      "id": "Mar11_01_11_u1",
+      "label": "Hosanna in the Highest",
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "illocution": "EntryNarrative",
+      "agents": [
+        "Jesus",
+        "Disciples",
+        "Crowds"
+      ],
+      "statements": [
+        {
+          "id": "Mar11_01_11_s1",
+          "type": "summary",
+          "description": "Jesus enters Jerusalem on a colt amid Hosannas, presenting himself as king while quietly surveying the temple.",
+          "lambda_iv": [
+            "[]JesusEntersAsDavidicKingYetWithAmbiguousReception(Jesus, Jerusalem)",
+            "EFF(EntrySetsStageForTempleConfrontationAndJudgment(Jesus, Temple))"
+          ]
+        }
+      ]
+    }
+  ]
+}

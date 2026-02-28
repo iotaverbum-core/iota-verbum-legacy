@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Matthew λ-files; safe to hand-edit after generation.",
+    "book": "Matthew",
+    "passage_id": "Mat26_17_46",
+    "version": "Mat26_17_46_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mat26_17_46",
+  "book": "Matthew",
+  "chapter": 26,
+  "verses": "17-46",
+  "title": "Matthew 26:17–46 – Last Supper and Gethsemane",
+  "interpretive_frames": [
+    "Passover",
+    "Covenant",
+    "Agony"
+  ],
+  "identity_invariants": [
+    "[]JesusInstitutesNewCovenantInHisBloodAndSubmitsToFathersWill(Jesus, Father)"
+  ],
+  "units": [
+    {
+      "id": "Mat26_17_46_u1",
+      "label": "This Is My Blood of the Covenant",
+      "verses": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "illocution": "InstitutionAndPrayer",
+      "agents": [
+        "Jesus",
+        "Disciples",
+        "Father"
+      ],
+      "statements": [
+        {
+          "id": "Mat26_17_46_s1",
+          "type": "summary",
+          "description": "Jesus shares Passover, institutes the covenant meal, and prays in anguish yet submits to the Father's will.",
+          "lambda_iv": [
+            "[]JesusInstitutesNewCovenantInHisBloodAndSubmitsToFathersWill(Jesus, Father)",
+            "<>NotMyWillButYoursBeDone(Jesus, Father)"
+          ]
+        }
+      ]
+    }
+  ]
+}

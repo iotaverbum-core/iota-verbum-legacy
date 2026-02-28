@@ -1,0 +1,53 @@
+{
+  "ref": "Philippians 1:6",
+  "translation": "KJV",
+  "nodes": [
+    {
+      "id": "n1",
+      "kind": "identity",
+      "lemma": "identity",
+      "text": "that he which hath begun a good work in you will perform it until the day of Jesus Christ",
+      "span": "c3",
+      "confidence": 0.8
+    },
+    {
+      "id": "n2",
+      "kind": "enactment",
+      "lemma": "form",
+      "text": "that he which hath begun a good work in you will perform it until the day of Jesus Christ",
+      "span": "c3",
+      "confidence": 0.75
+    },
+    {
+      "id": "n3",
+      "kind": "effect",
+      "lemma": "result",
+      "text": "that he which hath begun a good work in you will perform it until the day of Jesus Christ",
+      "span": "c3",
+      "confidence": 0.8
+    }
+  ],
+  "edges": [
+    {
+      "from": "n1",
+      "to": "n2",
+      "relation": "grounds",
+      "confidence": 0.8
+    },
+    {
+      "from": "n2",
+      "to": "n3",
+      "relation": "produces",
+      "confidence": 0.75
+    }
+  ],
+  "creed": {
+    "status": "pass",
+    "notes": []
+  },
+  "watermark": "d006c1e7037daaee",
+  "meta": {
+    "postprocessed_at": "2025-10-30T11:39:19.164932Z",
+    "confidence": 0.9
+  }
+}

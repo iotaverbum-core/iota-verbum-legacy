@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Matthew λ-files; safe to hand-edit after generation.",
+    "book": "Matthew",
+    "passage_id": "Mat09_09_17",
+    "version": "Mat09_09_17_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mat09_09_17",
+  "book": "Matthew",
+  "chapter": 9,
+  "verses": "9-17",
+  "title": "Matthew 9:9–17 – Call of Matthew and New Wine",
+  "interpretive_frames": [
+    "Calling",
+    "TableFellowship",
+    "NewCovenant"
+  ],
+  "identity_invariants": [
+    "[]JesusCallsSinnersNotTheSelfRighteous(Jesus, Sinners)"
+  ],
+  "units": [
+    {
+      "id": "Mat09_09_17_u1",
+      "label": "Follow Me; New Wine",
+      "verses": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "illocution": "CallAndParable",
+      "agents": [
+        "Jesus",
+        "Matthew",
+        "TaxCollectors",
+        "Pharisees",
+        "Disciples"
+      ],
+      "statements": [
+        {
+          "id": "Mat09_09_17_s1",
+          "type": "summary",
+          "description": "Jesus calls Matthew, eats with sinners, and speaks of new wine that cannot be contained in old wineskins.",
+          "lambda_iv": [
+            "[]JesusCallsSinnersNotTheSelfRighteous(Jesus, Sinners)",
+            "EFF(NewCovenantRealityCannotBeContainedInOldStructures(NewWine, OldWineskins))"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "schema": "cne.v1",
+  "ref": "Mark 5:25-34",
+  "translation": "NRSV",
+  "agents": {
+    "G": "Jesus",
+    "H": "Woman with hemorrhage",
+    "D": "Disciples",
+    "C": "Crowd"
+  },
+  "events": [
+    {"id": "e1", "ref": "5:25-26", "agent": "H", "verb": "suffer", "object": "hemorrhage", "duration": "P12Y", "mode": "ongoing", "kind": "enactment"},
+    {"id": "e2", "ref": "5:26", "agent": "H", "verb": "seek", "object": "physicians", "mode": "repeated", "kind": "enactment"},
+    {"id": "e3", "ref": "5:26", "agent": "H", "verb": "spend", "object": "all", "mode": "cost", "kind": "enactment"},
+    {"id": "e4", "ref": "5:26", "agent": "H", "verb": "grow_worse", "object": null, "kind": "effect"},
+
+    {"id": "e5", "ref": "5:27", "agent": "H", "verb": "hear", "object": "about Jesus", "kind": "enactment"},
+    {"id": "e6", "ref": "5:27", "agent": "H", "verb": "approach", "object": "Jesus", "mode": "from_behind", "kind": "enactment"},
+    {"id": "e7", "ref": "5:28", "agent": "H", "verb": "reason", "object": "touch→heal", "mode": "internal_speech", "kind": "enactment"},
+    {"id": "e8", "ref": "5:27-28", "agent": "H", "verb": "touch", "object": "G.garment", "mode": "edge/fringe", "kind": "enactment"},
+
+    {"id": "e9", "ref": "5:29", "agent": "H", "verb": "be_healed", "object": "hemorrhage_stops", "mode": "immediate", "kind": "effect", "sim_with": ["e10"]},
+    {"id": "e10", "ref": "5:30", "agent": "G", "verb": "perceive", "object": "power_gone_out", "mode": "immediate", "kind": "enactment", "sim_with": ["e9"]},
+    {"id": "e11", "ref": "5:30", "agent": "G", "verb": "turn", "object": "crowd", "kind": "enactment"},
+    {"id": "e12", "ref": "5:30", "agent": "G", "verb": "ask", "object": "Who touched my clothes?", "kind": "enactment"},
+    {"id": "e13", "ref": "5:31", "agent": "D", "verb": "protest", "object": "crowd_pressing", "kind": "enactment"},
+    {"id": "e14", "ref": "5:32", "agent": "G", "verb": "look_around", "object": "to_see_who", "kind": "enactment"},
+
+    {"id": "e15", "ref": "5:33", "agent": "H", "verb": "come_forward", "object": "Jesus", "mode": "fear_trembling", "kind": "enactment"},
+    {"id": "e16", "ref": "5:33", "agent": "H", "verb": "fall", "object": "before Jesus", "kind": "enactment"},
+    {"id": "e17", "ref": "5:33", "agent": "H", "verb": "tell", "object": "whole_truth", "kind": "enactment"},
+    {"id": "e18", "ref": "5:34", "agent": "G", "verb": "name", "object": "Daughter", "kind": "identity"},
+    {"id": "e19", "ref": "5:34", "agent": "G", "verb": "attribute", "object": "faith_has_made_you_well", "kind": "enactment"},
+    {"id": "e20", "ref": "5:34", "agent": "G", "verb": "send", "object": "go_in_peace", "kind": "effect"},
+    {"id": "e21", "ref": "5:34", "agent": "G", "verb": "declare", "object": "be_healed_of_disease", "kind": "effect"}
+  ],
+  "links": [
+    {"op": "SEQ", "from": "e5", "to": "e6"},
+    {"op": "SEQ", "from": "e6", "to": "e8"},
+    {"op": "SIM", "events": ["e9", "e10"]},
+    {"op": "SEQ", "from": "e10", "to": "e11"},
+    {"op": "SEQ", "from": "e11", "to": "e12"},
+    {"op": "SEQ", "from": "e14", "to": "e15"},
+    {"op": "SEQ", "from": "e15", "to": "e18"}
+  ],
+  "markers": [
+    {"id": "m1", "ref": "5:24-27", "type": "WS", "target": "crowd+woman_in_margins", "justification": "Crowd pressing; woman moves within it."},
+    {"id": "m2", "ref": "5:25-26", "type": "SM", "target": "twelve_years", "justification": "Time expanded to emphasize duration."},
+    {"id": "m3", "ref": "5:27-28", "type": "CU", "target": "touch_garment", "justification": "Touch is the hinge-act stated explicitly."},
+    {"id": "m4", "ref": "5:30-32", "type": "SM", "target": "search_sequence", "justification": "turn→ask→look-around slows after healing."},
+    {"id": "m5", "ref": "5:33", "type": "STAY", "target": "fear_after_healing", "justification": "Fear+trembling remains in frame post-healing."},
+    {"id": "m6", "ref": "5:33-34", "type": "THR", "target": "crowd→presence", "justification": "Hidden contact becomes revealed encounter."}
+  ],
+  "claims": [
+    {"id": "c1", "type": "hinge_candidate", "text": "Faith-touch leads to being made well (explicitly attributed by Jesus).", "supported_by": ["e8", "e9", "e19"], "inference": false},
+    {"id": "c2", "type": "scene_theology", "text": "Jesus slows the scene to locate the person: healing is not left as mere transaction.", "supported_by": ["m4", "e12", "e14", "e15", "e17", "e18"], "inference": true}
+  ],
+  "hinge": {
+    "identity_□": "Jesus is the one whose power heals and whose speech names the healed into belonging (\"Daughter\").",
+    "enactment_◇": "The woman comes in faith and touches; Jesus turns, seeks, receives her truth, and names her.",
+    "effect_Δ": "She is made well and sent in peace — relief becomes restored identity.",
+    "themes": ["faith", "healing", "fear", "naming", "peace"]
+  },
+  "meta": {
+    "created_by": "cne_encoder_v1",
+    "created_at": "2026-02-12"
+  }
+}

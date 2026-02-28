@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Mark λ-files; safe to hand-edit after generation.",
+    "book": "Mark",
+    "passage_id": "Mar05_21_43",
+    "version": "Mar05_21_43_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mar05_21_43",
+  "book": "Mark",
+  "chapter": 5,
+  "verses": "21-43",
+  "title": "Mark 5:21–43 – Jairus Daughter and Bleeding Woman",
+  "interpretive_frames": [
+    "Faith",
+    "Delay",
+    "Death"
+  ],
+  "identity_invariants": [
+    "[]JesusHonoursRiskyFaithAndHasAuthorityOverDeathAndDefilement(Jesus, Sufferers)"
+  ],
+  "units": [
+    {
+      "id": "Mar05_21_43_u1",
+      "label": "Do Not Fear, Only Believe",
+      "verses": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "illocution": "MiracleNarrative",
+      "agents": [
+        "Jesus",
+        "Jairus",
+        "Daughter",
+        "BleedingWoman",
+        "Crowd"
+      ],
+      "statements": [
+        {
+          "id": "Mar05_21_43_s1",
+          "type": "summary",
+          "description": "On the way to Jairus dying daughter, a bleeding woman is healed by touching Jesus garment, and Jesus raises the girl, calling for faith not fear.",
+          "lambda_iv": [
+            "[]JesusHonoursRiskyFaithAndHasAuthorityOverDeathAndDefilement(Jesus, Sufferers)",
+            "EFF(ApparentDelaysBecomeStagesForDeeperRevelationOfJesusPower(Disciples))"
+          ]
+        }
+      ]
+    }
+  ]
+}

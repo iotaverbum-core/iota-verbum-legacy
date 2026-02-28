@@ -1,0 +1,54 @@
+{
+  "schema": "iv.modal.json.v1",
+  "passage": "John 5",
+  "source": {
+    "translation": "ESV"
+  },
+  "meta": {
+    "compiled_from": "cne.v1",
+    "compiled_at": "2026-02-13T14:32:35"
+  },
+  "nodes": [
+    {
+      "id": "n1",
+      "type": "scene",
+      "ref": "5:1-9",
+      "label": "Bethesda: 38 years → question → command → immediate healing"
+    },
+    {
+      "id": "n2",
+      "type": "scene",
+      "ref": "5:10-18",
+      "label": "Sabbath accusation → Jesus withdraws → temple warning → hostility"
+    },
+    {
+      "id": "n3",
+      "type": "scene",
+      "ref": "5:19-47",
+      "label": "Son-Father work discourse → witnesses → exposure of glory-seeking"
+    }
+  ],
+  "edges": [
+    {
+      "from": "n1",
+      "to": "n2",
+      "type": "SEQ"
+    },
+    {
+      "from": "n2",
+      "to": "n3",
+      "type": "SEQ"
+    }
+  ],
+  "hinges": [
+    {
+      "id": "h1",
+      "refs": [
+        "John 5:1-47"
+      ],
+      "identity_□": "Jesus is the Son who works in perfect unity with the Father and is worthy of honor.",
+      "enactment_◇": "He heals by command on the Sabbath, withdraws, then speaks publicly about the Father’s work and the witnesses.",
+      "effect_Δ": "The healed man walks; opposition intensifies toward death; the discourse reframes healing as divine work and exposes unbelief."
+    }
+  ]
+}

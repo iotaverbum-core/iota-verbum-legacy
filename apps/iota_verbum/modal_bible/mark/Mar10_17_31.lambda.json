@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Mark λ-files; safe to hand-edit after generation.",
+    "book": "Mark",
+    "passage_id": "Mar10_17_31",
+    "version": "Mar10_17_31_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mar10_17_31",
+  "book": "Mark",
+  "chapter": 10,
+  "verses": "17-31",
+  "title": "Mark 10:17–31 – Rich Man and Reward of Discipleship",
+  "interpretive_frames": [
+    "Wealth",
+    "Discipleship",
+    "Reward"
+  ],
+  "identity_invariants": [
+    "[]AttachmentToWealthHindersKingdomEntryYetGodCanDoImpossible(Wealthy, God)"
+  ],
+  "units": [
+    {
+      "id": "Mar10_17_31_u1",
+      "label": "Follow Me",
+      "verses": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "illocution": "EncounterAndTeaching",
+      "agents": [
+        "Jesus",
+        "RichMan",
+        "Disciples"
+      ],
+      "statements": [
+        {
+          "id": "Mar10_17_31_s1",
+          "type": "summary",
+          "description": "A rich man cannot part with possessions to follow Jesus; Jesus teaches the difficulty for the rich and promises reward to those who leave all.",
+          "lambda_iv": [
+            "[]AttachmentToWealthHindersKingdomEntryYetGodCanDoImpossible(Wealthy, God)",
+            "EFF(RadicalSurrenderForJesusSakeReceivesGreaterKingdomReward(Disciples))"
+          ]
+        }
+      ]
+    }
+  ]
+}

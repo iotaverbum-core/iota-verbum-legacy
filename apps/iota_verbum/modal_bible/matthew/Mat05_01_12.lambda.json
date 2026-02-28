@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Matthew λ-files; safe to hand-edit after generation.",
+    "book": "Matthew",
+    "passage_id": "Mat05_01_12",
+    "version": "Mat05_01_12_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mat05_01_12",
+  "book": "Matthew",
+  "chapter": 5,
+  "verses": "1-12",
+  "title": "Matthew 5:1–12 – The Beatitudes",
+  "interpretive_frames": [
+    "Beatitudes",
+    "UpsideDownBlessing",
+    "Persecution"
+  ],
+  "identity_invariants": [
+    "[]KingdomBlessednessBelongsToTheLowlyAndPersecutedInChrist(Kingdom, Lowly, Persecuted)"
+  ],
+  "units": [
+    {
+      "id": "Mat05_01_12_u1",
+      "label": "Blessed Are...",
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "illocution": "Blessing",
+      "agents": [
+        "Jesus",
+        "Disciples",
+        "Crowds"
+      ],
+      "statements": [
+        {
+          "id": "Mat05_01_12_s1",
+          "type": "summary",
+          "description": "Jesus pronounces blessing on the poor in spirit, the meek, the merciful, the pure, and the persecuted.",
+          "lambda_iv": [
+            "[]KingdomBlessednessBelongsToTheLowlyAndPersecutedInChrist(Kingdom, Lowly, Persecuted)",
+            "EFF(PresentSufferingContrastedWithFutureReward(Disciples))"
+          ]
+        }
+      ]
+    }
+  ]
+}

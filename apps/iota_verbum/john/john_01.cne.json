@@ -1,0 +1,552 @@
+{
+  "schema": "cne.v1",
+  "ref": "John 1:1-51",
+  "translation": "ESV",
+  "agents": {
+    "W": "The Word",
+    "G": "Jesus",
+    "J": "John the Baptist",
+    "L": "Priests/Levites (and Pharisees)",
+    "D": "First disciples (Andrew, Simon/Peter, etc.)",
+    "P": "Philip",
+    "N": "Nathanael",
+    "C": "Creation/World",
+    "H": "Humans"
+  },
+  "events": [
+    {
+      "id": "e1",
+      "ref": "1:1",
+      "agent": "W",
+      "verb": "be_with",
+      "object": "God",
+      "kind": "identity"
+    },
+    {
+      "id": "e2",
+      "ref": "1:1",
+      "agent": "W",
+      "verb": "be",
+      "object": "God",
+      "kind": "identity"
+    },
+    {
+      "id": "e3",
+      "ref": "1:3",
+      "agent": "W",
+      "verb": "make",
+      "object": "all_things",
+      "kind": "enactment"
+    },
+    {
+      "id": "e4",
+      "ref": "1:4-5",
+      "agent": "W",
+      "verb": "shine",
+      "object": "light_in_darkness",
+      "kind": "enactment"
+    },
+    {
+      "id": "e5",
+      "ref": "1:5",
+      "agent": "C",
+      "verb": "not_overcome",
+      "object": "light",
+      "kind": "effect",
+      "sim_with": [
+        "e4"
+      ]
+    },
+    {
+      "id": "e6",
+      "ref": "1:6",
+      "agent": "J",
+      "verb": "be_sent",
+      "object": "from_God",
+      "kind": "enactment"
+    },
+    {
+      "id": "e7",
+      "ref": "1:7",
+      "agent": "J",
+      "verb": "testify",
+      "object": "about_light",
+      "kind": "enactment"
+    },
+    {
+      "id": "e8",
+      "ref": "1:9-11",
+      "agent": "W",
+      "verb": "come",
+      "object": "into_world/unto_his_own",
+      "kind": "enactment"
+    },
+    {
+      "id": "e9",
+      "ref": "1:10-11",
+      "agent": "C",
+      "verb": "not_know_or_receive",
+      "object": "W",
+      "kind": "effect",
+      "sim_with": [
+        "e8"
+      ]
+    },
+    {
+      "id": "e10",
+      "ref": "1:12-13",
+      "agent": "W",
+      "verb": "give",
+      "object": "authority_to_become_children_of_God",
+      "kind": "effect"
+    },
+    {
+      "id": "e11",
+      "ref": "1:14",
+      "agent": "W",
+      "verb": "become",
+      "object": "flesh",
+      "kind": "identity"
+    },
+    {
+      "id": "e12",
+      "ref": "1:14",
+      "agent": "W",
+      "verb": "dwell",
+      "object": "among_us",
+      "mode": "tabernacle",
+      "kind": "enactment"
+    },
+    {
+      "id": "e13",
+      "ref": "1:14",
+      "agent": "H",
+      "verb": "behold",
+      "object": "glory_of_only_Son",
+      "kind": "effect"
+    },
+    {
+      "id": "e14",
+      "ref": "1:18",
+      "agent": "G",
+      "verb": "reveal",
+      "object": "the_Father",
+      "kind": "identity"
+    },
+    {
+      "id": "e15",
+      "ref": "1:19",
+      "agent": "L",
+      "verb": "ask",
+      "object": "Who_are_you?",
+      "kind": "enactment"
+    },
+    {
+      "id": "e16",
+      "ref": "1:20-23",
+      "agent": "J",
+      "verb": "declare",
+      "object": "not_Christ/not_Elijah/not_Prophet;_voice_in_wilderness",
+      "kind": "identity"
+    },
+    {
+      "id": "e17",
+      "ref": "1:26-27",
+      "agent": "J",
+      "verb": "baptize",
+      "object": "with_water",
+      "kind": "enactment"
+    },
+    {
+      "id": "e18",
+      "ref": "1:26",
+      "agent": "J",
+      "verb": "say",
+      "object": "among_you_stands_one_you_do_not_know",
+      "kind": "enactment"
+    },
+    {
+      "id": "e19",
+      "ref": "1:29",
+      "agent": "J",
+      "verb": "identify",
+      "object": "Jesus_as_Lamb_of_God",
+      "kind": "identity"
+    },
+    {
+      "id": "e20",
+      "ref": "1:29",
+      "agent": "G",
+      "verb": "take_away",
+      "object": "sin_of_world",
+      "kind": "effect"
+    },
+    {
+      "id": "e21",
+      "ref": "1:32-33",
+      "agent": "H",
+      "verb": "see",
+      "object": "Spirit_descend_and_remain_on_Jesus",
+      "kind": "effect"
+    },
+    {
+      "id": "e22",
+      "ref": "1:33",
+      "agent": "G",
+      "verb": "baptize",
+      "object": "with_Holy_Spirit",
+      "kind": "effect"
+    },
+    {
+      "id": "e23",
+      "ref": "1:34",
+      "agent": "J",
+      "verb": "testify",
+      "object": "Jesus_is_Son_of_God",
+      "kind": "identity"
+    },
+    {
+      "id": "e24",
+      "ref": "1:37",
+      "agent": "D",
+      "verb": "follow",
+      "object": "Jesus",
+      "kind": "enactment"
+    },
+    {
+      "id": "e25",
+      "ref": "1:38",
+      "agent": "G",
+      "verb": "ask",
+      "object": "What_are_you_seeking?",
+      "kind": "enactment"
+    },
+    {
+      "id": "e26",
+      "ref": "1:38",
+      "agent": "D",
+      "verb": "ask",
+      "object": "Where_are_you_staying?",
+      "kind": "enactment"
+    },
+    {
+      "id": "e27",
+      "ref": "1:39",
+      "agent": "G",
+      "verb": "invite",
+      "object": "Come_and_you_will_see",
+      "kind": "enactment"
+    },
+    {
+      "id": "e28",
+      "ref": "1:39",
+      "agent": "D",
+      "verb": "stay",
+      "object": "with_Jesus_about_tenth_hour",
+      "kind": "effect"
+    },
+    {
+      "id": "e29",
+      "ref": "1:41-42",
+      "agent": "D",
+      "verb": "bring",
+      "object": "Simon_to_Jesus",
+      "kind": "enactment"
+    },
+    {
+      "id": "e30",
+      "ref": "1:42",
+      "agent": "G",
+      "verb": "name",
+      "object": "Cephas_(Peter)",
+      "kind": "identity"
+    },
+    {
+      "id": "e31",
+      "ref": "1:43",
+      "agent": "G",
+      "verb": "find",
+      "object": "Philip",
+      "kind": "enactment"
+    },
+    {
+      "id": "e32",
+      "ref": "1:43",
+      "agent": "G",
+      "verb": "command",
+      "object": "Follow_me",
+      "kind": "enactment"
+    },
+    {
+      "id": "e33",
+      "ref": "1:45",
+      "agent": "P",
+      "verb": "identify",
+      "object": "Jesus_as_one_written_in_Law_and_Prophets",
+      "kind": "identity"
+    },
+    {
+      "id": "e34",
+      "ref": "1:46",
+      "agent": "P",
+      "verb": "invite",
+      "object": "Come_and_see",
+      "kind": "enactment"
+    },
+    {
+      "id": "e35",
+      "ref": "1:48",
+      "agent": "G",
+      "verb": "say",
+      "object": "I_saw_you_under_fig_tree",
+      "kind": "enactment"
+    },
+    {
+      "id": "e36",
+      "ref": "1:49",
+      "agent": "N",
+      "verb": "confess",
+      "object": "Rabbi_Son_of_God_King_of_Israel",
+      "kind": "effect"
+    },
+    {
+      "id": "e37",
+      "ref": "1:51",
+      "agent": "G",
+      "verb": "promise",
+      "object": "heaven_opened_angels_ascending_descending_on_Son_of_Man",
+      "kind": "effect"
+    }
+  ],
+  "links": [
+    {
+      "op": "SIM",
+      "events": [
+        "e4",
+        "e5"
+      ]
+    },
+    {
+      "op": "SIM",
+      "events": [
+        "e8",
+        "e9"
+      ]
+    },
+    {
+      "op": "SEQ",
+      "from": "e6",
+      "to": "e7"
+    },
+    {
+      "op": "SEQ",
+      "from": "e7",
+      "to": "e19"
+    },
+    {
+      "op": "SEQ",
+      "from": "e15",
+      "to": "e16"
+    },
+    {
+      "op": "SEQ",
+      "from": "e16",
+      "to": "e17"
+    },
+    {
+      "op": "SEQ",
+      "from": "e19",
+      "to": "e20"
+    },
+    {
+      "op": "SEQ",
+      "from": "e19",
+      "to": "e23"
+    },
+    {
+      "op": "SEQ",
+      "from": "e24",
+      "to": "e25"
+    },
+    {
+      "op": "SEQ",
+      "from": "e25",
+      "to": "e26"
+    },
+    {
+      "op": "SEQ",
+      "from": "e26",
+      "to": "e27"
+    },
+    {
+      "op": "SEQ",
+      "from": "e27",
+      "to": "e28"
+    },
+    {
+      "op": "SEQ",
+      "from": "e29",
+      "to": "e30"
+    },
+    {
+      "op": "SEQ",
+      "from": "e31",
+      "to": "e32"
+    },
+    {
+      "op": "SEQ",
+      "from": "e32",
+      "to": "e34"
+    },
+    {
+      "op": "SEQ",
+      "from": "e34",
+      "to": "e36"
+    },
+    {
+      "op": "SEQ",
+      "from": "e36",
+      "to": "e37"
+    }
+  ],
+  "markers": [
+    {
+      "id": "m1",
+      "ref": "1:1-5",
+      "type": "WS",
+      "target": "eternity→creation",
+      "justification": "John opens pre-time, then frames all reality through the Word's action."
+    },
+    {
+      "id": "m2",
+      "ref": "1:4-5",
+      "type": "CU",
+      "target": "light_shines;darkness_not_overcome",
+      "justification": "The text isolates light/dark as active conflict (shine / not overcome)."
+    },
+    {
+      "id": "m3",
+      "ref": "1:6-8",
+      "type": "CA",
+      "target": "witness_enters",
+      "justification": "Narrative cutaway to John the Baptist as a sent witness."
+    },
+    {
+      "id": "m4",
+      "ref": "1:14",
+      "type": "SM",
+      "target": "Word_becomes_flesh",
+      "justification": "Incarnation is stated with deliberate weight (became flesh; dwelt)."
+    },
+    {
+      "id": "m5",
+      "ref": "1:18",
+      "type": "SIL",
+      "target": "God_unseen;mechanism_withheld",
+      "justification": "No one has seen God; revelation comes only through the Son (limits acknowledged)."
+    },
+    {
+      "id": "m6",
+      "ref": "1:19-28",
+      "type": "WS",
+      "target": "delegation_interrogation",
+      "justification": "Public testing scene at the Jordan (questions, identity probes)."
+    },
+    {
+      "id": "m7",
+      "ref": "1:29",
+      "type": "CU",
+      "target": "Behold_the_Lamb",
+      "justification": "Behold functions as a director cue: focus on Jesus' identity and mission."
+    },
+    {
+      "id": "m8",
+      "ref": "1:32-33",
+      "type": "CU",
+      "target": "Spirit_remains",
+      "justification": "Not just descent—remain/abide is foregrounded."
+    },
+    {
+      "id": "m9",
+      "ref": "1:38-39",
+      "type": "SM",
+      "target": "tenth_hour_staying",
+      "justification": "John pins the encounter to a remembered hour; the scene lingers on 'staying'."
+    },
+    {
+      "id": "m10",
+      "ref": "1:42",
+      "type": "NAME",
+      "target": "Cephas",
+      "justification": "Jesus confers identity by naming (Simon → Cephas/Peter)."
+    },
+    {
+      "id": "m11",
+      "ref": "1:47-51",
+      "type": "STAY",
+      "target": "being_seen→confession",
+      "justification": "Jesus' seeing precedes confession; the tension holds until Nathanael speaks."
+    },
+    {
+      "id": "m12",
+      "ref": "1:51",
+      "type": "WS",
+      "target": "heaven_opened",
+      "justification": "Ends with a widened horizon: heaven/earth traffic centered on the Son of Man."
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "type": "hinge_candidate",
+      "text": "The Word who is God becomes flesh and dwells; revelation of the Father happens in the Son's staying presence.",
+      "supported_by": [
+        "e1",
+        "e2",
+        "e11",
+        "e12",
+        "e14"
+      ],
+      "inference": false
+    },
+    {
+      "id": "c2",
+      "type": "scene_theology",
+      "text": "Discipleship begins as spatial movement into abiding: follow → ask → come/see → stay; identity is given through Jesus' naming and being-seen.",
+      "supported_by": [
+        "e24",
+        "e25",
+        "e27",
+        "e28",
+        "e30",
+        "e35",
+        "e36",
+        "m9",
+        "m10",
+        "m11"
+      ],
+      "inference": true
+    }
+  ],
+  "hinge": {
+    "identity_□": "The Word is God-with-God, source of life and light; the Son makes the Father known; Jesus is identified as the Lamb and Son upon whom the Spirit remains.",
+    "enactment_◇": "The Word comes into the world and becomes flesh, dwelling among us; John testifies; Jesus turns, asks, invites, calls, and names as people follow and come near.",
+    "effect_Δ": "Darkness does not overcome the light; those who receive are given new birth; the first disciples stay, confess, and are promised an opened heaven centered on the Son of Man.",
+    "themes": [
+      "Word",
+      "light",
+      "witness",
+      "incarnation",
+      "revelation",
+      "abiding",
+      "naming",
+      "seeing",
+      "new birth",
+      "heaven opened"
+    ]
+  },
+  "meta": {
+    "created_by": "cne_encoder_v1",
+    "created_at": "2026-02-12"
+  }
+}

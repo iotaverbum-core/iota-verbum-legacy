@@ -1,0 +1,76 @@
+# modal_bible/mark/axiom_lambda_requirements.yml
+
+axiom_lambda_requirements:
+  description: >
+    Minimal canonical anchors required for treating a Mark pericope
+    as a Christologically valid instance of Axiom Λ (Law of Lament).
+
+  global:
+    incarnation_required: true
+    bodily_resurrection_required: true
+    new_creation_required: true
+
+    minimal_posture_markers:
+      - address_to_God
+      - genuine_suffering
+      - oriented_to_repentance_or_trust
+
+  token_kinds:
+    # These are logical / semantic tokens that the Modal Bible engine
+    # should be able to emit for Mark.
+    - name: christ_event
+      description: "References to Jesus' saving work (cross, blood, atonement, 'Son of Man give his life', etc.)"
+
+    - name: bodily_resurrection
+      description: "References to Jesus' resurrection or the raising of the dead as bodily, not purely spiritual."
+
+    - name: new_creation
+      description: "References to eschatological renewal (kingdom come, new creation, renewal of all things)."
+
+    - name: lament_voice
+      description: "Explicit cry, complaint, or plea addressed to God."
+
+    - name: persecution_or_unjust_suffering
+      description: "Suffering that arises from injustice, persecution, or affliction, not mere entitlement."
+
+    - name: repentance_trust_posture
+      description: "Markers of turning, trusting, surrendering, or seeking mercy."
+
+  pericopes:
+    "mark_15_33_39":
+      classification: hinge_christological_lament
+      requires_tokens:
+        - christ_event
+        - bodily_resurrection
+        - new_creation
+        - lament_voice
+        - persecution_or_unjust_suffering
+        - repentance_trust_posture
+      notes:
+        - "Cry of dereliction and centurion’s confession; paradigmatic cruciform lament."
+
+    "mark_5_21_43":
+      classification: intercessory_lament
+      requires_tokens:
+        - lament_voice
+        - persecution_or_unjust_suffering
+        - repentance_trust_posture
+      notes:
+        - "Jairus and the woman with the flow of blood; lament expressed as desperate petition."
+
+    "mark_10_46_52":
+      classification: marginalised_lament
+      requires_tokens:
+        - lament_voice
+        - persecution_or_unjust_suffering
+        - repentance_trust_posture
+      notes:
+        - "Blind Bartimaeus crying out 'Son of David, have mercy on me'."
+
+    # Default rule for other laments in Mark:
+    default_lament_rule:
+      classification: generic_covenantal_lament
+      requires_tokens:
+        - lament_voice
+        - persecution_or_unjust_suffering
+        - repentance_trust_posture

@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Luke λ-files; safe to hand-edit after generation.",
+    "book": "Luke",
+    "passage_id": "Luk07_11_17",
+    "version": "Luk07_11_17_Lambda_IV_v0.1"
+  },
+  "passage_id": "Luk07_11_17",
+  "book": "Luke",
+  "chapter": 7,
+  "verses": "11-17",
+  "title": "Luke 7:11–17 – Raising the Widow’s Son at Nain",
+  "interpretive_frames": [
+    "Compassion",
+    "Death",
+    "PropheticPower"
+  ],
+  "identity_invariants": [
+    "[]JesusHasCompassionateAuthorityOverDeath(Jesus, Dead, Bereaved)"
+  ],
+  "units": [
+    {
+      "id": "Luk07_11_17_u1",
+      "label": "Do Not Weep",
+      "verses": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "illocution": "MiracleNarrative",
+      "agents": [
+        "Jesus",
+        "Widow",
+        "DeadSon",
+        "Crowds"
+      ],
+      "statements": [
+        {
+          "id": "Luk07_11_17_s1",
+          "type": "summary",
+          "description": "Jesus is moved with compassion for a widows loss, raises her son, and the people confess that God has visited his people.",
+          "lambda_iv": [
+            "[]JesusHasCompassionateAuthorityOverDeath(Jesus, Dead, Bereaved)",
+            "EFF(ResurrectionSignsSignalGodsVisitationToHisPeople(Jesus, Israel))"
+          ]
+        }
+      ]
+    }
+  ]
+}

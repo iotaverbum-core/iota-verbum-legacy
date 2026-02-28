@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Luke λ-files; safe to hand-edit after generation.",
+    "book": "Luke",
+    "passage_id": "Luk08_04_15",
+    "version": "Luk08_04_15_Lambda_IV_v0.1"
+  },
+  "passage_id": "Luk08_04_15",
+  "book": "Luke",
+  "chapter": 8,
+  "verses": "4-15",
+  "title": "Luke 8:4–15 – Parable of the Sower",
+  "interpretive_frames": [
+    "Hearing",
+    "Fruitfulness",
+    "Resistance"
+  ],
+  "identity_invariants": [
+    "[]WordOfGodProducesFruitOnlyInPerseveringHearts(Word, Hearers)"
+  ],
+  "units": [
+    {
+      "id": "Luk08_04_15_u1",
+      "label": "He Who Has Ears to Hear",
+      "verses": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "illocution": "ParableAndInterpretation",
+      "agents": [
+        "Jesus",
+        "Crowds",
+        "Disciples"
+      ],
+      "statements": [
+        {
+          "id": "Luk08_04_15_s1",
+          "type": "summary",
+          "description": "Jesus tells and explains the parable of the sower, showing different responses to the word and the need for persevering faith to bear fruit.",
+          "lambda_iv": [
+            "[]WordOfGodProducesFruitOnlyInPerseveringHearts(Word, Hearers)",
+            "EFF(TrialsAndRichesThreatenFruitfulnessOfTheWord(Hearers))"
+          ]
+        }
+      ]
+    }
+  ]
+}

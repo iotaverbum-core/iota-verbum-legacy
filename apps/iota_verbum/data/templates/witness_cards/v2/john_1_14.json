@@ -1,0 +1,21 @@
+{
+  "template_id": "john_1_14_v2",
+  "version": "v2",
+  "scene_title": "The Word Dwells Among Us",
+  "focus_nouns": ["glory", "grace", "truth"],
+  "witness_prompts": [
+    "Where do you notice the move to {verb_1} or {verb_2} in this scene?",
+    "The text turns at '{threshold_1}'. What does that shift open for you?",
+    "How do the focus words {focus_nouns} ask you to attend today?",
+    "What does 'dwelt among us' suggest about showing up here?",
+    "Where are you invited to witness what is {verb_3}?"
+  ],
+  "prayer_frames": [
+    "Word who {verb_1}, dwell with us.",
+    "Let {focus_nouns} be present in our seeing.",
+    "Keep us steady as we witness with care."
+  ],
+  "safety_notes_append": [
+    "Keep the language grounded in the passage itself."
+  ]
+}

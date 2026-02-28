@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "attestation_id": "ATTN-ROMANS-BANK-0001",
+    "created_at": "2025-11-20T00:00:00Z",
+    "issuer": "iota-verbum-demo",
+    "version": "romans_v1"
+  },
+
+  "identity": {
+    "subject_type": "institution",
+    "subject_name": "generic_sa_bank_ai_pilot",
+    "jurisdiction": "ZA",
+    "description": "Demo Romans 1-11 drift assessment for a South African bank under AI adoption pressure."
+  },
+
+  "decision": {
+    "summary": "Moderate drift risk: high metrics-confidence, some badge reliance, early signs of suffering-avoidance and law-dependence.",
+    "overall_risk": "medium",
+    "notes": "Profile is illustrative only; not a real institution."
+  },
+
+  "romans": {
+    "module1_exchange": {
+      "identity_drift": 0.4,
+      "truth_drift": 0.3,
+      "worship_drift": 0.5,
+      "runaway_drift_flag": false,
+      "notes": "Strong pull toward capital, growth, and market share as practical 'ultimate' goods."
+    },
+
+    "module2_hypocrisy": {
+      "double_standard": 0.5,
+      "badge_reliance": 0.6,
+      "kindness_presumption": 0.3,
+      "teach_vs_audit_ratio": 2.0,
+      "reputation_vs_reality_gap": 0.5,
+      "notes": "Public ethics messaging outpaces internal audit and reform."
+    },
+
+    "module3_courtroom": {
+      "judge_reference": "peer_norms",
+      "who_is_being_justified": "institution",
+      "standard_source": "policy_only",
+      "boast_indicator": 0.4,
+      "partiality_indicator": 0.4,
+      "law_mode": "shield",
+      "notes": "Risk and compliance frameworks function mainly as institutional self-defence."
+    },
+
+    "module4_faith_badge": {
+      "sign_as_source": 0.4,
+      "wage_logic": 0.5,
+      "heritage_reliance": 0.3,
+      "metrics_confidence": 0.8,
+      "iota_as_badge_flag": false,
+      "notes": "High trust in size, capital, and tech adoption as proof of 'doing the right thing'."
+    },
+
+    "module5_suffering_refinement": {
+      "suffering_posture": 0.2,
+      "escapism_index": 0.7,
+      "entitlement_index": 0.5,
+      "endurance_marker": 0.3,
+      "character_depth": 0.3,
+      "honesty_about_pain": 0.2,
+      "hope_quality": "cheap",
+      "communal_lament_presence": 0.0,
+      "notes": "Crises mainly met with PR and restructuring, not truth-telling and deep reform."
+    },
+
+    "module6_flesh_spirit": {
+      "law_dependence": 0.8,
+      "fear_control": 0.6,
+      "self_power_tone": 0.7,
+      "flesh_mindset_index": 0.6,
+      "spirit_language_presence": 0.0,
+      "no_condemnation_atmosphere": 0.2,
+      "sonship_posture": 0.0,
+      "notes": "System runs on risk, fear of loss, and performance, not grace or inner renewal."
+    },
+
+    "module7_nation_pruning": {
+      "self_righteousness_culture": 0.4,
+      "zeal_without_knowledge": 0.3,
+      "arrogant_branch_index": 0.3,
+      "remnant_visibility": 0.2,
+      "pruning_events_noted": 1,
+      "repentance_after_pruning": 0.3,
+      "grafting_posture": 0.4,
+      "mercy_trajectory_awareness": 0.2,
+      "notes": "Some awareness of past scandals, but mixed follow-through; moderate openness to outside critique."
+    }
+  }
+}

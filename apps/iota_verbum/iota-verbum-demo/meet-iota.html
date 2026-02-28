@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Meet Iota Verbum</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      --bg-light: #f9fafb;
+      --bg-dark: #020617;
+      --text-main: #0f172a;
+      --text-muted: #6b7280;
+      --border-soft: #e5e7eb;
+      --accent: #f97316;
+      --accent-deep: #ea580c;
+      --shadow-soft: 0 18px 45px rgba(15, 23, 42, 0.18);
+      --radius-lg: 18px;
+      --radius-pill: 999px;
+      --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
+        "Segoe UI", sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    body {
+      font-family: var(--font-sans);
+      background: var(--bg-light);
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .shell {
+      width: 100%;
+      max-width: 720px;
+      padding: 1.5rem;
+    }
+
+    .panel {
+      background: #ffffff;
+      border-radius: 24px;
+      border: 1px solid var(--border-soft);
+      padding: 2.2rem 2rem 2rem;
+      box-shadow: var(--shadow-soft);
+      position: relative;
+      overflow: hidden;
+    }
+
+    @media (max-width: 640px) {
+      .panel {
+        padding: 1.7rem 1.4rem 1.5rem;
+      }
+    }
+
+    .iota-dot-wrapper {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 1.4rem;
+    }
+
+    .iota-dot {
+      width: 18px;
+      height: 18px;
+      border-radius: 999px;
+      background: radial-gradient(circle at 30% 20%, var(--accent), var(--accent-deep));
+      box-shadow:
+        0 0 0 6px rgba(249, 115, 22, 0.18),
+        0 14px 30px rgba(15, 23, 42, 0.25);
+      position: relative;
+      animation: iotaPulse 1.8s ease-in-out infinite;
+    }
+
+    .iota-dot::after {
+      content: "ι";
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: #020617;
+    }
+
+    @keyframes iotaPulse {
+      0%, 100% {
+        transform: scale(1);
+        box-shadow:
+          0 0 0 6px rgba(249, 115, 22, 0.18),
+          0 14px 30px rgba(15, 23, 42, 0.25);
+      }
+      50% {
+        transform: scale(1.08);
+        box-shadow:
+          0 0 0 10px rgba(249, 115, 22, 0.28),
+          0 22px 50px rgba(15, 23, 42, 0.35);
+      }
+    }
+
+    .title {
+      text-align: center;
+      font-size: 1.4rem;
+      letter-spacing: -0.02em;
+      margin: 0 0 0.4rem;
+    }
+
+    .subtitle {
+      text-align: center;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin: 0 0 1.6rem;
+    }
+
+    .subtitle span {
+      font-weight: 500;
+      color: #111827;
+    }
+
+    .input-area {
+      margin-bottom: 1rem;
+    }
+
+    .input-label {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      margin-bottom: 0.4rem;
+    }
+
+    textarea {
+      width: 100%;
+      border-radius: 16px;
+      border: 1px solid var(--border-soft);
+      padding: 0.85rem 0.9rem;
+      font-size: 0.92rem;
+      font-family: var(--font-sans);
+      resize: vertical;
+      min-height: 90px;
+      outline: none;
+      transition: border-color 0.12s ease, box-shadow 0.12s ease;
+    }
+
+    textarea::placeholder {
+      color: #cbd5f5;
+    }
+
+    textarea:focus {
+      border-color: #2563eb;
+      box-shadow: 0 0 0 1px rgba(37, 99, 235, 0.25);
+    }
+
+    .actions {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 0.8rem;
+      flex-wrap: wrap;
+    }
+
+    .btn-attest {
+      border-radius: var(--radius-pill);
+      border: none;
+      padding: 0.7rem 1.5rem;
+      font-size: 0.9rem;
+      font-weight: 500;
+      cursor: pointer;
+      background: linear-gradient(135deg, #2563eb, #1d4ed8);
+      color: #f9fafb;
+      box-shadow: 0 14px 35px rgba(37, 99, 235, 0.4);
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      transition: transform 0.12s ease, box-shadow 0.12s ease;
+    }
+
+    .btn-attest:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 18px 45px rgba(37, 99, 235, 0.55);
+    }
+
+    .btn-attest:active {
+      transform: translateY(0);
+      box-shadow: 0 12px 30px rgba(37, 99, 235, 0.45);
+    }
+
+    .hint {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+
+    .hint strong {
+      color: #111827;
+      font-weight: 500;
+    }
+
+    .attestation {
+      margin-top: 1.6rem;
+      padding-top: 1.4rem;
+      border-top: 1px dashed #e5e7eb;
+      display: none;
+      opacity: 0;
+      transform: translateY(6px);
+      transition: opacity 0.18s ease, transform 0.18s ease;
+    }
+
+    .attestation.visible {
+      display: block;
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .att-header {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    .att-pill {
+      border-radius: var(--radius-pill);
+      padding: 0.15rem 0.7rem;
+      font-size: 0.75rem;
+      border: 1px solid #e5e7eb;
+      background: #f9fafb;
+      color: #111827;
+    }
+
+    .att-pill.boundary {
+      border-color: #f97316;
+      background: #fff7ed;
+      color: #9a3412;
+    }
+
+    .att-pill.allowed {
+      border-color: #22c55e;
+      background: #ecfdf3;
+      color: #15803d;
+    }
+
+    .att-title {
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+
+    .att-body {
+      font-size: 0.86rem;
+      color: var(--text-muted);
+      margin-bottom: 0.6rem;
+    }
+
+    .att-modal {
+      margin: 0.5rem 0 0.7rem;
+      padding: 0.65rem 0.75rem;
+      border-radius: 12px;
+      background: #0f172a;
+      color: #e5e7eb;
+      font-size: 0.82rem;
+    }
+
+    .att-modal-line {
+      margin: 0.1rem 0;
+    }
+
+    .att-modal-label {
+      font-weight: 500;
+      font-size: 0.8rem;
+      color: #cbd5f5;
+    }
+
+    .att-mirror {
+      margin-top: 0.6rem;
+      font-size: 0.82rem;
+      color: var(--text-muted);
+    }
+
+    .att-mirror p {
+      margin: 0.1rem 0;
+    }
+
+    .att-mirror strong {
+      color: #111827;
+      font-weight: 500;
+    }
+
+    .att-footnote {
+      margin-top: 0.5rem;
+      font-size: 0.76rem;
+      color: #9ca3af;
+    }
+
+    .panel.flash {
+      animation: flashDark 0.45s ease-out;
+    }
+
+    @keyframes flashDark {
+      0% {
+        background: #ffffff;
+      }
+      60% {
+        background: #020617;
+        color: #e5e7eb;
+      }
+      100% {
+        background: #ffffff;
+        color: #0f172a;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <div class="panel" id="panel">
+      <div class="iota-dot-wrapper">
+        <div class="iota-dot" id="iotaDot"></div>
+      </div>
+      <h1 class="title">Meet Iota.</h1>
+      <p class="subtitle">
+        Iota is a gate for AI. <span>Give it one decision to weigh.</span>
+      </p>
+
+      <div class="input-area">
+        <div class="input-label">Describe a decision or request</div>
+        <textarea id="decisionInput"
+          placeholder="Example: Approve this loan even if there is no income check…"></textarea>
+      </div>
+
+      <div class="actions">
+        <button class="btn-attest" id="attestBtn" type="button">
+          Attest this
+        </button>
+        <div class="hint">
+          Start honest. <strong>What doesn’t sit right with you?</strong>
+        </div>
+      </div>
+
+      <div id="attestation" class="attestation">
+        <div class="att-header">
+          <span class="att-pill" id="attDomainPill">demo attestation</span>
+          <span class="att-pill" id="attStatusPill">status</span>
+        </div>
+        <div class="att-title" id="attTitle"></div>
+        <div class="att-body" id="attExplanation"></div>
+
+        <div class="att-modal" id="attModal">
+          <div class="att-modal-line">
+            <span class="att-modal-label">□ Identity:</span>
+            <span id="attIdentity"></span>
+          </div>
+          <div class="att-modal-line">
+            <span class="att-modal-label">◇ Enactment:</span>
+            <span id="attEnactment"></span>
+          </div>
+          <div class="att-modal-line">
+            <span class="att-modal-label">Δ Effect:</span>
+            <span id="attEffect"></span>
+          </div>
+        </div>
+
+        <div class="att-mirror">
+          <p><strong>About God:</strong> <span id="mirrorGod"></span></p>
+          <p><strong>About us:</strong> <span id="mirrorUs"></span></p>
+          <p><strong>Question:</strong> <span id="mirrorQ"></span></p>
+        </div>
+
+        <div class="att-footnote">
+          This is a demo. A full Iota deployment would sit over live systems and
+          enforce this gate in real time.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const decisionInput = document.getElementById("decisionInput");
+    const attestBtn = document.getElementById("attestBtn");
+    const attestationEl = document.getElementById("attestation");
+    const panelEl = document.getElementById("panel");
+
+    const attDomainPill = document.getElementById("attDomainPill");
+    const attStatusPill = document.getElementById("attStatusPill");
+    const attTitle = document.getElementById("attTitle");
+    const attExplanation = document.getElementById("attExplanation");
+    const attIdentity = document.getElementById("attIdentity");
+    const attEnactment = document.getElementById("attEnactment");
+    const attEffect = document.getElementById("attEffect");
+    const mirrorGod = document.getElementById("mirrorGod");
+    const mirrorUs = document.getElementById("mirrorUs");
+    const mirrorQ = document.getElementById("mirrorQ");
+
+    function simpleDemoAttest(text) {
+      const lower = text.toLowerCase();
+
+      let domain = "general";
+      if (lower.includes("loan") || lower.includes("credit")) domain = "finance";
+      if (lower.includes("doctor") || lower.includes("note") || lower.includes("sick")) domain = "health";
+      if (lower.includes("god") || lower.includes("bible")) domain = "theology";
+
+      // Very small, robust patterns
+      const isLoanNoIncome =
+        (lower.includes("loan") || lower.includes("credit")) &&
+        (lower.includes("no income") || lower.includes("without income"));
+
+      const isForgery =
+        lower.includes("fake") && (lower.includes("note") || lower.includes("letter"));
+
+      const isClaimGod =
+        lower.includes("i am god") || lower.includes("im god");
+
+      let allowed = true;
+      let boundary = null;
+
+      if (isLoanNoIncome || isForgery) {
+        allowed = false;
+        boundary = "justice boundary";
+      } else if (isClaimGod) {
+        allowed = false;
+        boundary = "holiness boundary";
+      }
+
+      // Build a tiny modal summary
+      let identity = "□L – unnamed agent, ordinary vocation";
+      if (domain === "finance") identity = "□L – credit engine as steward of neighbour’s financial life";
+      if (domain === "health") identity = "□L – helper in care of a vulnerable body";
+      if (domain === "theology") identity = "□L – teacher handling God’s own words";
+
+      const enactment = "◇E – proposed move: “" + text.slice(0, 120) + (text.length > 120 ? "…" : "") + "” at t₀";
+
+      let effect = "Δ – ordinary impact, no obvious invariant broken in this demo.";
+      let explanation = "Within this simplified demo, Iota Verbum did not detect a clear breach of love, justice, holiness, or beauty.";
+      let title = "Gate status: allowed (demo)";
+
+      let mGod = "He is pleased with quiet faithfulness – honest words, patient care, and small mercies.";
+      let mUs = "We often want dramatic answers, but most of the time the next right step is small and clear.";
+      let mQ = "What is one concrete, truthful act you could take next?";
+
+      if (!allowed && boundary === "justice boundary") {
+        effect = "Δ – exposes someone to unfair risk and bends the scales away from the vulnerable.";
+        explanation = "This pattern leans on deception or unjust risk (for example, falsifying notes or approving credit without income). In this demo, the justice boundary stays shut.";
+        title = "Gate status: held at justice boundary (demo)";
+        mGod = "He cares about honest weights and honest words; His justice refuses gains built on deceit.";
+        mUs = "We are tempted to bend the truth when it helps us escape pressure or get ahead.";
+        mQ = "Where have “small lies” become normal in how you make or dodge decisions?";
+      } else if (!allowed && boundary === "holiness boundary") {
+        effect = "Δ – confuses the line between Creator and creature, and treats God’s name as something to play with.";
+        explanation = "Statements that collapse you into God Himself trivialise His holiness. In this demo, the holiness boundary stops that move.";
+        title = "Gate status: held at holiness boundary (demo)";
+        mGod = "He is the one who simply is; He does not share His name as a costume for us to wear.";
+        mUs = "We sometimes reach for God’s place when we are afraid of being small or finite.";
+        mQ = "Where are you trying to carry a role that only God can carry?";
+      }
+
+      return {
+        allowed,
+        boundary,
+        domain,
+        title,
+        explanation,
+        identity,
+        enactment,
+        effect,
+        mirror: {
+          aboutGod: mGod,
+          aboutUs: mUs,
+          question: mQ
+        }
+      };
+    }
+
+    attestBtn.addEventListener("click", () => {
+      const text = decisionInput.value.trim();
+      if (!text) {
+        alert("Describe a decision first — something you’d actually be tempted to do.");
+        return;
+      }
+
+      // flash the panel very slightly to show “thinking”
+      panelEl.classList.remove("flash");
+      void panelEl.offsetWidth; // force reflow so animation restarts
+      panelEl.classList.add("flash");
+
+      const att = simpleDemoAttest(text);
+
+      attDomainPill.textContent = att.domain + " · demo";
+      attStatusPill.textContent = att.allowed ? "allowed (demo)" : "held at boundary";
+      attStatusPill.classList.toggle("allowed", att.allowed);
+      attStatusPill.classList.toggle("boundary", !att.allowed);
+
+      attTitle.textContent = att.title;
+      attExplanation.textContent = att.explanation;
+      attIdentity.textContent = att.identity;
+      attEnactment.textContent = att.enactment;
+      attEffect.textContent = att.effect;
+      mirrorGod.textContent = att.mirror.aboutGod;
+      mirrorUs.textContent = att.mirror.aboutUs;
+      mirrorQ.textContent = att.mirror.question;
+
+      attestationEl.classList.add("visible");
+    });
+  </script>
+</body>
+</html>

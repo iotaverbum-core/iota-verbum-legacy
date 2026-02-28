@@ -1,0 +1,21 @@
+﻿{
+  "template_id": "john_v4",
+  "version": "v4",
+  "scene_title": "Johannine Witness",
+  "focus_nouns": ["light", "glory", "truth"],
+  "witness_prompts": [
+    "Where do you see {frame_1} and {frame_2} in the passage?",
+    "What does the turn at '{threshold_1}' reveal?",
+    "How do the words {focus_nouns} shape your attention?",
+    "What part of the scene feels like an invitation to stay?",
+    "Where are you asked to witness {movement_1}?"
+  ],
+  "prayer_frames": [
+    "Light of the Word, keep us near.",
+    "Let {focus_nouns} steady our seeing.",
+    "Teach us to witness with gentleness."
+  ],
+  "safety_notes_append": [
+    "Keep the witness close to the text and the moment."
+  ]
+}

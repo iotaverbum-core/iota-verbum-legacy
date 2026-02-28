@@ -1,0 +1,47 @@
+﻿- iv_id: IV.MRK.01.14-15.INAUGURAL_PROCLAMATION
+  book_code: MRK
+  scope: pericope
+  pericope_id: MRK.01.14-15.INAUGURAL_PROCLAMATION
+  unit_ids: [MRK.01.14, MRK.01.15]
+  primary_arc_id: ARC.KINGDOM_SEED_GROWTH
+  modal:
+    box:
+      label: "â–¡-King-Proclaimer"
+      description: "Jesus appears as the anointed King whose voice carries divine authority."
+    diamond:
+      label: "â—‡-Announce-Kingdom-Call-To-Repent"
+      description: "He preaches the gospel of God, announcing fulfilled time and commanding repentance and faith."
+    delta:
+      label: "Î”-Kingdom-At-Hand-Faithful-Response"
+      description: "The kingdom has drawn near; the fitting human effect is repentance and trust."
+  textual_confidence: 0.97
+  interpretive_confidence: 0.9
+  summary: "The Kingâ€™s inaugural proclamation frames the rest of Mark."
+  notes:
+    - "â–¡ identity: Jesus as divine King."
+    - "â—‡ enactment: proclamation and command."
+    - "Î” effect: responsive repentance and faith."
+
+- iv_id: IV.MRK.04.26-29.GROWING_SEED
+  book_code: MRK
+  scope: pericope
+  pericope_id: MRK.04.26-04.29.GROWING_SEED
+  unit_ids: [MRK.04.26, MRK.04.27, MRK.04.28, MRK.04.29]
+  primary_arc_id: ARC.KINGDOM_SEED_GROWTH
+  modal:
+    box:
+      label: "□-Crucified-Sower-Sovereign"
+      description: "Jesus, the Son, is the farmer who owns the field and is accountable for the harvest; He entrusts the growth of the kingdom to the Father’s hidden power."
+    diamond:
+      label: "◇-Sows-Word-Sleeps-Trusting-Death"
+      description: "He scatters the word of the kingdom and then 'sleeps'—passing through death and apparent inactivity—confident that God alone gives life and growth in the unseen soil of human hearts and history."
+    delta:
+      label: "Δ-Hidden-Growth-Ripe-Harvest"
+      description: "The seed of the word grows secretly yet certainly from first shoot to full head of grain until the moment of eschatological ripeness, when the Son sends in the sickle for final judgment and rescue."
+  textual_confidence: 0.97
+  interpretive_confidence: 0.9
+  summary: "The parable of the growing seed reveals the crucified and risen Son as the sower who entrusts the kingdom’s hidden growth to the Father until the moment of ripe harvest and final judgment."
+  notes:
+    - "□ Identity: Jesus is the owner-sower whose authority extends from sowing to harvest."
+    - "◇ Enactment: He proclaims the word, enters the 'sleep' of death, and waits in trust while the Father works invisibly."
+    - "Δ Effect: The kingdom unfailingly reaches eschatological ripeness so that the Son may bring in the harvest."

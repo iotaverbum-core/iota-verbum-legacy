@@ -1,0 +1,43 @@
+{
+  "schema": "iv.modal.json.v1",
+  "passage": "John 15",
+  "source": {
+    "translation": "ESV"
+  },
+  "meta": {
+    "compiled_from": "cne.v1",
+    "compiled_at": "2026-02-13T14:23:56"
+  },
+  "nodes": [
+    {
+      "id": "n1",
+      "type": "scene",
+      "ref": "15:1-17",
+      "label": "True vine → abide → love → friends"
+    },
+    {
+      "id": "n2",
+      "type": "scene",
+      "ref": "15:18-27",
+      "label": "World hatred → Spirit testifies → disciples witness"
+    }
+  ],
+  "edges": [
+    {
+      "from": "n1",
+      "to": "n2",
+      "type": "SEQ"
+    }
+  ],
+  "hinges": [
+    {
+      "id": "h1",
+      "refs": [
+        "John 15"
+      ],
+      "identity_□": "Jesus is the true vine; Father the vinedresser; disciples are branches.",
+      "enactment_◇": "Jesus commands abiding and love, names friends, and promises Spirit-enabled testimony.",
+      "effect_Δ": "Fruitfulness and witness emerge through pruning and opposition."
+    }
+  ]
+}

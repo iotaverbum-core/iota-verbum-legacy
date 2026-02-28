@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Luke λ-files; safe to hand-edit after generation.",
+    "book": "Luke",
+    "passage_id": "Luk01_39_56",
+    "version": "Luk01_39_56_Lambda_IV_v0.1"
+  },
+  "passage_id": "Luk01_39_56",
+  "book": "Luke",
+  "chapter": 1,
+  "verses": "39-56",
+  "title": "Luke 1:39–56 – Spirit-Joy and the Magnificat",
+  "interpretive_frames": [
+    "Joy",
+    "Reversal",
+    "Mercy"
+  ],
+  "identity_invariants": [
+    "[]LordShowsCovenantMercyToLowlyAndOpposedToProud(Lord, Lowly, Proud)"
+  ],
+  "units": [
+    {
+      "id": "Luk01_39_56_u1",
+      "label": "He Has Brought Down and Lifted Up",
+      "verses": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56
+      ],
+      "illocution": "HymnOfPraise",
+      "agents": [
+        "Mary",
+        "Elizabeth",
+        "John",
+        "Lord",
+        "Israel"
+      ],
+      "statements": [
+        {
+          "id": "Luk01_39_56_s1",
+          "type": "summary",
+          "description": "Mary visits Elizabeth, John leaps in the womb, and Mary sings of God’s mercy that exalts the humble and brings down the proud, remembering his promises to Israel.",
+          "lambda_iv": [
+            "[]LordShowsCovenantMercyToLowlyAndOpposedToProud(Lord, Lowly, Proud)",
+            "EFF(ComingMessiahReordersSocialAndSpiritualFortunes(Messiah, World))"
+          ]
+        }
+      ]
+    }
+  ]
+}

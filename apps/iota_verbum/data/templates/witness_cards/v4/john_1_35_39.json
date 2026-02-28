@@ -1,0 +1,24 @@
+﻿{
+  "template_id": "john_1_35_39_v4",
+  "version": "v4",
+  "scene_title": "Follow, ask, come, stay",
+  "focus_nouns": ["next day", "looked", "walked by", "Behold", "Lamb", "followed", "turned", "saw", "seeking", "staying", "Come", "see", "stayed", "tenth hour"],
+  "witness_prompts": [
+    "The scene begins with '{time_marker_1}'. What kind of time does that place you in today?",
+    "Where do you notice {frame_1} or {frame_2} in this scene?",
+    "{speaker_1} says, '{testimony_1}'. What does that testimony open in you?",
+    "Jesus turns and asks, '{question_1}'. If you answer with one honest phrase, what is it?",
+    "He says, '{invitation_1}'. What would a small, safe step of coming look like today?"
+  ],
+  "prayer_frames": [
+    "Lord Jesus, You turn toward those who follow.",
+    "Teach me to ask honestly.",
+    "Give me grace to come, and patience to see.",
+    "Help me stay with You in this day."
+  ],
+  "safety_notes_append": [
+    "Keep questions invitational; do not corner the reader.",
+    "Do not rush from seeking to certainty; let the scene unfold.",
+    "Stay close to the passage's verbs: follow, turn, see, ask, come, stay."
+  ]
+}

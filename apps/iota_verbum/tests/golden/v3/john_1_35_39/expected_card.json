@@ -1,0 +1,995 @@
+{
+  "id": "witness_card_4b2c9517c52a",
+  "modal_triad": {
+    "effect": [
+      "Hope opens without demand.",
+      "Attention becomes shelter.",
+      "A path forward becomes visible."
+    ],
+    "enactment": [
+      "Enters the scene quietly.",
+      "Stays with what is real.",
+      "Moves toward the vulnerable."
+    ],
+    "identity": [
+      "God comes near.",
+      "Presence without fear.",
+      "Mercy that does not withdraw."
+    ]
+  },
+  "moment": "I feel uncertain about what comes next, and I want to know where to stay.",
+  "passage": {
+    "ref": "John 1:35-39",
+    "text": "The next day again John was standing with two of his disciples, and he looked at Jesus as he walked by and said, \"Behold, the Lamb of God!\" The two disciples heard him say this, and they followed Jesus. Jesus turned and saw them following and said to them, \"What are you seeking?\" And they said to him, \"Rabbi\" (which means Teacher), \"where are you staying?\" He said to them, \"Come and you will see.\" So they came and saw where he was staying, and they stayed with him that day, for it was about the tenth hour."
+  },
+  "prayer": "Lord Jesus, You turn toward those who follow.\nTeach me to ask honestly.\nGive me grace to come, and patience to see.\nHelp me stay with You in this day.",
+  "safety": {
+    "avoidances": [
+      "moralism",
+      "fixing",
+      "certainty claims"
+    ],
+    "notes": [
+      "This is pastoral presence, not diagnosis.",
+      "Invite gently; do not pressure outcomes.",
+      "Keep questions invitational; do not corner the reader.",
+      "Do not rush from seeking to certainty; let the scene unfold.",
+      "Stay close to the passage's verbs: follow, turn, see, ask, come, stay."
+    ]
+  },
+  "scene": {
+    "camera_moves": [
+      "close-up",
+      "tracking shot",
+      "slow pan"
+    ],
+    "evidence_map": {
+      "silences": [
+        {
+          "clause_ids": [
+            "s0.c0"
+          ],
+          "id": "silence_0",
+          "note_seed": "thick with nouns, few verbs",
+          "signal": "low_verb_ratio",
+          "type": "density"
+        },
+        {
+          "clause_ids": [
+            "s0.c1"
+          ],
+          "id": "silence_1",
+          "note_seed": "weighty terms clustered without explanation",
+          "signal": "focus_noun_cluster",
+          "type": "withholding"
+        },
+        {
+          "clause_ids": [
+            "s0.c2"
+          ],
+          "id": "silence_2",
+          "note_seed": "weighty terms clustered without explanation",
+          "signal": "focus_noun_cluster",
+          "type": "withholding"
+        },
+        {
+          "clause_ids": [
+            "s5.c2"
+          ],
+          "id": "silence_3",
+          "note_seed": "thick with nouns, few verbs",
+          "signal": "low_verb_ratio",
+          "type": "density"
+        },
+        {
+          "clause_ids": [
+            "s5.c2"
+          ],
+          "id": "silence_4",
+          "note_seed": "weighty terms clustered without explanation",
+          "signal": "focus_noun_cluster",
+          "type": "withholding"
+        }
+      ],
+      "thresholds": [
+        {
+          "clause_id": "s0.c1",
+          "evidence_after": "and he looked at Jesus as he walked by and said, \"Behold, th",
+          "evidence_before": "next day again John was standing with two of his disciples,",
+          "id": "threshold_0",
+          "kind": "disclosure",
+          "token_span": [
+            64,
+            70
+          ],
+          "trigger": "and he"
+        },
+        {
+          "clause_id": "s0.c2",
+          "evidence_after": "and said, \"Behold, the Lamb of God!\" The two disciples heard",
+          "evidence_before": "wo of his disciples, and he looked at Jesus as he walked by",
+          "id": "threshold_1",
+          "kind": "interruption",
+          "token_span": [
+            103,
+            117
+          ],
+          "trigger": "quote_boundary"
+        },
+        {
+          "clause_id": "s1.c1",
+          "evidence_after": "and they followed Jesus. Jesus turned and saw them following",
+          "evidence_before": "ld, the Lamb of God!\" The two disciples heard him say this,",
+          "id": "threshold_2",
+          "kind": "disclosure",
+          "token_span": [
+            178,
+            186
+          ],
+          "trigger": "and they"
+        },
+        {
+          "clause_id": "s1.c1",
+          "evidence_after": "and they followed Jesus. Jesus turned and saw them following",
+          "evidence_before": "ld, the Lamb of God!\" The two disciples heard him say this,",
+          "id": "threshold_3",
+          "kind": "interruption",
+          "token_span": [
+            178,
+            192
+          ],
+          "trigger": "quote_boundary"
+        },
+        {
+          "clause_id": "s2.c2",
+          "evidence_after": "and said to them, \"What are you seeking?\" And they said to h",
+          "evidence_before": "nd they followed Jesus. Jesus turned and saw them following",
+          "id": "threshold_4",
+          "kind": "interruption",
+          "token_span": [
+            239,
+            253
+          ],
+          "trigger": "quote_boundary"
+        },
+        {
+          "clause_id": "s4.c1",
+          "evidence_after": "and you will see.\" So they came and saw where he was staying",
+          "evidence_before": "s Teacher), \"where are you staying?\" He said to them, \"Come",
+          "id": "threshold_5",
+          "kind": "interruption",
+          "token_span": [
+            382,
+            396
+          ],
+          "trigger": "quote_boundary"
+        },
+        {
+          "clause_id": "s5.c0",
+          "evidence_after": "\" So they came and saw where he was staying, and they stayed",
+          "evidence_before": "e are you staying?\" He said to them, \"Come and you will see.",
+          "id": "threshold_6",
+          "kind": "interruption",
+          "token_span": [
+            399,
+            413
+          ],
+          "trigger": "quote_boundary"
+        },
+        {
+          "clause_id": "s5.c1",
+          "evidence_after": "and saw where he was staying, and they stayed with him that",
+          "evidence_before": "ng?\" He said to them, \"Come and you will see.\" So they came",
+          "id": "threshold_7",
+          "kind": "interruption",
+          "token_span": [
+            414,
+            428
+          ],
+          "trigger": "quote_boundary"
+        },
+        {
+          "clause_id": "s5.c2",
+          "evidence_after": "and they stayed with him that day, for it was about the tent",
+          "evidence_before": "d you will see.\" So they came and saw where he was staying,",
+          "id": "threshold_8",
+          "kind": "disclosure",
+          "token_span": [
+            444,
+            452
+          ],
+          "trigger": "and they"
+        }
+      ],
+      "utterances": [
+        {
+          "clause_id": "s0.c2",
+          "id": "utterance_0",
+          "speaker_guess": "Jesus",
+          "speech_act": "unknown",
+          "text": "Behold, the Lamb of God!",
+          "token_span": [
+            114,
+            138
+          ]
+        },
+        {
+          "clause_id": "s2.c2",
+          "id": "utterance_1",
+          "speaker_guess": "Jesus",
+          "speech_act": "question",
+          "text": "What are you seeking?",
+          "token_span": [
+            258,
+            279
+          ]
+        },
+        {
+          "clause_id": "s3.c0",
+          "id": "utterance_2",
+          "speaker_guess": "Jesus",
+          "speech_act": "unknown",
+          "text": "Rabbi",
+          "token_span": [
+            304,
+            309
+          ]
+        },
+        {
+          "clause_id": "s3.c0",
+          "id": "utterance_3",
+          "speaker_guess": "disciples",
+          "speech_act": "question",
+          "text": "where are you staying?",
+          "token_span": [
+            335,
+            357
+          ]
+        },
+        {
+          "clause_id": "s4.c0",
+          "id": "utterance_4",
+          "speaker_guess": "Jesus",
+          "speech_act": "invitation",
+          "text": "Come and you will see.",
+          "token_span": [
+            377,
+            399
+          ]
+        }
+      ],
+      "witness_prompts": [
+        {
+          "id": "prompt_0",
+          "linked_silence": null,
+          "linked_threshold": null,
+          "linked_utterance": null,
+          "text": "The scene begins with 'The next day'. What kind of time does that place you in today?"
+        },
+        {
+          "id": "prompt_1",
+          "linked_silence": null,
+          "linked_threshold": null,
+          "linked_utterance": null,
+          "text": "Where do you notice the move to standing or looked in this scene?"
+        },
+        {
+          "id": "prompt_2",
+          "linked_silence": null,
+          "linked_threshold": null,
+          "linked_utterance": null,
+          "text": "Jesus says, '{missing:testimony_1}'. What does that testimony open in you?"
+        },
+        {
+          "id": "prompt_3",
+          "linked_silence": null,
+          "linked_threshold": null,
+          "linked_utterance": "utterance_0",
+          "text": "Jesus turns and asks, 'What are you seeking?'. If you answer with one honest phrase, what is it?"
+        },
+        {
+          "id": "prompt_4",
+          "linked_silence": null,
+          "linked_threshold": null,
+          "linked_utterance": null,
+          "text": "He says, 'Come and you will see.'. What would a small, safe step of coming look like today?"
+        }
+      ]
+    },
+    "questions": [
+      "What are you seeking?",
+      "where are you staying?"
+    ],
+    "segments": [
+      {
+        "clause_id": "s0.c0",
+        "sentence_id": 0,
+        "text": "The next day again John was standing with two of his disciples,",
+        "token_end": 63,
+        "token_start": 0
+      },
+      {
+        "clause_id": "s0.c1",
+        "sentence_id": 0,
+        "text": "and he looked at Jesus as he walked by",
+        "token_end": 102,
+        "token_start": 64
+      },
+      {
+        "clause_id": "s0.c2",
+        "sentence_id": 0,
+        "text": "and said, \"Behold, the Lamb of God!",
+        "token_end": 138,
+        "token_start": 103
+      },
+      {
+        "clause_id": "s1.c0",
+        "sentence_id": 1,
+        "text": "\" The two disciples heard him say this,",
+        "token_end": 177,
+        "token_start": 138
+      },
+      {
+        "clause_id": "s1.c1",
+        "sentence_id": 1,
+        "text": "and they followed Jesus.",
+        "token_end": 202,
+        "token_start": 178
+      },
+      {
+        "clause_id": "s2.c0",
+        "sentence_id": 2,
+        "text": "Jesus turned",
+        "token_end": 215,
+        "token_start": 203
+      },
+      {
+        "clause_id": "s2.c1",
+        "sentence_id": 2,
+        "text": "and saw them following",
+        "token_end": 238,
+        "token_start": 216
+      },
+      {
+        "clause_id": "s2.c2",
+        "sentence_id": 2,
+        "text": "and said to them, \"What are you seeking?",
+        "token_end": 279,
+        "token_start": 239
+      },
+      {
+        "clause_id": "s3.c0",
+        "sentence_id": 3,
+        "text": "\" And they said to him, \"Rabbi\" (which means Teacher), \"where are you staying?",
+        "token_end": 357,
+        "token_start": 279
+      },
+      {
+        "clause_id": "s4.c0",
+        "sentence_id": 4,
+        "text": "\" He said to them, \"Come",
+        "token_end": 381,
+        "token_start": 357
+      },
+      {
+        "clause_id": "s4.c1",
+        "sentence_id": 4,
+        "text": "and you will see.",
+        "token_end": 399,
+        "token_start": 382
+      },
+      {
+        "clause_id": "s5.c0",
+        "sentence_id": 5,
+        "text": "\" So they came",
+        "token_end": 413,
+        "token_start": 399
+      },
+      {
+        "clause_id": "s5.c1",
+        "sentence_id": 5,
+        "text": "and saw where he was staying,",
+        "token_end": 443,
+        "token_start": 414
+      },
+      {
+        "clause_id": "s5.c2",
+        "sentence_id": 5,
+        "text": "and they stayed with him that day, for it was about the tenth hour.",
+        "token_end": 511,
+        "token_start": 444
+      }
+    ],
+    "silences": [
+      "density",
+      "withholding",
+      "withholding",
+      "density",
+      "withholding"
+    ],
+    "silences_detailed": [
+      {
+        "clause_id": "s0.c0",
+        "note_seed": "thick with nouns, few verbs",
+        "signal": "low_verb_ratio",
+        "silence_type": "density"
+      },
+      {
+        "clause_id": "s0.c1",
+        "note_seed": "weighty terms clustered without explanation",
+        "signal": "focus_noun_cluster",
+        "silence_type": "withholding"
+      },
+      {
+        "clause_id": "s0.c2",
+        "note_seed": "weighty terms clustered without explanation",
+        "signal": "focus_noun_cluster",
+        "silence_type": "withholding"
+      },
+      {
+        "clause_id": "s5.c2",
+        "note_seed": "thick with nouns, few verbs",
+        "signal": "low_verb_ratio",
+        "silence_type": "density"
+      },
+      {
+        "clause_id": "s5.c2",
+        "note_seed": "weighty terms clustered without explanation",
+        "signal": "focus_noun_cluster",
+        "silence_type": "withholding"
+      }
+    ],
+    "speakers": [
+      "Jesus",
+      "disciples"
+    ],
+    "thresholds": [
+      "and he",
+      "quote_boundary",
+      "and they",
+      "quote_boundary",
+      "quote_boundary",
+      "quote_boundary",
+      "quote_boundary",
+      "quote_boundary",
+      "and they"
+    ],
+    "thresholds_detailed": [
+      {
+        "evidence_after": "and he looked at Jesus as he walked by and said, \"Behold, th",
+        "evidence_before": "next day again John was standing with two of his disciples,",
+        "from_clause_id": "s0.c0",
+        "kind": "disclosure",
+        "to_clause_id": "s0.c1",
+        "token_span": [
+          64,
+          70
+        ],
+        "trigger": "and he"
+      },
+      {
+        "evidence_after": "and said, \"Behold, the Lamb of God!\" The two disciples heard",
+        "evidence_before": "wo of his disciples, and he looked at Jesus as he walked by",
+        "from_clause_id": "s0.c1",
+        "kind": "interruption",
+        "to_clause_id": "s0.c2",
+        "token_span": [
+          103,
+          117
+        ],
+        "trigger": "quote_boundary"
+      },
+      {
+        "evidence_after": "and they followed Jesus. Jesus turned and saw them following",
+        "evidence_before": "ld, the Lamb of God!\" The two disciples heard him say this,",
+        "from_clause_id": "s1.c0",
+        "kind": "disclosure",
+        "to_clause_id": "s1.c1",
+        "token_span": [
+          178,
+          186
+        ],
+        "trigger": "and they"
+      },
+      {
+        "evidence_after": "and they followed Jesus. Jesus turned and saw them following",
+        "evidence_before": "ld, the Lamb of God!\" The two disciples heard him say this,",
+        "from_clause_id": "s1.c0",
+        "kind": "interruption",
+        "to_clause_id": "s1.c1",
+        "token_span": [
+          178,
+          192
+        ],
+        "trigger": "quote_boundary"
+      },
+      {
+        "evidence_after": "and said to them, \"What are you seeking?\" And they said to h",
+        "evidence_before": "nd they followed Jesus. Jesus turned and saw them following",
+        "from_clause_id": "s2.c1",
+        "kind": "interruption",
+        "to_clause_id": "s2.c2",
+        "token_span": [
+          239,
+          253
+        ],
+        "trigger": "quote_boundary"
+      },
+      {
+        "evidence_after": "and you will see.\" So they came and saw where he was staying",
+        "evidence_before": "s Teacher), \"where are you staying?\" He said to them, \"Come",
+        "from_clause_id": "s4.c0",
+        "kind": "interruption",
+        "to_clause_id": "s4.c1",
+        "token_span": [
+          382,
+          396
+        ],
+        "trigger": "quote_boundary"
+      },
+      {
+        "evidence_after": "\" So they came and saw where he was staying, and they stayed",
+        "evidence_before": "e are you staying?\" He said to them, \"Come and you will see.",
+        "from_clause_id": "s4.c1",
+        "kind": "interruption",
+        "to_clause_id": "s5.c0",
+        "token_span": [
+          399,
+          413
+        ],
+        "trigger": "quote_boundary"
+      },
+      {
+        "evidence_after": "and saw where he was staying, and they stayed with him that",
+        "evidence_before": "ng?\" He said to them, \"Come and you will see.\" So they came",
+        "from_clause_id": "s5.c0",
+        "kind": "interruption",
+        "to_clause_id": "s5.c1",
+        "token_span": [
+          414,
+          428
+        ],
+        "trigger": "quote_boundary"
+      },
+      {
+        "evidence_after": "and they stayed with him that day, for it was about the tent",
+        "evidence_before": "d you will see.\" So they came and saw where he was staying,",
+        "from_clause_id": "s5.c1",
+        "kind": "disclosure",
+        "to_clause_id": "s5.c2",
+        "token_span": [
+          444,
+          452
+        ],
+        "trigger": "and they"
+      }
+    ],
+    "time_markers": [
+      "The next day",
+      "Behold"
+    ],
+    "time_markers_detailed": [
+      {
+        "clause_id": "s0.c0",
+        "scope": "clause",
+        "sentence_id": 0,
+        "text": "The next day",
+        "token_span": [
+          0,
+          12
+        ],
+        "type": "sequence"
+      },
+      {
+        "clause_id": "s0.c2",
+        "scope": "clause",
+        "sentence_id": 0,
+        "text": "Behold",
+        "token_span": [
+          114,
+          120
+        ],
+        "type": "anchor"
+      }
+    ],
+    "utterances": [
+      "Behold, the Lamb of God!",
+      "What are you seeking?",
+      "Rabbi",
+      "where are you staying?",
+      "Come and you will see."
+    ],
+    "utterances_detailed": [
+      {
+        "clause_id": "s0.c2",
+        "speaker_guess": "Jesus",
+        "speech_act": "unknown",
+        "text": "Behold, the Lamb of God!",
+        "token_span": [
+          114,
+          138
+        ]
+      },
+      {
+        "clause_id": "s2.c2",
+        "speaker_guess": "Jesus",
+        "speech_act": "question",
+        "text": "What are you seeking?",
+        "token_span": [
+          258,
+          279
+        ]
+      },
+      {
+        "clause_id": "s3.c0",
+        "speaker_guess": "Jesus",
+        "speech_act": "unknown",
+        "text": "Rabbi",
+        "token_span": [
+          304,
+          309
+        ]
+      },
+      {
+        "clause_id": "s3.c0",
+        "speaker_guess": "disciples",
+        "speech_act": "question",
+        "text": "where are you staying?",
+        "token_span": [
+          335,
+          357
+        ]
+      },
+      {
+        "clause_id": "s4.c0",
+        "speaker_guess": "Jesus",
+        "speech_act": "invitation",
+        "text": "Come and you will see.",
+        "token_span": [
+          377,
+          399
+        ]
+      }
+    ],
+    "verbs": [
+      "was",
+      "standing",
+      "looked",
+      "walked",
+      "said",
+      "Behold",
+      "heard",
+      "say",
+      "followed",
+      "turned",
+      "saw",
+      "following",
+      "said",
+      "are",
+      "seeking",
+      "said",
+      "are",
+      "staying",
+      "said",
+      "Come",
+      "see",
+      "came",
+      "saw",
+      "was",
+      "staying",
+      "stayed",
+      "was"
+    ],
+    "verbs_detailed": [
+      {
+        "clause_id": "s0.c0",
+        "lemma_guess": "be",
+        "role": "action",
+        "tense_guess": "past",
+        "token_span": [
+          24,
+          27
+        ],
+        "verb_text": "was"
+      },
+      {
+        "clause_id": "s0.c0",
+        "lemma_guess": "stand",
+        "role": "action",
+        "tense_guess": "present",
+        "token_span": [
+          28,
+          36
+        ],
+        "verb_text": "standing"
+      },
+      {
+        "clause_id": "s0.c1",
+        "lemma_guess": "look",
+        "role": "action",
+        "tense_guess": "past",
+        "token_span": [
+          71,
+          77
+        ],
+        "verb_text": "looked"
+      },
+      {
+        "clause_id": "s0.c1",
+        "lemma_guess": "walk",
+        "role": "action",
+        "tense_guess": "past",
+        "token_span": [
+          93,
+          99
+        ],
+        "verb_text": "walked"
+      },
+      {
+        "clause_id": "s0.c2",
+        "lemma_guess": "say",
+        "role": "speech_introducer",
+        "tense_guess": "past",
+        "token_span": [
+          107,
+          111
+        ],
+        "verb_text": "said"
+      },
+      {
+        "clause_id": "s0.c2",
+        "lemma_guess": "behold",
+        "role": "action",
+        "tense_guess": "unknown",
+        "token_span": [
+          114,
+          120
+        ],
+        "verb_text": "Behold"
+      },
+      {
+        "clause_id": "s1.c0",
+        "lemma_guess": "heard",
+        "role": "action",
+        "tense_guess": "unknown",
+        "token_span": [
+          158,
+          163
+        ],
+        "verb_text": "heard"
+      },
+      {
+        "clause_id": "s1.c0",
+        "lemma_guess": "say",
+        "role": "speech_introducer",
+        "tense_guess": "unknown",
+        "token_span": [
+          168,
+          171
+        ],
+        "verb_text": "say"
+      },
+      {
+        "clause_id": "s1.c1",
+        "lemma_guess": "follow",
+        "role": "action",
+        "tense_guess": "past",
+        "token_span": [
+          187,
+          195
+        ],
+        "verb_text": "followed"
+      },
+      {
+        "clause_id": "s2.c0",
+        "lemma_guess": "turn",
+        "role": "action",
+        "tense_guess": "past",
+        "token_span": [
+          209,
+          215
+        ],
+        "verb_text": "turned"
+      },
+      {
+        "clause_id": "s2.c1",
+        "lemma_guess": "see",
+        "role": "action",
+        "tense_guess": "past",
+        "token_span": [
+          220,
+          223
+        ],
+        "verb_text": "saw"
+      },
+      {
+        "clause_id": "s2.c1",
+        "lemma_guess": "follow",
+        "role": "action",
+        "tense_guess": "present",
+        "token_span": [
+          229,
+          238
+        ],
+        "verb_text": "following"
+      },
+      {
+        "clause_id": "s2.c2",
+        "lemma_guess": "say",
+        "role": "speech_introducer",
+        "tense_guess": "past",
+        "token_span": [
+          243,
+          247
+        ],
+        "verb_text": "said"
+      },
+      {
+        "clause_id": "s2.c2",
+        "lemma_guess": "be",
+        "role": "action",
+        "tense_guess": "present",
+        "token_span": [
+          263,
+          266
+        ],
+        "verb_text": "are"
+      },
+      {
+        "clause_id": "s2.c2",
+        "lemma_guess": "seeke",
+        "role": "action",
+        "tense_guess": "present",
+        "token_span": [
+          271,
+          278
+        ],
+        "verb_text": "seeking"
+      },
+      {
+        "clause_id": "s3.c0",
+        "lemma_guess": "say",
+        "role": "speech_introducer",
+        "tense_guess": "past",
+        "token_span": [
+          290,
+          294
+        ],
+        "verb_text": "said"
+      },
+      {
+        "clause_id": "s3.c0",
+        "lemma_guess": "be",
+        "role": "action",
+        "tense_guess": "present",
+        "token_span": [
+          341,
+          344
+        ],
+        "verb_text": "are"
+      },
+      {
+        "clause_id": "s3.c0",
+        "lemma_guess": "stay",
+        "role": "action",
+        "tense_guess": "present",
+        "token_span": [
+          349,
+          356
+        ],
+        "verb_text": "staying"
+      },
+      {
+        "clause_id": "s4.c0",
+        "lemma_guess": "say",
+        "role": "speech_introducer",
+        "tense_guess": "past",
+        "token_span": [
+          362,
+          366
+        ],
+        "verb_text": "said"
+      },
+      {
+        "clause_id": "s4.c0",
+        "lemma_guess": "come",
+        "role": "action",
+        "tense_guess": "unknown",
+        "token_span": [
+          377,
+          381
+        ],
+        "verb_text": "Come"
+      },
+      {
+        "clause_id": "s4.c1",
+        "lemma_guess": "see",
+        "role": "action",
+        "tense_guess": "unknown",
+        "token_span": [
+          395,
+          398
+        ],
+        "verb_text": "see"
+      },
+      {
+        "clause_id": "s5.c0",
+        "lemma_guess": "come",
+        "role": "action",
+        "tense_guess": "past",
+        "token_span": [
+          409,
+          413
+        ],
+        "verb_text": "came"
+      },
+      {
+        "clause_id": "s5.c1",
+        "lemma_guess": "see",
+        "role": "action",
+        "tense_guess": "past",
+        "token_span": [
+          418,
+          421
+        ],
+        "verb_text": "saw"
+      },
+      {
+        "clause_id": "s5.c1",
+        "lemma_guess": "be",
+        "role": "action",
+        "tense_guess": "past",
+        "token_span": [
+          431,
+          434
+        ],
+        "verb_text": "was"
+      },
+      {
+        "clause_id": "s5.c1",
+        "lemma_guess": "stay",
+        "role": "action",
+        "tense_guess": "present",
+        "token_span": [
+          435,
+          442
+        ],
+        "verb_text": "staying"
+      },
+      {
+        "clause_id": "s5.c2",
+        "lemma_guess": "stay",
+        "role": "action",
+        "tense_guess": "past",
+        "token_span": [
+          453,
+          459
+        ],
+        "verb_text": "stayed"
+      },
+      {
+        "clause_id": "s5.c2",
+        "lemma_guess": "be",
+        "role": "action",
+        "tense_guess": "past",
+        "token_span": [
+          486,
+          489
+        ],
+        "verb_text": "was"
+      }
+    ]
+  },
+  "spec_version": "v3",
+  "template": {
+    "id": "john_1_35_39_v3",
+    "path": "data/templates/witness_cards/v3/john_1_35_39.json"
+  },
+  "witness_prompts": [
+    "The scene begins with 'The next day'. What kind of time does that place you in today?",
+    "Where do you notice the move to standing or looked in this scene?",
+    "Jesus says, '{missing:testimony_1}'. What does that testimony open in you?",
+    "Jesus turns and asks, 'What are you seeking?'. If you answer with one honest phrase, what is it?",
+    "He says, 'Come and you will see.'. What would a small, safe step of coming look like today?"
+  ]
+}

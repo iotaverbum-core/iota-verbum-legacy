@@ -1,0 +1,54 @@
+﻿[
+  {
+    "id": "H009-MICRO-01",
+    "parent_id": "H009",
+    "label": "Sermon on the Mount – Hearing and Doing",
+    "testament": "NT",
+    "hinge_type": ["causal", "identity"],
+    "refs": ["Matt 7:24-27"],
+    "themes": ["obedience", "hearing", "wisdom", "judgment"],
+    "identity": "Jesus speaks as the authoritative covenant Lord whose words define true wisdom and safety.",
+    "enactment": "People either hear Jesus' words and do them or hear but do not act.",
+    "effect": "Obedient hearers are like a house on rock that stands in the storm; disobedient hearers are like a house on sand that collapses under judgment.",
+    "description": "Echoing Deuteronomy's 'life and death' choice, Jesus presents hearing and doing His words as the decisive hinge between stability and ruin."
+  },
+  {
+    "id": "H009-MICRO-02",
+    "parent_id": "H009",
+    "label": "Vine and Branches – Abide or Wither",
+    "testament": "NT",
+    "hinge_type": ["causal", "eschatological"],
+    "refs": ["John 15:1-8"],
+    "themes": ["abiding", "fruit", "judgment", "union"],
+    "identity": "Jesus is the true vine and the Father is the vinedresser who desires real fruit from His people.",
+    "enactment": "Branches either abide in Christ and His words or fail to abide and become fruitless.",
+    "effect": "Abiding branches bear much fruit and glorify the Father; fruitless branches are taken away, wither, and are thrown into the fire.",
+    "description": "This hinge intensifies the Deuteronomic pattern: life and fruit flow from abiding in Christ, while persistent fruitlessness leads to removal and judgment."
+  },
+  {
+    "id": "H009-MICRO-03",
+    "parent_id": "H009",
+    "label": "Sowing to the Flesh or Spirit",
+    "testament": "NT",
+    "hinge_type": ["causal", "ethical"],
+    "refs": ["Gal 6:7-9"],
+    "themes": ["sowing", "reaping", "spirit", "flesh", "perseverance"],
+    "identity": "God is not mocked; His moral order is stable and He rewards Spirit-empowered perseverance.",
+    "enactment": "People either sow to the flesh (indulging sinful desires) or sow to the Spirit (doing good and walking by the Spirit).",
+    "effect": "Sowing to the flesh reaps corruption; sowing to the Spirit reaps eternal life; perseverance in doing good will be rewarded in due season.",
+    "description": "Paul restates the Deuteronomic hinge as a sowing–reaping pattern grounded in God's unmockable moral order."
+  },
+  {
+    "id": "H009-MICRO-04",
+    "parent_id": "H009",
+    "label": "Warning and Rest in Hebrews",
+    "testament": "NT",
+    "hinge_type": ["warning", "causal", "eschatological"],
+    "refs": ["Heb 3:12-19", "Heb 4:1-3"],
+    "themes": ["unbelief", "rest", "perseverance", "community"],
+    "identity": "God is faithful and His promise of rest still stands, but unbelief shuts people out.",
+    "enactment": "The community either exhorts one another daily and holds fast in faith or allows hearts to harden in unbelief.",
+    "effect": "Believing enter God's rest; those who harden their hearts as in the wilderness fall short and face judgment.",
+    "description": "Hebrews rereads the wilderness generation through a Deuteronomic lens, turning their failure into a present warning hinge for the church."
+  }
+]

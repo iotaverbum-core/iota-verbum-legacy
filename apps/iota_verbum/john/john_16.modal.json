@@ -1,0 +1,43 @@
+{
+  "schema": "iv.modal.json.v1",
+  "passage": "John 16",
+  "source": {
+    "translation": "ESV"
+  },
+  "meta": {
+    "compiled_from": "cne.v1",
+    "compiled_at": "2026-02-13T14:23:56"
+  },
+  "nodes": [
+    {
+      "id": "n1",
+      "type": "scene",
+      "ref": "16:1-15",
+      "label": "Warnings + Spirit’s convicting/guiding work"
+    },
+    {
+      "id": "n2",
+      "type": "scene",
+      "ref": "16:16-33",
+      "label": "Sorrow→joy → ask in Jesus’ name → overcome world"
+    }
+  ],
+  "edges": [
+    {
+      "from": "n1",
+      "to": "n2",
+      "type": "SEQ"
+    }
+  ],
+  "hinges": [
+    {
+      "id": "h1",
+      "refs": [
+        "John 16"
+      ],
+      "identity_□": "Jesus is the victorious Son whose departure sends the Helper.",
+      "enactment_◇": "He warns of expulsion, promises the Spirit’s convicting/guiding work, and speaks sorrow-to-joy.",
+      "effect_Δ": "Disciples gain peace and courage amid tribulation; the world is exposed by the Spirit."
+    }
+  ]
+}

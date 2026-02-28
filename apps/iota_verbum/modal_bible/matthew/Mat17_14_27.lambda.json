@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Matthew λ-files; safe to hand-edit after generation.",
+    "book": "Matthew",
+    "passage_id": "Mat17_14_27",
+    "version": "Mat17_14_27_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mat17_14_27",
+  "book": "Matthew",
+  "chapter": 17,
+  "verses": "14-27",
+  "title": "Matthew 17:14–27 – Healing the Boy and Temple Tax",
+  "interpretive_frames": [
+    "Faith",
+    "Authority",
+    "Sonship"
+  ],
+  "identity_invariants": [
+    "[]JesusAsTrueSonIsFreeYetChoosesNotToGiveOffence(Jesus, Temple)"
+  ],
+  "units": [
+    {
+      "id": "Mat17_14_27_u1",
+      "label": "Little Faith and the Sons Are Free",
+      "verses": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "illocution": "NarrationAndTeaching",
+      "agents": [
+        "Jesus",
+        "Disciples",
+        "Father",
+        "Crowds",
+        "Boy",
+        "Demon"
+      ],
+      "statements": [
+        {
+          "id": "Mat17_14_27_s1",
+          "type": "summary",
+          "description": "Jesus heals a demon-possessed boy amid little faith and teaches about freedom and humility regarding temple tax.",
+          "lambda_iv": [
+            "[]JesusAsTrueSonIsFreeYetChoosesNotToGiveOffence(Jesus, Temple)",
+            "EFF(FaithNeededForParticipationInHisPower(Disciples, Jesus))"
+          ]
+        }
+      ]
+    }
+  ]
+}

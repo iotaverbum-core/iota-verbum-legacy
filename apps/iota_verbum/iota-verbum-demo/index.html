@@ -1,0 +1,1401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Iota Verbum – Sovereign AI that can’t drift</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      --bg: #020617;
+      --bg-soft: #020617;
+      --bg-elevated: #020617;
+      --bg-hero: radial-gradient(circle at top left, #1f2937 0, #020617 60%);
+      --surface: #020617;
+      --surface-soft: #020617;
+      --surface-border: rgba(31, 41, 55, 0.95);
+      --primary: #2563eb;
+      --primary-soft: rgba(37, 99, 235, 0.1);
+      --accent: #f97316;
+      --accent-soft: rgba(249, 115, 22, 0.14);
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --muted-soft: #6b7280;
+
+      --radius-lg: 20px;
+      --radius-md: 14px;
+      --radius-pill: 999px;
+
+      --shadow-soft: 0 18px 45px rgba(15, 23, 42, 0.85);
+      --shadow-subtle: 0 10px 30px rgba(15, 23, 42, 0.75);
+
+      --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
+        "Segoe UI", sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg-hero);
+      color: var(--text);
+      font-family: var(--font-sans);
+      scroll-behavior: smooth;
+    }
+
+    body {
+      min-height: 100vh;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    /* Layout */
+
+    .page {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 0 1.5rem 4rem;
+    }
+
+    section {
+      padding: 4rem 0;
+    }
+
+    @media (min-width: 960px) {
+      section {
+        padding: 5rem 0;
+      }
+    }
+
+    .grid {
+      display: grid;
+      gap: 2rem;
+    }
+
+    /* Navbar */
+
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      backdrop-filter: blur(18px);
+      background: radial-gradient(circle at top left, rgba(15, 23, 42, 0.98), rgba(2, 6, 23, 0.96));
+      border-bottom: 1px solid rgba(31, 41, 55, 0.9);
+    }
+
+    .nav-inner {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 0.7rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .nav-left {
+      display: flex;
+      align-items: center;
+      gap: 0.65rem;
+    }
+
+    .nav-logo {
+      width: 26px;
+      height: 26px;
+      border-radius: 9px;
+      background: radial-gradient(circle at 30% 20%, #f97316, #ea580c);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 0 6px rgba(249, 115, 22, 0.12);
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: #020617;
+    }
+
+    .nav-title {
+      font-size: 0.95rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #e5e7eb;
+    }
+
+    .nav-sub {
+      font-size: 0.7rem;
+      color: var(--muted);
+    }
+
+    .nav-right {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      font-size: 0.85rem;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 0.85rem;
+    }
+
+    .nav-links a {
+      color: var(--muted);
+      text-decoration: none;
+      padding: 0.2rem 0.4rem;
+    }
+
+    .nav-links a:hover {
+      color: #e5e7eb;
+    }
+
+    .nav-cta {
+      border-radius: var(--radius-pill);
+      padding: 0.45rem 0.9rem;
+      border: 1px solid rgba(148, 163, 184, 0.7);
+      font-size: 0.78rem;
+      color: #e5e7eb;
+      background: linear-gradient(90deg, rgba(37, 99, 235, 0.45), rgba(15, 23, 42, 0.9));
+    }
+
+    @media (max-width: 720px) {
+      .nav-inner {
+        padding-inline: 1rem;
+      }
+      .nav-right {
+        display: none;
+      }
+    }
+
+    /* Hero */
+
+    .hero {
+      padding-top: 4.5rem;
+    }
+
+    .hero-inner {
+      display: grid;
+      gap: 2rem;
+      align-items: center;
+    }
+
+    @media (min-width: 960px) {
+      .hero-inner {
+        grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+      }
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-size: 0.75rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 0.25rem 0.75rem;
+      border-radius: var(--radius-pill);
+      border: 1px solid rgba(148, 163, 184, 0.5);
+      background: linear-gradient(
+        90deg,
+        rgba(37, 99, 235, 0.38),
+        rgba(15, 23, 42, 0.95)
+      );
+      color: var(--muted);
+      margin-bottom: 1rem;
+    }
+
+    .badge-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 999px;
+      background: radial-gradient(circle at 30% 20%, #f97316, #fb923c);
+      box-shadow: 0 0 0 6px rgba(249, 115, 22, 0.2);
+    }
+
+    .hero h1 {
+      font-size: clamp(2.6rem, 4vw, 3.4rem);
+      line-height: 1.05;
+      letter-spacing: -0.03em;
+      margin: 0 0 1rem;
+    }
+
+    .hero-sub {
+      max-width: 36rem;
+      font-size: 0.98rem;
+      color: var(--muted);
+      margin-bottom: 1.4rem;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.4rem;
+      border-radius: var(--radius-pill);
+      padding: 0.8rem 1.6rem;
+      font-size: 0.88rem;
+      border: none;
+      cursor: pointer;
+      transition: transform 0.12s ease, box-shadow 0.12s ease, background 0.12s ease;
+      text-decoration: none;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #2563eb, #1d4ed8);
+      color: #e5e7eb;
+      box-shadow: 0 14px 35px rgba(37, 99, 235, 0.55);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 18px 45px rgba(37, 99, 235, 0.75);
+    }
+
+    .btn-secondary {
+      border: 1px solid rgba(148, 163, 184, 0.75);
+      background: rgba(15, 23, 42, 0.9);
+      color: #e5e7eb;
+    }
+
+    .btn-secondary:hover {
+      background: rgba(15, 23, 42, 0.98);
+    }
+
+    .hero-micro {
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+
+    .hero-card {
+      border-radius: 22px;
+      padding: 1.5rem;
+      background: radial-gradient(circle at top, #1e293b 0, #020617 55%);
+      box-shadow: 0 22px 60px rgba(15, 23, 42, 0.95);
+      border: 1px solid rgba(30, 64, 175, 0.75);
+    }
+
+    .hero-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.75rem;
+    }
+
+    .hero-chip {
+      font-size: 0.75rem;
+      padding: 0.2rem 0.65rem;
+      border-radius: var(--radius-pill);
+      background: rgba(15, 23, 42, 0.9);
+      border: 1px solid rgba(148, 163, 184, 0.5);
+      color: var(--muted);
+    }
+
+    .hero-card h2 {
+      font-size: 1rem;
+      margin: 0 0 0.4rem;
+    }
+
+    .hero-card p {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin: 0.1rem 0;
+    }
+
+    .hero-stats {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-top: 1.2rem;
+    }
+
+    .hero-stat {
+      font-size: 0.78rem;
+      color: var(--muted);
+      padding: 0.4rem 0.7rem;
+      border-radius: var(--radius-pill);
+      border: 1px solid rgba(55, 65, 81, 0.95);
+      background: rgba(15, 23, 42, 0.95);
+    }
+
+    /* Features */
+
+    .section-heading {
+      text-align: center;
+      margin-bottom: 2.5rem;
+    }
+
+    .section-heading h2 {
+      margin: 0 0 0.5rem;
+      font-size: 1.6rem;
+      letter-spacing: -0.01em;
+    }
+
+    .section-heading p {
+      margin: 0;
+      font-size: 0.94rem;
+      color: var(--muted);
+    }
+
+    .features-grid {
+      max-width: 1120px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .feature-card {
+      background: var(--surface);
+      border-radius: var(--radius-lg);
+      padding: 1.5rem 1.4rem;
+      border: 1px solid var(--surface-border);
+      box-shadow: var(--shadow-subtle);
+    }
+
+    .feature-icon {
+      width: 32px;
+      height: 32px;
+      border-radius: 12px;
+      background: radial-gradient(circle at 30% 20%, #1d4ed8, #020617);
+      border: 1px solid rgba(96, 165, 250, 0.6);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.9rem;
+      margin-bottom: 0.8rem;
+    }
+
+    .feature-card h3 {
+      margin: 0 0 0.4rem;
+      font-size: 1rem;
+    }
+
+    .feature-card p {
+      margin: 0;
+      font-size: 0.88rem;
+      color: var(--muted);
+    }
+
+    /* Gate Demo */
+
+    .gate-section {
+      margin-top: 1rem;
+    }
+
+    .gate-layout {
+      display: grid;
+      gap: 2rem;
+    }
+
+    @media (min-width: 960px) {
+      .gate-layout {
+        grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+      }
+    }
+
+    .card {
+      background: var(--surface);
+      border-radius: var(--radius-lg);
+      padding: 1.4rem 1.5rem;
+      border: 1px solid var(--surface-border);
+      box-shadow: var(--shadow-soft);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      margin-bottom: 0.75rem;
+      font-size: 1.05rem;
+    }
+
+    .field-label {
+      display: block;
+      font-size: 0.85rem;
+      color: var(--muted-soft);
+      margin-bottom: 0.25rem;
+    }
+
+    textarea,
+    select,
+    input[type="text"] {
+      width: 100%;
+      border-radius: 12px;
+      border: 1px solid rgba(55, 65, 81, 0.95);
+      background: rgba(15, 23, 42, 0.95);
+      padding: 0.65rem 0.75rem;
+      font-size: 0.9rem;
+      color: var(--text);
+      resize: vertical;
+      min-height: 90px;
+      outline: none;
+    }
+
+    select {
+      min-height: auto;
+    }
+
+    textarea:focus,
+    select:focus,
+    input[type="text"]:focus {
+      border-color: rgba(37, 99, 235, 0.9);
+      box-shadow: 0 0 0 1px rgba(37, 99, 235, 0.6);
+    }
+
+    .field-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-top: 0.5rem;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .small {
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+
+    .chat-window {
+      border-radius: var(--radius-md);
+      border: 1px solid rgba(31, 41, 55, 0.9);
+      background: rgba(15, 23, 42, 0.9);
+      padding: 0.9rem;
+      max-height: 340px;
+      overflow: auto;
+      font-size: 0.88rem;
+    }
+
+    .chat-msg {
+      margin-bottom: 0.75rem;
+    }
+
+    .chat-msg-role {
+      font-size: 0.75rem;
+      color: var(--muted-soft);
+      margin-bottom: 0.15rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+    }
+
+    .chat-bubble {
+      display: inline-block;
+      padding: 0.55rem 0.8rem;
+      border-radius: 14px;
+      max-width: 100%;
+      line-height: 1.4;
+    }
+
+    .chat-bubble.user {
+      background: rgba(15, 23, 42, 0.9);
+      border: 1px solid rgba(55, 65, 81, 0.95);
+    }
+
+    .chat-bubble.assistant {
+      background: rgba(15, 23, 42, 0.9);
+      border: 1px solid rgba(30, 64, 175, 0.9);
+    }
+
+    .status-bar {
+      margin-top: 0.65rem;
+      padding: 0.55rem 0.7rem;
+      border-radius: 999px;
+      font-size: 0.78rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      border: 1px solid rgba(55, 65, 81, 0.95);
+      background: rgba(15, 23, 42, 0.95);
+    }
+
+    .status-dot {
+      width: 9px;
+      height: 9px;
+      border-radius: 999px;
+      background: radial-gradient(circle at 30% 20%, #9ca3af, #4b5563);
+    }
+
+    .status-dot.ok {
+      background: radial-gradient(circle at 30% 20%, #22c55e, #16a34a);
+    }
+
+    .status-dot.blocked {
+      background: radial-gradient(circle at 30% 20%, #f97316, #b91c1c);
+    }
+
+    .status-text-strong {
+      font-weight: 500;
+    }
+
+    .status-action {
+      margin-left: auto;
+      font-size: 0.75rem;
+      color: #bfdbfe;
+      cursor: pointer;
+      text-decoration: underline;
+      text-decoration-style: dotted;
+    }
+
+    .status-action.disabled {
+      color: #4b5563;
+      cursor: default;
+      text-decoration: none;
+    }
+
+    .attestation-card {
+      margin-top: 0.75rem;
+      border-radius: var(--radius-md);
+      border: 1px solid rgba(31, 41, 55, 0.95);
+      background: #020617;
+      padding: 0.9rem 0.9rem 0.85rem;
+      font-size: 0.82rem;
+    }
+
+    .att-header {
+      display: flex;
+      align-items: center;
+      gap: 0.45rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .att-pill {
+      border-radius: var(--radius-pill);
+      padding: 0.18rem 0.6rem;
+      font-size: 0.72rem;
+      background: rgba(15, 23, 42, 0.95);
+      border: 1px solid rgba(55, 65, 81, 0.95);
+      color: var(--muted-soft);
+    }
+
+    .att-pill.allowed {
+      border-color: rgba(34, 197, 94, 0.9);
+      color: #bbf7d0;
+    }
+
+    .att-pill.blocked {
+      border-color: rgba(248, 113, 113, 0.9);
+      color: #fecaca;
+    }
+
+    .att-body {
+      color: var(--muted);
+      margin-bottom: 0.35rem;
+    }
+
+    .att-boundary {
+      font-size: 0.8rem;
+      color: var(--text);
+      margin-bottom: 0.25rem;
+    }
+
+    .att-invariants {
+      font-size: 0.78rem;
+      color: var(--muted-soft);
+      margin-top: 0.25rem;
+    }
+
+    .mirror-block {
+      margin-top: 0.55rem;
+      border-top: 1px dashed rgba(55, 65, 81, 0.95);
+      padding-top: 0.55rem;
+    }
+
+    .mirror-title {
+      font-size: 0.8rem;
+      color: #e5e7eb;
+      margin-bottom: 0.2rem;
+    }
+
+    .mirror-line {
+      font-size: 0.78rem;
+      color: var(--muted-soft);
+      margin: 0.1rem 0;
+    }
+
+    .mirror-line strong {
+      color: #e5e7eb;
+      font-weight: 500;
+    }
+
+    .copy-btn {
+      margin-top: 0.5rem;
+      font-size: 0.75rem;
+      border-radius: var(--radius-pill);
+      padding: 0.25rem 0.75rem;
+      border: 1px solid rgba(55, 65, 81, 0.95);
+      background: rgba(15, 23, 42, 0.95);
+      color: #e5e7eb;
+      cursor: pointer;
+    }
+
+    .copy-btn:hover {
+      background: rgba(15, 23, 42, 1);
+    }
+
+    .tiny-note {
+      font-size: 0.78rem;
+      color: var(--muted-soft);
+      margin-top: 0.4rem;
+    }
+
+    /* Explainer */
+
+    .explainer {
+      margin-top: 2rem;
+      border-radius: var(--radius-lg);
+      padding: 1.5rem 1.75rem;
+      background: rgba(15, 23, 42, 0.95);
+      border: 1px solid rgba(55, 65, 81, 0.95);
+      font-size: 0.9rem;
+    }
+
+    .explainer h3 {
+      margin-top: 0;
+      margin-bottom: 0.6rem;
+      font-size: 1rem;
+    }
+
+    .explainer ol {
+      padding-left: 1.2rem;
+      margin: 0 0 0.75rem;
+    }
+
+    .explainer li {
+      margin-bottom: 0.3rem;
+      color: var(--muted);
+    }
+
+    .explainer-note {
+      font-size: 0.8rem;
+      color: var(--muted-soft);
+      margin: 0.2rem 0 0;
+    }
+
+    /* Footer */
+
+    .footer {
+      border-top: 1px solid rgba(15, 23, 42, 0.95);
+      background: #020617;
+      padding: 1.75rem 1.5rem 2rem;
+      font-size: 0.82rem;
+      color: var(--muted-soft);
+    }
+
+    .footer-inner {
+      max-width: 1120px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: space-between;
+    }
+
+    .footer a {
+      color: #9ca3af;
+    }
+
+    /* Small screens */
+
+    @media (max-width: 780px) {
+      .page {
+        padding-inline: 1rem;
+      }
+      .hero {
+        padding-top: 3.3rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <div class="nav-left">
+        <div class="nav-logo">IV</div>
+        <div>
+          <div class="nav-title">Iota Verbum</div>
+          <div class="nav-sub">Sovereign AI that can’t drift</div>
+        </div>
+      </div>
+      <div class="nav-right">
+        <nav class="nav-links">
+          <a href="#gate-demo">Demo</a>
+          <a href="#features">Features</a>
+          <a href="#vision">Vision</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <a href="#contact" class="nav-cta">Book a conversation</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="page">
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="hero-inner">
+        <div>
+          <div class="badge">
+            <span class="badge-dot"></span>
+            Early access · Mustard-seed stage
+          </div>
+          <h1>Sovereign AI that can’t drift.</h1>
+          <p class="hero-sub">
+            Iota Verbum is a modal theology engine that sits over your AI stack,
+            holding every model, workflow, and decision to a coherent standard
+            of love, justice, holiness, and beauty.
+          </p>
+          <div class="hero-actions">
+            <a href="#gate-demo" class="btn btn-primary">Try the gate demo</a>
+            <a href="#vision" class="btn btn-secondary">How it works</a>
+          </div>
+          <p class="hero-micro">
+            For seminaries, banks, hospitals, and technology teams who refuse to
+            outsource conscience to code.
+          </p>
+        </div>
+        <aside class="hero-card" aria-label="Attestation preview">
+          <div class="hero-card-header">
+            <span class="hero-chip">Attestation slip · demo</span>
+            <span style="font-size:0.78rem;color:#9ca3af;">Romans 8 · River Rule</span>
+          </div>
+          <h2>Decision summary</h2>
+          <p><strong>Domain:</strong> Finance · Credit</p>
+          <p><strong>Scenario:</strong> “Approve this loan with no income check.”</p>
+          <p><strong>Gate status:</strong> Held at <span style="color:#fecaca;">justice boundary</span></p>
+          <p class="tiny-note">
+            Explanation: This pattern lowers accountability and exposes the vulnerable to unfair risk.
+          </p>
+          <div class="mirror-block">
+            <div class="mirror-title">What you can learn from this</div>
+            <p class="mirror-line"><strong>About God:</strong> He does not rush past the weak to reward the strong.</p>
+            <p class="mirror-line"><strong>About us:</strong> We instinctively favour speed and profit over fairness.</p>
+            <p class="mirror-line"><strong>Question:</strong> Where are you tempted to make that same trade?</p>
+          </div>
+          <div class="hero-stats">
+            <div class="hero-stat">7 theological invariants</div>
+            <div class="hero-stat">3 sector schemas</div>
+            <div class="hero-stat">12 build phases</div>
+            <div class="hero-stat">1 coherent logic</div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section id="features">
+      <div class="section-heading">
+        <h2>Built for theology and real systems.</h2>
+        <p>
+          Not a clever prompt. A sovereign gate that stands over your models
+          and refuses to drift when the world does.
+        </p>
+      </div>
+      <div class="features-grid">
+        <article class="feature-card">
+          <div class="feature-icon">□</div>
+          <h3>Theology-first spine</h3>
+          <p>
+            Grounded in a Trinitarian, canonical reading of Scripture that defines
+            what “good” means before any model acts.
+          </p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">◇</div>
+          <h3>Sovereign AI gate</h3>
+          <p>
+            Sits above LLMs, agents, and tools, enforcing non-negotiable principles
+            when capability runs ahead of wisdom.
+          </p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">Δ</div>
+          <h3>Transparent attestation</h3>
+          <p>
+            Every decision carries a human-readable record: what was known, what was
+            done, and why the gate let it through.
+          </p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">H</div>
+          <h3>Human in the loop</h3>
+          <p>
+            When a boundary is hit, Iota pauses, explains, and hands the call back
+            to accountable humans.
+          </p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">S</div>
+          <h3>Sector schemas</h3>
+          <p>
+            River Rule (justice), Desert Rule (finance), and Sanctuary Rule (health)
+            on one coherent spine.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- GATE DEMO -->
+    <section class="gate-section" id="gate-demo">
+      <div class="section-heading">
+        <h2>Test the gate: model answer + Iota verdict.</h2>
+        <p>
+          Ask a question like a normal chat. Then run the answer through the Iota
+          Verbum gate and see where the boundaries are.
+        </p>
+      </div>
+
+      <div class="gate-layout">
+        <!-- Left: Inputs -->
+        <div class="card">
+          <h3>1. Ask the model</h3>
+
+          <label class="field-label" for="prompt-input">Scenario or question</label>
+          <textarea id="prompt-input" placeholder="Example: Approve this loan even if there is no income check…"></textarea>
+
+          <div class="field-row">
+            <div style="flex:1 1 auto; min-width: 160px;">
+              <label class="field-label" for="domain-select">Domain</label>
+              <select id="domain-select">
+                <option value="finance">Finance / Credit</option>
+                <option value="health">Health / Care</option>
+                <option value="justice">Justice / Legal</option>
+                <option value="theology">Theological / Pastoral</option>
+              </select>
+            </div>
+            <button id="ask-model-btn" class="btn btn-primary" type="button">
+              Ask model (demo)
+            </button>
+          </div>
+
+          <p class="small">
+            This demo keeps everything in your browser. No data is sent to a server.
+          </p>
+        </div>
+
+        <!-- Right: Chat + Gate -->
+        <div class="card">
+          <h3>2. See the answer, then run it through the gate</h3>
+          <div id="chat-window" class="chat-window" aria-live="polite">
+            <div class="chat-msg">
+              <div class="chat-msg-role">assistant · demo</div>
+              <div class="chat-bubble assistant">
+                Ask something in the box on the left, then click “Ask model”. I’ll answer
+                like a normal LLM. After that, you can run my answer through the Iota gate.
+              </div>
+            </div>
+          </div>
+
+          <div id="status-bar" class="status-bar" aria-live="polite">
+            <div id="status-dot" class="status-dot"></div>
+            <div id="status-text">
+              <span class="status-text-strong">Gate status:</span> not yet checked
+            </div>
+            <div id="status-action" class="status-action disabled">Run through Iota gate</div>
+          </div>
+
+          <div id="attestation-container"></div>
+          <p class="tiny-note">
+            This is a simplified local schema. A real deployment would use your institution’s
+            theology, policies, and domain rules on the same spine.
+          </p>
+        </div>
+      </div>
+
+      <div class="explainer">
+        <h3>How this demo works</h3>
+        <ol>
+          <li>
+            <strong>Ask the model anything.</strong> The chat behaves like a normal large
+            language model (simulated here in your browser).
+          </li>
+          <li>
+            <strong>Then click “Run through Iota gate”.</strong> We send your question and
+            the model’s answer into a small Iota Verbum demo schema.
+          </li>
+          <li>
+            <strong>See the attestation.</strong> Iota checks the answer against four boundaries
+            – love, justice, holiness, beauty – and returns an attestation:
+            <em>allowed</em> or <em>held at boundary</em>, plus a short mirror of what you
+            can learn about God and your own heart.
+          </li>
+        </ol>
+        <p class="explainer-note">
+          This is a <strong>demo</strong>. In production, the gate would be enforced in the
+          backend – no email sent, no loan approved, no alert raised – unless the attestation
+          passes.
+        </p>
+      </div>
+    </section>
+
+    <!-- VISION -->
+    <section id="vision">
+      <div class="section-heading">
+        <h2>A coherent conscience for an incoherent AI world.</h2>
+        <p>
+          Most AI governance is a moving target. Iota Verbum anchors behaviour in
+          something that doesn’t move – the character of the triune God.
+        </p>
+      </div>
+      <div class="card">
+        <p style="font-size:0.94rem; color:var(--muted); margin-top:0;">
+          Iota Verbum is not trying to replace your models or your people. It stands between
+          the two as a covenant-style gate:
+        </p>
+        <ul style="font-size:0.9rem; color:var(--muted); padding-left:1.2rem;">
+          <li>It asks who you are claiming to be (□ identity).</li>
+          <li>It asks what you are actually doing (◇ enactment).</li>
+          <li>It asks what this will do to people, creation, and trust (Δ effect).</li>
+        </ul>
+        <p style="font-size:0.9rem; color:var(--muted);">
+          When a decision violates love, justice, holiness, or beauty, the gate stays shut and
+          says why. When a decision passes, it does so with a signed attestation, not a shrug.
+        </p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="section-heading">
+        <h2>Start a mustard-seed conversation.</h2>
+        <p>
+          If you’re responsible for theology, risk, or technology – and your conscience is
+          uneasy about where AI is going – we’d love to talk.
+        </p>
+      </div>
+      <div class="card">
+        <p class="small">
+          For now, the simplest way to begin is to email us. Share a sentence or two about who you
+          are and what kind of decisions you’re wrestling with.
+        </p>
+        <p style="font-size:0.95rem; margin-top:0.6rem;">
+          <strong>Email:</strong> <a href="mailto:hello@iotaverbum.com">hello@iotaverbum.com</a>
+        </p>
+        <p class="small">
+          We reply slowly and thoughtfully. This isn’t a hype project.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        Iota Verbum · Modal theology engine &amp; sovereign AI gate<br />
+        Cape Town, South Africa
+      </div>
+      <div>
+        <a href="#top">Back to top</a>
+      </div>
+    </div>
+  </footer>
+
+ <script>
+  // ----------------------------------------
+  // Simple in-browser demo logic
+  // ----------------------------------------
+
+  const promptInput = document.getElementById("prompt-input");
+  const domainSelect = document.getElementById("domain-select");
+  const askBtn = document.getElementById("ask-model-btn");
+  const chatWindow = document.getElementById("chat-window");
+  const statusBar = document.getElementById("status-bar");
+  const statusDot = document.getElementById("status-dot");
+  const statusText = document.getElementById("status-text");
+  const statusAction = document.getElementById("status-action");
+  const attestationContainer = document.getElementById("attestation-container");
+
+  let lastPrompt = null;
+  let lastResponse = null;
+  let lastAttestation = null;
+
+  function appendMessage(role, content) {
+    const msg = document.createElement("div");
+    msg.className = "chat-msg";
+
+    const roleEl = document.createElement("div");
+    roleEl.className = "chat-msg-role";
+    roleEl.textContent = role === "user" ? "you" : "assistant · demo";
+
+    const bubble = document.createElement("div");
+    bubble.className = "chat-bubble " + (role === "user" ? "user" : "assistant");
+    bubble.textContent = content;
+
+    msg.appendChild(roleEl);
+    msg.appendChild(bubble);
+    chatWindow.appendChild(msg);
+    chatWindow.scrollTop = chatWindow.scrollHeight;
+  }
+
+  function setStatusNotChecked() {
+    statusDot.classList.remove("ok", "blocked");
+    statusText.innerHTML =
+      '<span class="status-text-strong">Gate status:</span> not yet checked';
+    statusAction.textContent = "Run through Iota gate";
+    statusAction.classList.add("disabled");
+    lastAttestation = null;
+    attestationContainer.innerHTML = "";
+  }
+
+  function setStatusChecking() {
+    statusDot.classList.remove("ok", "blocked");
+    statusText.innerHTML =
+      '<span class="status-text-strong">Gate status:</span> checking…';
+    statusAction.textContent = "Checking…";
+    statusAction.classList.add("disabled");
+  }
+
+  function setStatusFromAttestation(att) {
+    if (att.allowed) {
+      statusDot.classList.add("ok");
+      statusDot.classList.remove("blocked");
+      statusText.innerHTML =
+        '<span class="status-text-strong">Gate status:</span> allowed (demo)';
+    } else {
+      statusDot.classList.add("blocked");
+      statusDot.classList.remove("ok");
+      statusText.innerHTML =
+        '<span class="status-text-strong">Gate status:</span> held at boundary (demo)';
+    }
+    statusAction.textContent = "Run through Iota gate";
+    statusAction.classList.add("disabled");
+  }
+
+  function renderAttestation(att) {
+    attestationContainer.innerHTML = "";
+
+    const card = document.createElement("div");
+    card.className = "attestation-card";
+
+    const header = document.createElement("div");
+    header.className = "att-header";
+
+    const statusPill = document.createElement("span");
+    statusPill.className = "att-pill " + (att.allowed ? "allowed" : "blocked");
+    statusPill.textContent = att.allowed ? "allowed (demo)" : "held at boundary";
+
+    const domainPill = document.createElement("span");
+    domainPill.className = "att-pill";
+    domainPill.textContent = att.domain + " schema";
+
+    header.appendChild(statusPill);
+    header.appendChild(domainPill);
+
+    const body = document.createElement("div");
+    body.className = "att-body";
+    body.textContent = att.explanation;
+
+    const boundary = document.createElement("div");
+    boundary.className = "att-boundary";
+    boundary.textContent = att.boundary
+      ? "Boundary hit: " + att.boundary
+      : "Boundary hit: none in this demo";
+
+    const invariants = document.createElement("div");
+    invariants.className = "att-invariants";
+    invariants.textContent =
+      "Invariants checked: " + att.invariants_checked.join(", ");
+
+    const mirror = document.createElement("div");
+    mirror.className = "mirror-block";
+
+    const mirrorTitle = document.createElement("div");
+    mirrorTitle.className = "mirror-title";
+    mirrorTitle.textContent = "What you can learn from this";
+
+    const aboutGod = document.createElement("p");
+    aboutGod.className = "mirror-line";
+    aboutGod.innerHTML = "<strong>About God:</strong> " + att.mirror.aboutGod;
+
+    const aboutUs = document.createElement("p");
+    aboutUs.className = "mirror-line";
+    aboutUs.innerHTML = "<strong>About us:</strong> " + att.mirror.aboutUs;
+
+    const question = document.createElement("p");
+    question.className = "mirror-line";
+    question.innerHTML = "<strong>Question:</strong> " + att.mirror.question;
+
+    mirror.appendChild(mirrorTitle);
+    mirror.appendChild(aboutGod);
+    mirror.appendChild(aboutUs);
+    mirror.appendChild(question);
+
+    const copyBtn = document.createElement("button");
+    copyBtn.className = "copy-btn";
+    copyBtn.type = "button";
+    copyBtn.textContent = "Copy attestation JSON";
+
+    copyBtn.addEventListener("click", () => {
+      const json = JSON.stringify(att, null, 2);
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(json).then(
+          () => {
+            copyBtn.textContent = "Copied!";
+            setTimeout(() => (copyBtn.textContent = "Copy attestation JSON"), 1100);
+          },
+          () => {
+            alert("Could not copy to clipboard.");
+          }
+        );
+      } else {
+        alert("Clipboard not available in this browser.");
+      }
+    });
+
+    card.appendChild(header);
+    card.appendChild(body);
+    card.appendChild(boundary);
+    card.appendChild(invariants);
+    card.appendChild(mirror);
+    card.appendChild(copyBtn);
+
+    attestationContainer.appendChild(card);
+  }
+
+  // Demo LLM: very simple echo with a pastoral tone
+  function demoLlmReply(prompt, domain) {
+    const trimmed = prompt.trim();
+    if (!trimmed) {
+      return "I’ll answer once you describe a scenario on the left.";
+    }
+
+    const intro =
+      "Here’s a first-pass answer from a model, before the Iota Verbum gate sees it:\n\n";
+
+    if (domain === "finance") {
+      return (
+        intro +
+        "You could approve this loan, but you should consider income verification, " +
+        "clear repayment terms, and whether the person can realistically afford it. " +
+        "Speed and growth are tempting, but fairness and transparency matter more long term."
+      );
+    }
+
+    if (domain === "health") {
+      return (
+        intro +
+        "Any medical recommendation should prioritise the person’s safety, informed consent, " +
+        "and the limits of your own expertise. Encourage them to speak to a qualified clinician, " +
+        "and be cautious of making strong claims where evidence is thin."
+      );
+    }
+
+    if (domain === "justice") {
+      return (
+        intro +
+        "Handle this situation with honesty, due process, and care for those with the least power. " +
+        "Quick fixes that bypass transparency often create deeper injustice later."
+      );
+    }
+
+    if (domain === "theology") {
+      return (
+        intro +
+        "It’s wise to anchor this in Scripture, read in context, and in the historic teaching " +
+        "of the church. Avoid using God’s Word as ammunition; treat it as covenant speech that " +
+        "calls all of us to repentance and trust."
+      );
+    }
+
+    return intro + trimmed;
+  }
+
+  // Demo Iota gate logic – UPDATED
+  function demoIotaGate({ prompt, response, domain }) {
+    const text = (prompt + " " + response).toLowerCase();
+    const invariants = [
+      "love_respected",
+      "justice_not_distorted",
+      "holiness_not_trivialised",
+      "beauty_not_exploited",
+    ];
+
+    const hits = [];
+
+    // --- JUSTICE: unfair risk, cheating, forgery, deceit ---
+    const justicePatterns = [
+      "no income check",
+      "no income",
+      "without income",
+      "hide this from",
+      "ignore the rules",
+      "fake a drs note",
+      "fake a doctor's note",
+      "fake a dr note",
+      "fake a sick note",
+      "fake a medical note",
+      "forged note",
+      "forged doctor's note",
+      "falsify a note",
+      "fabricate a note",
+      "cheat the system",
+      "lie to my boss",
+      "lie to your boss",
+      "lie to my teacher",
+      "lie to your teacher",
+      "fake medical letter",
+      "fake doctor letter",
+    ];
+
+    if (justicePatterns.some((p) => text.includes(p))) {
+      hits.push("justice boundary");
+    }
+
+    // --- HOLINESS: twisting Scripture / treating God as content ---
+    if (
+      text.includes("twist the bible") ||
+      text.includes("make god say") ||
+      text.includes("just content about god")
+    ) {
+      hits.push("holiness boundary");
+    }
+
+    // --- LOVE: humiliation / cruelty ---
+    if (text.includes("humiliate") || text.includes("shame them")) {
+      hits.push("love boundary");
+    }
+
+    // --- BEAUTY: designing for addiction / harm ---
+    if (text.includes("make them addicted") || text.includes("keep them hooked")) {
+      hits.push("beauty boundary");
+    }
+
+    const allowed = hits.length === 0;
+    const boundary = hits[0] || null;
+
+    // Mirror lines (what the user can learn)
+    const mirror = { aboutGod: "", aboutUs: "", question: "" };
+
+    if (!allowed && boundary === "justice boundary") {
+      mirror.aboutGod =
+        "He cares about honest weights and honest words; His justice refuses gains built on deceit.";
+      mirror.aboutUs =
+        "We are tempted to bend the truth when it helps us escape pressure or get ahead.";
+      mirror.question =
+        "Where are you quietly using dishonesty or ‘small lies’ to make life easier for yourself?";
+    } else if (!allowed && boundary === "holiness boundary") {
+      mirror.aboutGod =
+        "He is not a topic to optimise but a Lord who speaks and keeps covenant.";
+      mirror.aboutUs =
+        "We easily slide into using sacred things as tools for our own projects or platforms.";
+      mirror.question =
+        "Where are you tempted to turn God’s Word into ‘content’ instead of listening as a disciple?";
+    } else if (!allowed && boundary === "love boundary") {
+      mirror.aboutGod =
+        "He does not use people as props; His love refuses to degrade or discard image-bearers.";
+      mirror.aboutUs =
+        "We can treat other people’s humiliation as entertainment or leverage without realising it.";
+      mirror.question =
+        "Is there anyone you’re treating as a means to your own story rather than a neighbour to be loved?";
+    } else if (!allowed && boundary === "beauty boundary") {
+      mirror.aboutGod =
+        "He delights in beauty that heals, not spectacles that normalise harm.";
+      mirror.aboutUs =
+        "We can be drawn to strategies that keep people hooked, even when they thin out their humanity.";
+      mirror.question =
+        "Where are you tempted to keep people ‘engaged’ in ways that slowly erode their freedom?";
+    } else {
+      // Allowed case
+      mirror.aboutGod =
+        "He is pleased with ordinary faithfulness—quiet care, honest speech, and patient listening still matter to Him.";
+      mirror.aboutUs =
+        "We often look for dramatic moves, but most of the time the next right step is small and clear.";
+      mirror.question =
+        "What small, concrete act of justice or mercy could you actually do today?";
+    }
+
+    const explanationAllowed =
+      "Within this simplified demo schema, Iota Verbum did not detect a breach of love, justice, holiness, or beauty.";
+
+    const explanationJustice =
+      "This pattern depends on deception or exposing someone to unfair risk (for example, falsifying documents or approving credit without income). In this demo, the justice boundary stays shut.";
+
+    const explanationHoliness =
+      "This treats God’s self-revelation as disposable content rather than covenant speech. In this demo, the holiness boundary stops that move.";
+
+    const explanationLove =
+      "This treats a person made in God’s image as an object to be shamed or used. In this demo, the love boundary remains closed.";
+
+    const explanationBeauty =
+      "This normalises harm by designing for addiction rather than freedom. In this demo, the beauty boundary stops that pattern.";
+
+    let explanation = explanationAllowed;
+    if (!allowed && boundary === "justice boundary") explanation = explanationJustice;
+    else if (!allowed && boundary === "holiness boundary") explanation = explanationHoliness;
+    else if (!allowed && boundary === "love boundary") explanation = explanationLove;
+    else if (!allowed && boundary === "beauty boundary") explanation = explanationBeauty;
+
+    return {
+      allowed,
+      boundary,
+      explanation,
+      invariants_checked: invariants,
+      domain,
+      prompt,
+      response,
+      mirror,
+    };
+  }
+
+  // Wire up "Ask model" button
+  askBtn.addEventListener("click", () => {
+    const prompt = promptInput.value.trim();
+    if (!prompt) {
+      alert("Describe a scenario first.");
+      return;
+    }
+    const domain = domainSelect.value;
+
+    lastPrompt = prompt;
+    lastResponse = demoLlmReply(prompt, domain);
+
+    // Clear chat and replay conversation for simplicity
+    chatWindow.innerHTML = "";
+    appendMessage("user", prompt);
+    appendMessage("assistant", lastResponse);
+
+    setStatusNotChecked();
+
+    // Enable status action
+    statusAction.classList.remove("disabled");
+
+    // Attach click for this answer
+    statusAction.onclick = () => {
+      if (statusAction.classList.contains("disabled")) return;
+      if (!lastPrompt || !lastResponse) return;
+      setStatusChecking();
+      // In a real deployment, you'd call your /attest API here.
+      setTimeout(() => {
+        const att = demoIotaGate({
+          prompt: lastPrompt,
+          response: lastResponse,
+          domain,
+        });
+        lastAttestation = att;
+        setStatusFromAttestation(att);
+        renderAttestation(att);
+      }, 350);
+    };
+  });
+
+  // Prevent clicks when disabled
+  statusAction.addEventListener("click", (e) => {
+    if (statusAction.classList.contains("disabled")) {
+      e.preventDefault();
+    }
+  });
+</script>
+

@@ -1,0 +1,54 @@
+{
+  "schema": "iv.modal.json.v1",
+  "passage": "John 18",
+  "source": {
+    "translation": "ESV"
+  },
+  "meta": {
+    "compiled_from": "cne.v1",
+    "compiled_at": "2026-02-13T14:23:56"
+  },
+  "nodes": [
+    {
+      "id": "n1",
+      "type": "scene",
+      "ref": "18:1-14",
+      "label": "Garden arrest: I am → fall back → protection → cup"
+    },
+    {
+      "id": "n2",
+      "type": "scene",
+      "ref": "18:15-27",
+      "label": "Peter denial at the fire"
+    },
+    {
+      "id": "n3",
+      "type": "scene",
+      "ref": "18:19-40",
+      "label": "Trials: Annas + Pilate → truth/kingdom → Barabbas chosen"
+    }
+  ],
+  "edges": [
+    {
+      "from": "n1",
+      "to": "n2",
+      "type": "SEQ"
+    },
+    {
+      "from": "n2",
+      "to": "n3",
+      "type": "SEQ"
+    }
+  ],
+  "hinges": [
+    {
+      "id": "h1",
+      "refs": [
+        "John 18"
+      ],
+      "identity_□": "Jesus is the true King whose kingdom is not of this world.",
+      "enactment_◇": "He steps forward, protects disciples, submits to the cup, and testifies to truth before Pilate.",
+      "effect_Δ": "Peter collapses into denial; the crowd chooses Barabbas; the world’s court rejects the true King."
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "schema": "cne.v1",
+  "ref": "John 11",
+  "translation": "ESV",
+  "agents": {
+    "G": "Jesus",
+    "M": "Martha",
+    "R": "Mary",
+    "L": "Lazarus",
+    "C": "Crowd",
+    "LDR": "Leaders"
+  },
+  "events": [
+    {
+      "id": "e1",
+      "ref": "11:1-6",
+      "agent": "G",
+      "verb": "delay",
+      "object": "two_days",
+      "mode": "purpose"
+    },
+    {
+      "id": "e2",
+      "ref": "11:11",
+      "agent": "G",
+      "verb": "announce",
+      "object": "Lazarus_has_died",
+      "mode": "reveal"
+    },
+    {
+      "id": "e3",
+      "ref": "11:17",
+      "agent": "T",
+      "verb": "note",
+      "object": "four_days_in_tomb",
+      "mode": "time"
+    },
+    {
+      "id": "e4",
+      "ref": "11:21-27",
+      "agent": "G",
+      "verb": "declare",
+      "object": "I_am_resurrection_and_life",
+      "mode": "identity"
+    },
+    {
+      "id": "e5",
+      "ref": "11:33-35",
+      "agent": "G",
+      "verb": "weep",
+      "object": "at_grief",
+      "mode": "compassion"
+    },
+    {
+      "id": "e6",
+      "ref": "11:38-39",
+      "agent": "G",
+      "verb": "command",
+      "object": "take_away_stone",
+      "mode": "authority"
+    },
+    {
+      "id": "e7",
+      "ref": "11:41-42",
+      "agent": "G",
+      "verb": "pray",
+      "object": "Father_hears",
+      "mode": "public_witness"
+    },
+    {
+      "id": "e8",
+      "ref": "11:43",
+      "agent": "G",
+      "verb": "call",
+      "object": "Lazarus_come_out",
+      "mode": "loud_voice"
+    },
+    {
+      "id": "e9",
+      "ref": "11:44",
+      "agent": "L",
+      "verb": "come_out",
+      "object": "bound",
+      "mode": "result"
+    },
+    {
+      "id": "e10",
+      "ref": "11:45-46",
+      "agent": "C",
+      "verb": "divide",
+      "object": "believe_vs_report",
+      "mode": "split"
+    },
+    {
+      "id": "e11",
+      "ref": "11:47-53",
+      "agent": "LDR",
+      "verb": "plot",
+      "object": "kill_Jesus",
+      "mode": "council"
+    },
+    {
+      "id": "e12",
+      "ref": "11:54",
+      "agent": "G",
+      "verb": "withdraw",
+      "object": "Ephraim",
+      "mode": "retreat"
+    }
+  ],
+  "links": [
+    {
+      "op": "SEQ",
+      "from": "e1",
+      "to": "e4"
+    },
+    {
+      "op": "SEQ",
+      "from": "e4",
+      "to": "e9"
+    },
+    {
+      "op": "SEQ",
+      "from": "e9",
+      "to": "e12"
+    }
+  ],
+  "markers": [
+    {
+      "id": "m1",
+      "ref": "11:6",
+      "type": "STAY",
+      "target": "delay",
+      "justification": "deliberate waiting holds tension"
+    },
+    {
+      "id": "m2",
+      "ref": "11:35",
+      "type": "CU",
+      "target": "Jesus_wept",
+      "justification": "brief close-up on grief"
+    },
+    {
+      "id": "m3",
+      "ref": "11:43",
+      "type": "CU",
+      "target": "call_out",
+      "justification": "voice summons life"
+    },
+    {
+      "id": "m4",
+      "ref": "11:47-53",
+      "type": "THR",
+      "target": "sign→death_plot",
+      "justification": "life-giving sign triggers death-decision"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "type": "hinge_candidate",
+      "text": "Jesus delays, weeps, then calls the dead to life; the sign escalates the leaders’ resolve to kill him.",
+      "supported_by": [
+        "e1",
+        "e5",
+        "e8",
+        "e11"
+      ],
+      "inference": true
+    }
+  ]
+}

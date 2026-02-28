@@ -1,0 +1,535 @@
+{
+  "ref": "John 3:1-36",
+  "translation": "ESV",
+  "nodes": [
+    {
+      "id": "n1",
+      "kind": "identity",
+      "lemma": "identity",
+      "text": "□ The Son reveals the Father’s saving purpose; the Spirit’s birth is not human manufacture, and the Son is the one given and lifted up.",
+      "span": "c1",
+      "confidence": 0.85
+    },
+    {
+      "id": "n2",
+      "kind": "enactment",
+      "lemma": "enactment",
+      "text": "◇ Nicodemus comes in the night and questions; Jesus testifies and declares new birth and the lifted-up Son; John the Baptist re-witnesses and yields the spotlight.",
+      "span": "c2",
+      "confidence": 0.82
+    },
+    {
+      "id": "n3",
+      "kind": "effect",
+      "lemma": "effect",
+      "text": "Δ Belief receives life and freedom from condemnation; refusal remains in darkness and under wrath; true witness learns to decrease as Christ increases.",
+      "span": "c3",
+      "confidence": 0.84
+    },
+    {
+      "id": "n4",
+      "kind": "enactment",
+      "lemma": "come",
+      "text": "N.come (Jesus) [by_night]  (3:1-2)",
+      "span": "c4",
+      "confidence": 0.76
+    },
+    {
+      "id": "n5",
+      "kind": "enactment",
+      "lemma": "say",
+      "text": "N.say (Rabbi, we know you are a teacher from God; no one can do these signs unless God is with him.) [address]  (3:2)",
+      "span": "c5",
+      "confidence": 0.76
+    },
+    {
+      "id": "n6",
+      "kind": "identity",
+      "lemma": "declare",
+      "text": "G.declare (Unless one is born again he cannot see the kingdom of God.)  (3:3)",
+      "span": "c6",
+      "confidence": 0.76
+    },
+    {
+      "id": "n7",
+      "kind": "enactment",
+      "lemma": "ask",
+      "text": "N.ask (How can a man be born when he is old? Can he enter a second time into his mother's womb?) [confusion]  (3:4)",
+      "span": "c7",
+      "confidence": 0.76
+    },
+    {
+      "id": "n8",
+      "kind": "identity",
+      "lemma": "declare",
+      "text": "G.declare (Unless one is born of water and the Spirit, he cannot enter the kingdom of God.)  (3:5)",
+      "span": "c8",
+      "confidence": 0.76
+    },
+    {
+      "id": "n9",
+      "kind": "identity",
+      "lemma": "declare",
+      "text": "G.declare (That which is born of the flesh is flesh, and that which is born of the Spirit is spirit.)  (3:6)",
+      "span": "c9",
+      "confidence": 0.76
+    },
+    {
+      "id": "n10",
+      "kind": "identity",
+      "lemma": "declare",
+      "text": "G.declare (The wind blows where it wishes... so it is with everyone who is born of the Spirit.)  (3:7-8)",
+      "span": "c10",
+      "confidence": 0.76
+    },
+    {
+      "id": "n11",
+      "kind": "enactment",
+      "lemma": "ask",
+      "text": "N.ask (How can these things be?)  (3:9)",
+      "span": "c11",
+      "confidence": 0.76
+    },
+    {
+      "id": "n12",
+      "kind": "enactment",
+      "lemma": "ask",
+      "text": "G.ask (Are you the teacher of Israel and yet you do not understand these things?) [reproof]  (3:10)",
+      "span": "c12",
+      "confidence": 0.76
+    },
+    {
+      "id": "n13",
+      "kind": "identity",
+      "lemma": "declare",
+      "text": "G.declare (We speak of what we know and bear witness to what we have seen, but you do not receive our testimony... If I have told you earthly things and you do not believe, how can you believe if I tell you heavenly things?)  (3:11-12)",
+      "span": "c13",
+      "confidence": 0.76
+    },
+    {
+      "id": "n14",
+      "kind": "identity",
+      "lemma": "declare",
+      "text": "G.declare (No one has ascended into heaven except he who descended from heaven, the Son of Man.)  (3:13)",
+      "span": "c14",
+      "confidence": 0.76
+    },
+    {
+      "id": "n15",
+      "kind": "identity",
+      "lemma": "reveal",
+      "text": "G.reveal (As Moses lifted up the serpent in the wilderness, so must the Son of Man be lifted up, that whoever believes in him may have eternal life.)  (3:14-15)",
+      "span": "c15",
+      "confidence": 0.76
+    },
+    {
+      "id": "n16",
+      "kind": "effect",
+      "lemma": "promise",
+      "text": "G.promise (Whoever believes in him may have eternal life.)  (3:15)",
+      "span": "c16",
+      "confidence": 0.76
+    },
+    {
+      "id": "n17",
+      "kind": "identity",
+      "lemma": "declare",
+      "text": "G.declare (God so loved the world, that he gave his only Son, that whoever believes in him should not perish but have eternal life.)  (3:16)",
+      "span": "c17",
+      "confidence": 0.76
+    },
+    {
+      "id": "n18",
+      "kind": "identity",
+      "lemma": "declare",
+      "text": "G.declare (God did not send his Son into the world to condemn the world, but in order that the world might be saved through him.)  (3:17)",
+      "span": "c18",
+      "confidence": 0.76
+    },
+    {
+      "id": "n19",
+      "kind": "effect",
+      "lemma": "declare",
+      "text": "G.declare (Whoever believes in him is not condemned, but whoever does not believe is condemned already.)  (3:18)",
+      "span": "c19",
+      "confidence": 0.76
+    },
+    {
+      "id": "n20",
+      "kind": "identity",
+      "lemma": "declare",
+      "text": "G.declare (The light has come into the world, and people loved the darkness rather than the light because their works were evil.)  (3:19)",
+      "span": "c20",
+      "confidence": 0.76
+    },
+    {
+      "id": "n21",
+      "kind": "identity",
+      "lemma": "declare",
+      "text": "G.declare (Everyone who does wicked things hates the light... but whoever does what is true comes to the light, so that it may be clearly seen that his works have been carried out in God.)  (3:20-21)",
+      "span": "c21",
+      "confidence": 0.76
+    },
+    {
+      "id": "n22",
+      "kind": "enactment",
+      "lemma": "go",
+      "text": "G.go (Judean countryside) [with disciples]  (3:22)",
+      "span": "c22",
+      "confidence": 0.76
+    },
+    {
+      "id": "n23",
+      "kind": "enactment",
+      "lemma": "remain",
+      "text": "G.remain (with them) [in countryside]  (3:22)",
+      "span": "c23",
+      "confidence": 0.76
+    },
+    {
+      "id": "n24",
+      "kind": "enactment",
+      "lemma": "baptize",
+      "text": "D.baptize (people) [in Judea]  (3:22)",
+      "span": "c24",
+      "confidence": 0.76
+    },
+    {
+      "id": "n25",
+      "kind": "enactment",
+      "lemma": "baptize",
+      "text": "J.baptize (people) [Aenon near Salim]  (3:23)",
+      "span": "c25",
+      "confidence": 0.76
+    },
+    {
+      "id": "n26",
+      "kind": "enactment",
+      "lemma": "dispute",
+      "text": "JD.dispute (U about purification)  (3:25)",
+      "span": "c26",
+      "confidence": 0.76
+    },
+    {
+      "id": "n27",
+      "kind": "enactment",
+      "lemma": "say",
+      "text": "JD.say (Rabbi, he who was with you... is baptizing, and all are going to him.) [concern]  (3:26)",
+      "span": "c27",
+      "confidence": 0.76
+    },
+    {
+      "id": "n28",
+      "kind": "identity",
+      "lemma": "declare",
+      "text": "J.declare (A person cannot receive even one thing unless it is given him from heaven.)  (3:27)",
+      "span": "c28",
+      "confidence": 0.76
+    },
+    {
+      "id": "n29",
+      "kind": "identity",
+      "lemma": "declare",
+      "text": "J.declare (I said, 'I am not the Christ,' but I have been sent before him.)  (3:28)",
+      "span": "c29",
+      "confidence": 0.76
+    },
+    {
+      "id": "n30",
+      "kind": "identity",
+      "lemma": "reveal",
+      "text": "J.reveal (The one who has the bride is the bridegroom... the friend rejoices greatly at the bridegroom's voice. Therefore this joy of mine is now complete.)  (3:29)",
+      "span": "c30",
+      "confidence": 0.76
+    },
+    {
+      "id": "n31",
+      "kind": "identity",
+      "lemma": "declare",
+      "text": "J.declare (He must increase, but I must decrease.)  (3:30)",
+      "span": "c31",
+      "confidence": 0.76
+    },
+    {
+      "id": "n32",
+      "kind": "identity",
+      "lemma": "declare",
+      "text": "J.declare (He who comes from above is above all... he who is of the earth belongs to the earth.)  (3:31)",
+      "span": "c32",
+      "confidence": 0.76
+    },
+    {
+      "id": "n33",
+      "kind": "identity",
+      "lemma": "declare",
+      "text": "J.declare (He bears witness to what he has seen and heard, yet no one receives his testimony; whoever receives his testimony sets his seal that God is true.)  (3:32-33)",
+      "span": "c33",
+      "confidence": 0.76
+    },
+    {
+      "id": "n34",
+      "kind": "identity",
+      "lemma": "declare",
+      "text": "J.declare (He whom God has sent utters the words of God, for he gives the Spirit without measure.)  (3:34)",
+      "span": "c34",
+      "confidence": 0.76
+    },
+    {
+      "id": "n35",
+      "kind": "identity",
+      "lemma": "declare",
+      "text": "J.declare (The Father loves the Son and has given all things into his hand.)  (3:35)",
+      "span": "c35",
+      "confidence": 0.76
+    },
+    {
+      "id": "n36",
+      "kind": "effect",
+      "lemma": "promise",
+      "text": "J.promise (Whoever believes in the Son has eternal life.)  (3:36a)",
+      "span": "c36",
+      "confidence": 0.76
+    },
+    {
+      "id": "n37",
+      "kind": "effect",
+      "lemma": "warn",
+      "text": "J.warn (Whoever does not obey the Son shall not see life, but the wrath of God remains on him.)  (3:36b)",
+      "span": "c37",
+      "confidence": 0.76
+    }
+  ],
+  "edges": [
+    {
+      "from": "n1",
+      "to": "n2",
+      "relation": "grounds",
+      "confidence": 0.82
+    },
+    {
+      "from": "n2",
+      "to": "n3",
+      "relation": "produces",
+      "confidence": 0.8
+    },
+    {
+      "from": "n4",
+      "to": "n5",
+      "relation": "implies",
+      "confidence": 0.65
+    },
+    {
+      "from": "n5",
+      "to": "n6",
+      "relation": "implies",
+      "confidence": 0.65
+    },
+    {
+      "from": "n6",
+      "to": "n7",
+      "relation": "implies",
+      "confidence": 0.65
+    },
+    {
+      "from": "n7",
+      "to": "n8",
+      "relation": "implies",
+      "confidence": 0.65
+    },
+    {
+      "from": "n8",
+      "to": "n9",
+      "relation": "implies",
+      "confidence": 0.65
+    },
+    {
+      "from": "n9",
+      "to": "n10",
+      "relation": "implies",
+      "confidence": 0.65
+    },
+    {
+      "from": "n10",
+      "to": "n11",
+      "relation": "implies",
+      "confidence": 0.65
+    },
+    {
+      "from": "n11",
+      "to": "n12",
+      "relation": "implies",
+      "confidence": 0.65
+    },
+    {
+      "from": "n12",
+      "to": "n13",
+      "relation": "implies",
+      "confidence": 0.65
+    },
+    {
+      "from": "n13",
+      "to": "n14",
+      "relation": "implies",
+      "confidence": 0.65
+    },
+    {
+      "from": "n14",
+      "to": "n15",
+      "relation": "implies",
+      "confidence": 0.65
+    },
+    {
+      "from": "n15",
+      "to": "n16",
+      "relation": "implies",
+      "confidence": 0.65
+    },
+    {
+      "from": "n16",
+      "to": "n17",
+      "relation": "implies",
+      "confidence": 0.65
+    },
+    {
+      "from": "n17",
+      "to": "n18",
+      "relation": "implies",
+      "confidence": 0.65
+    },
+    {
+      "from": "n18",
+      "to": "n19",
+      "relation": "implies",
+      "confidence": 0.65
+    },
+    {
+      "from": "n19",
+      "to": "n20",
+      "relation": "implies",
+      "confidence": 0.65
+    },
+    {
+      "from": "n20",
+      "to": "n21",
+      "relation": "implies",
+      "confidence": 0.65
+    },
+    {
+      "from": "n21",
+      "to": "n22",
+      "relation": "implies",
+      "confidence": 0.65
+    },
+    {
+      "from": "n22",
+      "to": "n23",
+      "relation": "implies",
+      "confidence": 0.65
+    },
+    {
+      "from": "n23",
+      "to": "n24",
+      "relation": "implies",
+      "confidence": 0.65
+    },
+    {
+      "from": "n24",
+      "to": "n25",
+      "relation": "implies",
+      "confidence": 0.65
+    },
+    {
+      "from": "n25",
+      "to": "n26",
+      "relation": "implies",
+      "confidence": 0.65
+    },
+    {
+      "from": "n26",
+      "to": "n27",
+      "relation": "implies",
+      "confidence": 0.65
+    },
+    {
+      "from": "n27",
+      "to": "n28",
+      "relation": "implies",
+      "confidence": 0.65
+    },
+    {
+      "from": "n28",
+      "to": "n29",
+      "relation": "implies",
+      "confidence": 0.65
+    },
+    {
+      "from": "n29",
+      "to": "n30",
+      "relation": "implies",
+      "confidence": 0.65
+    },
+    {
+      "from": "n30",
+      "to": "n31",
+      "relation": "implies",
+      "confidence": 0.65
+    },
+    {
+      "from": "n31",
+      "to": "n32",
+      "relation": "implies",
+      "confidence": 0.65
+    },
+    {
+      "from": "n32",
+      "to": "n33",
+      "relation": "implies",
+      "confidence": 0.65
+    },
+    {
+      "from": "n33",
+      "to": "n34",
+      "relation": "implies",
+      "confidence": 0.65
+    },
+    {
+      "from": "n34",
+      "to": "n35",
+      "relation": "implies",
+      "confidence": 0.65
+    },
+    {
+      "from": "n35",
+      "to": "n36",
+      "relation": "implies",
+      "confidence": 0.65
+    },
+    {
+      "from": "n36",
+      "to": "n37",
+      "relation": "implies",
+      "confidence": 0.65
+    }
+  ],
+  "hinges": [
+    {
+      "id": "h1",
+      "refs": [
+        "John 3:1-36"
+      ],
+      "identity_□": "The Son reveals the Father's saving purpose; the Son is given and lifted up, and birth from the Spirit is not human manufacture.",
+      "enactment_◇": "Jesus receives Nicodemus by night, declares new birth and heavenly witness, and John the Baptist re-witnesses while yielding the spotlight to Christ.",
+      "effect_Δ": "Belief receives life and freedom from condemnation, refusal remains in darkness, and true witness decreases so Christ may increase."
+    }
+  ],
+  "creed": {
+    "status": "pass",
+    "notes": []
+  },
+  "watermark": "f295cd76ea009fd6",
+  "meta": {
+    "postprocessed_at": "2026-02-12T18:11:50.719997Z",
+    "confidence": 0.9,
+    "source": "cne_compile_v1"
+  }
+}

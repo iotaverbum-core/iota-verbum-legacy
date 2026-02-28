@@ -1,0 +1,165 @@
+{
+  "schema": "cne.v1",
+  "ref": "John 20",
+  "translation": "ESV",
+  "agents": {
+    "G": "Jesus",
+    "M": "Mary_Magdalene",
+    "P": "Peter",
+    "B": "Beloved_disciple",
+    "D": "Disciples",
+    "T": "Thomas"
+  },
+  "events": [
+    {
+      "id": "e1",
+      "ref": "20:1",
+      "agent": "M",
+      "verb": "see",
+      "object": "stone_removed",
+      "mode": "dawn"
+    },
+    {
+      "id": "e2",
+      "ref": "20:2-8",
+      "agent": "P",
+      "verb": "run_and_see",
+      "object": "linen_cloths",
+      "mode": "investigate"
+    },
+    {
+      "id": "e3",
+      "ref": "20:14-16",
+      "agent": "G",
+      "verb": "name",
+      "object": "Mary",
+      "mode": "recognition"
+    },
+    {
+      "id": "e4",
+      "ref": "20:17",
+      "agent": "G",
+      "verb": "send",
+      "object": "go_to_brothers",
+      "mode": "commission"
+    },
+    {
+      "id": "e5",
+      "ref": "20:19",
+      "agent": "G",
+      "verb": "appear",
+      "object": "behind_locked_doors",
+      "mode": "presence"
+    },
+    {
+      "id": "e6",
+      "ref": "20:19",
+      "agent": "G",
+      "verb": "give",
+      "object": "peace",
+      "mode": "greeting"
+    },
+    {
+      "id": "e7",
+      "ref": "20:22",
+      "agent": "G",
+      "verb": "breathe",
+      "object": "receive_Holy_Spirit",
+      "mode": "gift"
+    },
+    {
+      "id": "e8",
+      "ref": "20:23",
+      "agent": "G",
+      "verb": "commission",
+      "object": "forgive/retain",
+      "mode": "authority"
+    },
+    {
+      "id": "e9",
+      "ref": "20:25",
+      "agent": "T",
+      "verb": "doubt",
+      "object": "unless_I_see_touch",
+      "mode": "condition"
+    },
+    {
+      "id": "e10",
+      "ref": "20:27",
+      "agent": "G",
+      "verb": "invite",
+      "object": "touch_and_believe",
+      "mode": "gentle"
+    },
+    {
+      "id": "e11",
+      "ref": "20:28",
+      "agent": "T",
+      "verb": "confess",
+      "object": "my_Lord_and_my_God",
+      "mode": "worship"
+    },
+    {
+      "id": "e12",
+      "ref": "20:29-31",
+      "agent": "T2",
+      "verb": "state_purpose",
+      "object": "written_so_you_believe",
+      "mode": "epilogue"
+    }
+  ],
+  "links": [
+    {
+      "op": "SEQ",
+      "from": "e1",
+      "to": "e4"
+    },
+    {
+      "op": "SEQ",
+      "from": "e4",
+      "to": "e8"
+    },
+    {
+      "op": "SEQ",
+      "from": "e8",
+      "to": "e12"
+    }
+  ],
+  "markers": [
+    {
+      "id": "m1",
+      "ref": "20:16",
+      "type": "CU",
+      "target": "Mary_named",
+      "justification": "recognition through name"
+    },
+    {
+      "id": "m2",
+      "ref": "20:19-23",
+      "type": "SM",
+      "target": "locked_room_appearance_breathing",
+      "justification": "detailed presence + Spirit gift"
+    },
+    {
+      "id": "m3",
+      "ref": "20:27-28",
+      "type": "CU",
+      "target": "Thomas_confession",
+      "justification": "peak confession"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "type": "hinge_candidate",
+      "text": "The risen Jesus is recognized by naming, grants peace, breathes the Spirit, and turns doubt into confession.",
+      "supported_by": [
+        "e3",
+        "e6",
+        "e7",
+        "e11"
+      ],
+      "inference": true
+    }
+  ]
+}

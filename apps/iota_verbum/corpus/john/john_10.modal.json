@@ -1,0 +1,43 @@
+{
+  "schema": "iv.modal.json.v1",
+  "passage": "John 10",
+  "source": {
+    "translation": "ESV"
+  },
+  "meta": {
+    "compiled_from": "cne.v1",
+    "compiled_at": "2026-02-13T14:23:56"
+  },
+  "nodes": [
+    {
+      "id": "n1",
+      "type": "scene",
+      "ref": "10:1-21",
+      "label": "Good Shepherd: voice, name, lay down life"
+    },
+    {
+      "id": "n2",
+      "type": "scene",
+      "ref": "10:22-42",
+      "label": "Dedication: identity claims → stoning attempt → withdrawal → belief"
+    }
+  ],
+  "edges": [
+    {
+      "from": "n1",
+      "to": "n2",
+      "type": "SEQ"
+    }
+  ],
+  "hinges": [
+    {
+      "id": "h1",
+      "refs": [
+        "John 10"
+      ],
+      "identity_□": "Jesus is the Good Shepherd, one with the Father.",
+      "enactment_◇": "He calls by name, lays down his life, and defends his works/identity before hostile leaders.",
+      "effect_Δ": "His sheep hear and receive eternal life; hostility intensifies; many believe beyond the Jordan."
+    }
+  ]
+}

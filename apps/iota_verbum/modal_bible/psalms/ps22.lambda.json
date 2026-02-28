@@ -1,0 +1,287 @@
+﻿{
+  "meta": {
+    "format": "iota.modal_bible.lambda_json",
+    "lambda_version": "v0.1",
+    "description": "Modal Bible encoding of Psalm 22 using Iota Verbum's Λ grammar (□ identity / ◇ enactment / Δ effect).",
+    "grammar_ref": "docs/Modal_Grammar_v1.0.md",
+    "notes": [
+      "All formulas in `identity_invariants` and `units[*].statements[*].lambda_iv` use Λ v0.1 ASCII syntax:",
+      "[] = □ (necessity / identity), <> = ◇ (possibility / enactment), EFF() = Δ (effect), !, &, |, -> for logic.",
+      "This file is a theological encoding, not just data. Corrections should preserve the Λ triad and syntax."
+    ],
+    "created_by": "Matthew + Iota (Λ)",
+    "version": "Ps22_Lambda_IV_v0.1"
+  },
+
+  "passage_id": "Ps22",
+  "book": "Psalms",
+  "chapter": 22,
+  "verses": "1-31",
+  "title": "Psalm 22 – Lament Through Dereliction to Praise",
+  "interpretive_frames": [
+    "DavidicLament",
+    "ChristologicalFulfilment",
+    "EconomyOfGod_LamentToPraise"
+  ],
+  "identity_invariants": [
+    "I(H(YHWH)) -> []H(YHWH)",
+    "I(FaithfulDeliverer(YHWH)) -> []FaithfulDeliverer(YHWH)",
+    "I(KingOfIsrael(YHWH)) -> []KingOfIsrael(YHWH)",
+    "I(KingOfNations(YHWH)) -> []KingOfNations(YHWH)",
+    "I(L(YHWH)) -> []L(YHWH)"
+  ],
+  "units": [
+    {
+      "id": "Ps22_1_2",
+      "label": "Abandoned Lament",
+      "verses": [1, 2],
+      "illocution": "Lament",
+      "agents": ["Psalmist", "YHWH"],
+      "statements": [
+        {
+          "id": "Ps22_1_2_s1",
+          "type": "speech",
+          "speaker": "Psalmist",
+          "target": "YHWH",
+          "description": "Crying out in perceived forsakenness",
+          "lambda_iv": [
+            "EFF(State(Psalmist, Afflicted) & State(Psalmist, Surrounded))",
+            "<>CryOut(Psalmist, YHWH, t_suffering)",
+            "Perceived(State(YHWH, Distant))",
+            "Preserves(CryOut(Psalmist, YHWH, t_suffering), FaithfulDeliverer(YHWH))",
+            "Preserves(CryOut(Psalmist, YHWH, t_suffering), H(YHWH))"
+          ]
+        },
+        {
+          "id": "Ps22_1_2_s2",
+          "type": "tension",
+          "description": "Felt forsakenness vs confessed identity",
+          "lambda_iv": [
+            "Tension(PerceivedForsaken(Psalmist), FaithfulDeliverer(YHWH))"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Ps22_3_5",
+      "label": "Remembered Trust of the Fathers",
+      "verses": [3, 4, 5],
+      "illocution": "RememberingPraise",
+      "agents": ["Psalmist", "YHWH", "FathersOfIsrael"],
+      "statements": [
+        {
+          "id": "Ps22_3_5_s1",
+          "type": "identity_confession",
+          "description": "Confessing God's holiness and enthronement",
+          "lambda_iv": [
+            "I(H(YHWH)) -> []H(YHWH)",
+            "I(KingOfIsrael(YHWH)) -> []KingOfIsrael(YHWH)",
+            "State(YHWH, EnthronedOnPraisesOf(Israel))"
+          ]
+        },
+        {
+          "id": "Ps22_3_5_s2",
+          "type": "pattern",
+          "description": "Historical pattern of trust and deliverance",
+          "lambda_iv": [
+            "TrustPattern(FathersOfIsrael, YHWH)",
+            "EFF(PastAct(Deliver(YHWH, FathersOfIsrael)))",
+            "EFF(PastRescue(FathersOfIsrael))"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Ps22_6_8",
+      "label": "Shame and Mockery",
+      "verses": [6, 7, 8],
+      "illocution": "Complaint",
+      "agents": ["Psalmist", "Enemies", "YHWH"],
+      "statements": [
+        {
+          "id": "Ps22_6_8_s1",
+          "type": "state",
+          "description": "Deep humiliation and dehumanisation",
+          "lambda_iv": [
+            "EFF(State(Psalmist, Shamed) & State(Psalmist, Despised) & State(Psalmist, Dehumanised))"
+          ]
+        },
+        {
+          "id": "Ps22_6_8_s2",
+          "type": "speech",
+          "speaker": "Enemies",
+          "target": "Psalmist",
+          "description": "Enemies taunt the Psalmist and implicitly question YHWH",
+          "lambda_iv": [
+            "<>Taunt(Enemies, \"He trusts in the LORD; let him deliver him\")",
+            "!Preserves(Taunt(Enemies, \"He trusts in the LORD; let him deliver him\"), FaithfulDeliverer(YHWH))",
+            "NarrativeConflict(TauntStory(Enemies), CovenantStory(Psalmist))"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Ps22_9_11",
+      "label": "From Birth to Now – Covenant Dependence",
+      "verses": [9, 10, 11],
+      "illocution": "Plea",
+      "agents": ["Psalmist", "YHWH"],
+      "statements": [
+        {
+          "id": "Ps22_9_11_s1",
+          "type": "covenant_memory",
+          "description": "Psalmist recalls lifelong dependence on YHWH",
+          "lambda_iv": [
+            "EFF(PastAct(YHWH, BroughtFromWomb(Psalmist)))",
+            "EFF(PastAct(YHWH, MadeTrustFromBreasts(Psalmist)))",
+            "State(Psalmist, CovenantDependentFromBirth)"
+          ]
+        },
+        {
+          "id": "Ps22_9_11_s2",
+          "type": "speech",
+          "speaker": "Psalmist",
+          "target": "YHWH",
+          "description": "Plea for nearness based on covenant history",
+          "lambda_iv": [
+            "<>Plead(Psalmist, YHWH, \"Be not far from me\", t_suffering)",
+            "Preserves(Plead(Psalmist, YHWH, \"Be not far from me\", t_suffering), FaithfulDeliverer(YHWH))",
+            "Preserves(Plead(Psalmist, YHWH, \"Be not far from me\", t_suffering), L(YHWH))"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Ps22_12_18",
+      "label": "Encircled by Death",
+      "verses": [12, 13, 14, 15, 16, 17, 18],
+      "illocution": "ComplaintDescription",
+      "agents": ["Psalmist", "Enemies"],
+      "statements": [
+        {
+          "id": "Ps22_12_18_s1",
+          "type": "state",
+          "description": "Enemies surround like bulls, dogs; life poured out",
+          "lambda_iv": [
+            "EFF(State(Psalmist, MortalDanger) & State(Psalmist, PhysicallyBroken) & State(Psalmist, SociallyIsolated))",
+            "SurroundedBy(Psalmist, Enemies)",
+            "EnemyImagery(Enemies, List(StrongBulls, RoaringLions, Dogs))"
+          ]
+        },
+        {
+          "id": "Ps22_12_18_s2",
+          "type": "prophetic_pattern",
+          "description": "Pattern anticipating crucifixion imagery",
+          "lambda_iv": [
+            "Motif(PiercedHandsAndFeet(Psalmist))",
+            "Motif(DividedGarments(Psalmist))",
+            "<>TypologicalFulfilment(Christ, Ps22_12_18_Motifs)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Ps22_19_21",
+      "label": "Final Plea for Deliverance",
+      "verses": [19, 20, 21],
+      "illocution": "Plea",
+      "agents": ["Psalmist", "YHWH"],
+      "statements": [
+        {
+          "id": "Ps22_19_21_s1",
+          "type": "speech",
+          "speaker": "Psalmist",
+          "target": "YHWH",
+          "description": "Urgent plea for help, strength, and rescue from death",
+          "lambda_iv": [
+            "<>Plead(Psalmist, YHWH, \"Do not be far off; come quickly to my aid\", t_suffering)",
+            "<>RequestDeliveranceFrom(Psalmist, WeaponsList(Sword, Dog, Lion, WildOxen))",
+            "Preserves(Plead(Psalmist, YHWH, \"Do not be far off; come quickly to my aid\", t_suffering), FaithfulDeliverer(YHWH))",
+            "Preserves(Plead(Psalmist, YHWH, \"Do not be far off; come quickly to my aid\", t_suffering), KingOfIsrael(YHWH))"
+          ]
+        },
+        {
+          "id": "Ps22_19_21_s2",
+          "type": "analogical_impassibility",
+          "description": "Implicit boundary: God cannot ultimately abandon the righteous covenant-truster",
+          "lambda_iv": [
+            "RS(Psalmist)",
+            "[]FaithfulDeliverer(YHWH) & RS(Psalmist) -> !<>FinalState(ForsakenForever(Psalmist))"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Ps22_22_26",
+      "label": "Vow of Praise in the Assembly",
+      "verses": [22, 23, 24, 25, 26],
+      "illocution": "VowOfPraise",
+      "agents": ["Psalmist", "Congregation", "YHWH"],
+      "statements": [
+        {
+          "id": "Ps22_22_26_s1",
+          "type": "speech",
+          "speaker": "Psalmist",
+          "target": "Congregation",
+          "description": "Commitment to proclaim YHWH's name to the brothers and assembly",
+          "lambda_iv": [
+            "Condition(Answered(Psalmist, t_answer))",
+            "<>VowToPraise(Psalmist, Assembly, t_future)",
+            "Preserves(VowToPraise(Psalmist, Assembly, t_future), KingOfIsrael(YHWH))",
+            "Preserves(VowToPraise(Psalmist, Assembly, t_future), FaithfulDeliverer(YHWH))"
+          ]
+        },
+        {
+          "id": "Ps22_22_26_s2",
+          "type": "testimony_pattern",
+          "description": "YHWH has not despised the afflicted one and has heard his cry",
+          "lambda_iv": [
+            "Enact(YHWH, Deliver(Psalmist)) -> EFF(RescuedState(Psalmist))",
+            "Attest(Deliver(Psalmist), e_psalmist)",
+            "Includes(e_psalmist, \"He has not hidden his face from him but has heard\")"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Ps22_27_31",
+      "label": "Global and Generational Praise",
+      "verses": [27, 28, 29, 30, 31],
+      "illocution": "Proclamation",
+      "agents": ["Nations", "FutureGeneration", "YHWH"],
+      "statements": [
+        {
+          "id": "Ps22_27_31_s1",
+          "type": "identity_confession",
+          "description": "YHWH as universal king and ruler of the nations",
+          "lambda_iv": [
+            "I(KingOfNations(YHWH)) -> []KingOfNations(YHWH)",
+            "State(YHWH, RulerOf(Nations))"
+          ]
+        },
+        {
+          "id": "Ps22_27_31_s2",
+          "type": "future_effect",
+          "description": "All nations turning to YHWH; future generations proclaiming his righteousness",
+          "lambda_iv": [
+            "FutureState(Nations, RememberAndTurnToYHWH)",
+            "FutureState(Nations, Worship(YHWH))",
+            "FutureState(FutureGeneration, Told(\"He has done it\"))",
+            "EFF(GlobalWorshipTrajectory)"
+          ]
+        },
+        {
+          "id": "Ps22_27_31_s3",
+          "type": "christological_fulfilment",
+          "description": "Christ as the Righteous Sufferer whose vindication generates worldwide worship",
+          "lambda_iv": [
+            "RS(Christ)",
+            "Enact(YHWH, VindicateRighteousSufferer(Christ)) -> EFF(WorldState_Resurrection)",
+            "EFF(WorldState_Resurrection) -> <>ProclaimTo(Gospel, Nations)",
+            "EFF(WorldState_Resurrection) -> EFF(GlobalWorshipTrajectory)"
+          ]
+        }
+      ]
+    }
+  ]
+}

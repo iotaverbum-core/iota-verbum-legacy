@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Luke λ-files; safe to hand-edit after generation.",
+    "book": "Luke",
+    "passage_id": "Luk18_18_30",
+    "version": "Luk18_18_30_Lambda_IV_v0.1"
+  },
+  "passage_id": "Luk18_18_30",
+  "book": "Luke",
+  "chapter": 18,
+  "verses": "18-30",
+  "title": "Luke 18:18–30 – Rich Ruler and Treasure in Heaven",
+  "interpretive_frames": [
+    "Wealth",
+    "Discipleship",
+    "Reward"
+  ],
+  "identity_invariants": [
+    "[]AttachmentToWealthHindersEnteringKingdomYetGodCanDoImpossible(Wealthy, God)"
+  ],
+  "units": [
+    {
+      "id": "Luk18_18_30_u1",
+      "label": "Sell All and Follow Me",
+      "verses": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "illocution": "EncounterAndTeaching",
+      "agents": [
+        "Jesus",
+        "RichRuler",
+        "Disciples"
+      ],
+      "statements": [
+        {
+          "id": "Luk18_18_30_s1",
+          "type": "summary",
+          "description": "A rich ruler who keeps commandments cannot let go of wealth to follow Jesus, and Jesus teaches about the difficulty for the rich and the reward for those who leave all.",
+          "lambda_iv": [
+            "[]AttachmentToWealthHindersEnteringKingdomYetGodCanDoImpossible(Wealthy, God)",
+            "EFF(RadicalSurrenderForJesusSakeReceivesMultiFoldReward(Disciples))"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "ref": "Isaiah 55:10–11",
+  "translation": "KJV",
+  "nodes": [
+    {
+      "id": "n1",
+      "kind": "enactment",
+      "lemma": "make",
+      "text": ", and maketh it bring forth and bud",
+      "span": "c5",
+      "confidence": 0.75
+    },
+    {
+      "id": "n2",
+      "kind": "enactment",
+      "lemma": "give",
+      "text": "that it may give seed to the sower",
+      "span": "c7",
+      "confidence": 0.75
+    },
+    {
+      "id": "n3",
+      "kind": "effect",
+      "lemma": "result",
+      "text": "that it may give seed to the sower",
+      "span": "c7",
+      "confidence": 0.8
+    },
+    {
+      "id": "n4",
+      "kind": "effect",
+      "lemma": "result",
+      "text": ": So shall my word be",
+      "span": "c9",
+      "confidence": 0.8
+    },
+    {
+      "id": "n5",
+      "kind": "effect",
+      "lemma": "result",
+      "text": "that goeth forth out of my mouth",
+      "span": "c10",
+      "confidence": 0.8
+    },
+    {
+      "id": "n6",
+      "kind": "effect",
+      "lemma": "result",
+      "text": "that which I please",
+      "span": "c13",
+      "confidence": 0.8
+    }
+  ],
+  "edges": [
+    {
+      "from": "n1",
+      "to": "n3",
+      "relation": "produces",
+      "confidence": 0.75
+    },
+    {
+      "from": "n2",
+      "to": "n4",
+      "relation": "produces",
+      "confidence": 0.75
+    },
+    {
+      "from": "n3",
+      "to": "n4",
+      "relation": "implies",
+      "confidence": 0.7
+    }
+  ],
+  "creed": {
+    "status": "warn",
+    "notes": [
+      "one or more modal kinds missing"
+    ]
+  },
+  "watermark": "e67a6074ad54e506",
+  "meta": {
+    "postprocessed_at": "2025-10-30T11:39:15.537695Z",
+    "confidence": 0.6
+  }
+}

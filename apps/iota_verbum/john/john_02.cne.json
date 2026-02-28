@@ -1,0 +1,717 @@
+{
+  "schema": "cne.v1",
+  "ref": "John 2:1-25",
+  "translation": "ESV",
+  "agents": {
+    "G": "Jesus",
+    "M": "Mother of Jesus",
+    "S": "Servants",
+    "D": "Disciples",
+    "H": "Master of the feast",
+    "B": "Bridegroom",
+    "J": "Jews/Temple authorities",
+    "V": "Vendors/Money changers",
+    "C": "Crowd/People"
+  },
+  "events": [
+    {
+      "id": "e1",
+      "ref": "2:1",
+      "agent": "C",
+      "verb": "be_wedding",
+      "object": "Cana_in_Galilee",
+      "kind": "enactment"
+    },
+    {
+      "id": "e2",
+      "ref": "2:1",
+      "agent": "G",
+      "verb": "attend",
+      "object": "wedding",
+      "kind": "enactment"
+    },
+    {
+      "id": "e3",
+      "ref": "2:1",
+      "agent": "M",
+      "verb": "attend",
+      "object": "wedding",
+      "kind": "enactment"
+    },
+    {
+      "id": "e4",
+      "ref": "2:2",
+      "agent": "D",
+      "verb": "be_invited",
+      "object": "wedding",
+      "kind": "enactment"
+    },
+    {
+      "id": "e5",
+      "ref": "2:3",
+      "agent": "V",
+      "verb": "run_out",
+      "object": "wine",
+      "kind": "effect"
+    },
+    {
+      "id": "e6",
+      "ref": "2:3",
+      "agent": "M",
+      "verb": "say",
+      "object": "to_G:They_have_no_wine",
+      "kind": "enactment"
+    },
+    {
+      "id": "e7",
+      "ref": "2:4",
+      "agent": "G",
+      "verb": "say",
+      "object": "Woman_what_to_me;hour_not_yet",
+      "kind": "identity"
+    },
+    {
+      "id": "e8",
+      "ref": "2:5",
+      "agent": "M",
+      "verb": "command",
+      "object": "S:Do_whatever_he_tells_you",
+      "kind": "enactment"
+    },
+    {
+      "id": "e9",
+      "ref": "2:6",
+      "agent": "C",
+      "verb": "be_jars",
+      "object": "six_stone_jars_for_purification",
+      "kind": "identity"
+    },
+    {
+      "id": "e10",
+      "ref": "2:7",
+      "agent": "G",
+      "verb": "command",
+      "object": "S:Fill_jars_with_water",
+      "kind": "enactment"
+    },
+    {
+      "id": "e11",
+      "ref": "2:7",
+      "agent": "S",
+      "verb": "fill",
+      "object": "jars_to_brim",
+      "kind": "enactment"
+    },
+    {
+      "id": "e12",
+      "ref": "2:8",
+      "agent": "G",
+      "verb": "command",
+      "object": "S:Draw_out_and_take_to_master",
+      "kind": "enactment"
+    },
+    {
+      "id": "e13",
+      "ref": "2:8",
+      "agent": "S",
+      "verb": "take",
+      "object": "to_H",
+      "kind": "enactment"
+    },
+    {
+      "id": "e14",
+      "ref": "2:9",
+      "agent": "H",
+      "verb": "taste",
+      "object": "water_become_wine",
+      "kind": "enactment"
+    },
+    {
+      "id": "e15",
+      "ref": "2:9",
+      "agent": "H",
+      "verb": "not_know",
+      "object": "source_of_wine",
+      "kind": "identity"
+    },
+    {
+      "id": "e16",
+      "ref": "2:9",
+      "agent": "S",
+      "verb": "know",
+      "object": "source_of_wine",
+      "kind": "identity"
+    },
+    {
+      "id": "e17",
+      "ref": "2:10",
+      "agent": "H",
+      "verb": "say",
+      "object": "to_B:good_wine_kept_until_now",
+      "kind": "effect"
+    },
+    {
+      "id": "e18",
+      "ref": "2:11",
+      "agent": "G",
+      "verb": "do_sign",
+      "object": "first_sign;Cana",
+      "kind": "enactment"
+    },
+    {
+      "id": "e19",
+      "ref": "2:11",
+      "agent": "G",
+      "verb": "manifest",
+      "object": "glory",
+      "kind": "effect"
+    },
+    {
+      "id": "e20",
+      "ref": "2:11",
+      "agent": "D",
+      "verb": "believe",
+      "object": "in_G",
+      "kind": "effect"
+    },
+    {
+      "id": "e21",
+      "ref": "2:12",
+      "agent": "G",
+      "verb": "go_down",
+      "object": "to_Capernaum",
+      "kind": "enactment"
+    },
+    {
+      "id": "e22",
+      "ref": "2:12",
+      "agent": "M",
+      "verb": "go_with",
+      "object": "G",
+      "kind": "enactment"
+    },
+    {
+      "id": "e23",
+      "ref": "2:12",
+      "agent": "D",
+      "verb": "go_with",
+      "object": "G",
+      "kind": "enactment"
+    },
+    {
+      "id": "e24",
+      "ref": "2:12",
+      "agent": "G",
+      "verb": "stay",
+      "object": "few_days",
+      "kind": "enactment"
+    },
+    {
+      "id": "e25",
+      "ref": "2:13",
+      "agent": "C",
+      "verb": "be_passover_near",
+      "object": null,
+      "kind": "identity"
+    },
+    {
+      "id": "e26",
+      "ref": "2:13",
+      "agent": "G",
+      "verb": "go_up",
+      "object": "to_Jerusalem",
+      "kind": "enactment"
+    },
+    {
+      "id": "e27",
+      "ref": "2:14",
+      "agent": "G",
+      "verb": "find",
+      "object": "V:selling_oxen_sheep_pigeons;money_changers",
+      "kind": "enactment"
+    },
+    {
+      "id": "e28",
+      "ref": "2:15",
+      "agent": "G",
+      "verb": "make",
+      "object": "whip_of_cords",
+      "kind": "enactment"
+    },
+    {
+      "id": "e29",
+      "ref": "2:15",
+      "agent": "G",
+      "verb": "drive_out",
+      "object": "all_from_temple_with_sheep_oxen",
+      "kind": "enactment"
+    },
+    {
+      "id": "e30",
+      "ref": "2:15",
+      "agent": "G",
+      "verb": "pour_out",
+      "object": "coins_of_money_changers",
+      "kind": "enactment"
+    },
+    {
+      "id": "e31",
+      "ref": "2:15",
+      "agent": "G",
+      "verb": "overturn",
+      "object": "tables",
+      "kind": "enactment"
+    },
+    {
+      "id": "e32",
+      "ref": "2:16",
+      "agent": "G",
+      "verb": "say",
+      "object": "to_pigeon_sellers:Take_these_away;not_house_of_trade",
+      "kind": "identity"
+    },
+    {
+      "id": "e33",
+      "ref": "2:17",
+      "agent": "D",
+      "verb": "remember",
+      "object": "Zeal_for_your_house_will_consume_me",
+      "kind": "effect"
+    },
+    {
+      "id": "e34",
+      "ref": "2:18",
+      "agent": "J",
+      "verb": "ask",
+      "object": "What_sign_do_you_show",
+      "kind": "enactment"
+    },
+    {
+      "id": "e35",
+      "ref": "2:19",
+      "agent": "G",
+      "verb": "say",
+      "object": "Destroy_this_temple;in_3_days_I_raise_it",
+      "kind": "identity"
+    },
+    {
+      "id": "e36",
+      "ref": "2:20",
+      "agent": "J",
+      "verb": "say",
+      "object": "46_years_to_build;how_raise_in_3_days",
+      "kind": "effect"
+    },
+    {
+      "id": "e37",
+      "ref": "2:21",
+      "agent": "G",
+      "verb": "mean",
+      "object": "temple_of_his_body",
+      "kind": "identity"
+    },
+    {
+      "id": "e38",
+      "ref": "2:22",
+      "agent": "G",
+      "verb": "be_raised",
+      "object": "from_dead",
+      "kind": "effect"
+    },
+    {
+      "id": "e39",
+      "ref": "2:22",
+      "agent": "D",
+      "verb": "remember",
+      "object": "word_he_spoke",
+      "kind": "effect"
+    },
+    {
+      "id": "e40",
+      "ref": "2:22",
+      "agent": "D",
+      "verb": "believe",
+      "object": "Scripture_and_word",
+      "kind": "effect"
+    },
+    {
+      "id": "e41",
+      "ref": "2:23",
+      "agent": "C",
+      "verb": "see",
+      "object": "signs",
+      "kind": "enactment"
+    },
+    {
+      "id": "e42",
+      "ref": "2:23",
+      "agent": "C",
+      "verb": "believe",
+      "object": "in_his_name",
+      "kind": "effect"
+    },
+    {
+      "id": "e43",
+      "ref": "2:24",
+      "agent": "G",
+      "verb": "not_entrust",
+      "object": "himself_to_them",
+      "kind": "identity"
+    },
+    {
+      "id": "e44",
+      "ref": "2:24",
+      "agent": "G",
+      "verb": "know",
+      "object": "all_people",
+      "kind": "identity"
+    },
+    {
+      "id": "e45",
+      "ref": "2:25",
+      "agent": "G",
+      "verb": "need_no_witness",
+      "object": "about_man",
+      "kind": "identity"
+    },
+    {
+      "id": "e46",
+      "ref": "2:25",
+      "agent": "G",
+      "verb": "know",
+      "object": "what_in_man",
+      "kind": "identity"
+    }
+  ],
+  "links": [
+    {
+      "op": "SEQ",
+      "from": "e1",
+      "to": "e5"
+    },
+    {
+      "op": "SEQ",
+      "from": "e5",
+      "to": "e6"
+    },
+    {
+      "op": "SEQ",
+      "from": "e6",
+      "to": "e7"
+    },
+    {
+      "op": "SEQ",
+      "from": "e8",
+      "to": "e10"
+    },
+    {
+      "op": "SEQ",
+      "from": "e10",
+      "to": "e11"
+    },
+    {
+      "op": "SEQ",
+      "from": "e11",
+      "to": "e12"
+    },
+    {
+      "op": "SEQ",
+      "from": "e12",
+      "to": "e13"
+    },
+    {
+      "op": "SEQ",
+      "from": "e13",
+      "to": "e14"
+    },
+    {
+      "op": "SEQ",
+      "from": "e14",
+      "to": "e17"
+    },
+    {
+      "op": "SEQ",
+      "from": "e18",
+      "to": "e19"
+    },
+    {
+      "op": "SEQ",
+      "from": "e19",
+      "to": "e20"
+    },
+    {
+      "op": "SEQ",
+      "from": "e20",
+      "to": "e21"
+    },
+    {
+      "op": "SEQ",
+      "from": "e21",
+      "to": "e24"
+    },
+    {
+      "op": "SEQ",
+      "from": "e25",
+      "to": "e26"
+    },
+    {
+      "op": "SEQ",
+      "from": "e26",
+      "to": "e27"
+    },
+    {
+      "op": "SEQ",
+      "from": "e27",
+      "to": "e28"
+    },
+    {
+      "op": "SEQ",
+      "from": "e28",
+      "to": "e29"
+    },
+    {
+      "op": "SEQ",
+      "from": "e29",
+      "to": "e31"
+    },
+    {
+      "op": "SEQ",
+      "from": "e29",
+      "to": "e30"
+    },
+    {
+      "op": "SEQ",
+      "from": "e31",
+      "to": "e32"
+    },
+    {
+      "op": "SEQ",
+      "from": "e32",
+      "to": "e34"
+    },
+    {
+      "op": "SEQ",
+      "from": "e34",
+      "to": "e35"
+    },
+    {
+      "op": "SEQ",
+      "from": "e35",
+      "to": "e36"
+    },
+    {
+      "op": "SEQ",
+      "from": "e35",
+      "to": "e37"
+    },
+    {
+      "op": "SEQ",
+      "from": "e38",
+      "to": "e39"
+    },
+    {
+      "op": "SEQ",
+      "from": "e39",
+      "to": "e40"
+    },
+    {
+      "op": "SEQ",
+      "from": "e41",
+      "to": "e42"
+    },
+    {
+      "op": "SEQ",
+      "from": "e42",
+      "to": "e43"
+    },
+    {
+      "op": "SEQ",
+      "from": "e43",
+      "to": "e46"
+    },
+    {
+      "op": "SIM",
+      "events": [
+        "e14",
+        "e15",
+        "e16"
+      ]
+    },
+    {
+      "op": "SIM",
+      "events": [
+        "e29",
+        "e30",
+        "e31"
+      ]
+    }
+  ],
+  "markers": [
+    {
+      "id": "m1",
+      "ref": "2:1-2",
+      "type": "WS",
+      "target": "wedding_feast_in_Cana",
+      "justification": "Scene opens in ordinary joy and communal need; Jesus is present in the room."
+    },
+    {
+      "id": "m2",
+      "ref": "2:3-4",
+      "type": "SIL",
+      "target": "hour_not_yet",
+      "justification": "Jesus names a timing boundary; the deeper 'hour' remains withheld."
+    },
+    {
+      "id": "m3",
+      "ref": "2:6",
+      "type": "CU",
+      "target": "purification_jars",
+      "justification": "John isolates the six stone jars (purpose + scale), signaling symbolic reuse."
+    },
+    {
+      "id": "m4",
+      "ref": "2:7-8",
+      "type": "SM",
+      "target": "fill_draw_take_sequence",
+      "justification": "Detailed commands slow time to weight obedience and transformation."
+    },
+    {
+      "id": "m5",
+      "ref": "2:9-10",
+      "type": "CU",
+      "target": "taste_and_speech",
+      "justification": "Master's tasting and verdict are foregrounded; effect is publicly confirmed."
+    },
+    {
+      "id": "m6",
+      "ref": "2:11",
+      "type": "REV",
+      "target": "first_sign;glory_revealed",
+      "justification": "Narrator interprets: sign manifests glory; disciples believe."
+    },
+    {
+      "id": "m7",
+      "ref": "2:13-14",
+      "type": "WS",
+      "target": "temple_courts_market",
+      "justification": "Wide shot of commerce inside sacred space; sets moral tension."
+    },
+    {
+      "id": "m8",
+      "ref": "2:15",
+      "type": "CU",
+      "target": "whip_coins_tables",
+      "justification": "Physical actions are narrated in sharp detail; forceful interruption."
+    },
+    {
+      "id": "m9",
+      "ref": "2:16",
+      "type": "THR",
+      "target": "Father_house_vs_trade",
+      "justification": "Boundary of worship is defended; 'my Father's house' re-frames ownership."
+    },
+    {
+      "id": "m10",
+      "ref": "2:17",
+      "type": "CA",
+      "target": "disciples_remember_Scripture",
+      "justification": "Cutaway to memory: Scripture interprets the action from within the story."
+    },
+    {
+      "id": "m11",
+      "ref": "2:19-22",
+      "type": "SM",
+      "target": "temple_riddle_then_late_understanding",
+      "justification": "Meaning is deferred; understanding arrives only after resurrection."
+    },
+    {
+      "id": "m12",
+      "ref": "2:23-25",
+      "type": "CU",
+      "target": "belief_without_entrustment",
+      "justification": "John tightens focus: many believe, yet Jesus does not entrust himself; he knows hearts."
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "type": "hinge_candidate",
+      "text": "Jesus' first sign turns purification water into wine, manifesting his glory so that his disciples believe.",
+      "supported_by": [
+        "e9",
+        "e10",
+        "e11",
+        "e18",
+        "e19",
+        "e20",
+        "m6"
+      ],
+      "inference": false
+    },
+    {
+      "id": "c2",
+      "type": "scene_theology",
+      "text": "Jesus' 'hour not yet' introduces a timing boundary: he helps real need, yet signals a deeper approaching climax not controlled by human urgency.",
+      "supported_by": [
+        "e6",
+        "e7",
+        "m2"
+      ],
+      "inference": true
+    },
+    {
+      "id": "c3",
+      "type": "hinge_candidate",
+      "text": "Jesus cleanses the temple, claiming it as his Father's house; his authority is challenged, and he speaks of his body as the true temple to be raised.",
+      "supported_by": [
+        "e27",
+        "e28",
+        "e29",
+        "e30",
+        "e31",
+        "e32",
+        "e34",
+        "e35",
+        "e37",
+        "m9",
+        "m11"
+      ],
+      "inference": false
+    },
+    {
+      "id": "c4",
+      "type": "scene_theology",
+      "text": "John distinguishes 'belief in his name' from Jesus entrusting himself: signs can produce assent, but Jesus knows what is in man and refuses shallow possession.",
+      "supported_by": [
+        "e42",
+        "e43",
+        "e44",
+        "e46",
+        "m12"
+      ],
+      "inference": true
+    }
+  ],
+  "hinge": {
+    "themes": [
+      "signs",
+      "glory",
+      "hour",
+      "obedience",
+      "purification",
+      "zeal",
+      "temple",
+      "authority",
+      "resurrection",
+      "belief",
+      "hearts"
+    ],
+    "identity_□": "Jesus acts from an 'hour' not driven by human demand; he manifests glory through signs, claims the temple as his Father's house, speaks of his body as the true temple, and knows what is in people.",
+    "enactment_◇": "At Cana Jesus commands, and water becomes wine; in Jerusalem he goes up, interrupts temple commerce, drives out sellers, and answers authority-challenges with a riddle about the temple raised in three days.",
+    "effect_Δ": "Disciples believe as glory is revealed; conflict over authority intensifies; the temple saying is understood after resurrection; many believe because of signs, yet Jesus does not entrust himself due to heart-knowledge."
+  },
+  "meta": {
+    "created_at": "2026-02-12",
+    "created_by": "cne_encoder_v1"
+  }
+}

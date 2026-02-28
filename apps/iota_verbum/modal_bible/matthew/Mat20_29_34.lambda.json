@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Matthew λ-files; safe to hand-edit after generation.",
+    "book": "Matthew",
+    "passage_id": "Mat20_29_34",
+    "version": "Mat20_29_34_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mat20_29_34",
+  "book": "Matthew",
+  "chapter": 20,
+  "verses": "29-34",
+  "title": "Matthew 20:29–34 – Two Blind Men Receive Sight",
+  "interpretive_frames": [
+    "Healing",
+    "Sight",
+    "Discipleship"
+  ],
+  "identity_invariants": [
+    "[]JesusOpensEyesOfMercySeekersWhoCryForSonOfDavid(Jesus, BlindMen)"
+  ],
+  "units": [
+    {
+      "id": "Mat20_29_34_u1",
+      "label": "Lord, Let Our Eyes Be Opened",
+      "verses": [
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "illocution": "Narration",
+      "agents": [
+        "Jesus",
+        "BlindMen",
+        "Crowds"
+      ],
+      "statements": [
+        {
+          "id": "Mat20_29_34_s1",
+          "type": "summary",
+          "description": "Two blind men cry out to the Son of David for mercy and receive sight, following him.",
+          "lambda_iv": [
+            "[]JesusOpensEyesOfMercySeekersWhoCryForSonOfDavid(Jesus, BlindMen)",
+            "EFF(MercyReceivedLeadsToFollowing(BlindMen, Jesus))"
+          ]
+        }
+      ]
+    }
+  ]
+}

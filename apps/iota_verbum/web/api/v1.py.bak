@@ -1,0 +1,115 @@
+﻿from fastapi import FastAPI, HTTPException, Header
+from pathlib import Path
+import glob, json
+
+ROOT = Path(__file__).resolve().parents[2]
+APP = FastAPI(title="Iota Verbum API", version="1.0")
+SECRET = (ROOT/"web"/"api"/"secret.txt").read_text(encoding="utf-8").strip()
+
+def auth(x_api_key: str | None):
+    if not x_api_key or x_api_key.strip() != SECRET:
+        raise HTTPException(401, "unauthorized")
+
+def latest(pattern):
+    files = sorted(glob.glob(str(ROOT / pattern)))
+    return files[-1] if files else None
+
+@APP.get("/status")
+def status(x_api_key: str | None = Header(default=None)):
+    auth(x_api_key); return {"ok": True, "root": str(ROOT)}
+
+@APP.get("/phases")
+def phases(x_api_key: str | None = Header(default=None)):
+    auth(x_api_key)
+    return {"core": {"1-7":"complete-ish"}, "expansion": {"8-12":"in-progress"}}
+
+# --- Additional Iota Verbum routes ---
+from fastapi.responses import FileResponse, JSONResponse
+from pathlib import Path
+from fastapi import HTTPException
+
+def _project_root() -> Path:
+    return Path(__file__).resolve().parents[2]
+
+def _latest_report_path() -> Path:
+    root = _project_root()
+    candidates = []
+    for p in (root / "results" / "reports").glob("*.*"):
+        if p.suffix.lower() in (".docx", ".txt"):
+            candidates.append(p)
+    if not candidates:
+        for p in (root / "results").rglob("*.*"):
+            if p.suffix.lower() in (".docx", ".txt"):
+                candidates.append(p)
+    if not candidates:
+        raise FileNotFoundError("No .docx or .txt reports found under /results.")
+    return max(candidates, key=lambda f: f.stat().st_mtime)
+
+@APP.get("/report/latest")
+def get_latest_report(x_api_key: str | None = None):
+    auth(x_api_key)
+    try:
+        fpath = _latest_report_path()
+    except FileNotFoundError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+    media = (
+        "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        if fpath.suffix.lower() == ".docx"
+        else "text/plain"
+    )
+    return FileResponse(path=fpath, media_type=media, filename=fpath.name)
+
+@APP.get("/phases/status")
+def phases_status(x_api_key: str | None = None):
+    auth(x_api_key)
+    phases = [
+        {"phase": 1, "title": "Modal Core Architecture", "progress": 100},
+        {"phase": 2, "title": "Corpus Lexicon & Witness Ingestion", "progress": 85},
+        {"phase": 3, "title": "Atlas Generation", "progress": 100},
+        {"phase": 4, "title": "Moral Audit Layer", "progress": 100},
+        {"phase": 5, "title": "Interpretive Visual Maps", "progress": 75},
+        {"phase": 6, "title": "Languages & Variants", "progress": 95},
+        {"phase": 7, "title": "Review & Reporting System", "progress": 100},
+        {"phase": 8, "title": "Original-Language Automation & QA", "progress": 40},
+        {"phase": 9, "title": "Variant Engine with Provenance", "progress": 30},
+        {"phase": 10, "title": "Canonical Arc Layer", "progress": 25},
+        {"phase": 11, "title": "Reviewer Console (Web-Light)", "progress": 20},
+        {"phase": 12, "title": "Education & Partner API", "progress": 15},
+    ]
+    return JSONResponse({"project": "Iota Verbum", "phases": phases})
+
+
+@APP.get("/variants/{kind}")
+def variants(kind:str, x_api_key: str | None = Header(default=None)):
+    auth(x_api_key)
+    p = latest(f"results/variants/{kind}_*.jsonl")
+    if not p: raise HTTPException(404, "not found")
+    return {"file": p}
+
+@APP.get("/canonical/{fmt}")
+def canonical(fmt:str, x_api_key: str | None = Header(default=None)):
+    auth(x_api_key)
+    p = latest(f"results/canonical/canonical_arcs_*.{fmt}")
+    if not p: raise HTTPException(404, "not found")
+    return {"file": p}
+
+@APP.get("/reports/latest")
+def report_latest(x_api_key: str | None = Header(default=None)):
+    auth(x_api_key)
+    p = latest("results/reports/iv_build_report_*.docx")
+    if not p: raise HTTPException(404, "not found")
+    return {"file": p}
+
+from fastapi import FastAPI
+
+app = FastAPI(title="Iota Verbum API v1")
+
+@app.get("/")
+def root():
+    return {"status": "Iota Verbum API v1 running ✅"}
+
+@app.get("/health")
+def health():
+    return {"phase_status": "OK", "message": "Server active"}
+
+

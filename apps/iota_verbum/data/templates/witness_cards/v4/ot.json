@@ -1,0 +1,21 @@
+﻿{
+  "template_id": "ot_v4",
+  "version": "v4",
+  "scene_title": "Old Testament Witness",
+  "focus_nouns": [],
+  "witness_prompts": [
+    "Where do you notice {frame_1} and {frame_2} in the scene?",
+    "What kind of turn happens at '{threshold_1}'?",
+    "Which action feels weighty but not fully explained?",
+    "How does the passage ask you to stay present with {movement_1}?",
+    "What would it mean to witness this moment without rushing?"
+  ],
+  "prayer_frames": [
+    "God who speaks through the text, draw near.",
+    "Let {action_1} shape our attention.",
+    "Give us patience to witness well."
+  ],
+  "safety_notes_append": [
+    "Keep the witness grounded in the passage language."
+  ]
+}

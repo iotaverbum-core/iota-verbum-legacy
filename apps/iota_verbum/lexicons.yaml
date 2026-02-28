@@ -1,0 +1,12 @@
+﻿identity:
+  persons: [Father, Son, Holy Spirit, Spirit, Lord, God, Jesus, Christ]
+  divine_titles: [King, Holy One, Almighty, Most High, Savior]
+  kingdom_objects: ["kingdom of God", "kingdom of heaven"]
+enactment_verbs:
+  creation: [create, make, form, speak, send, give, pour, raise]
+  redemption: [save, justify, redeem, forgive, cleanse, sanctify]
+  christ_event: [incarnate, suffer, die, rise, ascend, intercede]
+  agri_parable: [sow, scatter, grow, produce, harvest, reap, sleep, rise, sprout, put]
+effect_markers: ["so that", "that", "therefore", "then", "so", "thus", "until", "when", "in order that", "yields", "produces"]
+copula: [is, are, was, were, be, being, been]
+agent_preps: [by, through, in, from]

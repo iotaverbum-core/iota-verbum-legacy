@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Luke λ-files; safe to hand-edit after generation.",
+    "book": "Luke",
+    "passage_id": "Luk06_27_49",
+    "version": "Luk06_27_49_Lambda_IV_v0.1"
+  },
+  "passage_id": "Luk06_27_49",
+  "book": "Luke",
+  "chapter": 6,
+  "verses": "27-49",
+  "title": "Luke 6:27–49 – Love for Enemies and House on the Rock",
+  "interpretive_frames": [
+    "Ethics",
+    "LoveOfEnemies",
+    "HearingAndDoing"
+  ],
+  "identity_invariants": [
+    "[]KingdomEthicDemandsEnemyLoveAndObedientHearingOfJesusWords(Disciples, Enemies)"
+  ],
+  "units": [
+    {
+      "id": "Luk06_27_49_u1",
+      "label": "Why Do You Call Me Lord and Not Do?",
+      "verses": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "illocution": "EthicalInstruction",
+      "agents": [
+        "Jesus",
+        "Disciples",
+        "Enemies",
+        "Hearers"
+      ],
+      "statements": [
+        {
+          "id": "Luk06_27_49_s1",
+          "type": "summary",
+          "description": "Jesus commands love of enemies, non-retaliation, generous mercy, and calls hearers to build their lives on obedient practice of his words.",
+          "lambda_iv": [
+            "[]KingdomEthicDemandsEnemyLoveAndObedientHearingOfJesusWords(Disciples, Enemies)",
+            "EFF(ObedientPracticeCreatesEnduringHouseAmidStorms(Disciples))"
+          ]
+        }
+      ]
+    }
+  ]
+}

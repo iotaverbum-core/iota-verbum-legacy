@@ -1,0 +1,21 @@
+{
+  "template_id": "nt_v2",
+  "version": "v2",
+  "scene_title": "New Testament Witness",
+  "focus_nouns": [],
+  "witness_prompts": [
+    "Where does the text move from {verb_1} to {verb_2}?",
+    "What kind of turn happens at '{threshold_1}'?",
+    "What part of the scene feels weighty but unexplained?",
+    "How does the passage invite you to witness in your own moment?",
+    "What does it mean to stay with what is {verb_3}?"
+  ],
+  "prayer_frames": [
+    "Jesus, present in the scene, draw near.",
+    "Let the movement of {verb_1} shape our witness.",
+    "Hold us in truth as we follow."
+  ],
+  "safety_notes_append": [
+    "Avoid forcing conclusions; let the text lead the witness."
+  ]
+}

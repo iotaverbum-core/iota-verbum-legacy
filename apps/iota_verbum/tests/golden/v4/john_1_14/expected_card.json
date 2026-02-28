@@ -1,0 +1,509 @@
+{
+  "id": "witness_card_78ecc03cef1e",
+  "modal_triad": {
+    "effect": [
+      "Grace steadies what is fragile.",
+      "Truth clarifies without crushing.",
+      "Glory reframes the moment."
+    ],
+    "enactment": [
+      "Takes on flesh and nearness.",
+      "Dwells among ordinary life.",
+      "Lets glory be witnessed."
+    ],
+    "identity": [
+      "The Word is present.",
+      "The Son from the Father.",
+      "God comes near.",
+      "Presence without fear.",
+      "Mercy that does not withdraw."
+    ]
+  },
+  "moment": "I feel tired after a long week, but I'm trying to show up for my family.",
+  "passage": {
+    "ref": "John 1:14",
+    "text": "And the Word became flesh and dwelt among us, and we have seen his glory, glory as of the only Son from the Father, full of grace and truth."
+  },
+  "prayer": "Word who became, dwell with us.\nLet glory, grace, truth be present in our seeing.\nKeep us steady as we witness with care.",
+  "safety": {
+    "avoidances": [
+      "moralism",
+      "fixing",
+      "certainty claims"
+    ],
+    "notes": [
+      "This is pastoral presence, not diagnosis.",
+      "Invite gently; do not pressure outcomes.",
+      "Keep the language grounded in the passage itself."
+    ]
+  },
+  "scene": {
+    "camera_moves": [
+      "close-up",
+      "tracking shot",
+      "slow pan"
+    ],
+    "characters": [
+      {
+        "char_id": "char_unknown_M_1",
+        "label": "unknown_M",
+        "mentions": []
+      }
+    ],
+    "coref_links": [
+      {
+        "evidence": "no match within lookback for his",
+        "from": {
+          "clause_id": "s0.c2",
+          "surface_pronoun": "his",
+          "token_span": [
+            63,
+            66
+          ]
+        },
+        "id": "coref_0",
+        "rule": "lookback_limit",
+        "to_char_id": "char_unknown_M_1"
+      }
+    ],
+    "evidence_map": {
+      "characters": [],
+      "coref_links": [
+        {
+          "evidence": "no match within lookback for his",
+          "from": {
+            "clause_id": "s0.c2",
+            "surface_pronoun": "his",
+            "token_span": [
+              63,
+              66
+            ]
+          },
+          "id": "coref_0",
+          "rule": "lookback_limit",
+          "to_char_id": "char_unknown_M_1"
+        }
+      ],
+      "frames": [
+        {
+          "actor": "unknown_actor_1",
+          "clause_id": "s0.c0",
+          "id": "frame_0",
+          "indirect_object": null,
+          "object": null,
+          "token_span": [
+            13,
+            19
+          ],
+          "verb": "became"
+        },
+        {
+          "actor": "unknown_actor_2",
+          "clause_id": "s0.c1",
+          "id": "frame_1",
+          "indirect_object": null,
+          "object": null,
+          "token_span": [
+            30,
+            35
+          ],
+          "verb": "dwelt"
+        },
+        {
+          "actor": "unknown_actor_3",
+          "clause_id": "s0.c2",
+          "id": "frame_2",
+          "indirect_object": null,
+          "object": "unknown_M",
+          "token_span": [
+            53,
+            57
+          ],
+          "verb": "have"
+        },
+        {
+          "actor": "unknown_actor_4",
+          "clause_id": "s0.c2",
+          "id": "frame_3",
+          "indirect_object": null,
+          "object": "unknown_M",
+          "token_span": [
+            58,
+            62
+          ],
+          "verb": "seen"
+        }
+      ],
+      "silences": [
+        {
+          "clause_ids": [
+            "s0.c0"
+          ],
+          "id": "silence_0",
+          "note_seed": "events compressed by repeated 'and'",
+          "signal": "and_chain_4",
+          "type": "compression"
+        },
+        {
+          "clause_ids": [
+            "s0.c1"
+          ],
+          "id": "silence_1",
+          "note_seed": "events compressed by repeated 'and'",
+          "signal": "and_chain_4",
+          "type": "compression"
+        },
+        {
+          "clause_ids": [
+            "s0.c2"
+          ],
+          "id": "silence_2",
+          "note_seed": "events compressed by repeated 'and'",
+          "signal": "and_chain_4",
+          "type": "compression"
+        },
+        {
+          "clause_ids": [
+            "s0.c2"
+          ],
+          "id": "silence_3",
+          "note_seed": "thick with nouns, few verbs",
+          "signal": "low_verb_ratio",
+          "type": "density"
+        },
+        {
+          "clause_ids": [
+            "s0.c2"
+          ],
+          "id": "silence_4",
+          "note_seed": "weighty terms clustered without explanation",
+          "signal": "focus_noun_cluster",
+          "type": "withholding"
+        },
+        {
+          "clause_ids": [
+            "s0.c3"
+          ],
+          "id": "silence_5",
+          "note_seed": "events compressed by repeated 'and'",
+          "signal": "and_chain_4",
+          "type": "compression"
+        }
+      ],
+      "thresholds": [
+        {
+          "clause_id": "s0.c2",
+          "evidence_after": "and we have seen his glory, glory as of the only Son from th",
+          "evidence_before": "And the Word became flesh and dwelt among us,",
+          "id": "threshold_0",
+          "kind": "disclosure",
+          "token_span": [
+            46,
+            52
+          ],
+          "trigger": "and we"
+        },
+        {
+          "clause_id": "s0.c2",
+          "evidence_after": "full of grace and truth.",
+          "evidence_before": "e seen his glory, glory as of the only Son from the Father,",
+          "id": "threshold_1",
+          "kind": "escalation",
+          "token_span": [
+            116,
+            123
+          ],
+          "trigger": "full of"
+        }
+      ],
+      "utterances": [],
+      "witness_prompts": [
+        {
+          "id": "prompt_0",
+          "linked_silence": null,
+          "linked_threshold": null,
+          "linked_utterance": null,
+          "text": "Where do you notice unknown_actor_1 became in this scene?"
+        },
+        {
+          "id": "prompt_1",
+          "linked_silence": null,
+          "linked_threshold": "threshold_0",
+          "linked_utterance": null,
+          "text": "The text turns at 'and we'. What does that shift open for you?"
+        },
+        {
+          "id": "prompt_2",
+          "linked_silence": null,
+          "linked_threshold": null,
+          "linked_utterance": null,
+          "text": "How do the focus words glory, grace, truth ask you to attend today?"
+        },
+        {
+          "id": "prompt_3",
+          "linked_silence": null,
+          "linked_threshold": null,
+          "linked_utterance": null,
+          "text": "What does 'dwelt among us' suggest about showing up here?"
+        },
+        {
+          "id": "prompt_4",
+          "linked_silence": null,
+          "linked_threshold": null,
+          "linked_utterance": null,
+          "text": "Where are you invited to witness unknown_actor_1 became?"
+        }
+      ]
+    },
+    "frames": [
+      "unknown_actor_1 became",
+      "unknown_actor_2 dwelt",
+      "unknown_actor_3 have unknown_M",
+      "unknown_actor_4 seen unknown_M"
+    ],
+    "frames_detailed": [
+      {
+        "actor": "unknown_actor_1",
+        "clause_id": "s0.c0",
+        "id": "frame_0",
+        "indirect_object": null,
+        "modifiers": [],
+        "object": null,
+        "polarity": "affirm",
+        "token_span": [
+          13,
+          19
+        ],
+        "verb": "became",
+        "voice_guess": "active"
+      },
+      {
+        "actor": "unknown_actor_2",
+        "clause_id": "s0.c1",
+        "id": "frame_1",
+        "indirect_object": null,
+        "modifiers": [
+          "among us"
+        ],
+        "object": null,
+        "polarity": "affirm",
+        "token_span": [
+          30,
+          35
+        ],
+        "verb": "dwelt",
+        "voice_guess": "active"
+      },
+      {
+        "actor": "unknown_actor_3",
+        "clause_id": "s0.c2",
+        "id": "frame_2",
+        "indirect_object": null,
+        "modifiers": [
+          "from the Father"
+        ],
+        "object": "unknown_M",
+        "polarity": "affirm",
+        "token_span": [
+          53,
+          57
+        ],
+        "verb": "have",
+        "voice_guess": "active"
+      },
+      {
+        "actor": "unknown_actor_4",
+        "clause_id": "s0.c2",
+        "id": "frame_3",
+        "indirect_object": null,
+        "modifiers": [
+          "from the Father"
+        ],
+        "object": "unknown_M",
+        "polarity": "affirm",
+        "token_span": [
+          58,
+          62
+        ],
+        "verb": "seen",
+        "voice_guess": "active"
+      }
+    ],
+    "questions": [],
+    "segments": [
+      {
+        "clause_id": "s0.c0",
+        "sentence_id": 0,
+        "text": "And the Word became flesh",
+        "token_end": 25,
+        "token_start": 0
+      },
+      {
+        "clause_id": "s0.c1",
+        "sentence_id": 0,
+        "text": "and dwelt among us,",
+        "token_end": 45,
+        "token_start": 26
+      },
+      {
+        "clause_id": "s0.c2",
+        "sentence_id": 0,
+        "text": "and we have seen his glory, glory as of the only Son from the Father, full of grace",
+        "token_end": 129,
+        "token_start": 46
+      },
+      {
+        "clause_id": "s0.c3",
+        "sentence_id": 0,
+        "text": "and truth.",
+        "token_end": 140,
+        "token_start": 130
+      }
+    ],
+    "silences": [
+      "compression",
+      "compression",
+      "compression",
+      "density",
+      "withholding",
+      "compression"
+    ],
+    "silences_detailed": [
+      {
+        "clause_id": "s0.c0",
+        "note_seed": "events compressed by repeated 'and'",
+        "signal": "and_chain_4",
+        "silence_type": "compression"
+      },
+      {
+        "clause_id": "s0.c1",
+        "note_seed": "events compressed by repeated 'and'",
+        "signal": "and_chain_4",
+        "silence_type": "compression"
+      },
+      {
+        "clause_id": "s0.c2",
+        "note_seed": "events compressed by repeated 'and'",
+        "signal": "and_chain_4",
+        "silence_type": "compression"
+      },
+      {
+        "clause_id": "s0.c2",
+        "note_seed": "thick with nouns, few verbs",
+        "signal": "low_verb_ratio",
+        "silence_type": "density"
+      },
+      {
+        "clause_id": "s0.c2",
+        "note_seed": "weighty terms clustered without explanation",
+        "signal": "focus_noun_cluster",
+        "silence_type": "withholding"
+      },
+      {
+        "clause_id": "s0.c3",
+        "note_seed": "events compressed by repeated 'and'",
+        "signal": "and_chain_4",
+        "silence_type": "compression"
+      }
+    ],
+    "speakers": [],
+    "thresholds": [
+      "and we",
+      "full of"
+    ],
+    "thresholds_detailed": [
+      {
+        "evidence_after": "and we have seen his glory, glory as of the only Son from th",
+        "evidence_before": "And the Word became flesh and dwelt among us,",
+        "from_clause_id": "s0.c1",
+        "kind": "disclosure",
+        "to_clause_id": "s0.c2",
+        "token_span": [
+          46,
+          52
+        ],
+        "trigger": "and we"
+      },
+      {
+        "evidence_after": "full of grace and truth.",
+        "evidence_before": "e seen his glory, glory as of the only Son from the Father,",
+        "from_clause_id": "s0.c1",
+        "kind": "escalation",
+        "to_clause_id": "s0.c2",
+        "token_span": [
+          116,
+          123
+        ],
+        "trigger": "full of"
+      }
+    ],
+    "time_markers": [],
+    "time_markers_detailed": [],
+    "utterances": [],
+    "utterances_detailed": [],
+    "verbs": [
+      "became",
+      "dwelt",
+      "have",
+      "seen"
+    ],
+    "verbs_detailed": [
+      {
+        "clause_id": "s0.c0",
+        "lemma_guess": "become",
+        "role": "action",
+        "tense_guess": "past",
+        "token_span": [
+          13,
+          19
+        ],
+        "verb_text": "became"
+      },
+      {
+        "clause_id": "s0.c1",
+        "lemma_guess": "dwell",
+        "role": "action",
+        "tense_guess": "past",
+        "token_span": [
+          30,
+          35
+        ],
+        "verb_text": "dwelt"
+      },
+      {
+        "clause_id": "s0.c2",
+        "lemma_guess": "have",
+        "role": "action",
+        "tense_guess": "unknown",
+        "token_span": [
+          53,
+          57
+        ],
+        "verb_text": "have"
+      },
+      {
+        "clause_id": "s0.c2",
+        "lemma_guess": "see",
+        "role": "action",
+        "tense_guess": "past",
+        "token_span": [
+          58,
+          62
+        ],
+        "verb_text": "seen"
+      }
+    ]
+  },
+  "spec_version": "v4",
+  "template": {
+    "id": "john_1_14_v4",
+    "path": "data/templates/witness_cards/v4/john_1_14.json"
+  },
+  "witness_prompts": [
+    "Where do you notice unknown_actor_1 became in this scene?",
+    "The text turns at 'and we'. What does that shift open for you?",
+    "How do the focus words glory, grace, truth ask you to attend today?",
+    "What does 'dwelt among us' suggest about showing up here?",
+    "Where are you invited to witness unknown_actor_1 became?"
+  ]
+}

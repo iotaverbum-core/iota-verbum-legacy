@@ -1,0 +1,31 @@
+{
+  "schema": "iv.modal.json.v1",
+  "passage": "John 17",
+  "source": {
+    "translation": "ESV"
+  },
+  "meta": {
+    "compiled_from": "cne.v1",
+    "compiled_at": "2026-02-13T14:23:56"
+  },
+  "nodes": [
+    {
+      "id": "n1",
+      "type": "scene",
+      "ref": "17:1-26",
+      "label": "High Priestly Prayer: glory, keeping, sanctifying, unity, mission"
+    }
+  ],
+  "edges": [],
+  "hinges": [
+    {
+      "id": "h1",
+      "refs": [
+        "John 17"
+      ],
+      "identity_□": "Father and Son share glory; eternal life is knowing them.",
+      "enactment_◇": "Jesus prays: keep, sanctify, send, unite, and bring them to behold glory.",
+      "effect_Δ": "Disciples are framed as a protected, consecrated, unified witness to the world."
+    }
+  ]
+}

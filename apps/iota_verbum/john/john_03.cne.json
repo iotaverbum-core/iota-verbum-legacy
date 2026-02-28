@@ -1,0 +1,397 @@
+{
+  "schema": "cne.v1",
+  "ref": "John 3:1-36",
+  "translation": "ESV",
+  "agents": {
+    "G": "Jesus",
+    "N": "Nicodemus",
+    "J": "John the Baptist",
+    "JD": "John's disciples",
+    "D": "Jesus' disciples",
+    "U": "A Jew (dispute partner)",
+    "P": "People / crowds"
+  },
+  "events": [
+    {
+      "id": "e1",
+      "ref": "3:1-2",
+      "agent": "N",
+      "verb": "come",
+      "object": "Jesus",
+      "mode": "by_night"
+    },
+    {
+      "id": "e2",
+      "ref": "3:2",
+      "agent": "N",
+      "verb": "say",
+      "object": "Rabbi, we know you are a teacher from God; no one can do these signs unless God is with him.",
+      "mode": "address"
+    },
+    {
+      "id": "e3",
+      "ref": "3:3",
+      "agent": "G",
+      "verb": "declare",
+      "object": "Unless one is born again he cannot see the kingdom of God.",
+      "kind": "identity"
+    },
+    {
+      "id": "e4",
+      "ref": "3:4",
+      "agent": "N",
+      "verb": "ask",
+      "object": "How can a man be born when he is old? Can he enter a second time into his mother's womb?",
+      "mode": "confusion"
+    },
+    {
+      "id": "e5",
+      "ref": "3:5",
+      "agent": "G",
+      "verb": "declare",
+      "object": "Unless one is born of water and the Spirit, he cannot enter the kingdom of God.",
+      "kind": "identity"
+    },
+    {
+      "id": "e6",
+      "ref": "3:6",
+      "agent": "G",
+      "verb": "declare",
+      "object": "That which is born of the flesh is flesh, and that which is born of the Spirit is spirit.",
+      "kind": "identity"
+    },
+    {
+      "id": "e7",
+      "ref": "3:7-8",
+      "agent": "G",
+      "verb": "declare",
+      "object": "The wind blows where it wishes... so it is with everyone who is born of the Spirit.",
+      "kind": "identity"
+    },
+    {
+      "id": "e8",
+      "ref": "3:9",
+      "agent": "N",
+      "verb": "ask",
+      "object": "How can these things be?"
+    },
+    {
+      "id": "e9",
+      "ref": "3:10",
+      "agent": "G",
+      "verb": "ask",
+      "object": "Are you the teacher of Israel and yet you do not understand these things?",
+      "mode": "reproof"
+    },
+    {
+      "id": "e10",
+      "ref": "3:11-12",
+      "agent": "G",
+      "verb": "declare",
+      "object": "We speak of what we know and bear witness to what we have seen, but you do not receive our testimony... If I have told you earthly things and you do not believe, how can you believe if I tell you heavenly things?",
+      "kind": "identity"
+    },
+    {
+      "id": "e11",
+      "ref": "3:13",
+      "agent": "G",
+      "verb": "declare",
+      "object": "No one has ascended into heaven except he who descended from heaven, the Son of Man.",
+      "kind": "identity"
+    },
+    {
+      "id": "e12",
+      "ref": "3:14-15",
+      "agent": "G",
+      "verb": "reveal",
+      "object": "As Moses lifted up the serpent in the wilderness, so must the Son of Man be lifted up, that whoever believes in him may have eternal life.",
+      "kind": "identity"
+    },
+    {
+      "id": "e13",
+      "ref": "3:15",
+      "agent": "G",
+      "verb": "promise",
+      "object": "Whoever believes in him may have eternal life.",
+      "kind": "effect"
+    },
+    {
+      "id": "e14",
+      "ref": "3:16",
+      "agent": "G",
+      "verb": "declare",
+      "object": "God so loved the world, that he gave his only Son, that whoever believes in him should not perish but have eternal life.",
+      "kind": "identity"
+    },
+    {
+      "id": "e15",
+      "ref": "3:17",
+      "agent": "G",
+      "verb": "declare",
+      "object": "God did not send his Son into the world to condemn the world, but in order that the world might be saved through him.",
+      "kind": "identity"
+    },
+    {
+      "id": "e16",
+      "ref": "3:18",
+      "agent": "G",
+      "verb": "declare",
+      "object": "Whoever believes in him is not condemned, but whoever does not believe is condemned already.",
+      "kind": "effect"
+    },
+    {
+      "id": "e17",
+      "ref": "3:19",
+      "agent": "G",
+      "verb": "declare",
+      "object": "The light has come into the world, and people loved the darkness rather than the light because their works were evil.",
+      "kind": "identity"
+    },
+    {
+      "id": "e18",
+      "ref": "3:20-21",
+      "agent": "G",
+      "verb": "declare",
+      "object": "Everyone who does wicked things hates the light... but whoever does what is true comes to the light, so that it may be clearly seen that his works have been carried out in God.",
+      "kind": "identity"
+    },
+    {
+      "id": "e19",
+      "ref": "3:22",
+      "agent": "G",
+      "verb": "go",
+      "object": "Judean countryside",
+      "mode": "with disciples"
+    },
+    {
+      "id": "e20",
+      "ref": "3:22",
+      "agent": "G",
+      "verb": "remain",
+      "object": "with them",
+      "mode": "in countryside"
+    },
+    {
+      "id": "e21",
+      "ref": "3:22",
+      "agent": "D",
+      "verb": "baptize",
+      "object": "people",
+      "mode": "in Judea"
+    },
+    {
+      "id": "e22",
+      "ref": "3:23",
+      "agent": "J",
+      "verb": "baptize",
+      "object": "people",
+      "mode": "Aenon near Salim"
+    },
+    {
+      "id": "e23",
+      "ref": "3:25",
+      "agent": "JD",
+      "verb": "dispute",
+      "object": "U about purification"
+    },
+    {
+      "id": "e24",
+      "ref": "3:26",
+      "agent": "JD",
+      "verb": "say",
+      "object": "Rabbi, he who was with you... is baptizing, and all are going to him.",
+      "mode": "concern"
+    },
+    {
+      "id": "e25",
+      "ref": "3:27",
+      "agent": "J",
+      "verb": "declare",
+      "object": "A person cannot receive even one thing unless it is given him from heaven.",
+      "kind": "identity"
+    },
+    {
+      "id": "e26",
+      "ref": "3:28",
+      "agent": "J",
+      "verb": "declare",
+      "object": "I said, 'I am not the Christ,' but I have been sent before him.",
+      "kind": "identity"
+    },
+    {
+      "id": "e27",
+      "ref": "3:29",
+      "agent": "J",
+      "verb": "reveal",
+      "object": "The one who has the bride is the bridegroom... the friend rejoices greatly at the bridegroom's voice. Therefore this joy of mine is now complete.",
+      "kind": "identity"
+    },
+    {
+      "id": "e28",
+      "ref": "3:30",
+      "agent": "J",
+      "verb": "declare",
+      "object": "He must increase, but I must decrease.",
+      "kind": "identity"
+    },
+    {
+      "id": "e29",
+      "ref": "3:31",
+      "agent": "J",
+      "verb": "declare",
+      "object": "He who comes from above is above all... he who is of the earth belongs to the earth.",
+      "kind": "identity"
+    },
+    {
+      "id": "e30",
+      "ref": "3:32-33",
+      "agent": "J",
+      "verb": "declare",
+      "object": "He bears witness to what he has seen and heard, yet no one receives his testimony; whoever receives his testimony sets his seal that God is true.",
+      "kind": "identity"
+    },
+    {
+      "id": "e31",
+      "ref": "3:34",
+      "agent": "J",
+      "verb": "declare",
+      "object": "He whom God has sent utters the words of God, for he gives the Spirit without measure.",
+      "kind": "identity"
+    },
+    {
+      "id": "e32",
+      "ref": "3:35",
+      "agent": "J",
+      "verb": "declare",
+      "object": "The Father loves the Son and has given all things into his hand.",
+      "kind": "identity"
+    },
+    {
+      "id": "e33",
+      "ref": "3:36a",
+      "agent": "J",
+      "verb": "promise",
+      "object": "Whoever believes in the Son has eternal life.",
+      "kind": "effect"
+    },
+    {
+      "id": "e34",
+      "ref": "3:36b",
+      "agent": "J",
+      "verb": "warn",
+      "object": "Whoever does not obey the Son shall not see life, but the wrath of God remains on him.",
+      "kind": "effect"
+    }
+  ],
+  "markers": [
+    {
+      "id": "m1",
+      "ref": "3:2",
+      "type": "WS",
+      "target": "night_visit",
+      "justification": "Nicodemus comes 'by night' (spatial/temporal framing)."
+    },
+    {
+      "id": "m2",
+      "ref": "3:3",
+      "type": "CU",
+      "target": "born_again",
+      "justification": "Jesus isolates the condition with 'Truly, truly' and repeats birth language."
+    },
+    {
+      "id": "m3",
+      "ref": "3:7-8",
+      "type": "SM",
+      "target": "wind_spirit_metaphor",
+      "justification": "Extended metaphor slows the scene to reframe agency of the Spirit."
+    },
+    {
+      "id": "m4",
+      "ref": "3:14-16",
+      "type": "THR",
+      "target": "lifted_up_belief",
+      "justification": "'So must... that whoever believes' marks a crossing from explanation to salvation-horizon."
+    },
+    {
+      "id": "m5",
+      "ref": "3:19-21",
+      "type": "THR",
+      "target": "light_darkness",
+      "justification": "People move toward/away from the light; moral exposure functions as a boundary."
+    },
+    {
+      "id": "m6",
+      "ref": "3:22",
+      "type": "CA",
+      "target": "shift_to_baptizing_scene",
+      "justification": "Narrative cut from private dialogue to public ministry activity."
+    },
+    {
+      "id": "m7",
+      "ref": "3:22",
+      "type": "SIL",
+      "target": "who_baptizes",
+      "justification": "Text says 'Jesus was baptizing' here; later clarification indicates disciples (4:2). Keep ambiguity as silence."
+    },
+    {
+      "id": "m8",
+      "ref": "3:30",
+      "type": "STAY",
+      "target": "decrease_posture",
+      "justification": "John holds the frame on relinquishment: 'He must increase, I must decrease.'"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "type": "hinge_candidate",
+      "text": "New birth (from the Spirit) is the necessary threshold for seeing/entering God's kingdom.",
+      "supported_by": [
+        "e3",
+        "e5",
+        "e7"
+      ],
+      "inference": false
+    },
+    {
+      "id": "c2",
+      "type": "scene_theology",
+      "text": "Jesus moves from diagnosis (birth needed) to horizon (lifted up Son) without giving mechanism beyond Spirit agency.",
+      "supported_by": [
+        "e7",
+        "e10",
+        "e12"
+      ],
+      "inference": true
+    },
+    {
+      "id": "c3",
+      "type": "witness_posture",
+      "text": "John's witness culminates in joy-filled decrease as the bridegroom's voice takes the room.",
+      "supported_by": [
+        "e27",
+        "e28"
+      ],
+      "inference": true
+    }
+  ],
+  "hinge": {
+    "identity_□": "The Son reveals the Father’s saving purpose; the Spirit’s birth is not human manufacture, and the Son is the one given and lifted up.",
+    "enactment_◇": "Nicodemus comes in the night and questions; Jesus testifies and declares new birth and the lifted-up Son; John the Baptist re-witnesses and yields the spotlight.",
+    "effect_Δ": "Belief receives life and freedom from condemnation; refusal remains in darkness and under wrath; true witness learns to decrease as Christ increases.",
+    "themes": [
+      "new_birth",
+      "spirit",
+      "witness",
+      "light_darkness",
+      "belief",
+      "life",
+      "increase_decrease"
+    ]
+  },
+  "meta": {
+    "created_at": "2026-02-12T18:11:50.717563Z",
+    "encoder": "chatgpt",
+    "notes": "Conservative CNE v1 encoding for John 3; speech acts kept textual; ambiguity about baptizer preserved as SIL marker."
+  }
+}

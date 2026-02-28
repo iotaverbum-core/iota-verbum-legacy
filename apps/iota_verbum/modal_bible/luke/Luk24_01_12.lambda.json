@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Luke λ-files; safe to hand-edit after generation.",
+    "book": "Luke",
+    "passage_id": "Luk24_01_12",
+    "version": "Luk24_01_12_Lambda_IV_v0.1"
+  },
+  "passage_id": "Luk24_01_12",
+  "book": "Luke",
+  "chapter": 24,
+  "verses": "1-12",
+  "title": "Luke 24:1–12 – Empty Tomb and Angelic Message",
+  "interpretive_frames": [
+    "Resurrection",
+    "RememberingWords",
+    "Astonishment"
+  ],
+  "identity_invariants": [
+    "[]CrucifiedJesusIsRaisedAsPromisedAndHisWordsInterpretEmptyTomb(Jesus, Women, Disciples)"
+  ],
+  "units": [
+    {
+      "id": "Luk24_01_12_u1",
+      "label": "Why Do You Seek the Living Among the Dead?",
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "illocution": "ResurrectionNarrative",
+      "agents": [
+        "Women",
+        "Angels",
+        "Apostles",
+        "Peter"
+      ],
+      "statements": [
+        {
+          "id": "Luk24_01_12_s1",
+          "type": "summary",
+          "description": "Women find the tomb empty, hear angels announce Jesus resurrection, remember his words, and report to incredulous apostles.",
+          "lambda_iv": [
+            "[]CrucifiedJesusIsRaisedAsPromisedAndHisWordsInterpretEmptyTomb(Jesus, Women, Disciples)",
+            "EFF(FailureToRememberWordsHindersRecognitionOfResurrection(Disciples))"
+          ]
+        }
+      ]
+    }
+  ]
+}

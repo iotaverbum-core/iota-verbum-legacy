@@ -1,0 +1,41 @@
+{
+  "ref": "Genesis 1:11–12",
+  "translation": "KJV",
+  "nodes": [
+    {
+      "id": "n1",
+      "kind": "effect",
+      "lemma": "result",
+      "text": ": and it was so",
+      "span": "c7",
+      "confidence": 0.8
+    },
+    {
+      "id": "n2",
+      "kind": "effect",
+      "lemma": "result",
+      "text": "that it was good",
+      "span": "c14",
+      "confidence": 0.8
+    }
+  ],
+  "edges": [
+    {
+      "from": "n1",
+      "to": "n2",
+      "relation": "implies",
+      "confidence": 0.7
+    }
+  ],
+  "creed": {
+    "status": "warn",
+    "notes": [
+      "one or more modal kinds missing"
+    ]
+  },
+  "watermark": "525d03eaa7a2c66c",
+  "meta": {
+    "postprocessed_at": "2025-10-30T11:39:09.459949Z",
+    "confidence": 0.6
+  }
+}

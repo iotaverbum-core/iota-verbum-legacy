@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Matthew λ-files; safe to hand-edit after generation.",
+    "book": "Matthew",
+    "passage_id": "Mat09_01_08",
+    "version": "Mat09_01_08_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mat09_01_08",
+  "book": "Matthew",
+  "chapter": 9,
+  "verses": "1-8",
+  "title": "Matthew 9:1–8 – Paralytic Forgiven and Healed",
+  "interpretive_frames": [
+    "AuthorityToForgive",
+    "Healing",
+    "Faith"
+  ],
+  "identity_invariants": [
+    "[]SonOfManHasAuthorityOnEarthToForgiveSins(SonOfMan, Authority)"
+  ],
+  "units": [
+    {
+      "id": "Mat09_01_08_u1",
+      "label": "Rise, Take Up Your Bed",
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "illocution": "SignAndClaim",
+      "agents": [
+        "Jesus",
+        "Paralytic",
+        "Scribes",
+        "Crowds"
+      ],
+      "statements": [
+        {
+          "id": "Mat09_01_08_s1",
+          "type": "summary",
+          "description": "Jesus forgives and heals a paralytic to demonstrate that the Son of Man has authority on earth to forgive sins.",
+          "lambda_iv": [
+            "[]SonOfManHasAuthorityOnEarthToForgiveSins(SonOfMan, Authority)",
+            "EFF(VisibleHealingAuthenticatesInvisibleForgiveness(Jesus, Paralytic))"
+          ]
+        }
+      ]
+    }
+  ]
+}

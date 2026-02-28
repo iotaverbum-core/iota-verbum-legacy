@@ -1,0 +1,124 @@
+{
+  "attestation_id": "string",             // Unique ID for this decision
+  "iota_engine": {
+    "name": "iota Verbum – DesertRule",
+    "version": "string",                  // e.g. "0.3.1"
+    "environment": "dev|test|prod"
+  },
+
+  "decision_context": {
+    "institution_id": "string",           // Bank / lender code
+    "jurisdiction": "string",             // e.g. "ZA"
+    "product_type": "string",             // e.g. "personal_loan", "home_loan"
+    "channel": "string",                  // e.g. "branch", "online", "agent"
+    "timestamp_decision": "ISO-8601"      // When the decision was issued
+  },
+
+  "subject": {
+    "subject_type": "natural_person|entity",
+    "subject_reference": "string",        // Internal customer ID or token
+    "attributes_used": [                  // Only what was actually used for the decision
+      "age",
+      "income_band",
+      "employment_status",
+      "credit_score",
+      "existing_debt_ratio"
+    ]
+  },
+
+  "request": {
+    "request_id": "string",
+    "requested_amount": "number",
+    "requested_currency": "string",
+    "requested_term_months": "number",
+    "purpose": "string"                   // e.g. "debt_consolidation", "vehicle"
+  },
+
+  "policy_suite": {
+    "suite_id": "string",                 // Versioned policy package
+    "suite_name": "string",
+    "policy_version": "string",           // Reg + internal policy version
+    "policies_applied": [
+      {
+        "policy_id": "string",
+        "name": "string",                 // e.g. "Affordability – NCA",
+        "source": "regulation|internal|ethical",
+        "source_reference": "string"      // e.g. "NCA s81(2)"
+      }
+    ]
+  },
+
+  "tests": [
+    {
+      "test_id": "string",
+      "name": "string",                   // e.g. "Debt_to_income_ratio_limit"
+      "category": "risk|fairness|ethics|compliance",
+      "modality": "□identity|◇enactment|Δeffect",  // Optional: iota modal tag
+      "status": "pass|fail|warn|skip",
+      "metric_value": "number|string|null",        // e.g. 0.36
+      "threshold": "number|string|null",          // e.g. 0.4
+      "rationale": "string",                      // Human-readable explanation
+      "references": ["string"]                    // e.g. ["NCA s81(2)", "Bank Fairness Code 3.1"]
+    }
+  ],
+
+  "model_trace": {
+    "model_id": "string",               // e.g. "credit_scoring_v5"
+    "model_version": "string",
+    "model_role": "advisory|determinative",
+    "features_used": [
+      "credit_score",
+      "payment_history",
+      "utilization_ratio"
+    ],
+    "score_output": {
+      "score": "number",               // e.g. 0.82
+      "score_band": "string",          // e.g. "low_risk"
+      "score_interpretation": "string" // Plain-English summary
+    }
+  },
+
+  "decision": {
+    "outcome": "approve|decline|refer",
+    "decision_reason_primary": "string",       // One-line core reason
+    "decision_reason_detailed": "string",      // Short paragraph
+    "risk_flags": [
+      {
+        "flag_id": "string",
+        "severity": "low|medium|high",
+        "description": "string"
+      }
+    ],
+    "conditions": [
+      {
+        "condition_id": "string",
+        "description": "string"               // e.g. "Subject to income verification"
+      }
+    ]
+  },
+
+  "human_review": {
+    "required": "boolean",
+    "reviewer_id": "string|null",
+    "review_timestamp": "ISO-8601|null",
+    "review_action": "confirm|override|null",
+    "review_notes": "string|null"
+  },
+
+  "iota_signature": {
+    "modal_ok": "boolean",                   // True = passed iota moral audit
+    "modal_summary": {
+      "identity": "string",                 // □ – who the institution is obliged to be here
+      "enactment": "string",               // ◇ – what was actually done
+      "effect": "string"                   // Δ – expected impact on the subject
+    },
+    "hash_of_decision_payload": "string",   // Cryptographic hash of the entire attestation block
+    "issued_by": "string",                  // Engine/service ID that issued the attestation
+    "issued_at": "ISO-8601",
+    "signature": "string"                   // Signature over the hash (implementation-specific)
+  },
+
+  "extensions": {
+    // Optional, for future fields. Other agents MUST NOT create new top-level keys.
+  }
+}

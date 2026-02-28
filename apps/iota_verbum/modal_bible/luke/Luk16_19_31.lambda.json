@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Luke λ-files; safe to hand-edit after generation.",
+    "book": "Luke",
+    "passage_id": "Luk16_19_31",
+    "version": "Luk16_19_31_Lambda_IV_v0.1"
+  },
+  "passage_id": "Luk16_19_31",
+  "book": "Luke",
+  "chapter": 16,
+  "verses": "19-31",
+  "title": "Luke 16:19–31 – Rich Man and Lazarus",
+  "interpretive_frames": [
+    "Reversal",
+    "ScriptureSufficiency",
+    "Judgment"
+  ],
+  "identity_invariants": [
+    "[]NeglectOfPoorInThisLifeRevealsHeartThatWillFaceReversalAndJudgment(Rich, Poor)"
+  ],
+  "units": [
+    {
+      "id": "Luk16_19_31_u1",
+      "label": "If They Do Not Hear Moses and the Prophets",
+      "verses": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "illocution": "Parable",
+      "agents": [
+        "RichMan",
+        "Lazarus",
+        "Abraham",
+        "Brothers"
+      ],
+      "statements": [
+        {
+          "id": "Luk16_19_31_s1",
+          "type": "summary",
+          "description": "A rich man who ignored Lazarus in life is tormented in Hades, warning that Scripture is sufficient testimony and that reversal is coming.",
+          "lambda_iv": [
+            "[]NeglectOfPoorInThisLifeRevealsHeartThatWillFaceReversalAndJudgment(Rich, Poor)",
+            "EFF(UnheededScriptureRendersEvenResurrectionWitnessIneffective(Hearers))"
+          ]
+        }
+      ]
+    }
+  ]
+}

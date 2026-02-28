@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Mark λ-files; safe to hand-edit after generation.",
+    "book": "Mark",
+    "passage_id": "Mar15_21_39",
+    "version": "Mar15_21_39_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mar15_21_39",
+  "book": "Mark",
+  "chapter": 15,
+  "verses": "21-39",
+  "title": "Mark 15:21–39 – Crucifixion and Centurion’s Confession",
+  "interpretive_frames": [
+    "Crucifixion",
+    "Mockery",
+    "DivineAbandonment"
+  ],
+  "identity_invariants": [
+    "[]CrucifiedJesusIsTrueSonOfGodRecognisedInHisDeath(Jesus, Centurion)"
+  ],
+  "units": [
+    {
+      "id": "Mar15_21_39_u1",
+      "label": "Truly This Man Was the Son of God",
+      "verses": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "illocution": "PassionClimax",
+      "agents": [
+        "Jesus",
+        "Soldiers",
+        "PassersBy",
+        "ChiefPriests",
+        "CrucifiedWithHim",
+        "Centurion"
+      ],
+      "statements": [
+        {
+          "id": "Mar15_21_39_s1",
+          "type": "summary",
+          "description": "Jesus is crucified amid mockery, cries out in abandonment, breathes his last, and the centurion confesses him as Son of God.",
+          "lambda_iv": [
+            "[]CrucifiedJesusIsTrueSonOfGodRecognisedInHisDeath(Jesus, Centurion)",
+            "EFF(CrossRevealsIdentityOfSonOfGodThroughParadoxicalGlory(Jesus))"
+          ]
+        }
+      ]
+    }
+  ]
+}

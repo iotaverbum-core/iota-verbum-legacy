@@ -1,0 +1,99 @@
+{
+  "ref": "Revelation 14:15–16",
+  "translation": "KJV",
+  "nodes": [
+    {
+      "id": "n1",
+      "kind": "effect",
+      "lemma": "result",
+      "text": "that sat on the cloud",
+      "span": "c3",
+      "confidence": 0.8
+    },
+    {
+      "id": "n2",
+      "kind": "enactment",
+      "lemma": "reap",
+      "text": ", and reap",
+      "span": "c5",
+      "confidence": 0.75
+    },
+    {
+      "id": "n3",
+      "kind": "enactment",
+      "lemma": "reap",
+      "text": ": for the time is come for thee to reap",
+      "span": "c6",
+      "confidence": 0.75
+    },
+    {
+      "id": "n4",
+      "kind": "enactment",
+      "lemma": "harvest",
+      "text": "; for the harvest of the earth is ripe",
+      "span": "c7",
+      "confidence": 0.75
+    },
+    {
+      "id": "n5",
+      "kind": "effect",
+      "lemma": "result",
+      "text": "; for the harvest of the earth is ripe",
+      "span": "c7",
+      "confidence": 0.8
+    },
+    {
+      "id": "n6",
+      "kind": "effect",
+      "lemma": "result",
+      "text": "that sat on the cloud thrust in his sickle on the earth",
+      "span": "c9",
+      "confidence": 0.8
+    },
+    {
+      "id": "n7",
+      "kind": "enactment",
+      "lemma": "reap",
+      "text": "; and the earth was reaped",
+      "span": "c10",
+      "confidence": 0.75
+    }
+  ],
+  "edges": [
+    {
+      "from": "n2",
+      "to": "n1",
+      "relation": "produces",
+      "confidence": 0.75
+    },
+    {
+      "from": "n3",
+      "to": "n5",
+      "relation": "produces",
+      "confidence": 0.75
+    },
+    {
+      "from": "n4",
+      "to": "n6",
+      "relation": "produces",
+      "confidence": 0.75
+    },
+    {
+      "from": "n1",
+      "to": "n5",
+      "relation": "implies",
+      "confidence": 0.7
+    }
+  ],
+  "creed": {
+    "status": "warn",
+    "notes": [
+      "one or more modal kinds missing"
+    ]
+  },
+  "watermark": "e86be2d26e20ac2c",
+  "meta": {
+    "postprocessed_at": "2025-10-30T11:39:20.076663Z",
+    "confidence": 0.6
+  }
+}

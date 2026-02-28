@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Luke λ-files; safe to hand-edit after generation.",
+    "book": "Luke",
+    "passage_id": "Luk05_01_11",
+    "version": "Luk05_01_11_Lambda_IV_v0.1"
+  },
+  "passage_id": "Luk05_01_11",
+  "book": "Luke",
+  "chapter": 5,
+  "verses": "1-11",
+  "title": "Luke 5:1–11 – Miraculous Catch and Call of Peter",
+  "interpretive_frames": [
+    "Call",
+    "Obedience",
+    "Mission"
+  ],
+  "identity_invariants": [
+    "[]JesusCallsSinnersIntoMissionThroughHolyFearAndTrust(Jesus, Peter, Disciples)"
+  ],
+  "units": [
+    {
+      "id": "Luk05_01_11_u1",
+      "label": "From Nets to Catching People",
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "illocution": "CallNarrative",
+      "agents": [
+        "Jesus",
+        "SimonPeter",
+        "James",
+        "John",
+        "Crowds"
+      ],
+      "statements": [
+        {
+          "id": "Luk05_01_11_s1",
+          "type": "summary",
+          "description": "After a miraculous catch of fish at Jesus command, Peter falls in fear and is called with his partners to leave everything and catch people.",
+          "lambda_iv": [
+            "[]JesusCallsSinnersIntoMissionThroughHolyFearAndTrust(Jesus, Peter, Disciples)",
+            "EFF(AbandoningOldSecurityToFollowJesusIntoMission(Disciples))"
+          ]
+        }
+      ]
+    }
+  ]
+}

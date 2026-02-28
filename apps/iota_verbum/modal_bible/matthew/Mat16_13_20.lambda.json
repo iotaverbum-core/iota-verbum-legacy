@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Matthew λ-files; safe to hand-edit after generation.",
+    "book": "Matthew",
+    "passage_id": "Mat16_13_20",
+    "version": "Mat16_13_20_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mat16_13_20",
+  "book": "Matthew",
+  "chapter": 16,
+  "verses": "13-20",
+  "title": "Matthew 16:13–20 – Peter’s Confession and the Keys",
+  "interpretive_frames": [
+    "Christology",
+    "Church",
+    "Authority"
+  ],
+  "identity_invariants": [
+    "[]JesusIsTheChristTheSonOfTheLivingGod(Jesus, Father)"
+  ],
+  "units": [
+    {
+      "id": "Mat16_13_20_u1",
+      "label": "On This Rock I Will Build My Church",
+      "verses": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "illocution": "Revelation",
+      "agents": [
+        "Jesus",
+        "Peter",
+        "Disciples"
+      ],
+      "statements": [
+        {
+          "id": "Mat16_13_20_s1",
+          "type": "summary",
+          "description": "Peter confesses Jesus as the Christ, and Jesus promises to build his church and gives the keys of the kingdom.",
+          "lambda_iv": [
+            "[]JesusIsTheChristTheSonOfTheLivingGod(Jesus, Father)",
+            "EFF(ChurchBuiltOnConfessedChristAndGivenKeys(Church, Jesus))"
+          ]
+        }
+      ]
+    }
+  ]
+}

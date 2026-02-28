@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Matthew λ-files; safe to hand-edit after generation.",
+    "book": "Matthew",
+    "passage_id": "Mat10_01_42",
+    "version": "Mat10_01_42_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mat10_01_42",
+  "book": "Matthew",
+  "chapter": 10,
+  "verses": "1-42",
+  "title": "Matthew 10:1–42 – Mission Discourse",
+  "interpretive_frames": [
+    "Mission",
+    "Persecution",
+    "Witness"
+  ],
+  "identity_invariants": [
+    "[]JesusAuthorisesAndSendsDisciplesToExtendHisKingdomMinistry(Jesus, Disciples)"
+  ],
+  "units": [
+    {
+      "id": "Mat10_01_42_u1",
+      "label": "Sheep Among Wolves",
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "illocution": "Commission",
+      "agents": [
+        "Jesus",
+        "Twelve",
+        "Fathers",
+        "Authorities"
+      ],
+      "statements": [
+        {
+          "id": "Mat10_01_42_s1",
+          "type": "summary",
+          "description": "Jesus commissions the Twelve, warning of persecution yet assuring the Father's care and reward.",
+          "lambda_iv": [
+            "[]JesusAuthorisesAndSendsDisciplesToExtendHisKingdomMinistry(Jesus, Disciples)",
+            "EFF(MissionIncludesPersecutionUnderFathersCare(Disciples, Father))"
+          ]
+        }
+      ]
+    }
+  ]
+}
