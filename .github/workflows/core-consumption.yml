@@ -23,6 +23,7 @@ jobs:
           python-version: "3.11"
       - run: python -m venv .venv-ci
       - run: .venv-ci/bin/python -m pip install --upgrade pip setuptools wheel pytest
+      - run: grep -n "iota-verbum-core @ git+https://github.com/iotaverbum-core/iota-verbum-core.git@v0.1.0-core-canonical" requirements.txt
       - run: .venv-ci/bin/python -m pip install -r requirements.txt
       - run: .venv-ci/bin/python -m pip install --no-deps .
       - run: .venv-ci/bin/python -m pip show iota-verbum-core
