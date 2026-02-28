@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Luke λ-files; safe to hand-edit after generation.",
+    "book": "Luke",
+    "passage_id": "Luk09_28_36",
+    "version": "Luk09_28_36_Lambda_IV_v0.1"
+  },
+  "passage_id": "Luk09_28_36",
+  "book": "Luke",
+  "chapter": 9,
+  "verses": "28-36",
+  "title": "Luke 9:28–36 – Transfiguration and Divine Voice",
+  "interpretive_frames": [
+    "Glory",
+    "Exodus",
+    "Sonship"
+  ],
+  "identity_invariants": [
+    "[]JesusIsBelovedSonWhoseExodusMustBeCompletedAndWhoseWordsMustBeHeard(Jesus, Father, Disciples)"
+  ],
+  "units": [
+    {
+      "id": "Luk09_28_36_u1",
+      "label": "This Is My Son, Listen to Him",
+      "verses": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "illocution": "Theophany",
+      "agents": [
+        "Jesus",
+        "Peter",
+        "James",
+        "John",
+        "Moses",
+        "Elijah",
+        "Father"
+      ],
+      "statements": [
+        {
+          "id": "Luk09_28_36_s1",
+          "type": "summary",
+          "description": "Jesus is transfigured in glory, speaks with Moses and Elijah about his exodus, and the Father commands the disciples to listen to him.",
+          "lambda_iv": [
+            "[]JesusIsBelovedSonWhoseExodusMustBeCompletedAndWhoseWordsMustBeHeard(Jesus, Father, Disciples)",
+            "EFF(GloryVisionInterpretsImpendingSuffering(Disciples))"
+          ]
+        }
+      ]
+    }
+  ]
+}

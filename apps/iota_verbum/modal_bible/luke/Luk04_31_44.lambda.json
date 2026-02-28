@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Luke λ-files; safe to hand-edit after generation.",
+    "book": "Luke",
+    "passage_id": "Luk04_31_44",
+    "version": "Luk04_31_44_Lambda_IV_v0.1"
+  },
+  "passage_id": "Luk04_31_44",
+  "book": "Luke",
+  "chapter": 4,
+  "verses": "31-44",
+  "title": "Luke 4:31–44 – Authority Over Demons, Disease, and the Mission Priority",
+  "interpretive_frames": [
+    "Authority",
+    "Exorcism",
+    "PreachingMission"
+  ],
+  "identity_invariants": [
+    "[]JesusWordCarriesAuthorityOverDemonsDiseaseAndDefinesMissionFocus(Jesus, Word)"
+  ],
+  "units": [
+    {
+      "id": "Luk04_31_44_u1",
+      "label": "I Must Preach the Good News",
+      "verses": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "illocution": "NarrationAndPurposeStatement",
+      "agents": [
+        "Jesus",
+        "Demoniac",
+        "Crowds",
+        "Simon",
+        "SimonsMotherInLaw"
+      ],
+      "statements": [
+        {
+          "id": "Luk04_31_44_s1",
+          "type": "summary",
+          "description": "Jesus teaches with authority, casts out demons, heals the sick, and insists he must preach the kingdom in other towns too.",
+          "lambda_iv": [
+            "[]JesusWordCarriesAuthorityOverDemonsDiseaseAndDefinesMissionFocus(Jesus, Word)",
+            "EFF(MiraclesSupportButDoNotReplacePreachingMission(Jesus, Towns))"
+          ]
+        }
+      ]
+    }
+  ]
+}

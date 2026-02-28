@@ -1,0 +1,30 @@
+﻿[
+  {
+    "id": "VPR001",
+    "location": "Mark 4:26",
+    "language": "grc",
+    "type": "spelling",
+    "witnesses": [
+      {"id": "B", "type": "manuscript"},
+      {"id": "D", "type": "manuscript"}
+    ],
+    "chosen_reading": "autos",
+    "alternative_reading": "auto",
+    "decision_level": "low",
+    "notes": "Minor orthographic variant. Chosen reading follows majority."
+  },
+  {
+    "id": "VPR002",
+    "location": "Mark 4:27",
+    "language": "grc",
+    "type": "word-order",
+    "witnesses": [
+      {"id": "A", "type": "manuscript"},
+      {"id": "C", "type": "manuscript"}
+    ],
+    "chosen_reading": "seed first, then blade",
+    "alternative_reading": "blade, then seed",
+    "decision_level": "medium",
+    "notes": "Example only; demonstrates difference in emphasis rather than substance."
+  }
+]

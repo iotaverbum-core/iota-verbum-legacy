@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>John Viewer</title>
+  <style>
+    :root { --bg:#f7f6f2; --panel:#fffdf8; --ink:#1f2a2f; --muted:#5f6b73; --line:#d9d4c8; --acc:#0f6b5c; }
+    body { margin:0; font-family: "Segoe UI", Tahoma, sans-serif; background: radial-gradient(circle at top, #fff9ef, var(--bg)); color:var(--ink); }
+    .wrap { max-width: 1200px; margin: 0 auto; padding: 18px; }
+    h1,h2,h3 { margin: 0 0 8px 0; }
+    .top { display:flex; gap:10px; align-items:center; flex-wrap:wrap; margin-bottom:14px; }
+    .panel { background: var(--panel); border:1px solid var(--line); border-radius:10px; padding:12px; }
+    .grid { display:grid; grid-template-columns: 280px 1fr; gap:12px; }
+    .chapter-list button, .motifs button { width:100%; text-align:left; margin:2px 0; padding:7px; border:1px solid var(--line); background:#fff; border-radius:6px; cursor:pointer; }
+    .motifs button { width:auto; margin:3px; }
+    .active { border-color: var(--acc) !important; background: #e8f5f1 !important; }
+    table { border-collapse: collapse; width:100%; font-size:12px; }
+    th,td { border:1px solid var(--line); padding:4px; text-align:center; }
+    td:first-child, th:first-child { text-align:left; }
+    .muted { color:var(--muted); }
+    .split { display:grid; grid-template-columns: 1fr 1fr; gap:10px; }
+    @media (max-width: 900px) { .grid { grid-template-columns: 1fr; } .split { grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>John Viewer</h1>
+    <div class="top panel">
+      <input id="fileInput" type="file" accept=".json" />
+      <button id="loadLatest">Try Load Latest (Known Paths)</button>
+      <span id="status" class="muted">Load a john_report.json file.</span>
+    </div>
+    <div class="grid">
+      <div class="panel">
+        <h3>Chapters</h3>
+        <div id="chapters" class="chapter-list"></div>
+      </div>
+      <div class="panel">
+        <h3>Top Motifs (click to filter)</h3>
+        <div id="motifs" class="motifs"></div>
+        <div class="split">
+          <div>
+            <h3>Heatmap</h3>
+            <div id="heatmap"></div>
+          </div>
+          <div>
+            <h3>Chapter Detail</h3>
+            <div id="detail" class="muted">Select a chapter.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    const state = { report: null, selectedChapter: null, motifFilter: null };
+    const $ = (id) => document.getElementById(id);
+
+    async function tryLoadKnown() {
+      const candidates = [
+        "../results/runs/latest/john_report.json",
+        "../results/latest_john_report.json",
+        "../../results/runs/latest/john_report.json",
+      ];
+      for (const p of candidates) {
+        try {
+          const r = await fetch(p);
+          if (r.ok) {
+            const data = await r.json();
+            loadReport(data, `Loaded ${p}`);
+            return;
+          }
+        } catch (_) {}
+      }
+      $("status").textContent = "Could not load known path. Use file picker.";
+    }
+
+    function loadReport(data, msg) {
+      state.report = data;
+      state.selectedChapter = "John 1";
+      state.motifFilter = null;
+      $("status").textContent = msg;
+      renderAll();
+    }
+
+    function chapterRows() {
+      const rows = (state.report && state.report.narrative_spine) || [];
+      return Array.isArray(rows) ? rows : [];
+    }
+
+    function topMotifs() {
+      const t = (state.report && state.report.top_motifs) || [];
+      return Array.isArray(t) ? t : [];
+    }
+
+    function renderChapters() {
+      const box = $("chapters");
+      box.innerHTML = "";
+      chapterRows().forEach(ch => {
+        const id = ch.chapter_id || "Unknown";
+        if (state.motifFilter && !(ch.motif_counts && (ch.motif_counts[state.motifFilter] || 0) > 0)) return;
+        const b = document.createElement("button");
+        b.textContent = `${id} (scenes ${ch.scene_count || 0}, thr ${ch.threshold_hits || 0}, conf ${ch.conflict_hits || 0})`;
+        if (state.selectedChapter === id) b.classList.add("active");
+        b.onclick = () => { state.selectedChapter = id; renderDetail(); renderChapters(); };
+        box.appendChild(b);
+      });
+    }
+
+    function renderMotifs() {
+      const box = $("motifs");
+      box.innerHTML = "";
+      const clear = document.createElement("button");
+      clear.textContent = "Clear Filter";
+      if (!state.motifFilter) clear.classList.add("active");
+      clear.onclick = () => { state.motifFilter = null; renderChapters(); renderHeatmap(); };
+      box.appendChild(clear);
+      topMotifs().forEach(m => {
+        const b = document.createElement("button");
+        b.textContent = `${m.motif} (${m.count})`;
+        if (state.motifFilter === m.motif) b.classList.add("active");
+        b.onclick = () => { state.motifFilter = m.motif; renderChapters(); renderHeatmap(); };
+        box.appendChild(b);
+      });
+    }
+
+    function renderHeatmap() {
+      const box = $("heatmap");
+      const motifs = topMotifs().slice(0, 10).map(x => x.motif);
+      const rows = chapterRows().filter(ch => !state.motifFilter || ((ch.motif_counts || {})[state.motifFilter] || 0) > 0);
+      if (!motifs.length || !rows.length) { box.textContent = "No data."; return; }
+      let html = "<table><thead><tr><th>Chapter</th>" + motifs.map(m => `<th>${m}</th>`).join("") + "</tr></thead><tbody>";
+      rows.forEach(ch => {
+        html += `<tr><td>${ch.chapter_id || ""}</td>` + motifs.map(m => `<td>${(ch.motif_counts || {})[m] || 0}</td>`).join("") + "</tr>";
+      });
+      html += "</tbody></table>";
+      box.innerHTML = html;
+    }
+
+    function renderDetail() {
+      const box = $("detail");
+      const ch = chapterRows().find(x => x.chapter_id === state.selectedChapter);
+      if (!ch) { box.textContent = "No chapter selected."; return; }
+      const h = ch.hinge || {};
+      let html = `<p><strong>${ch.chapter_id}</strong></p>`;
+      html += `<p>Threshold: ${ch.threshold_hits || 0} | Conflict: ${ch.conflict_hits || 0}</p>`;
+      html += `<p><strong>□</strong> ${h.identity || "(none)"}</p>`;
+      html += `<p><strong>◇</strong> ${h.enactment || "(none)"}</p>`;
+      html += `<p><strong>Δ</strong> ${h.effect || "(none)"}</p>`;
+      html += `<p><strong>Scenes</strong></p><ul>`;
+      (Array.isArray(ch.scenes) ? ch.scenes : []).forEach(s => {
+        html += `<li>${s.ref || "?"}: ${s.label || "(no label)"}</li>`;
+      });
+      html += "</ul>";
+      const cne = state.report && state.report.cne_enrichment;
+      if (cne && cne.found) {
+        const markers = (cne.marker_counts_by_chapter && cne.marker_counts_by_chapter[ch.chapter_id]) || {};
+        const verbs = (cne.top_g_verbs_by_chapter && cne.top_g_verbs_by_chapter[ch.chapter_id]) || [];
+        html += "<p><strong>CNE Marker Counts</strong></p><ul>";
+        ["CU","SM","THR","SIL","STAY","WS"].forEach(k => html += `<li>${k}: ${markers[k] || 0}</li>`);
+        html += "</ul><p><strong>Top Jesus Verbs</strong></p><ul>";
+        verbs.forEach(v => html += `<li>${v.verb}: ${v.count}</li>`);
+        html += "</ul>";
+      }
+      box.innerHTML = html;
+    }
+
+    function renderAll() { renderMotifs(); renderChapters(); renderHeatmap(); renderDetail(); }
+
+    $("fileInput").addEventListener("change", async (e) => {
+      const f = e.target.files && e.target.files[0];
+      if (!f) return;
+      try { loadReport(JSON.parse(await f.text()), `Loaded ${f.name}`); }
+      catch (err) { $("status").textContent = `Failed to parse JSON: ${err}`; }
+    });
+    $("loadLatest").addEventListener("click", tryLoadKnown);
+  </script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Luke λ-files; safe to hand-edit after generation.",
+    "book": "Luke",
+    "passage_id": "Luk08_22_25",
+    "version": "Luk08_22_25_Lambda_IV_v0.1"
+  },
+  "passage_id": "Luk08_22_25",
+  "book": "Luke",
+  "chapter": 8,
+  "verses": "22-25",
+  "title": "Luke 8:22–25 – Calming the Storm",
+  "interpretive_frames": [
+    "Authority",
+    "Fear",
+    "Faith"
+  ],
+  "identity_invariants": [
+    "[]JesusCommandsWindAndWavesAndCallsDisciplesToFaith(Jesus, Creation, Disciples)"
+  ],
+  "units": [
+    {
+      "id": "Luk08_22_25_u1",
+      "label": "Where Is Your Faith?",
+      "verses": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "illocution": "MiracleNarrative",
+      "agents": [
+        "Jesus",
+        "Disciples"
+      ],
+      "statements": [
+        {
+          "id": "Luk08_22_25_s1",
+          "type": "summary",
+          "description": "Jesus rebukes wind and waves, calming the storm, and asks his fearful disciples where their faith is.",
+          "lambda_iv": [
+            "[]JesusCommandsWindAndWavesAndCallsDisciplesToFaith(Jesus, Creation, Disciples)",
+            "EFF(FearInStormsRevealsDepthOfTrustInJesus(Disciples))"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Mark λ-files; safe to hand-edit after generation.",
+    "book": "Mark",
+    "passage_id": "Mar14_22_31",
+    "version": "Mar14_22_31_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mar14_22_31",
+  "book": "Mark",
+  "chapter": 14,
+  "verses": "22-31",
+  "title": "Mark 14:22–31 – Institution of the Supper and Prediction of Scattering",
+  "interpretive_frames": [
+    "CovenantMeal",
+    "Betrayal",
+    "Scattering"
+  ],
+  "identity_invariants": [
+    "[]JesusGivesHisBodyAndBloodAsCovenantMealWhileForetellingDisciplesFailure(Jesus, Disciples)"
+  ],
+  "units": [
+    {
+      "id": "Mar14_22_31_u1",
+      "label": "This Is My Blood of the Covenant",
+      "verses": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "illocution": "CovenantAndWarning",
+      "agents": [
+        "Jesus",
+        "Disciples",
+        "Peter"
+      ],
+      "statements": [
+        {
+          "id": "Mar14_22_31_s1",
+          "type": "summary",
+          "description": "At the meal Jesus identifies bread and cup with his body and blood and warns that all will fall away, including Peter.",
+          "lambda_iv": [
+            "[]JesusGivesHisBodyAndBloodAsCovenantMealWhileForetellingDisciplesFailure(Jesus, Disciples)",
+            "EFF(GracePrecedesAndOutlastsDisciplesFailure(Jesus, Disciples))"
+          ]
+        }
+      ]
+    }
+  ]
+}

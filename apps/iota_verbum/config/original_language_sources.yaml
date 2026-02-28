@@ -1,0 +1,6 @@
+﻿# Original-language import sources (seed)
+sources:
+  - id: "mark_greek_seed"
+    path: "corpus/mark/mark_greek_seed.json"
+    language: "grc"
+    description: "Seed Greek text for Mark IVB pilot (example only)."

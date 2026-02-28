@@ -1,0 +1,601 @@
+{
+  "id": "witness_card_95ab7998004c",
+  "modal_triad": {
+    "effect": [
+      "Hope opens without demand.",
+      "Attention becomes shelter.",
+      "A path forward becomes visible."
+    ],
+    "enactment": [
+      "Enters the scene quietly.",
+      "Stays with what is real.",
+      "Moves toward the vulnerable."
+    ],
+    "identity": [
+      "God comes near.",
+      "Presence without fear.",
+      "Mercy that does not withdraw."
+    ]
+  },
+  "moment": "I feel thirsty for clarity and a steady voice.",
+  "passage": {
+    "ref": "John 4:7-10",
+    "text": "A woman from Samaria came to draw water. Jesus said to her, \"Give me a drink.\" (For his disciples had gone away into the city to buy food.) The Samaritan woman said to him, \"How is it that you, a Jew, ask for a drink from me, a woman of Samaria?\" (For Jews have no dealings with Samaritans.) Jesus answered her, \"If you knew the gift of God, and who it is that is saying to you, 'Give me a drink,' you would have asked him, and he would have given you living water.\""
+  },
+  "prayer": "Jesus, You ask without coercion.\nTeach me to name my questions.\nLet Your gift become living water in me.",
+  "safety": {
+    "avoidances": [
+      "moralism",
+      "fixing",
+      "certainty claims"
+    ],
+    "notes": [
+      "This is pastoral presence, not diagnosis.",
+      "Invite gently; do not pressure outcomes.",
+      "Honor boundaries named in the passage.",
+      "Do not rush the exchange; let the dialogue breathe."
+    ]
+  },
+  "scene": {
+    "camera_moves": [
+      "tracking shot",
+      "over-the-shoulder",
+      "wide shot",
+      "close-up",
+      "slow pan"
+    ],
+    "evidence_map": {
+      "silences": [
+        {
+          "clause_ids": [
+            "s2.c0"
+          ],
+          "id": "silence_0",
+          "note_seed": "thick with nouns, few verbs",
+          "signal": "low_verb_ratio",
+          "type": "density"
+        },
+        {
+          "clause_ids": [
+            "s3.c0"
+          ],
+          "id": "silence_1",
+          "note_seed": "thick with nouns, few verbs",
+          "signal": "low_verb_ratio",
+          "type": "density"
+        },
+        {
+          "clause_ids": [
+            "s5.c2"
+          ],
+          "id": "silence_2",
+          "note_seed": "weighty terms clustered without explanation",
+          "signal": "focus_noun_cluster",
+          "type": "withholding"
+        }
+      ],
+      "thresholds": [
+        {
+          "clause_id": "s1.c0",
+          "evidence_after": "Jesus said to her, \"Give me a drink.\" (For his disciples had",
+          "evidence_before": "A woman from Samaria came to draw water.",
+          "id": "threshold_0",
+          "kind": "interruption",
+          "token_span": [
+            41,
+            55
+          ],
+          "trigger": "quote_boundary"
+        },
+        {
+          "clause_id": "s5.c1",
+          "evidence_after": "and who it is that is saying to you, 'Give me a drink,' you",
+          "evidence_before": "aritans.) Jesus answered her, \"If you knew the gift of God,",
+          "id": "threshold_1",
+          "kind": "interruption",
+          "token_span": [
+            342,
+            356
+          ],
+          "trigger": "quote_boundary"
+        },
+        {
+          "clause_id": "s5.c2",
+          "evidence_after": "and he would have given you living water.\"",
+          "evidence_before": "saying to you, 'Give me a drink,' you would have asked him,",
+          "id": "threshold_2",
+          "kind": "disclosure",
+          "token_span": [
+            424,
+            430
+          ],
+          "trigger": "and he"
+        },
+        {
+          "clause_id": "s6.c0",
+          "evidence_after": "\"",
+          "evidence_before": "ld have asked him, and he would have given you living water.",
+          "id": "threshold_3",
+          "kind": "interruption",
+          "token_span": [
+            465,
+            479
+          ],
+          "trigger": "quote_boundary"
+        }
+      ],
+      "utterances": [
+        {
+          "clause_id": "s1.c0",
+          "id": "utterance_0",
+          "speaker_guess": "Jesus",
+          "speech_act": "command",
+          "text": "Give me a drink.",
+          "token_span": [
+            61,
+            77
+          ]
+        },
+        {
+          "clause_id": "s3.c0",
+          "id": "utterance_1",
+          "speaker_guess": "woman_of_Samaria",
+          "speech_act": "question",
+          "text": "How is it that you, a Jew, ask for a drink from me, a woman of Samaria?",
+          "token_span": [
+            174,
+            245
+          ]
+        },
+        {
+          "clause_id": "s5.c0",
+          "id": "utterance_2",
+          "speaker_guess": "Jesus",
+          "speech_act": "response",
+          "text": "If you knew the gift of God, and who it is that is saying to you, 'Give me a drink,' you would have asked him, and he would have given you living water.",
+          "token_span": [
+            313,
+            465
+          ]
+        }
+      ],
+      "witness_prompts": [
+        {
+          "id": "prompt_0",
+          "linked_silence": null,
+          "linked_threshold": null,
+          "linked_utterance": null,
+          "text": "Jesus begins with 'Give me a drink.'. What does that request surface for you?"
+        },
+        {
+          "id": "prompt_1",
+          "linked_silence": null,
+          "linked_threshold": null,
+          "linked_utterance": "utterance_0",
+          "text": "woman_of_Samaria asks, 'How is it that you, a Jew, ask for a drink from me, a woman of Samaria?'. What boundary does that name?"
+        },
+        {
+          "id": "prompt_2",
+          "linked_silence": null,
+          "linked_threshold": null,
+          "linked_utterance": "utterance_2",
+          "text": "Jesus responds, 'If you knew the gift of God, and who it is that is saying to you, 'Give me a drink,' you would have asked him, and he would have given you living water.'. What is being offered here?"
+        },
+        {
+          "id": "prompt_3",
+          "linked_silence": null,
+          "linked_threshold": null,
+          "linked_utterance": null,
+          "text": "Where do you notice the movement from need to gift?"
+        },
+        {
+          "id": "prompt_4",
+          "linked_silence": null,
+          "linked_threshold": null,
+          "linked_utterance": null,
+          "text": "What would it mean to receive without bargaining?"
+        }
+      ]
+    },
+    "questions": [
+      "How is it that you, a Jew, ask for a drink from me, a woman of Samaria?"
+    ],
+    "segments": [
+      {
+        "clause_id": "s0.c0",
+        "sentence_id": 0,
+        "text": "A woman from Samaria came to draw water.",
+        "token_end": 40,
+        "token_start": 0
+      },
+      {
+        "clause_id": "s1.c0",
+        "sentence_id": 1,
+        "text": "Jesus said to her, \"Give me a drink.",
+        "token_end": 77,
+        "token_start": 41
+      },
+      {
+        "clause_id": "s2.c0",
+        "sentence_id": 2,
+        "text": "\" (For his disciples had gone away into the city to buy food.",
+        "token_end": 138,
+        "token_start": 77
+      },
+      {
+        "clause_id": "s3.c0",
+        "sentence_id": 3,
+        "text": ") The Samaritan woman said to him, \"How is it that you, a Jew, ask for a drink from me, a woman of Samaria?",
+        "token_end": 245,
+        "token_start": 138
+      },
+      {
+        "clause_id": "s4.c0",
+        "sentence_id": 4,
+        "text": "\" (For Jews have no dealings with Samaritans.",
+        "token_end": 290,
+        "token_start": 245
+      },
+      {
+        "clause_id": "s5.c0",
+        "sentence_id": 5,
+        "text": ") Jesus answered her, \"If you knew the gift of God,",
+        "token_end": 341,
+        "token_start": 290
+      },
+      {
+        "clause_id": "s5.c1",
+        "sentence_id": 5,
+        "text": "and who it is that is saying to you, 'Give me a drink,' you would have asked him,",
+        "token_end": 423,
+        "token_start": 342
+      },
+      {
+        "clause_id": "s5.c2",
+        "sentence_id": 5,
+        "text": "and he would have given you living water.",
+        "token_end": 465,
+        "token_start": 424
+      },
+      {
+        "clause_id": "s6.c0",
+        "sentence_id": 6,
+        "text": "\"",
+        "token_end": 466,
+        "token_start": 465
+      }
+    ],
+    "silences": [
+      "density",
+      "density",
+      "withholding"
+    ],
+    "silences_detailed": [
+      {
+        "clause_id": "s2.c0",
+        "note_seed": "thick with nouns, few verbs",
+        "signal": "low_verb_ratio",
+        "silence_type": "density"
+      },
+      {
+        "clause_id": "s3.c0",
+        "note_seed": "thick with nouns, few verbs",
+        "signal": "low_verb_ratio",
+        "silence_type": "density"
+      },
+      {
+        "clause_id": "s5.c2",
+        "note_seed": "weighty terms clustered without explanation",
+        "signal": "focus_noun_cluster",
+        "silence_type": "withholding"
+      }
+    ],
+    "speakers": [
+      "Jesus",
+      "woman_of_Samaria"
+    ],
+    "thresholds": [
+      "quote_boundary",
+      "quote_boundary",
+      "and he",
+      "quote_boundary"
+    ],
+    "thresholds_detailed": [
+      {
+        "evidence_after": "Jesus said to her, \"Give me a drink.\" (For his disciples had",
+        "evidence_before": "A woman from Samaria came to draw water.",
+        "from_clause_id": "s0.c0",
+        "kind": "interruption",
+        "to_clause_id": "s1.c0",
+        "token_span": [
+          41,
+          55
+        ],
+        "trigger": "quote_boundary"
+      },
+      {
+        "evidence_after": "and who it is that is saying to you, 'Give me a drink,' you",
+        "evidence_before": "aritans.) Jesus answered her, \"If you knew the gift of God,",
+        "from_clause_id": "s5.c0",
+        "kind": "interruption",
+        "to_clause_id": "s5.c1",
+        "token_span": [
+          342,
+          356
+        ],
+        "trigger": "quote_boundary"
+      },
+      {
+        "evidence_after": "and he would have given you living water.\"",
+        "evidence_before": "saying to you, 'Give me a drink,' you would have asked him,",
+        "from_clause_id": "s5.c1",
+        "kind": "disclosure",
+        "to_clause_id": "s5.c2",
+        "token_span": [
+          424,
+          430
+        ],
+        "trigger": "and he"
+      },
+      {
+        "evidence_after": "\"",
+        "evidence_before": "ld have asked him, and he would have given you living water.",
+        "from_clause_id": "s5.c2",
+        "kind": "interruption",
+        "to_clause_id": "s6.c0",
+        "token_span": [
+          465,
+          479
+        ],
+        "trigger": "quote_boundary"
+      }
+    ],
+    "time_markers": [],
+    "time_markers_detailed": [],
+    "utterances": [
+      "Give me a drink.",
+      "How is it that you, a Jew, ask for a drink from me, a woman of Samaria?",
+      "If you knew the gift of God, and who it is that is saying to you, 'Give me a drink,' you would have asked him, and he would have given you living water."
+    ],
+    "utterances_detailed": [
+      {
+        "clause_id": "s1.c0",
+        "speaker_guess": "Jesus",
+        "speech_act": "command",
+        "text": "Give me a drink.",
+        "token_span": [
+          61,
+          77
+        ]
+      },
+      {
+        "clause_id": "s3.c0",
+        "speaker_guess": "woman_of_Samaria",
+        "speech_act": "question",
+        "text": "How is it that you, a Jew, ask for a drink from me, a woman of Samaria?",
+        "token_span": [
+          174,
+          245
+        ]
+      },
+      {
+        "clause_id": "s5.c0",
+        "speaker_guess": "Jesus",
+        "speech_act": "response",
+        "text": "If you knew the gift of God, and who it is that is saying to you, 'Give me a drink,' you would have asked him, and he would have given you living water.",
+        "token_span": [
+          313,
+          465
+        ]
+      }
+    ],
+    "verbs": [
+      "came",
+      "said",
+      "Give",
+      "had",
+      "said",
+      "is",
+      "have",
+      "answered",
+      "knew",
+      "is",
+      "is",
+      "saying",
+      "have",
+      "asked",
+      "have",
+      "living"
+    ],
+    "verbs_detailed": [
+      {
+        "clause_id": "s0.c0",
+        "lemma_guess": "come",
+        "role": "action",
+        "tense_guess": "past",
+        "token_span": [
+          21,
+          25
+        ],
+        "verb_text": "came"
+      },
+      {
+        "clause_id": "s1.c0",
+        "lemma_guess": "say",
+        "role": "speech_introducer",
+        "tense_guess": "past",
+        "token_span": [
+          47,
+          51
+        ],
+        "verb_text": "said"
+      },
+      {
+        "clause_id": "s1.c0",
+        "lemma_guess": "give",
+        "role": "action",
+        "tense_guess": "unknown",
+        "token_span": [
+          61,
+          65
+        ],
+        "verb_text": "Give"
+      },
+      {
+        "clause_id": "s2.c0",
+        "lemma_guess": "have",
+        "role": "action",
+        "tense_guess": "past",
+        "token_span": [
+          98,
+          101
+        ],
+        "verb_text": "had"
+      },
+      {
+        "clause_id": "s3.c0",
+        "lemma_guess": "say",
+        "role": "speech_introducer",
+        "tense_guess": "past",
+        "token_span": [
+          160,
+          164
+        ],
+        "verb_text": "said"
+      },
+      {
+        "clause_id": "s3.c0",
+        "lemma_guess": "be",
+        "role": "action",
+        "tense_guess": "present",
+        "token_span": [
+          178,
+          180
+        ],
+        "verb_text": "is"
+      },
+      {
+        "clause_id": "s4.c0",
+        "lemma_guess": "have",
+        "role": "action",
+        "tense_guess": "unknown",
+        "token_span": [
+          257,
+          261
+        ],
+        "verb_text": "have"
+      },
+      {
+        "clause_id": "s5.c0",
+        "lemma_guess": "answer",
+        "role": "action",
+        "tense_guess": "past",
+        "token_span": [
+          298,
+          306
+        ],
+        "verb_text": "answered"
+      },
+      {
+        "clause_id": "s5.c0",
+        "lemma_guess": "know",
+        "role": "action",
+        "tense_guess": "past",
+        "token_span": [
+          320,
+          324
+        ],
+        "verb_text": "knew"
+      },
+      {
+        "clause_id": "s5.c1",
+        "lemma_guess": "be",
+        "role": "action",
+        "tense_guess": "present",
+        "token_span": [
+          353,
+          355
+        ],
+        "verb_text": "is"
+      },
+      {
+        "clause_id": "s5.c1",
+        "lemma_guess": "be",
+        "role": "action",
+        "tense_guess": "present",
+        "token_span": [
+          361,
+          363
+        ],
+        "verb_text": "is"
+      },
+      {
+        "clause_id": "s5.c1",
+        "lemma_guess": "say",
+        "role": "speech_introducer",
+        "tense_guess": "present",
+        "token_span": [
+          364,
+          370
+        ],
+        "verb_text": "saying"
+      },
+      {
+        "clause_id": "s5.c1",
+        "lemma_guess": "have",
+        "role": "action",
+        "tense_guess": "unknown",
+        "token_span": [
+          408,
+          412
+        ],
+        "verb_text": "have"
+      },
+      {
+        "clause_id": "s5.c1",
+        "lemma_guess": "ask",
+        "role": "action",
+        "tense_guess": "past",
+        "token_span": [
+          413,
+          418
+        ],
+        "verb_text": "asked"
+      },
+      {
+        "clause_id": "s5.c2",
+        "lemma_guess": "have",
+        "role": "action",
+        "tense_guess": "unknown",
+        "token_span": [
+          437,
+          441
+        ],
+        "verb_text": "have"
+      },
+      {
+        "clause_id": "s5.c2",
+        "lemma_guess": "liv",
+        "role": "action",
+        "tense_guess": "present",
+        "token_span": [
+          452,
+          458
+        ],
+        "verb_text": "living"
+      }
+    ]
+  },
+  "spec_version": "v3",
+  "template": {
+    "id": "john_4_7_10_v3",
+    "path": "data/templates/witness_cards/v3/john_4_7_10.json"
+  },
+  "witness_prompts": [
+    "Jesus begins with 'Give me a drink.'. What does that request surface for you?",
+    "woman_of_Samaria asks, 'How is it that you, a Jew, ask for a drink from me, a woman of Samaria?'. What boundary does that name?",
+    "Jesus responds, 'If you knew the gift of God, and who it is that is saying to you, 'Give me a drink,' you would have asked him, and he would have given you living water.'. What is being offered here?",
+    "Where do you notice the movement from need to gift?",
+    "What would it mean to receive without bargaining?"
+  ]
+}

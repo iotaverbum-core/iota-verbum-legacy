@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Luke λ-files; safe to hand-edit after generation.",
+    "book": "Luke",
+    "passage_id": "Luk01_26_38",
+    "version": "Luk01_26_38_Lambda_IV_v0.1"
+  },
+  "passage_id": "Luk01_26_38",
+  "book": "Luke",
+  "chapter": 1,
+  "verses": "26-38",
+  "title": "Luke 1:26–38 – Son of the Most High Conceived",
+  "interpretive_frames": [
+    "Incarnation",
+    "DavidicKingship",
+    "Favour"
+  ],
+  "identity_invariants": [
+    "[]JesusIsSpiritConceivedSonOfMostHighAndDavidicKing(Jesus, Spirit, David)"
+  ],
+  "units": [
+    {
+      "id": "Luk01_26_38_u1",
+      "label": "Let It Be to Me",
+      "verses": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "illocution": "TheophanyAnnouncement",
+      "agents": [
+        "Mary",
+        "Gabriel",
+        "Jesus",
+        "HolySpirit",
+        "MostHigh"
+      ],
+      "statements": [
+        {
+          "id": "Luk01_26_38_s1",
+          "type": "summary",
+          "description": "Gabriel announces to Mary that she will conceive by the Holy Spirit and bear the Son of the Most High, the Davidic king whose kingdom will never end; Mary responds in trusting submission.",
+          "lambda_iv": [
+            "[]JesusIsSpiritConceivedSonOfMostHighAndDavidicKing(Jesus, Spirit, David)",
+            "EFF(HumbleFaithReceivesSeeminglyImpossiblePromise(Mary, WordOfGod))"
+          ]
+        }
+      ]
+    }
+  ]
+}

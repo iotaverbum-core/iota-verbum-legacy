@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Mark λ-files; safe to hand-edit after generation.",
+    "book": "Mark",
+    "passage_id": "Mar02_13_17",
+    "version": "Mar02_13_17_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mar02_13_17",
+  "book": "Mark",
+  "chapter": 2,
+  "verses": "13-17",
+  "title": "Mark 2:13–17 – Call of Levi and Table with Sinners",
+  "interpretive_frames": [
+    "Call",
+    "TableFellowship",
+    "Mercy"
+  ],
+  "identity_invariants": [
+    "[]JesusCameToCallSinnersNotTheRighteousToRepentance(Jesus, Sinners)"
+  ],
+  "units": [
+    {
+      "id": "Mar02_13_17_u1",
+      "label": "Those Who Are Sick",
+      "verses": [
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "illocution": "CallNarrative",
+      "agents": [
+        "Jesus",
+        "Levi",
+        "TaxCollectors",
+        "Sinners",
+        "ScribesOfPharisees"
+      ],
+      "statements": [
+        {
+          "id": "Mar02_13_17_s1",
+          "type": "summary",
+          "description": "Jesus calls Levi the tax collector, eats with tax collectors and sinners, and declares that he came for the sick, not the healthy.",
+          "lambda_iv": [
+            "[]JesusCameToCallSinnersNotTheRighteousToRepentance(Jesus, Sinners)",
+            "EFF(TableFellowshipWithSinnersEmbodiesGodsMercy(Jesus, Sinners))"
+          ]
+        }
+      ]
+    }
+  ]
+}

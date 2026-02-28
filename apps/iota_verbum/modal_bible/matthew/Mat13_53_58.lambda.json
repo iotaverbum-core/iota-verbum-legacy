@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Matthew λ-files; safe to hand-edit after generation.",
+    "book": "Matthew",
+    "passage_id": "Mat13_53_58",
+    "version": "Mat13_53_58_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mat13_53_58",
+  "book": "Matthew",
+  "chapter": 13,
+  "verses": "53-58",
+  "title": "Matthew 13:53–58 – Rejection at Nazareth",
+  "interpretive_frames": [
+    "Rejection",
+    "Unbelief",
+    "Prophet"
+  ],
+  "identity_invariants": [
+    "[]ProphetWithoutHonourInHisHometown(Jesus, Nazareth)"
+  ],
+  "units": [
+    {
+      "id": "Mat13_53_58_u1",
+      "label": "Astonishment and Offence",
+      "verses": [
+        53,
+        54,
+        55,
+        56,
+        57,
+        58
+      ],
+      "illocution": "Narration",
+      "agents": [
+        "Jesus",
+        "Nazarenes"
+      ],
+      "statements": [
+        {
+          "id": "Mat13_53_58_s1",
+          "type": "summary",
+          "description": "Jesus is rejected in his hometown, and their unbelief limits mighty works.",
+          "lambda_iv": [
+            "[]ProphetWithoutHonourInHisHometown(Jesus, Nazareth)",
+            "EFF(UnbeliefReducesParticipationInDisplayedPower(Nazarenes, Jesus))"
+          ]
+        }
+      ]
+    }
+  ]
+}

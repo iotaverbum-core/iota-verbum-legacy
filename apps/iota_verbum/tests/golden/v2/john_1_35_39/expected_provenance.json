@@ -1,0 +1,14 @@
+{
+  "card_sha256": "45a6b7c2aac579369878257a14c087b9cd7cd1d354c38e0ffa84c79708f339be",
+  "generator_sha256": "698263b5d2d384092a6e483bd1f5b58a21c1d327e5a695989bbb9735ce75aad8",
+  "inputs": {
+    "moment": "I feel uncertain about what comes next, and I want to know where to stay.",
+    "passage_ref": "John 1:35-39",
+    "textfile": "data/scripture/sample_john_1_35_39.txt"
+  },
+  "method": "heuristic_v2",
+  "normalized_text_sha256": "c06cb2aea948032c8d28d3eb8d25129189379ce85ec1db8ecf3961ef05624205",
+  "passage_text_sha256": "c06cb2aea948032c8d28d3eb8d25129189379ce85ec1db8ecf3961ef05624205",
+  "template_path": "data/templates/witness_cards/v2/john_1_35_39.json",
+  "version": "v2"
+}

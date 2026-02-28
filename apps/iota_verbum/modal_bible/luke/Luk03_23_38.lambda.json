@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Luke λ-files; safe to hand-edit after generation.",
+    "book": "Luke",
+    "passage_id": "Luk03_23_38",
+    "version": "Luk03_23_38_Lambda_IV_v0.1"
+  },
+  "passage_id": "Luk03_23_38",
+  "book": "Luke",
+  "chapter": 3,
+  "verses": "23-38",
+  "title": "Luke 3:23–38 – Genealogy Back to Adam",
+  "interpretive_frames": [
+    "Genealogy",
+    "SonOfAdam",
+    "SonOfGod"
+  ],
+  "identity_invariants": [
+    "[]JesusIsTrueSonOfAdamAndSonOfGodRepresentingHumanity(Jesus, Adam, God)"
+  ],
+  "units": [
+    {
+      "id": "Luk03_23_38_u1",
+      "label": "Son of Adam, Son of God",
+      "verses": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "illocution": "Narration",
+      "agents": [
+        "Jesus",
+        "Adam",
+        "God",
+        "IsraelAncestors"
+      ],
+      "statements": [
+        {
+          "id": "Luk03_23_38_s1",
+          "type": "summary",
+          "description": "Luke traces Jesus’ lineage back to Adam and God, situating him as representative human and Son of God.",
+          "lambda_iv": [
+            "[]JesusIsTrueSonOfAdamAndSonOfGodRepresentingHumanity(Jesus, Adam, God)",
+            "EFF(GenealogyPreparesForRepresentativeTestingAndRedemption(Jesus, Humanity))"
+          ]
+        }
+      ]
+    }
+  ]
+}

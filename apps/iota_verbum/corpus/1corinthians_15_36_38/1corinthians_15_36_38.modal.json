@@ -1,0 +1,143 @@
+{
+  "ref": "1 Corinthians 15:36–38",
+  "translation": "KJV",
+  "nodes": [
+    {
+      "id": "n1",
+      "kind": "enactment",
+      "lemma": "sow",
+      "text": "that which thou sowest is not quickened",
+      "span": "c3",
+      "confidence": 0.75
+    },
+    {
+      "id": "n2",
+      "kind": "effect",
+      "lemma": "result",
+      "text": "that which thou sowest is not quickened",
+      "span": "c3",
+      "confidence": 0.8
+    },
+    {
+      "id": "n3",
+      "kind": "enactment",
+      "lemma": "die",
+      "text": ", except it die",
+      "span": "c4",
+      "confidence": 0.75
+    },
+    {
+      "id": "n4",
+      "kind": "enactment",
+      "lemma": "sow",
+      "text": "that which thou sowest",
+      "span": "c6",
+      "confidence": 0.75
+    },
+    {
+      "id": "n5",
+      "kind": "effect",
+      "lemma": "result",
+      "text": "that which thou sowest",
+      "span": "c6",
+      "confidence": 0.8
+    },
+    {
+      "id": "n6",
+      "kind": "enactment",
+      "lemma": "sow",
+      "text": ", thou sowest not",
+      "span": "c7",
+      "confidence": 0.75
+    },
+    {
+      "id": "n7",
+      "kind": "effect",
+      "lemma": "result",
+      "text": ", thou sowest not",
+      "span": "c7",
+      "confidence": 0.8
+    },
+    {
+      "id": "n8",
+      "kind": "effect",
+      "lemma": "result",
+      "text": "that body",
+      "span": "c8",
+      "confidence": 0.8
+    },
+    {
+      "id": "n9",
+      "kind": "effect",
+      "lemma": "result",
+      "text": "that shall be",
+      "span": "c9",
+      "confidence": 0.8
+    },
+    {
+      "id": "n10",
+      "kind": "effect",
+      "lemma": "result",
+      "text": ", or of some other grain",
+      "span": "c12",
+      "confidence": 0.8
+    },
+    {
+      "id": "n11",
+      "kind": "enactment",
+      "lemma": "give",
+      "text": ": But God giveth it a body as it hath pleased him",
+      "span": "c13",
+      "confidence": 0.75
+    }
+  ],
+  "edges": [
+    {
+      "from": "n1",
+      "to": "n2",
+      "relation": "produces",
+      "confidence": 0.75
+    },
+    {
+      "from": "n3",
+      "to": "n5",
+      "relation": "produces",
+      "confidence": 0.75
+    },
+    {
+      "from": "n4",
+      "to": "n7",
+      "relation": "produces",
+      "confidence": 0.75
+    },
+    {
+      "from": "n6",
+      "to": "n8",
+      "relation": "produces",
+      "confidence": 0.75
+    },
+    {
+      "from": "n11",
+      "to": "n9",
+      "relation": "produces",
+      "confidence": 0.75
+    },
+    {
+      "from": "n2",
+      "to": "n5",
+      "relation": "implies",
+      "confidence": 0.7
+    }
+  ],
+  "creed": {
+    "status": "warn",
+    "notes": [
+      "one or more modal kinds missing"
+    ]
+  },
+  "watermark": "005a49514b3605f6",
+  "meta": {
+    "postprocessed_at": "2025-10-30T11:39:18.241766Z",
+    "confidence": 0.6
+  }
+}

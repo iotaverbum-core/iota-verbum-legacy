@@ -1,0 +1,32 @@
+﻿patterns:
+  identity_predication:
+    description: "NP (identity) + copula + predicate/title"
+    triggers: [any(identity.persons), any(identity.kingdom_objects)]
+    requires: [any(copula)]
+  identity_np:
+    description: "Standalone NP naming a divine/person identity"
+    triggers: [any(identity.persons), any(identity.kingdom_objects)]
+  enactment_svo:
+    description: "Subject + VERB in enactment_verbs + (optional object)"
+    verbs: [any(enactment_verbs.*)]
+  enactment_advcl:
+    description: "Adverbial/temporal clause containing enactment verb"
+    verbs: [any(enactment_verbs.*)]
+  effect_clause:
+    description: "Clause led by effect marker"
+    leaders: [any(effect_markers)]
+  effect_result:
+    description: "Resultive verb like produce/yield/result"
+    heads: [produce, yields, result]
+confidence:
+  node_base: 0.60
+  bonuses:
+    identity_lex_hit: 0.25
+    enactment_strong_verb: 0.20
+    enactment_weak_verb: 0.05
+    effect_has_marker: 0.20
+  clamp_min: 0.50
+  clamp_max: 0.95
+edges:
+  identity_to_enactment: { relation: grounds, left_window_clauses: 2, base_conf: 0.70, proximity_bonus: 0.10 }
+  enactment_to_effect:   { relation: produces, left_window_clauses: 2, base_conf: 0.65, has_marker_bonus: 0.20 }

@@ -1,0 +1,757 @@
+{
+  "ref": "John 7:1-52",
+  "translation": "ESV",
+  "nodes": [
+    {
+      "id": "n1",
+      "kind": "identity",
+      "lemma": "identity",
+      "text": "□ Jesus is the one sent from the true Father; his timing is governed by the 'hour', and he offers living water interpreted as the Spirit (tied to his coming glorification).",
+      "span": "c1",
+      "confidence": 0.85
+    },
+    {
+      "id": "n2",
+      "kind": "enactment",
+      "lemma": "enactment",
+      "text": "◇ Jesus delays, goes up in secret, teaches in the temple, cries out about his Sender, invites the thirsty to come and drink, while authorities send officers and interrogate.",
+      "span": "c2",
+      "confidence": 0.82
+    },
+    {
+      "id": "n3",
+      "kind": "effect",
+      "lemma": "effect",
+      "text": "Δ The feast becomes a courtroom of divided speech: attempted arrests fail, many believe and many object, officers hesitate, and leaders harden—division remains in frame.",
+      "span": "c3",
+      "confidence": 0.84
+    },
+    {
+      "id": "n4",
+      "kind": "enactment",
+      "lemma": "stay",
+      "text": "G.stay (Galilee)  (7:1)",
+      "span": "c4",
+      "confidence": 0.76
+    },
+    {
+      "id": "n5",
+      "kind": "enactment",
+      "lemma": "note",
+      "text": "N.note (Feast_of_Booths_near)  (7:2)",
+      "span": "c5",
+      "confidence": 0.76
+    },
+    {
+      "id": "n6",
+      "kind": "enactment",
+      "lemma": "urge",
+      "text": "Br.urge (go_to_Judea_and_show_works)  (7:3-4)",
+      "span": "c6",
+      "confidence": 0.76
+    },
+    {
+      "id": "n7",
+      "kind": "enactment",
+      "lemma": "note",
+      "text": "N.note (brothers_do_not_believe)  (7:5)",
+      "span": "c7",
+      "confidence": 0.76
+    },
+    {
+      "id": "n8",
+      "kind": "enactment",
+      "lemma": "say",
+      "text": "G.say (my_time_not_yet;_your_time_always_ready)  (7:6)",
+      "span": "c8",
+      "confidence": 0.76
+    },
+    {
+      "id": "n9",
+      "kind": "enactment",
+      "lemma": "say",
+      "text": "G.say (world_cannot_hate_you;_it_hates_me_because_I_testify_its_works_evil)  (7:7)",
+      "span": "c9",
+      "confidence": 0.76
+    },
+    {
+      "id": "n10",
+      "kind": "enactment",
+      "lemma": "refuse",
+      "text": "G.refuse (go_up_now)  (7:8)",
+      "span": "c10",
+      "confidence": 0.76
+    },
+    {
+      "id": "n11",
+      "kind": "enactment",
+      "lemma": "remain",
+      "text": "G.remain (Galilee)  (7:9)",
+      "span": "c11",
+      "confidence": 0.76
+    },
+    {
+      "id": "n12",
+      "kind": "enactment",
+      "lemma": "go_up",
+      "text": "G.go_up (feast)  (7:10)",
+      "span": "c12",
+      "confidence": 0.76
+    },
+    {
+      "id": "n13",
+      "kind": "enactment",
+      "lemma": "seek",
+      "text": "J.seek (Jesus_at_feast)  (7:11)",
+      "span": "c13",
+      "confidence": 0.76
+    },
+    {
+      "id": "n14",
+      "kind": "enactment",
+      "lemma": "murmur",
+      "text": "C.murmur (about_Jesus)  (7:12)",
+      "span": "c14",
+      "confidence": 0.76
+    },
+    {
+      "id": "n15",
+      "kind": "enactment",
+      "lemma": "speak",
+      "text": "C.speak (quietly)  (7:13)",
+      "span": "c15",
+      "confidence": 0.76
+    },
+    {
+      "id": "n16",
+      "kind": "enactment",
+      "lemma": "go_up",
+      "text": "G.go_up (temple_mid-feast)  (7:14)",
+      "span": "c16",
+      "confidence": 0.76
+    },
+    {
+      "id": "n17",
+      "kind": "enactment",
+      "lemma": "teach",
+      "text": "G.teach (temple)  (7:14)",
+      "span": "c17",
+      "confidence": 0.76
+    },
+    {
+      "id": "n18",
+      "kind": "enactment",
+      "lemma": "marvel",
+      "text": "J.marvel (How_knows_letters_without_study?)  (7:15)",
+      "span": "c18",
+      "confidence": 0.76
+    },
+    {
+      "id": "n19",
+      "kind": "enactment",
+      "lemma": "answer",
+      "text": "G.answer (teaching_not_mine_but_his_who_sent_me;_if_anyone_wills_do_Gods_will_he_will_know)  (7:16-17)",
+      "span": "c19",
+      "confidence": 0.76
+    },
+    {
+      "id": "n20",
+      "kind": "enactment",
+      "lemma": "say",
+      "text": "G.say (true_speaker_seeks_sender_glory;_no_falsehood)  (7:18)",
+      "span": "c20",
+      "confidence": 0.76
+    },
+    {
+      "id": "n21",
+      "kind": "enactment",
+      "lemma": "accuse",
+      "text": "G.accuse (Why_seek_to_kill_me?_Moses_gave_law_yet_you_break)  (7:19)",
+      "span": "c21",
+      "confidence": 0.76
+    },
+    {
+      "id": "n22",
+      "kind": "enactment",
+      "lemma": "reply",
+      "text": "C.reply (You_have_demon;_who_seeks_to_kill_you?)  (7:20)",
+      "span": "c22",
+      "confidence": 0.76
+    },
+    {
+      "id": "n23",
+      "kind": "enactment",
+      "lemma": "respond",
+      "text": "G.respond (I_did_one_work_and_you_all_marvel)  (7:21)",
+      "span": "c23",
+      "confidence": 0.76
+    },
+    {
+      "id": "n24",
+      "kind": "enactment",
+      "lemma": "argue",
+      "text": "G.argue (circumcision_on_sabbath;_why_angry_I_made_man_whole)  (7:22-23)",
+      "span": "c24",
+      "confidence": 0.76
+    },
+    {
+      "id": "n25",
+      "kind": "enactment",
+      "lemma": "command",
+      "text": "G.command (judge_not_by_appearance_but_right_judgment)  (7:24)",
+      "span": "c25",
+      "confidence": 0.76
+    },
+    {
+      "id": "n26",
+      "kind": "enactment",
+      "lemma": "whisper",
+      "text": "C.whisper (Is_not_this_the_man_they_seek_to_kill?)  (7:25-26)",
+      "span": "c26",
+      "confidence": 0.76
+    },
+    {
+      "id": "n27",
+      "kind": "enactment",
+      "lemma": "object",
+      "text": "C.object (we_know_where_he_is_from;_Messiah_origin_unknown)  (7:27)",
+      "span": "c27",
+      "confidence": 0.76
+    },
+    {
+      "id": "n28",
+      "kind": "enactment",
+      "lemma": "cry_out",
+      "text": "G.cry_out (You_know_me_and_where_from;_I_have_not_come_of_myself;_He_who_sent_me_is_true;_you_do_not_know_him)  (7:28)",
+      "span": "c28",
+      "confidence": 0.76
+    },
+    {
+      "id": "n29",
+      "kind": "identity",
+      "lemma": "declare",
+      "text": "G.declare (I_know_him_for_I_am_from_him_and_he_sent_me)  (7:29)",
+      "span": "c29",
+      "confidence": 0.76
+    },
+    {
+      "id": "n30",
+      "kind": "enactment",
+      "lemma": "seek",
+      "text": "J.seek (arrest)  (7:30)",
+      "span": "c30",
+      "confidence": 0.76
+    },
+    {
+      "id": "n31",
+      "kind": "enactment",
+      "lemma": "note",
+      "text": "N.note (no_one_laid_hand_because_hour_not_yet)  (7:30)",
+      "span": "c31",
+      "confidence": 0.76
+    },
+    {
+      "id": "n32",
+      "kind": "effect",
+      "lemma": "believe",
+      "text": "C.believe (many)  (7:31)",
+      "span": "c32",
+      "confidence": 0.76
+    },
+    {
+      "id": "n33",
+      "kind": "enactment",
+      "lemma": "ask",
+      "text": "C.ask (Will_Christ_do_more_signs?)  (7:31)",
+      "span": "c33",
+      "confidence": 0.76
+    },
+    {
+      "id": "n34",
+      "kind": "enactment",
+      "lemma": "hear",
+      "text": "P.hear (murmuring_about_Jesus)  (7:32)",
+      "span": "c34",
+      "confidence": 0.76
+    },
+    {
+      "id": "n35",
+      "kind": "enactment",
+      "lemma": "send",
+      "text": "P.send (Officers_to_arrest)  (7:32)",
+      "span": "c35",
+      "confidence": 0.76
+    },
+    {
+      "id": "n36",
+      "kind": "enactment",
+      "lemma": "say",
+      "text": "G.say (I_am_with_you_a_little_longer_then_I_go_to_him_who_sent_me)  (7:33)",
+      "span": "c36",
+      "confidence": 0.76
+    },
+    {
+      "id": "n37",
+      "kind": "enactment",
+      "lemma": "say",
+      "text": "G.say (you_will_seek_me_and_not_find;_where_I_am_you_cannot_come)  (7:34)",
+      "span": "c37",
+      "confidence": 0.76
+    },
+    {
+      "id": "n38",
+      "kind": "enactment",
+      "lemma": "wonder",
+      "text": "J.wonder (Where_will_he_go?_What_means_seek_and_not_find?)  (7:35-36)",
+      "span": "c38",
+      "confidence": 0.76
+    },
+    {
+      "id": "n39",
+      "kind": "enactment",
+      "lemma": "stand",
+      "text": "G.stand (last_day_of_feast)  (7:37)",
+      "span": "c39",
+      "confidence": 0.76
+    },
+    {
+      "id": "n40",
+      "kind": "enactment",
+      "lemma": "cry_out",
+      "text": "G.cry_out (If_anyone_thirsts_let_him_come_to_me_and_drink)  (7:37)",
+      "span": "c40",
+      "confidence": 0.76
+    },
+    {
+      "id": "n41",
+      "kind": "identity",
+      "lemma": "promise",
+      "text": "G.promise (whoever_believes_out_of_heart_will_flow_rivers_living_water)  (7:38)",
+      "span": "c41",
+      "confidence": 0.76
+    },
+    {
+      "id": "n42",
+      "kind": "identity",
+      "lemma": "explain",
+      "text": "N.explain (this_he_said_about_Spirit;_Spirit_not_yet_given_because_Jesus_not_yet_glorified)  (7:39)",
+      "span": "c42",
+      "confidence": 0.76
+    },
+    {
+      "id": "n43",
+      "kind": "enactment",
+      "lemma": "say",
+      "text": "C.say (This_is_Prophet)  (7:40)",
+      "span": "c43",
+      "confidence": 0.76
+    },
+    {
+      "id": "n44",
+      "kind": "enactment",
+      "lemma": "say",
+      "text": "C.say (This_is_Christ)  (7:41)",
+      "span": "c44",
+      "confidence": 0.76
+    },
+    {
+      "id": "n45",
+      "kind": "effect",
+      "lemma": "dispute",
+      "text": "C.dispute (Christ_from_Galilee? Scripture_says_Bethlehem_David_line)  (7:41-42)",
+      "span": "c45",
+      "confidence": 0.76
+    },
+    {
+      "id": "n46",
+      "kind": "enactment",
+      "lemma": "note",
+      "text": "N.note (division_in_crowd)  (7:43)",
+      "span": "c46",
+      "confidence": 0.76
+    },
+    {
+      "id": "n47",
+      "kind": "enactment",
+      "lemma": "seek",
+      "text": "C.seek (arrest_but_no_one_laid_hand)  (7:44)",
+      "span": "c47",
+      "confidence": 0.76
+    },
+    {
+      "id": "n48",
+      "kind": "enactment",
+      "lemma": "return",
+      "text": "Off.return (to_P_and_Pri)  (7:45)",
+      "span": "c48",
+      "confidence": 0.76
+    },
+    {
+      "id": "n49",
+      "kind": "enactment",
+      "lemma": "answer",
+      "text": "Off.answer (No_one_ever_spoke_like_this_man)  (7:46)",
+      "span": "c49",
+      "confidence": 0.76
+    },
+    {
+      "id": "n50",
+      "kind": "enactment",
+      "lemma": "rebuke",
+      "text": "P.rebuke (Have_you_been_deceived? none_of_rulers_believe; crowd_accursed)  (7:47-49)",
+      "span": "c50",
+      "confidence": 0.76
+    },
+    {
+      "id": "n51",
+      "kind": "enactment",
+      "lemma": "appeal",
+      "text": "Nic.appeal (Law_judges_no_one_without_hearing_and_learning)  (7:50-51)",
+      "span": "c51",
+      "confidence": 0.76
+    },
+    {
+      "id": "n52",
+      "kind": "enactment",
+      "lemma": "mock",
+      "text": "P.mock (Are_you_from_Galilee? Search_and_see_no_prophet_from_Galilee)  (7:52)",
+      "span": "c52",
+      "confidence": 0.76
+    }
+  ],
+  "edges": [
+    {
+      "from": "n1",
+      "to": "n2",
+      "relation": "grounds",
+      "confidence": 0.82
+    },
+    {
+      "from": "n2",
+      "to": "n3",
+      "relation": "produces",
+      "confidence": 0.8
+    },
+    {
+      "from": "n15",
+      "to": "n16",
+      "relation": "coheres",
+      "confidence": 0.68
+    },
+    {
+      "from": "n29",
+      "to": "n30",
+      "relation": "coheres",
+      "confidence": 0.68
+    },
+    {
+      "from": "n4",
+      "to": "n5",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n5",
+      "to": "n6",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n6",
+      "to": "n7",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n7",
+      "to": "n8",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n8",
+      "to": "n9",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n9",
+      "to": "n10",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n10",
+      "to": "n11",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n11",
+      "to": "n12",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n12",
+      "to": "n13",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n13",
+      "to": "n14",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n14",
+      "to": "n15",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n15",
+      "to": "n16",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n16",
+      "to": "n17",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n17",
+      "to": "n18",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n18",
+      "to": "n19",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n19",
+      "to": "n20",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n20",
+      "to": "n21",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n21",
+      "to": "n22",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n22",
+      "to": "n23",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n23",
+      "to": "n24",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n24",
+      "to": "n25",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n25",
+      "to": "n26",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n26",
+      "to": "n27",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n27",
+      "to": "n28",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n28",
+      "to": "n29",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n29",
+      "to": "n30",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n30",
+      "to": "n31",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n31",
+      "to": "n32",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n32",
+      "to": "n33",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n33",
+      "to": "n34",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n34",
+      "to": "n35",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n35",
+      "to": "n36",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n36",
+      "to": "n37",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n37",
+      "to": "n38",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n38",
+      "to": "n39",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n39",
+      "to": "n40",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n40",
+      "to": "n41",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n41",
+      "to": "n42",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n42",
+      "to": "n43",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n43",
+      "to": "n44",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n44",
+      "to": "n45",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n45",
+      "to": "n46",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n46",
+      "to": "n47",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n47",
+      "to": "n48",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n48",
+      "to": "n49",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n49",
+      "to": "n50",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n50",
+      "to": "n51",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n51",
+      "to": "n52",
+      "relation": "implies",
+      "confidence": 0.7
+    }
+  ],
+  "hinges": [
+    {
+      "id": "h1",
+      "refs": [
+        "John 7:1-52"
+      ],
+      "identity_□": "Jesus is sent from the true Father, moves by the hour, and offers living water interpreted as the Spirit.",
+      "enactment_◇": "Jesus delays, goes up in secret, teaches in the temple, cries out invitation to the thirsty, and faces official interrogation.",
+      "effect_Δ": "The feast becomes a divided courtroom: arrests fail, some believe, leaders harden, and unresolved conflict escalates."
+    }
+  ],
+  "creed": {
+    "status": "pass",
+    "notes": []
+  },
+  "watermark": "17e933e9976e5e32",
+  "meta": {
+    "postprocessed_at": "2026-02-13T14:02:03Z",
+    "confidence": 0.9,
+    "source": "cne_compile_v1"
+  }
+}

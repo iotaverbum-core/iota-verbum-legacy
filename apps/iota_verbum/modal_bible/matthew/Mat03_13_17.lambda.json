@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Matthew λ-files; safe to hand-edit after generation.",
+    "book": "Matthew",
+    "passage_id": "Mat03_13_17",
+    "version": "Mat03_13_17_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mat03_13_17",
+  "book": "Matthew",
+  "chapter": 3,
+  "verses": "13-17",
+  "title": "Matthew 3:13–17 – Baptism of Jesus",
+  "interpretive_frames": [
+    "Baptism",
+    "Sonship",
+    "Trinity"
+  ],
+  "identity_invariants": [
+    "[]JesusIsTheBelovedSonInWhomTheFatherIsWellPleased(Jesus, Father, Spirit)"
+  ],
+  "units": [
+    {
+      "id": "Mat03_13_17_u1",
+      "label": "Beloved Son Anointed for Mission",
+      "verses": [
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "illocution": "Theophany",
+      "agents": [
+        "Jesus",
+        "John",
+        "Father",
+        "Spirit"
+      ],
+      "statements": [
+        {
+          "id": "Mat03_13_17_s1",
+          "type": "summary",
+          "description": "Jesus is baptised to fulfil all righteousness, and the Father and Spirit publicly affirm him as the beloved Son.",
+          "lambda_iv": [
+            "[]JesusIsTheBelovedSonInWhomTheFatherIsWellPleased(Jesus, Father, Spirit)",
+            "EFF(MissionInauguratedAtBaptism(Jesus))"
+          ]
+        }
+      ]
+    }
+  ]
+}

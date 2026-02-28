@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Mark λ-files; safe to hand-edit after generation.",
+    "book": "Mark",
+    "passage_id": "Mar10_32_45",
+    "version": "Mar10_32_45_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mar10_32_45",
+  "book": "Mark",
+  "chapter": 10,
+  "verses": "32-45",
+  "title": "Mark 10:32–45 – Third Passion Prediction and Ransom Saying",
+  "interpretive_frames": [
+    "PassionPrediction",
+    "ServantLeadership",
+    "Ransom"
+  ],
+  "identity_invariants": [
+    "[]SonOfManGivesHisLifeAsRansomAndRedefinesGreatnessAsService(Jesus, Disciples)"
+  ],
+  "units": [
+    {
+      "id": "Mar10_32_45_u1",
+      "label": "Not to Be Served but to Serve",
+      "verses": [
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "illocution": "TeachingOnGreatness",
+      "agents": [
+        "Jesus",
+        "Disciples",
+        "James",
+        "John",
+        "TheTen"
+      ],
+      "statements": [
+        {
+          "id": "Mar10_32_45_s1",
+          "type": "summary",
+          "description": "On the road to Jerusalem, Jesus predicts his death again while disciples seek status; he teaches that true greatness is service and his life given as a ransom.",
+          "lambda_iv": [
+            "[]SonOfManGivesHisLifeAsRansomAndRedefinesGreatnessAsService(Jesus, Disciples)",
+            "EFF(CrossShapedServiceIsNormForKingdomLeadership(Disciples))"
+          ]
+        }
+      ]
+    }
+  ]
+}

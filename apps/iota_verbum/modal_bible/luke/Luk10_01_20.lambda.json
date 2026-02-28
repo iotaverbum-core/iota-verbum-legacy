@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Luke λ-files; safe to hand-edit after generation.",
+    "book": "Luke",
+    "passage_id": "Luk10_01_20",
+    "version": "Luk10_01_20_Lambda_IV_v0.1"
+  },
+  "passage_id": "Luk10_01_20",
+  "book": "Luke",
+  "chapter": 10,
+  "verses": "1-20",
+  "title": "Luke 10:1–20 – Mission of the Seventy-Two and Joy in Heaven",
+  "interpretive_frames": [
+    "Mission",
+    "AuthorityOverEvil",
+    "HeavenlyJoy"
+  ],
+  "identity_invariants": [
+    "[]JesusSendsWorkersWithAuthorityAndRootsJoyInHeavenlyBelonging(Jesus, Workers)"
+  ],
+  "units": [
+    {
+      "id": "Luk10_01_20_u1",
+      "label": "Rejoice That Your Names Are Written in Heaven",
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "illocution": "MissionNarrative",
+      "agents": [
+        "Jesus",
+        "SeventyTwo",
+        "Towns"
+      ],
+      "statements": [
+        {
+          "id": "Luk10_01_20_s1",
+          "type": "summary",
+          "description": "Jesus sends seventy-two ahead of him, gives them authority over demons, and redirects their joy from power to their names written in heaven.",
+          "lambda_iv": [
+            "[]JesusSendsWorkersWithAuthorityAndRootsJoyInHeavenlyBelonging(Jesus, Workers)",
+            "EFF(MissionSuccessMustNotDisplaceJoyInSalvation(Workers))"
+          ]
+        }
+      ]
+    }
+  ]
+}

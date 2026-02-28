@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Matthew λ-files; safe to hand-edit after generation.",
+    "book": "Matthew",
+    "passage_id": "Mat13_24_30",
+    "version": "Mat13_24_30_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mat13_24_30",
+  "book": "Matthew",
+  "chapter": 13,
+  "verses": "24-30",
+  "title": "Matthew 13:24–30 – Parable of the Weeds",
+  "interpretive_frames": [
+    "Parable",
+    "Patience",
+    "Judgment"
+  ],
+  "identity_invariants": [
+    "[]KingdomPresentlyMixedWithEvilUntilFinalJudgment(Kingdom, Field)"
+  ],
+  "units": [
+    {
+      "id": "Mat13_24_30_u1",
+      "label": "Let Both Grow Together",
+      "verses": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "illocution": "Parable",
+      "agents": [
+        "Jesus",
+        "Disciples"
+      ],
+      "statements": [
+        {
+          "id": "Mat13_24_30_s1",
+          "type": "summary",
+          "description": "Jesus portrays the kingdom as wheat among weeds that will only be separated at the harvest.",
+          "lambda_iv": [
+            "[]KingdomPresentlyMixedWithEvilUntilFinalJudgment(Kingdom, Field)",
+            "<>FinalSeparationAtEschatologicalHarvest(Harvest, SonOfMan)"
+          ]
+        }
+      ]
+    }
+  ]
+}

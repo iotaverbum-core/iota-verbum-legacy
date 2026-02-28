@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Matthew λ-files; safe to hand-edit after generation.",
+    "book": "Matthew",
+    "passage_id": "Mat18_01_35",
+    "version": "Mat18_01_35_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mat18_01_35",
+  "book": "Matthew",
+  "chapter": 18,
+  "verses": "1-35",
+  "title": "Matthew 18:1–35 – Community Discourse",
+  "interpretive_frames": [
+    "Community",
+    "Humility",
+    "Forgiveness"
+  ],
+  "identity_invariants": [
+    "[]KingdomCommunityIsMarkedByHumilityCareAndLimitlessForgiveness(Community)"
+  ],
+  "units": [
+    {
+      "id": "Mat18_01_35_u1",
+      "label": "Greatest in the Kingdom",
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "illocution": "Discourse",
+      "agents": [
+        "Jesus",
+        "Disciples"
+      ],
+      "statements": [
+        {
+          "id": "Mat18_01_35_s1",
+          "type": "summary",
+          "description": "Jesus teaches about greatness, stumbling blocks, restoration, and limitless forgiveness.",
+          "lambda_iv": [
+            "[]KingdomCommunityIsMarkedByHumilityCareAndLimitlessForgiveness(Community)",
+            "<>ForgiveFromHeartAsForgivenServants(Disciples, Offenders)"
+          ]
+        }
+      ]
+    }
+  ]
+}

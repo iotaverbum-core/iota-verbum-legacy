@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Luke λ-files; safe to hand-edit after generation.",
+    "book": "Luke",
+    "passage_id": "Luk23_33_49",
+    "version": "Luk23_33_49_Lambda_IV_v0.1"
+  },
+  "passage_id": "Luk23_33_49",
+  "book": "Luke",
+  "chapter": 23,
+  "verses": "33-49",
+  "title": "Luke 23:33–49 – Crucifixion and the Righteous Sufferer",
+  "interpretive_frames": [
+    "Crucifixion",
+    "Innocence",
+    "Mockery"
+  ],
+  "identity_invariants": [
+    "[]InnocentJesusBearsMockeryAndDeathWhileExtendingForgivenessAndParadise(Jesus, Sinners)"
+  ],
+  "units": [
+    {
+      "id": "Luk23_33_49_u1",
+      "label": "Father, Forgive Them",
+      "verses": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "illocution": "PassionNarrative",
+      "agents": [
+        "Jesus",
+        "Soldiers",
+        "Leaders",
+        "Criminals",
+        "Crowds",
+        "Centurion"
+      ],
+      "statements": [
+        {
+          "id": "Luk23_33_49_s1",
+          "type": "summary",
+          "description": "Jesus is crucified between criminals, prays for his executioners, promises paradise to a repentant thief, and is confessed righteous by the centurion.",
+          "lambda_iv": [
+            "[]InnocentJesusBearsMockeryAndDeathWhileExtendingForgivenessAndParadise(Jesus, Sinners)",
+            "EFF(ResponseToCrucifiedJesusRevealsHeartsInFaceOfGodsJustice(Hearers))"
+          ]
+        }
+      ]
+    }
+  ]
+}

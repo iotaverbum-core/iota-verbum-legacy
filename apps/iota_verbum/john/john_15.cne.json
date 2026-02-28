@@ -1,0 +1,135 @@
+{
+  "schema": "cne.v1",
+  "ref": "John 15",
+  "translation": "ESV",
+  "agents": {
+    "G": "Jesus",
+    "H": "Disciples",
+    "F": "Father",
+    "S": "Spirit",
+    "W": "World"
+  },
+  "events": [
+    {
+      "id": "e1",
+      "ref": "15:1",
+      "agent": "G",
+      "verb": "declare",
+      "object": "I_am_true_vine",
+      "mode": "identity"
+    },
+    {
+      "id": "e2",
+      "ref": "15:2",
+      "agent": "F",
+      "verb": "prune",
+      "object": "branches_bear_more",
+      "mode": "discipline"
+    },
+    {
+      "id": "e3",
+      "ref": "15:4-5",
+      "agent": "G",
+      "verb": "command",
+      "object": "abide_in_me",
+      "mode": "stay"
+    },
+    {
+      "id": "e4",
+      "ref": "15:9",
+      "agent": "G",
+      "verb": "command",
+      "object": "abide_in_my_love",
+      "mode": "relational"
+    },
+    {
+      "id": "e5",
+      "ref": "15:12-13",
+      "agent": "G",
+      "verb": "command",
+      "object": "love_one_another_lay_down_life",
+      "mode": "pattern"
+    },
+    {
+      "id": "e6",
+      "ref": "15:15",
+      "agent": "G",
+      "verb": "name",
+      "object": "friends_not_servants",
+      "mode": "identity_shift"
+    },
+    {
+      "id": "e7",
+      "ref": "15:18-19",
+      "agent": "G",
+      "verb": "warn",
+      "object": "world_hates_you",
+      "mode": "conflict"
+    },
+    {
+      "id": "e8",
+      "ref": "15:26-27",
+      "agent": "S",
+      "verb": "testify",
+      "object": "about_Jesus",
+      "mode": "witness"
+    },
+    {
+      "id": "e9",
+      "ref": "15:27",
+      "agent": "H",
+      "verb": "testify",
+      "object": "you_also_will_bear_witness",
+      "mode": "commission"
+    }
+  ],
+  "links": [
+    {
+      "op": "SEQ",
+      "from": "e1",
+      "to": "e6"
+    },
+    {
+      "op": "SEQ",
+      "from": "e6",
+      "to": "e9"
+    }
+  ],
+  "markers": [
+    {
+      "id": "m1",
+      "ref": "15:4-5",
+      "type": "STAY",
+      "target": "abide",
+      "justification": "repeated abide imperative"
+    },
+    {
+      "id": "m2",
+      "ref": "15:13-15",
+      "type": "CU",
+      "target": "friends",
+      "justification": "naming into friendship"
+    },
+    {
+      "id": "m3",
+      "ref": "15:18-25",
+      "type": "THR",
+      "target": "world_hatred",
+      "justification": "boundary between vine-people and world"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "type": "hinge_candidate",
+      "text": "Abiding in Jesus bears fruit through pruning love, and produces witness under hatred with the Spirit’s testimony.",
+      "supported_by": [
+        "e3",
+        "e2",
+        "e8",
+        "e9"
+      ],
+      "inference": true
+    }
+  ]
+}

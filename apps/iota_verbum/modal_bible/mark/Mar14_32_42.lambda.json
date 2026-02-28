@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Mark λ-files; safe to hand-edit after generation.",
+    "book": "Mark",
+    "passage_id": "Mar14_32_42",
+    "version": "Mar14_32_42_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mar14_32_42",
+  "book": "Mark",
+  "chapter": 14,
+  "verses": "32-42",
+  "title": "Mark 14:32–42 – Gethsemane and Watching in Prayer",
+  "interpretive_frames": [
+    "Agony",
+    "Submission",
+    "Prayer"
+  ],
+  "identity_invariants": [
+    "[]JesusSubmitsToFathersWillUnderCrushingSorrowWhileDisciplesFailToWatch(Jesus, Father, Disciples)"
+  ],
+  "units": [
+    {
+      "id": "Mar14_32_42_u1",
+      "label": "Not What I Will",
+      "verses": [
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "illocution": "AgonyNarrative",
+      "agents": [
+        "Jesus",
+        "Peter",
+        "James",
+        "John",
+        "Father"
+      ],
+      "statements": [
+        {
+          "id": "Mar14_32_42_s1",
+          "type": "summary",
+          "description": "Deeply distressed, Jesus prays for the cup to pass yet submits to the Father; disciples repeatedly sleep instead of watching and praying.",
+          "lambda_iv": [
+            "[]JesusSubmitsToFathersWillUnderCrushingSorrowWhileDisciplesFailToWatch(Jesus, Father, Disciples)",
+            "EFF(PrayerfulVigilanceIsNeededToWithstandTemptation(Disciples))"
+          ]
+        }
+      ]
+    }
+  ]
+}

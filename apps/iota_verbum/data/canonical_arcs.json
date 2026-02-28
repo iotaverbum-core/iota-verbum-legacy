@@ -1,0 +1,20 @@
+﻿[
+  {
+    "id": "ARC001",
+    "label": "Creation to New Creation",
+    "description": "From the good beginning to the renewed world in Christ.",
+    "node_ids": ["H001", "H002", "H014", "H020"]
+  },
+  {
+    "id": "ARC002",
+    "label": "Exodus to Cross",
+    "description": "Exodus deliverance fulfilled and intensified at the cross.",
+    "node_ids": ["H006", "H008", "H013"]
+  },
+  {
+    "id": "ARC003",
+    "label": "Seed and Harvest",
+    "description": "Seed promise and kingdom growth leading to final harvest.",
+    "node_ids": ["H005", "H009", "H014", "H020"]
+  }
+]

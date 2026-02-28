@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Luke λ-files; safe to hand-edit after generation.",
+    "book": "Luke",
+    "passage_id": "Luk11_01_13",
+    "version": "Luk11_01_13_Lambda_IV_v0.1"
+  },
+  "passage_id": "Luk11_01_13",
+  "book": "Luke",
+  "chapter": 11,
+  "verses": "1-13",
+  "title": "Luke 11:1–13 – Lord’s Prayer and Asking the Father",
+  "interpretive_frames": [
+    "Prayer",
+    "FatherhoodOfGod",
+    "Persistence"
+  ],
+  "identity_invariants": [
+    "[]FatherDelightsToGiveSpiritAndGoodGiftsToPersistentChildren(Father, Disciples)"
+  ],
+  "units": [
+    {
+      "id": "Luk11_01_13_u1",
+      "label": "Ask, Seek, Knock",
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "illocution": "InstructionAndParable",
+      "agents": [
+        "Jesus",
+        "Disciples",
+        "FriendAtMidnight",
+        "Father"
+      ],
+      "statements": [
+        {
+          "id": "Luk11_01_13_s1",
+          "type": "summary",
+          "description": "Jesus teaches a pattern of prayer, urges persistent asking, and assures disciples of the Father’s generosity, especially in giving the Spirit.",
+          "lambda_iv": [
+            "[]FatherDelightsToGiveSpiritAndGoodGiftsToPersistentChildren(Father, Disciples)",
+            "EFF(ViewOfFatherShapesCourageToPrayPersistently(Disciples))"
+          ]
+        }
+      ]
+    }
+  ]
+}

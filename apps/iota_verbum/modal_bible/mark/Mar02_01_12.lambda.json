@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Mark λ-files; safe to hand-edit after generation.",
+    "book": "Mark",
+    "passage_id": "Mar02_01_12",
+    "version": "Mar02_01_12_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mar02_01_12",
+  "book": "Mark",
+  "chapter": 2,
+  "verses": "1-12",
+  "title": "Mark 2:1–12 – Healing the Paralytic and Forgiving Sins",
+  "interpretive_frames": [
+    "Forgiveness",
+    "Faith",
+    "Authority"
+  ],
+  "identity_invariants": [
+    "[]SonOfManHasAuthorityOnEarthToForgiveSins(Jesus, SonOfMan)"
+  ],
+  "units": [
+    {
+      "id": "Mar02_01_12_u1",
+      "label": "Rise, Pick Up Your Bed",
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "illocution": "MiracleAndControversy",
+      "agents": [
+        "Jesus",
+        "Paralytic",
+        "Friends",
+        "Scribes",
+        "Crowd"
+      ],
+      "statements": [
+        {
+          "id": "Mar02_01_12_s1",
+          "type": "summary",
+          "description": "Friends lower a paralytic through the roof; Jesus forgives his sins, provoking scribal accusations of blasphemy, and proves his authority by healing him.",
+          "lambda_iv": [
+            "[]SonOfManHasAuthorityOnEarthToForgiveSins(Jesus, SonOfMan)",
+            "EFF(FaithExpressedInCostlyActionReceivesForgivenessAndRestoration(Friends, Paralytic))"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Luke λ-files; safe to hand-edit after generation.",
+    "book": "Luke",
+    "passage_id": "Luk19_01_10",
+    "version": "Luk19_01_10_Lambda_IV_v0.1"
+  },
+  "passage_id": "Luk19_01_10",
+  "book": "Luke",
+  "chapter": 19,
+  "verses": "1-10",
+  "title": "Luke 19:1–10 – Zacchaeus and the Son of Man’s Mission",
+  "interpretive_frames": [
+    "Seeking",
+    "Repentance",
+    "Restitution"
+  ],
+  "identity_invariants": [
+    "[]SonOfManCameToSeekAndSaveTheLostAndHisGraceProducesRepentantRestitution(Jesus, Lost)"
+  ],
+  "units": [
+    {
+      "id": "Luk19_01_10_u1",
+      "label": "Today Salvation Has Come to This House",
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "illocution": "EncounterNarrative",
+      "agents": [
+        "Jesus",
+        "Zacchaeus",
+        "Crowd"
+      ],
+      "statements": [
+        {
+          "id": "Luk19_01_10_s1",
+          "type": "summary",
+          "description": "Jesus seeks out Zacchaeus, stays at his house, and Zacchaeus responds with joyful restitution as Jesus declares his saving mission.",
+          "lambda_iv": [
+            "[]SonOfManCameToSeekAndSaveTheLostAndHisGraceProducesRepentantRestitution(Jesus, Lost)",
+            "EFF(GrumblingAtGraceContrastsWithJoyfulRepentance(Crowd, Zacchaeus))"
+          ]
+        }
+      ]
+    }
+  ]
+}

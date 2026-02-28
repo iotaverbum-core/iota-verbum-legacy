@@ -1,0 +1,157 @@
+{
+  "attestation_id": "att-2025-11-20-0001",
+  "iota_engine": {
+    "name": "iota Verbum – DesertRule",
+    "version": "0.3.1",
+    "environment": "test"
+  },
+  "decision_context": {
+    "institution_id": "ZA_BANK_001",
+    "jurisdiction": "ZA",
+    "product_type": "personal_loan",
+    "channel": "online",
+    "timestamp_decision": "2025-11-20T09:32:14+02:00"
+  },
+  "subject": {
+    "subject_type": "natural_person",
+    "subject_reference": "CUST-482910",
+    "attributes_used": [
+      "age",
+      "income_band",
+      "employment_status",
+      "credit_score",
+      "existing_debt_ratio"
+    ]
+  },
+  "request": {
+    "request_id": "REQ-PL-77421",
+    "requested_amount": 120000,
+    "requested_currency": "ZAR",
+    "requested_term_months": 36,
+    "purpose": "debt_consolidation"
+  },
+  "policy_suite": {
+    "suite_id": "POLICY_SUITE_ZA_2025Q4",
+    "suite_name": "ZA Retail Credit – 2025 Q4",
+    "policy_version": "2025.4.0",
+    "policies_applied": [
+      {
+        "policy_id": "NCA_AFFORDABILITY",
+        "name": "Affordability Assessment – NCA",
+        "source": "regulation",
+        "source_reference": "NCA s81(2)"
+      },
+      {
+        "policy_id": "FAIRNESS_VULNERABLE_CUSTOMERS",
+        "name": "Treatment of Vulnerable Customers",
+        "source": "internal",
+        "source_reference": "Bank Fairness Code 3.1"
+      },
+      {
+        "policy_id": "ETHICS_NO_EXPLOITATION",
+        "name": "No Exploitation Through Restructuring",
+        "source": "ethical",
+        "source_reference": "DesertRule 1.0 – Anti-Exploitation"
+      }
+    ]
+  },
+  "tests": [
+    {
+      "test_id": "T001_DTI_LIMIT",
+      "name": "Debt_to_income_ratio_limit",
+      "category": "risk",
+      "modality": "◇enactment",
+      "status": "pass",
+      "metric_value": 0.36,
+      "threshold": 0.40,
+      "rationale": "Post-consolidation, customer’s debt-to-income ratio remains below the 40% internal limit.",
+      "references": ["NCA s81(2)", "Risk Policy RP-PL-2.3"]
+    },
+    {
+      "test_id": "T002_ARREARS_HISTORY",
+      "name": "Arrears_history_check",
+      "category": "risk",
+      "modality": "Δeffect",
+      "status": "warn",
+      "metric_value": "2 late payments (last 12 months)",
+      "threshold": "No more than 3 late payments allowed in last 12 months",
+      "rationale": "Customer had 2 late payments in the last year, within tolerance but flagged for caution.",
+      "references": ["Risk Policy RP-PL-1.7"]
+    },
+    {
+      "test_id": "T003_VULNERABLE_CUSTOMER",
+      "name": "Vulnerable_customer_fair_treatment",
+      "category": "fairness",
+      "modality": "□identity",
+      "status": "pass",
+      "metric_value": "income_band_low",
+      "threshold": "Requires check that restructuring results in lower monthly burden",
+      "rationale": "New instalment is 25% lower than aggregate previous instalments; restructuring reduces financial stress.",
+      "references": ["Bank Fairness Code 3.1"]
+    },
+    {
+      "test_id": "T004_NO_EXPLOITATIVE_RESTRUCTURING",
+      "name": "No_exploitative_restructuring",
+      "category": "ethics",
+      "modality": "□identity",
+      "status": "pass",
+      "metric_value": "APR 16.5%",
+      "threshold": "Must not exceed risk-appropriate band or increase total cost without clear benefit",
+      "rationale": "APR within standard risk band; total interest lower than combined current debts; customer given clear comparison.",
+      "references": ["DesertRule 1.0 – Anti-Exploitation"]
+    }
+  ],
+  "model_trace": {
+    "model_id": "CREDIT_SCORE_V5",
+    "model_version": "5.2.0",
+    "model_role": "advisory",
+    "features_used": [
+      "credit_score",
+      "payment_history",
+      "utilization_ratio"
+    ],
+    "score_output": {
+      "score": 0.82,
+      "score_band": "low_risk",
+      "score_interpretation": "Based on payment history and utilization, the customer is unlikely to default under normal conditions."
+    }
+  },
+  "decision": {
+    "outcome": "approve",
+    "decision_reason_primary": "Loan approved as a non-exploitative consolidation that reduces monthly burden within acceptable risk.",
+    "decision_reason_detailed": "After consolidation, the customer’s debt-to-income ratio falls from 0.47 to 0.36, late payment history is within tolerated limits, and total cost of credit is lower than the sum of existing facilities. Ethical and regulatory tests are satisfied.",
+    "risk_flags": [
+      {
+        "flag_id": "RF001_ARREARS_WARN",
+        "severity": "medium",
+        "description": "Two late payments in the last 12 months; monitor account behaviour over first 6 months."
+      }
+    ],
+    "conditions": [
+      {
+        "condition_id": "COND001_INCOME_VERIFICATION",
+        "description": "Subject to verification of latest three months’ payslips."
+      }
+    ]
+  },
+  "human_review": {
+    "required": true,
+    "reviewer_id": "ANALYST-209",
+    "review_timestamp": "2025-11-20T09:35:02+02:00",
+    "review_action": "confirm",
+    "review_notes": "Ethical tests passed and consolidation clearly reduces burden. Risk acceptable with monitoring flag."
+  },
+  "iota_signature": {
+    "modal_ok": true,
+    "modal_summary": {
+      "identity": "Institution acted as a non-exploitative lender, prioritising reduced burden for a vulnerable customer.",
+      "enactment": "Loan offered as a consolidation with lower monthly repayments and no unjustified increase in total cost.",
+      "effect": "Expected effect is reduced financial stress and lower risk of default; moderate risk remains but is monitored."
+    },
+    "hash_of_decision_payload": "SHA256:3b5a8e9f...demo_hash...",
+    "issued_by": "iota-desertrule-node-01",
+    "issued_at": "2025-11-20T09:35:05+02:00",
+    "signature": "SIG_DEMO_...base64..."
+  },
+  "extensions": {}
+}

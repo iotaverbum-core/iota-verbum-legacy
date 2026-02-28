@@ -1,0 +1,1004 @@
+```html
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>iota Verbum – Formal Verification for Value Alignment & Formation-First Trust Infrastructure</title>
+
+  <!-- Basic SEO -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="iota Verbum is a formal verification system for value alignment and formation-first trust infrastructure for institutions. It turns policy into executable modal charters, wraps decisions in proof-carrying attestations, and tracks how those decisions form who you are becoming over time."
+  />
+  <meta
+    name="keywords"
+    content="iota Verbum, AI governance, AI ethics, trust infrastructure, credit risk, BNPL, ethical AI, institutional trust, formation, Christian theology, computational theology"
+  />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://www.thedailycovenant.com/" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="iota Verbum – Formation-First AI Trust Infrastructure for Institutions" />
+  <meta
+    property="og:description"
+    content="Formation-first AI trust operating system for institutions. Every decision becomes a theorem with a proof about who you say you are, starting in credit and extending to healthcare, education, and law."
+  />
+  <meta property="og:url" content="https://www.thedailycovenant.com/" />
+  <meta property="og:site_name" content="iota Verbum" />
+  <!-- Update this image path once you upload an OG image -->
+  <meta property="og:image" content="https://www.thedailycovenant.com/og-image.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="iota Verbum – Formation-First AI Trust Infrastructure for Institutions" />
+  <meta
+    name="twitter:description"
+    content="Formation-first AI trust operating system for institutions. Proof-carrying attestations and formation tracking across hardship, blessing, repentance, mission, and integrity."
+  />
+  <meta name="twitter:image" content="https://www.thedailycovenant.com/og-image.png" />
+
+  <!-- JSON-LD: Organization / Product -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "iota Verbum",
+    "alternateName": "iota Verbum – Formation-First Trust Infrastructure",
+    "operatingSystem": "Cloud",
+    "applicationCategory": "BusinessApplication",
+    "description": "iota Verbum is a formation-first AI trust operating system for institutions. It wraps high-stakes decisions in executable charters, emits proof-carrying attestations, and tracks how decisions form institutions over time.",
+    "url": "https://www.thedailycovenant.com/",
+    "author": {
+      "@type": "Person",
+      "name": "Matthew Neal"
+    },
+    "creator": {
+      "@type": "Person",
+      "name": "Matthew Neal"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "iota Verbum",
+      "url": "https://www.thedailycovenant.com/"
+    }
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg: #020617;
+      --panel: rgba(15, 23, 42, 0.9);
+      --accent: #38bdf8;
+      --accent-soft: rgba(56, 189, 248, 0.18);
+      --accent-strong: #0ea5e9;
+      --text-main: #e5e7eb;
+      --text-muted: #9ca3af;
+      --border-subtle: #1f2937;
+      --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
+        "Segoe UI", sans-serif;
+      --shadow-soft: 0 18px 45px rgba(15, 23, 42, 0.7);
+      --radius-lg: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: var(--font-sans);
+      background: radial-gradient(circle at top, #0b1120, #020617 46%);
+      color: var(--text-main);
+      -webkit-font-smoothing: antialiased;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      min-height: 100vh;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .page {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 24px 20px 40px;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 28px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .brand-mark {
+      width: 32px;
+      height: 32px;
+      border-radius: 999px;
+      background: radial-gradient(circle at 30% 20%, #38bdf8, #0f172a 65%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #e5f7ff;
+      font-size: 15px;
+      font-weight: 600;
+      box-shadow: 0 0 0 1px rgba(148, 163, 184, 0.2);
+    }
+
+    .brand-text {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .brand-title {
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #e5e7eb;
+    }
+
+    .brand-subtitle {
+      font-size: 11px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    nav a {
+      text-decoration: none;
+      color: var(--text-muted);
+    }
+
+    nav a:hover {
+      color: var(--accent);
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1.25fr) minmax(0, 1.1fr);
+      gap: 26px;
+      margin-bottom: 40px;
+    }
+
+    @media (max-width: 880px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .hero {
+        grid-template-columns: minmax(0, 1fr);
+      }
+    }
+
+    .hero-main {
+      padding: 22px 20px 22px;
+      border-radius: var(--radius-lg);
+      background: radial-gradient(circle at top left, #0b1120, #020617 65%);
+      border: 1px solid rgba(148, 163, 184, 0.24);
+      box-shadow: var(--shadow-soft);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-pre {
+      font-size: 12px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #93c5fd;
+      margin-bottom: 10px;
+    }
+
+    .hero-title {
+      font-size: clamp(26px, 3vw, 30px);
+      line-height: 1.2;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .hero-sub {
+      font-size: 14px;
+      color: var(--text-muted);
+      margin-bottom: 18px;
+      max-width: 540px;
+    }
+
+    .hero-sub strong {
+      color: #e5e7eb;
+      font-weight: 500;
+    }
+
+    .hero-cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+      font-size: 13px;
+      padding: 9px 16px;
+      border-radius: 999px;
+      border: 1px solid transparent;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #38bdf8, #0ea5e9);
+      color: #020617;
+      font-weight: 600;
+      box-shadow: 0 16px 40px rgba(56, 189, 248, 0.35);
+    }
+
+    .btn-primary:hover {
+      filter: brightness(1.05);
+      text-decoration: none;
+    }
+
+    .btn-secondary {
+      background: rgba(15, 23, 42, 0.8);
+      border-color: rgba(148, 163, 184, 0.34);
+      color: var(--text-main);
+    }
+
+    .btn-secondary:hover {
+      background: rgba(15, 23, 42, 1);
+      text-decoration: none;
+    }
+
+    .hero-footnote {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+
+    .hero-tagline {
+      font-size: 11px;
+      color: #6b7280;
+      margin-top: 6px;
+    }
+
+    .hero-core {
+      margin-top: 18px;
+      padding: 10px 11px;
+      border-radius: 999px;
+      background: rgba(15, 23, 42, 0.85);
+      border: 1px solid rgba(148, 163, 184, 0.3);
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+
+    .pill-label {
+      padding: 3px 8px;
+      border-radius: 999px;
+      background: rgba(15, 23, 42, 0.9);
+      border: 1px solid rgba(148, 163, 184, 0.4);
+      color: #cbd5f5;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-size: 10px;
+    }
+
+    .hero-side {
+      padding: 20px 18px;
+      border-radius: var(--radius-lg);
+      background: radial-gradient(circle at top, #020617, #020617 70%);
+      border: 1px solid rgba(148, 163, 184, 0.3);
+      box-shadow: var(--shadow-soft);
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .side-title {
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: #9ca3af;
+    }
+
+    .side-main {
+      font-size: 14px;
+      color: #e5e7eb;
+    }
+
+    .side-sub {
+      font-size: 12px;
+      color: #9ca3af;
+    }
+
+    .side-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 10px;
+    }
+
+    .chip {
+      font-size: 11px;
+      padding: 4px 8px;
+      border-radius: 999px;
+      background: rgba(15, 23, 42, 0.9);
+      border: 1px solid rgba(148, 163, 184, 0.38);
+      color: #cbd5f5;
+    }
+
+    .section {
+      margin-top: 36px;
+      border-radius: var(--radius-lg);
+      border: 1px solid rgba(31, 41, 55, 0.9);
+      background: linear-gradient(145deg, rgba(15, 23, 42, 0.92), #020617);
+      box-shadow: var(--shadow-soft);
+      padding: 20px 18px 18px;
+    }
+
+    .section-header {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      margin-bottom: 14px;
+    }
+
+    .section-label {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: #9ca3af;
+    }
+
+    .section-title {
+      font-size: 17px;
+      font-weight: 600;
+      color: #e5e7eb;
+    }
+
+    .section-sub {
+      font-size: 13px;
+      color: #9ca3af;
+      max-width: 600px;
+    }
+
+    .section-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(0, 1.1fr);
+      gap: 18px;
+    }
+
+    @media (max-width: 880px) {
+      .section-grid {
+        grid-template-columns: minmax(0, 1fr);
+      }
+    }
+
+    .attestation {
+      margin-top: 6px;
+      padding: 12px 12px 10px;
+      border-radius: 14px;
+      background: radial-gradient(circle at top left, #020617, #020617 70%);
+      border: 1px solid rgba(55, 65, 81, 0.9);
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+        "Courier New", monospace;
+      font-size: 11px;
+      line-height: 1.45;
+      color: #e5e7eb;
+      overflow-x: auto;
+      position: relative;
+    }
+
+    .attestation-badge {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 10px;
+      padding: 3px 8px;
+      border-radius: 999px;
+      background: rgba(15, 23, 42, 0.9);
+      border: 1px solid rgba(56, 189, 248, 0.5);
+      color: #e0f2fe;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+    }
+
+    .attestation pre {
+      margin: 0;
+      white-space: pre;
+    }
+
+    .section-list {
+      font-size: 13px;
+      color: #d1d5db;
+      padding-left: 18px;
+      margin: 0;
+    }
+
+    .section-list li {
+      margin-bottom: 7px;
+    }
+
+    .pill-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      margin-top: 6px;
+      margin-bottom: 6px;
+    }
+
+    .pill {
+      font-size: 11px;
+      padding: 4px 8px;
+      border-radius: 999px;
+      background: rgba(15, 23, 42, 0.9);
+      border: 1px solid rgba(75, 85, 99, 0.9);
+      color: #d1d5db;
+    }
+
+    .sub-card {
+      border-radius: 12px;
+      border: 1px solid rgba(55, 65, 81, 0.9);
+      background: radial-gradient(circle at top, #020617, #020617 70%);
+      padding: 10px 11px;
+      font-size: 12px;
+      color: #d1d5db;
+      margin-top: 6px;
+    }
+
+    .sub-card strong {
+      color: #e5e7eb;
+      font-weight: 500;
+    }
+
+    .columns-2 {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 10px;
+    }
+
+    @media (max-width: 720px) {
+      .columns-2 {
+        grid-template-columns: minmax(0, 1fr);
+      }
+    }
+
+    .roadmap-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 12px;
+    }
+
+    .roadmap-item {
+      border-radius: 12px;
+      border: 1px solid rgba(55, 65, 81, 0.9);
+      background: radial-gradient(circle at top left, #020617, #020617 70%);
+      padding: 10px 11px;
+      font-size: 12px;
+      color: #d1d5db;
+    }
+
+    .roadmap-item h4 {
+      margin: 0 0 4px;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: #9ca3af;
+    }
+
+    .roadmap-item strong {
+      color: #e5e7eb;
+      font-weight: 500;
+    }
+
+    .about {
+      display: grid;
+      grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
+      gap: 18px;
+    }
+
+    @media (max-width: 880px) {
+      .about {
+        grid-template-columns: minmax(0, 1fr);
+      }
+    }
+
+    footer {
+      margin-top: 26px;
+      padding-top: 14px;
+      border-top: 1px solid rgba(31, 41, 55, 0.9);
+      font-size: 11px;
+      color: #6b7280;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div class="brand">
+        <div class="brand-mark">ιv</div>
+        <div class="brand-text">
+          <div class="brand-title">iota Verbum</div>
+          <div class="brand-subtitle">Formation-First Trust Infrastructure</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#how-it-works">How it works</a>
+        <a href="#origins">Origins</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="#whitepaper">White paper</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section class="hero">
+        <div class="hero-main">
+          <div class="hero-pre">Formal verification · Formation-first AI</div>
+          <h1 class="hero-title">
+            Trust infrastructure for institutions that
+            <span style="color: #a5b4fc;">align with their values</span> and not just
+            <span style="color: #fbbf24;">optimize metrics</span>.
+          </h1>
+          <p class="hero-sub">
+            <strong>iota Verbum</strong> is a formal verification system for value alignment and
+            formation-first trust infrastructure. It turns your policy into an executable modal charter,
+            wraps each high-stakes decision in a proof-carrying attestation, and tracks how those decisions
+            shape who you are becoming over time – starting with credit and extending to healthcare,
+            education, and law.
+          </p>
+
+          <div class="hero-cta-row">
+            <a class="btn-primary" href="mailto:iv@thedailycovenant.com?subject=Credit demo enquiry">
+              Book a credit demo
+            </a>
+            <a class="btn-secondary" href="/assets/iota-verbum-modal-bible-whitepaper.pdf">
+              Download white paper
+            </a>
+          </div>
+          <div class="hero-footnote">
+            Today: Desert Rule for BNPL and alt-credit decisions. Next: the same formal verification
+            and formation logic for healthcare, education, and law.
+          </div>
+
+          <div class="hero-core">
+            <span class="pill-label">Core</span>
+            <span>Executable modal charters · Proof-carrying attestations · Formation snapshots (Λ/Β/Ρ/Μ/Σ)</span>
+          </div>
+        </div>
+
+        <aside class="hero-side" aria-label="Sample participation snapshot">
+          <div class="side-title">Sample Formation Snapshot</div>
+          <div class="side-main">
+            For a single credit decision, iota Verbum returns both a compliance verdict and
+            a formation view: how that decision holds hardship, blessing, repentance, mission
+            and integrity.
+          </div>
+          <div class="side-sub">
+            Boards and regulators can see not only what happened, but
+            <em>what kind of lender</em> the portfolio is slowly forming.
+          </div>
+          <div class="side-meta">
+            <span class="chip">Lament Λ: 3/3</span>
+            <span class="chip">Blessing Β: 2/3</span>
+            <span class="chip">Repentance Ρ: 2/3</span>
+            <span class="chip">Mission Μ: 2/3</span>
+            <span class="chip">Sanctification Σ: 3/3</span>
+          </div>
+        </aside>
+      </section>
+
+      <!-- ATTESTATION -->
+      <section class="section" id="attestation">
+        <div class="section-header">
+          <div class="section-label">Attestation</div>
+          <div class="section-title">Every decision gets a proof-carrying record</div>
+          <div class="section-sub">
+            Desert Rule, iota Verbum’s credit schema, wraps each BNPL / alt-credit decision in a
+            structured context and returns a signed attestation with both constraint checks and
+            formation scores.
+          </div>
+        </div>
+        <div class="attestation">
+          <div class="attestation-badge">ALLOW · Hardship attended</div>
+<pre>{
+  "decision_id": "DR-2025-11-000384",
+  "domain": "credit.desert_rule",
+  "verdict": "allow",
+  "invariants": {
+    "fairness": "satisfied",
+    "risk_bounds": "satisfied",
+    "regulatory": "satisfied"
+  },
+  "lambda_assessment": {
+    "status": "HARDSHIP_RECOGNISED",
+    "notes": [
+      "Applicant flagged with temporary income shock.",
+      "Repayment terms adjusted within charter bounds."
+    ]
+  },
+  "participation_snapshot": {
+    "scores": {
+      "lament": 3,
+      "blessing": 2,
+      "repentance": 2,
+      "mission": 2,
+      "sanctification": 3
+    }
+  },
+  "reasons": [
+    "□ Fairness: no prohibited bias detected across protected attributes.",
+    "□ Risk: decision within approved portfolio tolerance.",
+    "◇ Hardship: discretionary adjustment permitted by charter for temporary shock.",
+    "Δ Formation: consistent with stated hardship policy and institution identity."
+  ],
+  "proof": "0x4f…9ac",
+  "issued_at": "2025-11-06T10:32:04Z"
+}</pre>
+        </div>
+      </section>
+
+      <!-- HOW IT WORKS -->
+      <section class="section" id="how-it-works">
+        <div class="section-header">
+          <div class="section-label">How it works</div>
+          <div class="section-title">Policy → Code → Proof → Formation in one grammar</div>
+          <div class="section-sub">
+            iota Verbum turns your values and constraints into an executable modal charter.
+            Each decision is checked at runtime, attested, and logged with a formation snapshot.
+          </div>
+        </div>
+
+        <div class="section-grid">
+          <div>
+            <h3 style="font-size:14px; margin:5px 0 6px;">1 · Charter – Express who you say you are</h3>
+            <p style="font-size:13px; color:#d1d5db; margin:0 0 6px;">
+              Work with risk, product, compliance and ethics teams to translate:
+            </p>
+            <ul class="section-list">
+              <li>values and mission statements,</li>
+              <li>hard constraints (regulation, credit policy),</li>
+              <li>and hardship / vulnerability rules</li>
+            </ul>
+            <p style="font-size:13px; color:#d1d5db; margin:4px 0 0;">
+              into a modal charter using:
+            </p>
+            <div class="pill-row">
+              <div class="pill">□ must – identity & hard rules</div>
+              <div class="pill">◇ may – permitted actions</div>
+              <div class="pill">Δ effect – outcomes you own</div>
+              <div class="pill">Λ lament – how you hold unresolved harm</div>
+            </div>
+            <div class="sub-card">
+              <strong>The charter becomes the spec</strong> that every BNPL / alt-credit decision
+              is checked against before it goes live.
+            </div>
+          </div>
+
+          <div>
+            <h3 style="font-size:14px; margin:5px 0 6px;">2 · Execution & attestation – Runtime theorem prover</h3>
+            <p style="font-size:13px; color:#d1d5db; margin:0 0 6px;">
+              Your existing credit models call the iota Verbum API with a
+              <code>DecisionContext</code>. The engine:
+            </p>
+            <ul class="section-list">
+              <li>evaluates the charter against that context,</li>
+              <li>runs hardship checks (Axiom Λ) and participation assessments (Λ/Β/Ρ/Μ/Σ),</li>
+              <li>produces a verdict plus a proof-carrying attestation payload.</li>
+            </ul>
+            <div class="sub-card">
+              Traditional AI governance monitors metrics after the fact.
+              <strong>iota Verbum runs as a runtime theorem prover</strong> for each decision and
+              emits a record that boards, auditors, and regulators can read.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- WHY FORMATION-FIRST -->
+      <section class="section" id="formation">
+        <div class="section-header">
+          <div class="section-label">Why formation-first</div>
+          <div class="section-title">Optimization asks “Did it work?” Formation asks “Who did this make us?”</div>
+          <div class="section-sub">
+            Most AI tooling optimizes for profit, accuracy, or risk-adjusted return. iota Verbum
+            adds a second-order question: over hundreds of decisions, what kind of institution
+            are you becoming?
+          </div>
+        </div>
+
+        <div class="columns-2">
+          <div>
+            <p style="font-size:13px; color:#d1d5db; margin:0 0 6px;">
+              The participation layer tracks five axes for each decision stream:
+            </p>
+            <ul class="section-list">
+              <li><strong>Lament (Λ)</strong> – do you recognise and attend to genuine hardship?</li>
+              <li><strong>Blessing (Β)</strong> – do you treat surplus as gift to steward, or entitlement to extract?</li>
+              <li><strong>Repentance (Ρ)</strong> – do you name and repair harm, or just manage PR?</li>
+              <li><strong>Mission (Μ)</strong> – are you serving real people and communities, or only metrics?</li>
+              <li><strong>Sanctification / Integrity (Σ)</strong> – do you remain principled under pressure?</li>
+            </ul>
+          </div>
+          <div>
+            <p style="font-size:13px; color:#d1d5db; margin:0 0 6px;">
+              Each attestation carries a <strong>participation snapshot</strong>, compressing these axes
+              to simple 0–3 scores for dashboards and reports, with deeper notes available for
+              internal review.
+            </p>
+            <div class="sub-card">
+              Over time, leadership can see not just whether a portfolio is performing, but whether
+              it is forming the institution toward or away from the identity it claims.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ORIGINS -->
+      <section class="section" id="origins">
+        <div class="section-header">
+          <div class="section-label">Origins</div>
+          <div class="section-title">Proven first on the hardest test case: Scripture</div>
+          <div class="section-sub">
+            Under the hood, iota Verbum’s logic began as computational theology – a way of reading
+            the Gospel of Mark as executable moral reasoning – before being applied to credit,
+            healthcare, and law.
+          </div>
+        </div>
+
+        <div class="columns-2">
+          <div>
+            <p style="font-size:13px; color:#d1d5db; margin:0 0 6px;">
+              The core modal grammar:
+            </p>
+            <div class="sub-card">
+              <strong>□L → ◇E L(t) → Δ → ⊗Λ</strong><br />
+              Necessary love (□L), enacted in time (◇E), bearing real effects (Δ), holding the gap
+              with authorised lament (⊗Λ).
+            </div>
+            <p style="font-size:13px; color:#d1d5db; margin:8px 0 0;">
+              This grammar was first stress-tested on the Gospel of Mark, encoding each pericope as
+              a λ-document with identity invariants, enacted episodes, and observed effects.
+            </p>
+          </div>
+          <div>
+            <p style="font-size:13px; color:#d1d5db; margin:0 0 6px;">
+              That same structure turns out to be exactly what institutions need if they want to
+              remain coherent with their stated values under economic and political pressure.
+            </p>
+            <p style="font-size:13px; color:#d1d5db; margin:0;">
+              You do not need to adopt the theology to benefit from the engine, but you gain an
+              alignment framework that has been argued over in a canonical context for centuries,
+              not just tuned on internet data.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ROADMAP -->
+      <section class="section" id="roadmap">
+        <div class="section-header">
+          <div class="section-label">Roadmap</div>
+          <div class="section-title">Credit today. Healthcare, education, and law tomorrow.</div>
+          <div class="section-sub">
+            The near-term focus is to prove the pattern in credit with real portfolios and real
+            regulators, while seminary pilots validate the formation layer where it matters most.
+          </div>
+        </div>
+
+        <div class="roadmap-grid">
+          <div class="roadmap-item">
+            <h4>Phase 1 · Credit (now)</h4>
+            <p>
+              <strong>Desert Rule</strong> – runtime verification for BNPL and alt-credit decisions.
+              Hardship-aware lending, regulatory defence, portfolio ethics, and formation dashboards
+              for boards and executives.
+            </p>
+          </div>
+          <div class="roadmap-item">
+            <h4>Phase 1b · Education (pilot)</h4>
+            <p>
+              Seminary and higher-education pilots that use the same engine around learning
+              environments, tracking how assessment and policy decisions shape formation, not just
+              throughput.
+            </p>
+          </div>
+          <div class="roadmap-item">
+            <h4>Phase 2 · Healthcare</h4>
+            <p>
+              <strong>Asclepius</strong> – treatment approvals and resource allocation.
+              Clinical-evidence constraints, equity rules, and formation metrics for institutions
+              that want to remain recognisably compassionate under pressure.
+            </p>
+          </div>
+          <div class="roadmap-item">
+            <h4>Phase 3 · Legal & Public</h4>
+            <p>
+              <strong>Themis</strong> – sentencing, bail, and benefits allocations on the same
+              logic. Transparent constraints, appeal-ready proofs, and public-facing trust signals.
+            </p>
+          </div>
+        </div>
+      </section>
+
+            <!-- WHITE PAPER -->
+      <section class="section" id="whitepaper">
+        <div class="section-header">
+          <div class="section-label">White paper</div>
+          <div class="section-title">Iota Verbum and the Modal Bible</div>
+          <div class="section-sub">
+            The full white paper explains how iota Verbum uses executable modal and
+            deontic logic as a single grammar for policy, code, and proof – and why
+            the first reference implementation of that grammar is Scripture encoded
+            as the “Modal Bible”.
+          </div>
+        </div>
+
+        <div class="columns-2">
+          <div>
+            <p style="font-size:13px; color:#d1d5db; margin:0 0 6px;">
+              <em>“Iota Verbum and the Modal Bible – Executable Scripture as a Trust
+              Substrate for Human and Machine Systems”</em> covers:
+            </p>
+            <ul class="section-list">
+              <li>Why value alignment needs formal verification, not just guidelines.</li>
+              <li>How modal charters close the loop: policy → code → proof.</li>
+              <li>The Modal Bible: Scripture encoded as executable moral logic.</li>
+              <li>Desert Rule and Sanctuary Rule as concrete domain schemas.</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="sub-card">
+              <strong>Who it’s for:</strong><br />
+              technical leaders, theologians, policymakers, and institutional
+              decision-makers who need AI governance that can explain itself – and
+              prove it.
+            </div>
+
+            <p style="font-size:13px; color:#d1d5db; margin:8px 0 6px;">
+              Download the PDF to see how the same grammar that maps Matthew,
+              Mark, and Luke into a coherent Synoptic manifold can also keep your
+              institution coherent with the story it claims to live by.
+            </p>
+
+            <a class="btn-secondary" href="/assets/iota-verbum-modal-bible-whitepaper.pdf">
+              Download the white paper (PDF)
+            </a>
+
+            <p style="font-size:12px; color:#6b7280; margin:6px 0 0;">
+              ~ 15–20 minute read • Designed for leaders, regulators, and researchers.
+            </p>
+
+            <p style="font-size:13px; color:#d1d5db; margin:16px 0 6px;">
+              More Iota Verbum papers:
+            </p>
+            <ul class="section-list">
+              <li>
+                <a href="/assets/iota-verbum-whitepaper.pdf">
+                  Synoptic λ-Coherence: A Modal Bible Approach to the Synoptic Problem
+                </a>
+              </li>
+              <li>
+                <a href="/assets/analogical-impassibility-ai-ethics-matthew-neal-iota-verbum.pdf">
+                  Analogical Impassibility: Divine Suffering as Moral Architecture for AI
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="section" id="about">
+        <div class="section-header">
+          <div class="section-label">About</div>
+          <div class="section-title">Who is building this?</div>
+          <div class="section-sub">
+            Right now, iota Verbum is being built by one person with help from mentors, theologians,
+            and engineers – on purpose, slowly, to keep formation ahead of hype.
+          </div>
+        </div>
+
+        <div class="about">
+          <div>
+            <p style="font-size:13px; color:#d1d5db; margin:0 0 6px;">
+              I’m Matthew Neal, a theology student and engineer in Cape Town. For the past few years
+              I’ve been working at the intersection of biblical studies, modal logic, and AI
+              governance – trying to build tools that make it possible for institutions to prove
+              they act according to the identity they claim.
+            </p>
+            <p style="font-size:13px; color:#d1d5db; margin:0;">
+              iota Verbum started as a computational theology project: encoding the Gospel of Mark
+              as executable moral logic and exploring what it might mean for God’s unchanging love
+              to be enacted in time without distortion. It has grown into a trust layer that can sit
+              around credit and other high-stakes decisions, keeping formation, not just
+              optimization, at the centre.
+            </p>
+          </div>
+          <div>
+            <div class="sub-card">
+              <strong>Not a lab. Not a hype shop.</strong><br />
+              iota Verbum is being built one feature and one conversation at a time, with a bias
+              toward depth over scale and formation over speed. If this resonates with the kind of
+              institution you’re trying to lead, you’re the right kind of early partner.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="section" id="contact">
+        <div class="section-header">
+          <div class="section-label">Contact</div>
+          <div class="section-title">Get in touch</div>
+          <div class="section-sub">
+            For credit demos, seminary pilots, or research conversations, reach out by email.
+          </div>
+        </div>
+        <p style="font-size:13px; color:#d1d5db; margin:0 0 4px;">
+          Email: <a href="mailto:iv@thedailycovenant.com">iv@thedailycovenant.com</a>
+        </p>
+        <p style="font-size:12px; color:#6b7280; margin:0;">
+          Please include a few lines about your context (sector, role, and what you’re hoping to
+          explore) so the first conversation can be as concrete as possible.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <span>© <span id="year"></span> iota Verbum · Formation-first trust infrastructure for institutions</span>
+      <span>Hosted at <a href="https://www.thedailycovenant.com/">thedailycovenant.com</a></span>
+    </footer>
+  </div>
+
+  <script>
+    // simple current year for footer
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+```

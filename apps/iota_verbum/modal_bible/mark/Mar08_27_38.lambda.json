@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Mark λ-files; safe to hand-edit after generation.",
+    "book": "Mark",
+    "passage_id": "Mar08_27_38",
+    "version": "Mar08_27_38_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mar08_27_38",
+  "book": "Mark",
+  "chapter": 8,
+  "verses": "27-38",
+  "title": "Mark 8:27–38 – Peter’s Confession and Call to Take Up the Cross",
+  "interpretive_frames": [
+    "Christology",
+    "Suffering",
+    "Discipleship"
+  ],
+  "identity_invariants": [
+    "[]ChristMustSufferAndFollowersMustTakeUpCrossToGainTrueLife(Jesus, Disciples)"
+  ],
+  "units": [
+    {
+      "id": "Mar08_27_38_u1",
+      "label": "Who Do You Say That I Am?",
+      "verses": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "illocution": "ConfessionAndTeaching",
+      "agents": [
+        "Jesus",
+        "Disciples",
+        "Peter",
+        "Crowd"
+      ],
+      "statements": [
+        {
+          "id": "Mar08_27_38_s1",
+          "type": "summary",
+          "description": "Peter confesses Jesus as the Christ; Jesus predicts his suffering and death and calls disciples to deny themselves and take up their cross.",
+          "lambda_iv": [
+            "[]ChristMustSufferAndFollowersMustTakeUpCrossToGainTrueLife(Jesus, Disciples)",
+            "EFF(PursuitOfWorldlyGainJeopardisesEternalLife(Disciples))"
+          ]
+        }
+      ]
+    }
+  ]
+}

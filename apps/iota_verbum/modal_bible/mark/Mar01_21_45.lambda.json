@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Mark λ-files; safe to hand-edit after generation.",
+    "book": "Mark",
+    "passage_id": "Mar01_21_45",
+    "version": "Mar01_21_45_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mar01_21_45",
+  "book": "Mark",
+  "chapter": 1,
+  "verses": "21-45",
+  "title": "Mark 1:21–45 – Authority in Capernaum and Cleansing a Leper",
+  "interpretive_frames": [
+    "Authority",
+    "Exorcism",
+    "Healing",
+    "Purity"
+  ],
+  "identity_invariants": [
+    "[]JesusWordHasAuthorityOverDemonsAndDiseaseAndCanCleanseImpurity(Jesus, UncleanSpirits, Sick)"
+  ],
+  "units": [
+    {
+      "id": "Mar01_21_45_u1",
+      "label": "Teaching with Authority",
+      "verses": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "illocution": "MiracleCluster",
+      "agents": [
+        "Jesus",
+        "UncleanSpirit",
+        "SynagogueCrowd",
+        "SimonsHousehold",
+        "Leper"
+      ],
+      "statements": [
+        {
+          "id": "Mar01_21_45_s1",
+          "type": "summary",
+          "description": "Jesus teaches with authority, casts out an unclean spirit, heals many including Simons mother-in-law, and cleanses a leper with a touch and a word.",
+          "lambda_iv": [
+            "[]JesusWordHasAuthorityOverDemonsAndDiseaseAndCanCleanseImpurity(Jesus, UncleanSpirits, Sick)",
+            "EFF(AuthorityOverImpuritySignalsInbreakingOfGodsReign(Jesus))"
+          ]
+        }
+      ]
+    }
+  ]
+}

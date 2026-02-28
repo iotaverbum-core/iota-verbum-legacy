@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Luke λ-files; safe to hand-edit after generation.",
+    "book": "Luke",
+    "passage_id": "Luk01_05_25",
+    "version": "Luk01_05_25_Lambda_IV_v0.1"
+  },
+  "passage_id": "Luk01_05_25",
+  "book": "Luke",
+  "chapter": 1,
+  "verses": "5-25",
+  "title": "Luke 1:5–25 – Birth of John Foretold",
+  "interpretive_frames": [
+    "Temple",
+    "BirthAnnouncement",
+    "Preparation"
+  ],
+  "identity_invariants": [
+    "[]JohnIsPropheticForerunnerPreparingWayForTheLord(John, Lord)"
+  ],
+  "units": [
+    {
+      "id": "Luk01_05_25_u1",
+      "label": "Forerunner Promised in Barrenness",
+      "verses": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "illocution": "TheophanyAnnouncement",
+      "agents": [
+        "Zechariah",
+        "Elizabeth",
+        "Gabriel",
+        "John",
+        "Lord"
+      ],
+      "statements": [
+        {
+          "id": "Luk01_05_25_s1",
+          "type": "summary",
+          "description": "In the temple an angel promises a son to barren Elizabeth; John will be great before the Lord and prepared as forerunner, while Zechariah is struck mute for unbelief.",
+          "lambda_iv": [
+            "[]JohnIsPropheticForerunnerPreparingWayForTheLord(John, Lord)",
+            "EFF(TempleAnnouncementInBarrennessSignalsMercyAndNewExodus(Lord, Israel))"
+          ]
+        }
+      ]
+    }
+  ]
+}

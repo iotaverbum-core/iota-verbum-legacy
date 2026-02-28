@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Matthew λ-files; safe to hand-edit after generation.",
+    "book": "Matthew",
+    "passage_id": "Mat08_28_34",
+    "version": "Mat08_28_34_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mat08_28_34",
+  "book": "Matthew",
+  "chapter": 8,
+  "verses": "28-34",
+  "title": "Matthew 8:28–34 – Gadarene Demoniacs Delivered",
+  "interpretive_frames": [
+    "Exorcism",
+    "SpiritualWarfare",
+    "Liberation"
+  ],
+  "identity_invariants": [
+    "[]JesusSubduesDemonicPowersAndLiberatesTheOppressed(Jesus, Demons, Oppressed)"
+  ],
+  "units": [
+    {
+      "id": "Mat08_28_34_u1",
+      "label": "My Name Is Legion",
+      "verses": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "illocution": "SignNarrative",
+      "agents": [
+        "Jesus",
+        "Demoniacs",
+        "Demons",
+        "Herdsmen",
+        "Townspeople"
+      ],
+      "statements": [
+        {
+          "id": "Mat08_28_34_s1",
+          "type": "summary",
+          "description": "Jesus drives out a legion of demons, freeing the possessed men while the town begs him to leave.",
+          "lambda_iv": [
+            "[]JesusSubduesDemonicPowersAndLiberatesTheOppressed(Jesus, Demons, Oppressed)",
+            "EFF(CityConfrontedWithHolyDisruption(Townspeople, Jesus))"
+          ]
+        }
+      ]
+    }
+  ]
+}

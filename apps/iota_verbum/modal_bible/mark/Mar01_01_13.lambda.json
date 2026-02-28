@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Mark λ-files; safe to hand-edit after generation.",
+    "book": "Mark",
+    "passage_id": "Mar01_01_13",
+    "version": "Mar01_01_13_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mar01_01_13",
+  "book": "Mark",
+  "chapter": 1,
+  "verses": "1-13",
+  "title": "Mark 1:1–13 – Prologue, John, and Baptism/Testing of Jesus",
+  "interpretive_frames": [
+    "GospelBeginning",
+    "PropheticForerunner",
+    "Baptism",
+    "Testing"
+  ],
+  "identity_invariants": [
+    "[]JesusIsSpiritAnointedSonWhoPassesWildernessTesting(Jesus, Spirit, Father)"
+  ],
+  "units": [
+    {
+      "id": "Mar01_01_13_u1",
+      "label": "Beginning of the Gospel",
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "illocution": "ProgrammaticPrologue",
+      "agents": [
+        "Jesus",
+        "JohnTheBaptist",
+        "Spirit",
+        "Father",
+        "Satan"
+      ],
+      "statements": [
+        {
+          "id": "Mar01_01_13_s1",
+          "type": "summary",
+          "description": "Mark announces the beginning of the gospel, presents John as forerunner, and shows Jesus baptised, declared beloved Son, and driven into the wilderness to be tested.",
+          "lambda_iv": [
+            "[]JesusIsSpiritAnointedSonWhoPassesWildernessTesting(Jesus, Spirit, Father)",
+            "EFF(PropheticForerunnerAndWildernessTestingFrameEntireGospel(Jesus, JohnTheBaptist))"
+          ]
+        }
+      ]
+    }
+  ]
+}

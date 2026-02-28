@@ -1,0 +1,43 @@
+{
+  "schema": "iv.modal.json.v1",
+  "passage": "John 14",
+  "source": {
+    "translation": "ESV"
+  },
+  "meta": {
+    "compiled_from": "cne.v1",
+    "compiled_at": "2026-02-13T14:23:56"
+  },
+  "nodes": [
+    {
+      "id": "n1",
+      "type": "scene",
+      "ref": "14:1-14",
+      "label": "Comfort → Way/Truth/Life → seeing Father"
+    },
+    {
+      "id": "n2",
+      "type": "scene",
+      "ref": "14:15-31",
+      "label": "Spirit promised → not orphans → home-with-us → peace"
+    }
+  ],
+  "edges": [
+    {
+      "from": "n1",
+      "to": "n2",
+      "type": "SEQ"
+    }
+  ],
+  "hinges": [
+    {
+      "id": "h1",
+      "refs": [
+        "John 14"
+      ],
+      "identity_□": "Jesus is the way to the Father and the revealer of the Father.",
+      "enactment_◇": "He promises return, the Spirit, and indwelling presence; he gives peace.",
+      "effect_Δ": "Disciples are steadied: not abandoned but inhabited and taught by the Spirit."
+    }
+  ]
+}

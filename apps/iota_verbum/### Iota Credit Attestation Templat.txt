@@ -1,0 +1,18 @@
+### Iota Credit Attestation Template (v1)
+
+Every credit decision that passes through iota Verbum – DesertRule produces a single **attestation**: a structured “moral receipt” for that decision.
+
+The official format for this attestation is defined in:
+
+`schemas/credit_attestation.schema.json`
+
+and is referred to as **`iota_credit_attestation_v1`**.
+
+Top-level fields are fixed and must not be changed:
+
+`attestation_id`, `iota_engine`, `decision_context`, `subject`, `request`,
+`policy_suite`, `tests`, `model_trace`, `decision`, `human_review`,
+`iota_signature`, `extensions`.
+
+Other services may add extra data **only** under the `extensions` object.  
+This keeps all iota-compatible tools speaking the same language and makes every attestation easy to trust, compare, and audit over time.

@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Luke λ-files; safe to hand-edit after generation.",
+    "book": "Luke",
+    "passage_id": "Luk04_01_13",
+    "version": "Luk04_01_13_Lambda_IV_v0.1"
+  },
+  "passage_id": "Luk04_01_13",
+  "book": "Luke",
+  "chapter": 4,
+  "verses": "1-13",
+  "title": "Luke 4:1–13 – Spirit-Led Testing of the Son",
+  "interpretive_frames": [
+    "Testing",
+    "Scripture",
+    "Sonship"
+  ],
+  "identity_invariants": [
+    "[]SpiritLedSonRemainsFaithfulUnderTemptationByTrustingScripture(Jesus, Spirit, Scripture)"
+  ],
+  "units": [
+    {
+      "id": "Luk04_01_13_u1",
+      "label": "If You Are the Son of God",
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "illocution": "Narration",
+      "agents": [
+        "Jesus",
+        "Devil",
+        "Spirit"
+      ],
+      "statements": [
+        {
+          "id": "Luk04_01_13_s1",
+          "type": "summary",
+          "description": "Full of the Spirit, Jesus is led into the wilderness and resists the devil’s temptations, wielding Scripture as he proves faithful Sonship.",
+          "lambda_iv": [
+            "[]SpiritLedSonRemainsFaithfulUnderTemptationByTrustingScripture(Jesus, Spirit, Scripture)",
+            "EFF(ObedientSonReversesAdamsAndIsraelsFailuresInTesting(Jesus, Adam, Israel))"
+          ]
+        }
+      ]
+    }
+  ]
+}

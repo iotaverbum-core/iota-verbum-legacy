@@ -1,0 +1,32 @@
+name: tests
+
+on:
+  push:
+    paths:
+      - "iota_verbum/**"
+      - "tests/**"
+      - "pytest.ini"
+      - "requirements.txt"
+      - ".github/workflows/tests.yml"
+  pull_request:
+    paths:
+      - "iota_verbum/**"
+      - "tests/**"
+      - "pytest.ini"
+      - "requirements.txt"
+      - ".github/workflows/tests.yml"
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python -m pip install --upgrade pip pytest pytest-cov
+      - run: python -m pytest -q --cov=iota_verbum --cov-report=term-missing:skip-covered --cov-report=xml
+      - uses: actions/upload-artifact@v4
+        with:
+          name: coverage-xml
+          path: coverage.xml

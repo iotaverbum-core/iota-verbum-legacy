@@ -1,0 +1,31 @@
+name: core-consumption
+
+on:
+  push:
+    paths:
+      - "apps/iota_verbum/**"
+      - ".github/workflows/core-consumption.yml"
+  pull_request:
+    paths:
+      - "apps/iota_verbum/**"
+      - ".github/workflows/core-consumption.yml"
+
+jobs:
+  integration:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: apps/iota_verbum
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python -m venv .venv-ci
+      - run: .venv-ci/bin/python -m pip install --upgrade pip setuptools wheel pytest
+      - run: grep -n "iota-verbum-core @ git+https://github.com/iotaverbum-core/iota-verbum-core.git@v0.1.0-core-canonical" requirements.txt
+      - run: .venv-ci/bin/python -m pip install -r requirements.txt
+      - run: .venv-ci/bin/python -m pip install --no-deps .
+      - run: .venv-ci/bin/python -m pip show iota-verbum-core
+      - run: .venv-ci/bin/python -m pip freeze
+      - run: .venv-ci/bin/pytest -q -s tests/test_iv_cli.py tests/test_core_consumption_integration.py

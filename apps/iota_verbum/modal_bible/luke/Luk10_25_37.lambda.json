@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Luke λ-files; safe to hand-edit after generation.",
+    "book": "Luke",
+    "passage_id": "Luk10_25_37",
+    "version": "Luk10_25_37_Lambda_IV_v0.1"
+  },
+  "passage_id": "Luk10_25_37",
+  "book": "Luke",
+  "chapter": 10,
+  "verses": "25-37",
+  "title": "Luke 10:25–37 – Parable of the Good Samaritan",
+  "interpretive_frames": [
+    "Law",
+    "NeighbourLove",
+    "Mercy"
+  ],
+  "identity_invariants": [
+    "[]TrueNeighbourLoveActsMercifullyEvenAcrossHostileBoundaries(Disciple, Neighbour)"
+  ],
+  "units": [
+    {
+      "id": "Luk10_25_37_u1",
+      "label": "Go and Do Likewise",
+      "verses": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "illocution": "Parable",
+      "agents": [
+        "Jesus",
+        "Lawyer",
+        "Priest",
+        "Levite",
+        "Samaritan",
+        "WoundedMan"
+      ],
+      "statements": [
+        {
+          "id": "Luk10_25_37_s1",
+          "type": "summary",
+          "description": "In response to a question about neighbours, Jesus tells of a Samaritan who shows costly mercy where religious figures pass by.",
+          "lambda_iv": [
+            "[]TrueNeighbourLoveActsMercifullyEvenAcrossHostileBoundaries(Disciple, Neighbour)",
+            "EFF(AttemptToLimitNeighbourRevealsSelfJustifyingHeart(Lawyer))"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Luke λ-files; safe to hand-edit after generation.",
+    "book": "Luke",
+    "passage_id": "Luk15_01_32",
+    "version": "Luk15_01_32_Lambda_IV_v0.1"
+  },
+  "passage_id": "Luk15_01_32",
+  "book": "Luke",
+  "chapter": 15,
+  "verses": "1-32",
+  "title": "Luke 15:1–32 – Lost Sheep, Coin, and Sons",
+  "interpretive_frames": [
+    "LostAndFound",
+    "Joy",
+    "SelfRighteousness"
+  ],
+  "identity_invariants": [
+    "[]FatherAndHeavenRejoiceOverRepentantSinnersWhileSelfRighteousHeartsResentGrace(Father, Sinners, Pharisees)"
+  ],
+  "units": [
+    {
+      "id": "Luk15_01_32_u1",
+      "label": "Rejoicing Over the Found",
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "illocution": "Parables",
+      "agents": [
+        "Jesus",
+        "TaxCollectorsAndSinners",
+        "PhariseesAndScribes",
+        "Father",
+        "OlderBrother",
+        "YoungerSon"
+      ],
+      "statements": [
+        {
+          "id": "Luk15_01_32_s1",
+          "type": "summary",
+          "description": "Jesus tells three parables of lost and found to reveal heaven’s joy over repentant sinners and expose Pharisaic resentment of grace.",
+          "lambda_iv": [
+            "[]FatherAndHeavenRejoiceOverRepentantSinnersWhileSelfRighteousHeartsResentGrace(Father, Sinners, Pharisees)",
+            "EFF(ParticipationInFathersJoyRequiresSharingHisHeartForTheLost(Disciples))"
+          ]
+        }
+      ]
+    }
+  ]
+}

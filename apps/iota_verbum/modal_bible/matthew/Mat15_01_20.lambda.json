@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Matthew λ-files; safe to hand-edit after generation.",
+    "book": "Matthew",
+    "passage_id": "Mat15_01_20",
+    "version": "Mat15_01_20_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mat15_01_20",
+  "book": "Matthew",
+  "chapter": 15,
+  "verses": "1-20",
+  "title": "Matthew 15:1–20 – Tradition, Defilement, and the Heart",
+  "interpretive_frames": [
+    "Purity",
+    "Tradition",
+    "Heart"
+  ],
+  "identity_invariants": [
+    "[]TrueDefilementFlowsFromHeartNotFromRitualFood(Law, Heart)"
+  ],
+  "units": [
+    {
+      "id": "Mat15_01_20_u1",
+      "label": "This People Honours Me with Their Lips",
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "illocution": "Controversy",
+      "agents": [
+        "Jesus",
+        "Pharisees",
+        "Scribes",
+        "Crowds",
+        "Disciples"
+      ],
+      "statements": [
+        {
+          "id": "Mat15_01_20_s1",
+          "type": "summary",
+          "description": "Jesus exposes the emptiness of human tradition and redefines defilement as flowing from the heart.",
+          "lambda_iv": [
+            "[]TrueDefilementFlowsFromHeartNotFromRitualFood(Law, Heart)",
+            "!<>ElevateHumanTraditionsOverGodsCommand(Teachers)"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,503 @@
+{
+  "ref": "John 6",
+  "translation": "ESV",
+  "nodes": [
+    {
+      "id": "n1",
+      "kind": "identity",
+      "lemma": "identity",
+      "text": "□ Jesus is the bread from heaven who gives life; the Father draws and teaches; the Spirit gives life and Jesus’ words are spirit and life.",
+      "span": "c1",
+      "confidence": 0.85
+    },
+    {
+      "id": "n2",
+      "kind": "enactment",
+      "lemma": "enactment",
+      "text": "◇ Jesus feeds the crowd, refuses a forced kingship, comes to his disciples in the storm, and teaches that coming and believing in him is the true work.",
+      "span": "c2",
+      "confidence": 0.82
+    },
+    {
+      "id": "n3",
+      "kind": "effect",
+      "lemma": "effect",
+      "text": "Δ The sign divides: some seek him for bread, some grumble at heaven-language, many disciples turn back, and the Twelve are pressed to choose—Peter confesses staying while Judas remains a named, unresolved threat.",
+      "span": "c3",
+      "confidence": 0.84
+    },
+    {
+      "id": "n4",
+      "kind": "enactment",
+      "lemma": "cross",
+      "text": "J.cross (Sea_of_Galilee)  (6:1-2)",
+      "span": "c4",
+      "confidence": 0.76
+    },
+    {
+      "id": "n5",
+      "kind": "enactment",
+      "lemma": "follow",
+      "text": "C.follow (because_signs_on_sick)  (6:1-2)",
+      "span": "c5",
+      "confidence": 0.76
+    },
+    {
+      "id": "n6",
+      "kind": "enactment",
+      "lemma": "go_up",
+      "text": "J.go_up (mountain_and_sit)  (6:3-5)",
+      "span": "c6",
+      "confidence": 0.76
+    },
+    {
+      "id": "n7",
+      "kind": "enactment",
+      "lemma": "ask",
+      "text": "J.ask (P:where_buy_bread?)  (6:5-7)",
+      "span": "c7",
+      "confidence": 0.76
+    },
+    {
+      "id": "n8",
+      "kind": "enactment",
+      "lemma": "answer",
+      "text": "P.answer (two_hundred_denarii_not_enough)  (6:7)",
+      "span": "c8",
+      "confidence": 0.76
+    },
+    {
+      "id": "n9",
+      "kind": "enactment",
+      "lemma": "note",
+      "text": "A.note (B:five_barley_loaves_two_fish (scarcity))  (6:8-9)",
+      "span": "c9",
+      "confidence": 0.76
+    },
+    {
+      "id": "n10",
+      "kind": "enactment",
+      "lemma": "command",
+      "text": "J.command (make_people_sit (much_grass))  (6:10-11)",
+      "span": "c10",
+      "confidence": 0.76
+    },
+    {
+      "id": "n11",
+      "kind": "enactment",
+      "lemma": "give_thanks_and_distribute",
+      "text": "J.give_thanks_and_distribute (loaves_and_fish_to_seated)  (6:11)",
+      "span": "c11",
+      "confidence": 0.76
+    },
+    {
+      "id": "n12",
+      "kind": "effect",
+      "lemma": "eat",
+      "text": "C.eat (and_be_satisfied)  (6:12-13)",
+      "span": "c12",
+      "confidence": 0.76
+    },
+    {
+      "id": "n13",
+      "kind": "effect",
+      "lemma": "gather",
+      "text": "D.gather (fragments_fill_twelve_baskets)  (6:12-13)",
+      "span": "c13",
+      "confidence": 0.76
+    },
+    {
+      "id": "n14",
+      "kind": "identity",
+      "lemma": "identify",
+      "text": "C.identify (Jesus_as_Prophet_and_intend_make_king_by_force)  (6:14-15)",
+      "span": "c14",
+      "confidence": 0.76
+    },
+    {
+      "id": "n15",
+      "kind": "enactment",
+      "lemma": "withdraw",
+      "text": "J.withdraw (to_mountain_alone)  (6:15)",
+      "span": "c15",
+      "confidence": 0.76
+    },
+    {
+      "id": "n16",
+      "kind": "enactment",
+      "lemma": "embark",
+      "text": "D.embark (boat_to_Capernaum_at_night;_sea_rough) [night]  (6:16-18)",
+      "span": "c16",
+      "confidence": 0.76
+    },
+    {
+      "id": "n17",
+      "kind": "enactment",
+      "lemma": "walk",
+      "text": "J.walk (on_sea_approach_boat)  (6:19)",
+      "span": "c17",
+      "confidence": 0.76
+    },
+    {
+      "id": "n18",
+      "kind": "effect",
+      "lemma": "fear",
+      "text": "D.fear (at_Jesus_approaching_on_sea)  (6:19)",
+      "span": "c18",
+      "confidence": 0.76
+    },
+    {
+      "id": "n19",
+      "kind": "identity",
+      "lemma": "reveal",
+      "text": "J.reveal (It_is_I_(I_am);_do_not_be_afraid)  (6:20-21)",
+      "span": "c19",
+      "confidence": 0.76
+    },
+    {
+      "id": "n20",
+      "kind": "enactment",
+      "lemma": "receive",
+      "text": "D.receive (Jesus_into_boat)  (6:21)",
+      "span": "c20",
+      "confidence": 0.76
+    },
+    {
+      "id": "n21",
+      "kind": "effect",
+      "lemma": "arrive",
+      "text": "D.arrive (immediately_at_land_destination)  (6:21)",
+      "span": "c21",
+      "confidence": 0.76
+    },
+    {
+      "id": "n22",
+      "kind": "identity",
+      "lemma": "declare",
+      "text": "J.declare (you_seek_because_ate;_work_for_enduring_food;_Son_of_Man_gives;_Father_seals)  (6:26-27)",
+      "span": "c22",
+      "confidence": 0.76
+    },
+    {
+      "id": "n23",
+      "kind": "identity",
+      "lemma": "declare",
+      "text": "J.declare (work_of_God_is_believe_in_him_whom_he_sent)  (6:29)",
+      "span": "c23",
+      "confidence": 0.76
+    },
+    {
+      "id": "n24",
+      "kind": "identity",
+      "lemma": "declare",
+      "text": "J.declare (Father_gives_true_bread;_bread_of_God_gives_life_to_world)  (6:32-33)",
+      "span": "c24",
+      "confidence": 0.76
+    },
+    {
+      "id": "n25",
+      "kind": "identity",
+      "lemma": "declare",
+      "text": "J.declare (I_am_bread_of_life;_come/believe→no_hunger/no_thirst)  (6:35)",
+      "span": "c25",
+      "confidence": 0.76
+    },
+    {
+      "id": "n26",
+      "kind": "identity",
+      "lemma": "declare",
+      "text": "J.declare (all_Father_gives_will_come;_not_cast_out;_came_down_to_do_Father_will;_raise_on_last_day)  (6:37-40)",
+      "span": "c26",
+      "confidence": 0.76
+    },
+    {
+      "id": "n27",
+      "kind": "effect",
+      "lemma": "murmur",
+      "text": "C.murmur (how_can_he_say_came_down_from_heaven?)  (6:41-42)",
+      "span": "c27",
+      "confidence": 0.76
+    },
+    {
+      "id": "n28",
+      "kind": "identity",
+      "lemma": "declare",
+      "text": "J.declare (no_one_comes_unless_Father_draws;_taught_by_God;_I_am_bread;_manna_died)  (6:43-50)",
+      "span": "c28",
+      "confidence": 0.76
+    },
+    {
+      "id": "n29",
+      "kind": "identity",
+      "lemma": "declare",
+      "text": "J.declare (bread_I_give_is_my_flesh_for_life_of_world)  (6:51)",
+      "span": "c29",
+      "confidence": 0.76
+    },
+    {
+      "id": "n30",
+      "kind": "identity",
+      "lemma": "declare",
+      "text": "J.declare (eat/drink→life;_abide_in_me_and_I_in_him)  (6:52-56)",
+      "span": "c30",
+      "confidence": 0.76
+    },
+    {
+      "id": "n31",
+      "kind": "effect",
+      "lemma": "stumble",
+      "text": "D.stumble (hard_saying_and_grumbling)  (6:60-61)",
+      "span": "c31",
+      "confidence": 0.76
+    },
+    {
+      "id": "n32",
+      "kind": "identity",
+      "lemma": "declare",
+      "text": "J.declare (Spirit_gives_life;_words_are_spirit_and_life;_some_do_not_believe;_come_only_if_granted)  (6:63-65)",
+      "span": "c32",
+      "confidence": 0.76
+    },
+    {
+      "id": "n33",
+      "kind": "effect",
+      "lemma": "turn_back",
+      "text": "D.turn_back (no_longer_walk_with_him)  (6:66)",
+      "span": "c33",
+      "confidence": 0.76
+    },
+    {
+      "id": "n34",
+      "kind": "identity",
+      "lemma": "confess",
+      "text": "S.confess (you_have_words_of_eternal_life;_Holy_One_of_God)  (6:68-69)",
+      "span": "c34",
+      "confidence": 0.76
+    },
+    {
+      "id": "n35",
+      "kind": "identity",
+      "lemma": "declare",
+      "text": "J.declare (I_chose_you_twelve;_one_is_a_devil)  (6:70-71)",
+      "span": "c35",
+      "confidence": 0.76
+    },
+    {
+      "id": "n36",
+      "kind": "identity",
+      "lemma": "identify",
+      "text": "N.identify (Judas_(one_of_twelve)_would_betray)  (6:71)",
+      "span": "c36",
+      "confidence": 0.76
+    }
+  ],
+  "edges": [
+    {
+      "from": "n1",
+      "to": "n2",
+      "relation": "grounds",
+      "confidence": 0.82
+    },
+    {
+      "from": "n2",
+      "to": "n3",
+      "relation": "produces",
+      "confidence": 0.8
+    },
+    {
+      "from": "n17",
+      "to": "n18",
+      "relation": "coheres",
+      "confidence": 0.68
+    },
+    {
+      "from": "n4",
+      "to": "n5",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n5",
+      "to": "n6",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n6",
+      "to": "n7",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n7",
+      "to": "n8",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n8",
+      "to": "n9",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n9",
+      "to": "n10",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n10",
+      "to": "n11",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n11",
+      "to": "n12",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n12",
+      "to": "n13",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n13",
+      "to": "n14",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n14",
+      "to": "n15",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n15",
+      "to": "n16",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n16",
+      "to": "n17",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n17",
+      "to": "n18",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n18",
+      "to": "n19",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n19",
+      "to": "n20",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n20",
+      "to": "n21",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n24",
+      "to": "n25",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n25",
+      "to": "n26",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n26",
+      "to": "n27",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n27",
+      "to": "n28",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n28",
+      "to": "n29",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n29",
+      "to": "n30",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n30",
+      "to": "n31",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n31",
+      "to": "n32",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n32",
+      "to": "n33",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n34",
+      "to": "n35",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n35",
+      "to": "n36",
+      "relation": "implies",
+      "confidence": 0.7
+    }
+  ],
+  "hinges": [
+    {
+      "id": "h1",
+      "refs": [
+        "John 6"
+      ],
+      "identity_□": "Jesus is the bread from heaven who gives life; the Spirit gives life and Jesus' words are spirit and life.",
+      "enactment_◇": "Jesus feeds the crowd, refuses forced kingship, comes to his disciples in the storm, and teaches coming and believing as the true work.",
+      "effect_Δ": "The sign divides: some seek bread, many grumble and turn back, while the Twelve are pressed to choose and Peter confesses staying."
+    }
+  ],
+  "creed": {
+    "status": "pass",
+    "notes": []
+  },
+  "watermark": "2fa2c9812aea10f8",
+  "meta": {
+    "postprocessed_at": "2026-02-13T08:29:47.367986Z",
+    "confidence": 0.9,
+    "source": "cne_compile_v1"
+  }
+}

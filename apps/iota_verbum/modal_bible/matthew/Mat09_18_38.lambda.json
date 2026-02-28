@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Matthew λ-files; safe to hand-edit after generation.",
+    "book": "Matthew",
+    "passage_id": "Mat09_18_38",
+    "version": "Mat09_18_38_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mat09_18_38",
+  "book": "Matthew",
+  "chapter": 9,
+  "verses": "18-38",
+  "title": "Matthew 9:18–38 – Healings, Compassion, and the Harvest",
+  "interpretive_frames": [
+    "Healing",
+    "Compassion",
+    "Mission"
+  ],
+  "identity_invariants": [
+    "[]JesussCompassionForHarassedAndHelplessCrowdsDrivesMission(Jesus, Crowds)"
+  ],
+  "units": [
+    {
+      "id": "Mat09_18_38_u1",
+      "label": "Harassed and Helpless",
+      "verses": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "illocution": "NarrationAndExhortation",
+      "agents": [
+        "Jesus",
+        "Crowds",
+        "SynagogueLeader",
+        "Woman",
+        "BlindMen",
+        "MuteMan",
+        "Disciples"
+      ],
+      "statements": [
+        {
+          "id": "Mat09_18_38_s1",
+          "type": "summary",
+          "description": "Jesus heals many and is moved with compassion for the harassed and helpless, urging prayer for workers.",
+          "lambda_iv": [
+            "[]JesussCompassionForHarassedAndHelplessCrowdsDrivesMission(Jesus, Crowds)",
+            "<>PrayEarnestlyForLabourers(Disciples, Harvest)"
+          ]
+        }
+      ]
+    }
+  ]
+}

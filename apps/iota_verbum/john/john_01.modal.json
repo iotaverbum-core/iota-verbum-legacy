@@ -1,0 +1,368 @@
+{
+  "ref": "John 1:1-51",
+  "translation": "ESV",
+  "nodes": [
+    {
+      "id": "n1",
+      "kind": "identity",
+      "lemma": "identity",
+      "text": "□ The Word is God-with-God, source of life and light; the Son makes the Father known; Jesus is identified as the Lamb and Son upon whom the Spirit remains.",
+      "span": "c1",
+      "confidence": 0.85
+    },
+    {
+      "id": "n2",
+      "kind": "enactment",
+      "lemma": "enactment",
+      "text": "◇ The Word comes into the world and becomes flesh, dwelling among us; John testifies; Jesus turns, asks, invites, calls, and names as people follow and come near.",
+      "span": "c2",
+      "confidence": 0.82
+    },
+    {
+      "id": "n3",
+      "kind": "effect",
+      "lemma": "effect",
+      "text": "Δ Darkness does not overcome the light; those who receive are given new birth; the first disciples stay, confess, and are promised an opened heaven centered on the Son of Man.",
+      "span": "c3",
+      "confidence": 0.84
+    },
+    {
+      "id": "n4",
+      "kind": "identity",
+      "lemma": "be_with",
+      "text": "W.be_with (God)  (1:1)",
+      "span": "c4",
+      "confidence": 0.76
+    },
+    {
+      "id": "n5",
+      "kind": "identity",
+      "lemma": "be",
+      "text": "W.be (God)  (1:1)",
+      "span": "c5",
+      "confidence": 0.76
+    },
+    {
+      "id": "n6",
+      "kind": "enactment",
+      "lemma": "make",
+      "text": "W.make (all_things)  (1:3)",
+      "span": "c6",
+      "confidence": 0.76
+    },
+    {
+      "id": "n7",
+      "kind": "enactment",
+      "lemma": "shine",
+      "text": "W.shine (light_in_darkness)  (1:4-5)",
+      "span": "c7",
+      "confidence": 0.76
+    },
+    {
+      "id": "n8",
+      "kind": "effect",
+      "lemma": "not_overcome",
+      "text": "C.not_overcome (light)  (1:5)",
+      "span": "c8",
+      "confidence": 0.76
+    },
+    {
+      "id": "n9",
+      "kind": "enactment",
+      "lemma": "be_sent",
+      "text": "J.be_sent (from_God)  (1:6)",
+      "span": "c9",
+      "confidence": 0.76
+    },
+    {
+      "id": "n10",
+      "kind": "enactment",
+      "lemma": "testify",
+      "text": "J.testify (about_light)  (1:7)",
+      "span": "c10",
+      "confidence": 0.76
+    },
+    {
+      "id": "n11",
+      "kind": "enactment",
+      "lemma": "come",
+      "text": "W.come (into_world/unto_his_own)  (1:9-11)",
+      "span": "c11",
+      "confidence": 0.76
+    },
+    {
+      "id": "n12",
+      "kind": "effect",
+      "lemma": "not_know_or_receive",
+      "text": "C.not_know_or_receive (W)  (1:10-11)",
+      "span": "c12",
+      "confidence": 0.76
+    },
+    {
+      "id": "n13",
+      "kind": "effect",
+      "lemma": "give",
+      "text": "W.give (authority_to_become_children_of_God)  (1:12-13)",
+      "span": "c13",
+      "confidence": 0.76
+    },
+    {
+      "id": "n14",
+      "kind": "identity",
+      "lemma": "become",
+      "text": "W.become (flesh)  (1:14)",
+      "span": "c14",
+      "confidence": 0.76
+    },
+    {
+      "id": "n15",
+      "kind": "enactment",
+      "lemma": "dwell",
+      "text": "W.dwell (among_us) [tabernacle]  (1:14)",
+      "span": "c15",
+      "confidence": 0.76
+    },
+    {
+      "id": "n16",
+      "kind": "effect",
+      "lemma": "behold",
+      "text": "H.behold (glory_of_only_Son)  (1:14)",
+      "span": "c16",
+      "confidence": 0.76
+    },
+    {
+      "id": "n17",
+      "kind": "identity",
+      "lemma": "reveal",
+      "text": "G.reveal (the_Father)  (1:18)",
+      "span": "c17",
+      "confidence": 0.76
+    },
+    {
+      "id": "n18",
+      "kind": "enactment",
+      "lemma": "ask",
+      "text": "L.ask (Who_are_you?)  (1:19)",
+      "span": "c18",
+      "confidence": 0.76
+    },
+    {
+      "id": "n19",
+      "kind": "identity",
+      "lemma": "declare",
+      "text": "J.declare (not_Christ/not_Elijah/not_Prophet;_voice_in_wilderness)  (1:20-23)",
+      "span": "c19",
+      "confidence": 0.76
+    },
+    {
+      "id": "n20",
+      "kind": "enactment",
+      "lemma": "baptize",
+      "text": "J.baptize (with_water)  (1:26-27)",
+      "span": "c20",
+      "confidence": 0.76
+    },
+    {
+      "id": "n21",
+      "kind": "enactment",
+      "lemma": "say",
+      "text": "J.say (among_you_stands_one_you_do_not_know)  (1:26)",
+      "span": "c21",
+      "confidence": 0.76
+    },
+    {
+      "id": "n22",
+      "kind": "identity",
+      "lemma": "identify",
+      "text": "J.identify (Jesus_as_Lamb_of_God)  (1:29)",
+      "span": "c22",
+      "confidence": 0.76
+    },
+    {
+      "id": "n23",
+      "kind": "effect",
+      "lemma": "take_away",
+      "text": "G.take_away (sin_of_world)  (1:29)",
+      "span": "c23",
+      "confidence": 0.76
+    },
+    {
+      "id": "n24",
+      "kind": "effect",
+      "lemma": "see",
+      "text": "H.see (Spirit_descend_and_remain_on_Jesus)  (1:32-33)",
+      "span": "c24",
+      "confidence": 0.76
+    },
+    {
+      "id": "n25",
+      "kind": "effect",
+      "lemma": "baptize",
+      "text": "G.baptize (with_Holy_Spirit)  (1:33)",
+      "span": "c25",
+      "confidence": 0.76
+    },
+    {
+      "id": "n26",
+      "kind": "identity",
+      "lemma": "testify",
+      "text": "J.testify (Jesus_is_Son_of_God)  (1:34)",
+      "span": "c26",
+      "confidence": 0.76
+    },
+    {
+      "id": "n27",
+      "kind": "enactment",
+      "lemma": "follow",
+      "text": "D.follow (Jesus)  (1:37)",
+      "span": "c27",
+      "confidence": 0.76
+    },
+    {
+      "id": "n28",
+      "kind": "enactment",
+      "lemma": "ask",
+      "text": "G.ask (What_are_you_seeking?)  (1:38)",
+      "span": "c28",
+      "confidence": 0.76
+    },
+    {
+      "id": "n29",
+      "kind": "enactment",
+      "lemma": "ask",
+      "text": "D.ask (Where_are_you_staying?)  (1:38)",
+      "span": "c29",
+      "confidence": 0.76
+    },
+    {
+      "id": "n30",
+      "kind": "effect",
+      "lemma": "stay",
+      "text": "D.stay (with_Jesus_about_tenth_hour)  (1:39)",
+      "span": "c30",
+      "confidence": 0.76
+    },
+    {
+      "id": "n31",
+      "kind": "identity",
+      "lemma": "name",
+      "text": "G.name (Cephas_(Peter))  (1:42)",
+      "span": "c31",
+      "confidence": 0.76
+    },
+    {
+      "id": "n32",
+      "kind": "identity",
+      "lemma": "identify",
+      "text": "P.identify (Jesus_as_one_written_in_Law_and_Prophets)  (1:45)",
+      "span": "c32",
+      "confidence": 0.76
+    },
+    {
+      "id": "n33",
+      "kind": "effect",
+      "lemma": "confess",
+      "text": "N.confess (Rabbi_Son_of_God_King_of_Israel)  (1:49)",
+      "span": "c33",
+      "confidence": 0.76
+    },
+    {
+      "id": "n34",
+      "kind": "effect",
+      "lemma": "promise",
+      "text": "G.promise (heaven_opened_angels_ascending_descending_on_Son_of_Man)  (1:51)",
+      "span": "c34",
+      "confidence": 0.76
+    }
+  ],
+  "edges": [
+    {
+      "from": "n1",
+      "to": "n2",
+      "relation": "grounds",
+      "confidence": 0.82
+    },
+    {
+      "from": "n2",
+      "to": "n3",
+      "relation": "produces",
+      "confidence": 0.8
+    },
+    {
+      "from": "n7",
+      "to": "n8",
+      "relation": "coheres",
+      "confidence": 0.68
+    },
+    {
+      "from": "n11",
+      "to": "n12",
+      "relation": "coheres",
+      "confidence": 0.68
+    },
+    {
+      "from": "n9",
+      "to": "n10",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n10",
+      "to": "n22",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n18",
+      "to": "n19",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n19",
+      "to": "n20",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n22",
+      "to": "n23",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n22",
+      "to": "n26",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n27",
+      "to": "n28",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n28",
+      "to": "n29",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n33",
+      "to": "n34",
+      "relation": "implies",
+      "confidence": 0.7
+    }
+  ],
+  "creed": {
+    "status": "pass",
+    "notes": []
+  },
+  "watermark": "3e626abba7a6a803",
+  "meta": {
+    "postprocessed_at": "2026-02-13T07:30:16.985602Z",
+    "confidence": 0.9,
+    "source": "cne_compile_v1"
+  }
+}

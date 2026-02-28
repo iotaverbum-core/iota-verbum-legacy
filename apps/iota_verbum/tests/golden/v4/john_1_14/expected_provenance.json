@@ -1,0 +1,16 @@
+{
+  "card_sha256": "f72c0c2d63bb05671a2a312b85e3f5396a87a2e5a61ecef9f571a8084352385c",
+  "generator_sha256": "569d2603ddfe2a92e869a4e577178754d4b5bb91b5ea468a0d6b57b8a7bb6869",
+  "inputs": {
+    "moment": "I feel tired after a long week, but I'm trying to show up for my family.",
+    "passage_ref": "John 1:14",
+    "textfile": "data/scripture/sample_john_1_14.txt"
+  },
+  "method": "heuristic_v4",
+  "normalized_text_sha256": "c12c0bb664e29393897ba3e101459987182fa4918f9bb3c1ea3cbff2fe38f1f4",
+  "passage_text_sha256": "c12c0bb664e29393897ba3e101459987182fa4918f9bb3c1ea3cbff2fe38f1f4",
+  "review_md_generated": false,
+  "review_mode": "none",
+  "template_path": "data/templates/witness_cards/v4/john_1_14.json",
+  "version": "v4"
+}

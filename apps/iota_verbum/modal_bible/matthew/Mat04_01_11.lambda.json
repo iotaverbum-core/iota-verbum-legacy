@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Matthew λ-files; safe to hand-edit after generation.",
+    "book": "Matthew",
+    "passage_id": "Mat04_01_11",
+    "version": "Mat04_01_11_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mat04_01_11",
+  "book": "Matthew",
+  "chapter": 4,
+  "verses": "1-11",
+  "title": "Matthew 4:1–11 – Temptation in the Wilderness",
+  "interpretive_frames": [
+    "Testing",
+    "Obedience",
+    "Scripture"
+  ],
+  "identity_invariants": [
+    "[]JesusObeysWhereAdamAndIsraelFailed(Jesus, Adam, Israel)"
+  ],
+  "units": [
+    {
+      "id": "Mat04_01_11_u1",
+      "label": "Son Tested and Proven Faithful",
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "illocution": "Narration",
+      "agents": [
+        "Jesus",
+        "Devil",
+        "Spirit"
+      ],
+      "statements": [
+        {
+          "id": "Mat04_01_11_s1",
+          "type": "summary",
+          "description": "Led by the Spirit, Jesus resists Satan's temptations by clinging to Scripture, succeeding where Adam and Israel failed.",
+          "lambda_iv": [
+            "[]JesusObeysWhereAdamAndIsraelFailed(Jesus, Adam, Israel)",
+            "<>UsesScriptureAsWeaponOfObedience(Jesus, Scripture)"
+          ]
+        }
+      ]
+    }
+  ]
+}

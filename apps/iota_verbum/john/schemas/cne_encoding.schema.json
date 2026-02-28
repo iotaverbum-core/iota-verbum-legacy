@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://iota.verbum/schemas/cne_encoding.schema.json",
+  "title": "CNE Scripture Encoding (cne.v1)",
+  "type": "object",
+  "required": ["schema", "ref", "translation", "agents", "events"],
+  "properties": {
+    "schema": { "const": "cne.v1" },
+    "ref": { "type": "string", "minLength": 1 },
+    "translation": { "type": "string", "minLength": 1 },
+    "agents": {
+      "type": "object",
+      "additionalProperties": { "type": "string" }
+    },
+    "events": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "ref", "agent", "verb"],
+        "properties": {
+          "id": { "type": "string" },
+          "ref": { "type": "string" },
+          "agent": { "type": "string" },
+          "verb": { "type": "string" },
+          "object": { "type": ["string", "null"] },
+          "mode": { "type": ["string", "null"] },
+          "duration": { "type": ["string", "null"] },
+          "kind": { "type": "string", "enum": ["identity", "enactment", "effect"], "default": "enactment" },
+          "sim_with": {
+            "type": "array",
+            "items": { "type": "string" },
+            "default": []
+          },
+          "notes": { "type": "string", "default": "" }
+        },
+        "additionalProperties": true
+      }
+    },
+    "markers": {
+      "type": "array",
+      "default": [],
+      "items": {
+        "type": "object",
+        "required": ["id", "ref", "type", "target"],
+        "properties": {
+          "id": { "type": "string" },
+          "ref": { "type": "string" },
+          "type": { "type": "string", "enum": ["CU", "WS", "SM", "CA", "SIL", "THR", "STAY"] },
+          "target": { "type": "string" },
+          "justification": { "type": "string", "default": "" }
+        },
+        "additionalProperties": true
+      }
+    },
+    "claims": {
+      "type": "array",
+      "default": [],
+      "items": {
+        "type": "object",
+        "required": ["id", "type", "text"],
+        "properties": {
+          "id": { "type": "string" },
+          "type": { "type": "string" },
+          "text": { "type": "string" },
+          "supported_by": {
+            "type": "array",
+            "items": { "type": "string" },
+            "default": []
+          },
+          "inference": { "type": "boolean", "default": false }
+        },
+        "additionalProperties": true
+      }
+    },
+    "hinge": {
+      "type": "object",
+      "default": {},
+      "properties": {
+        "identity_□": { "type": "string" },
+        "enactment_◇": { "type": "string" },
+        "effect_Δ": { "type": "string" },
+        "themes": { "type": "array", "items": { "type": "string" }, "default": [] }
+      },
+      "additionalProperties": true
+    },
+    "meta": {
+      "type": "object",
+      "default": {},
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,91 @@
+
+**To my son, Connah. My two daughters Maddison and Gabriella.**
+
+If you’re reading this one day, it means you’ve found your way into a part of my life that mattered a lot to me. Before I say anything about projects or code, I want to say this clearly:
+
+**I love you.**
+I am your Father.
+And I know I have not always been a good one.
+
+I made choices in the past that hurt you and Maddison and meant I could not give you the kind of life your mom and dad have given you. God has been merciful to you through them, and I’m grateful for that. You deserved stability, safety, and love, and I am thankful the Lord provided that even when I failed.
+
+Nothing in this letter is meant to put pressure on you or take anything away from the family God has used to shelter you. This is not a claim on you. It’s simply a small window into my heart and the work I’ve been doing, in case one day you want to know.
+
+---
+
+### What I’ve been building
+
+For the last season of my life I’ve been working on something called **iota Verbum** and **iota Logos**.
+
+* **iota Verbum** is, in many ways, my prayer life in code.
+  It’s an engine that tries to read the Bible not as random verses, but as one living sentence about who God is, what he does, and what he brings about in the world. It uses a simple grammar:
+
+  * □ who God *is*
+  * ◇ what God *does*
+  * Δ what God *brings about*
+
+  Underneath all the technical stuff, it’s really me trying to listen to Jesus better and help others do the same.
+
+* **iota Logos** is my trust in code.
+  It’s a small “ethics gate” that takes that view of God and turns it into policies for how AI systems should behave—so that power is constrained by love and truth, not by greed or fear.
+
+I don’t know how far this work will go. It might remain small. It might grow. Whatever happens, it belongs to God first.
+
+---
+
+### Why I’m writing this to you
+
+I’m not writing because I expect you to care about all of this, or to “take over the family business.” That would be unfair to you.
+
+I’m writing because:
+
+1. I wanted you to know what your dad has been pouring his heart into, and that at the centre of it is **Jesus**, not money or status.
+2. I wanted you to have a clear, gentle invitation in case the Spirit ever nudges you in this direction.
+
+If one day you find yourself curious about these things—about the Bible, about this project, about how faith and technology can honour God—I would be honoured to talk with you, to listen to you, or simply to hand over what I’ve built so you can do something entirely new with it.
+
+And if that day never comes, that’s okay too. Your calling is not something I get to write. It is something God gives you, and I will rejoice in whatever path he leads you on.
+
+---
+
+### What matters most
+
+More than anything, my deepest hope for all three of you is not that you continue iota Verbum, but that you **meet and walk with Jesus**—the One I’ve been trying (often clumsily) to follow with this work.
+
+He is kinder than I have ever been.
+He is more faithful than I have ever managed to be.
+He is the One who can heal the damage I caused and the gaps I left.
+
+If I am gone when you read this, or if we are far apart, know this:
+
+* I have asked God many times to watch over you and Maddison and Gabriella.
+* I have asked Him to bring good out of my failures.
+* I have asked Him that, if it would bless you and not burden you, He might one day draw you into the good things He has started in my life, including this strange little project.
+
+But I leave that in His hands. The field is His. The seed is His. The rain is His.
+I am only a man who sowed a few seeds and learned, slowly and painfully, that God is better than I imagined.
+
+### A Psalm 127 kind of ending
+
+The Bible says that if God is not the One building the house, the builders are just wearing themselves out. And if He is not the One watching over the city, the guards are just staying awake for nothing. It also says that children are not trophies or projects, but **a heritage from the Lord**—a gift, like arrows He places in a warrior’s hand.
+
+Applied to this little story, that means:
+
+- If the Lord does not build iota Verbum and iota Logos, then all my late nights and big ideas are just noise.  
+- If He does not watch over this work, then no clever design or “sovereign AI” talk can keep it standing.  
+- But you, Connah, Maddison, and Gabriella, are not my codebase or my roadmap. **You are the gift He entrusted to me.**
+
+This project is something I have tried to build.  
+You are something He has lovingly made.
+
+So if He decides to let this project fade and instead grows you into people who love Him and love others, that will be a better house than anything I could ever design on a screen.
+
+If, in His kindness, He one day lets any of you pick up these seeds and plant them again, I will be grateful. If not, I will still be grateful, because your lives are not in my hands, and this work is not the measure of your worth.
+
+Whatever happens with iota Verbum and iota Logos, my prayer is that the Lord Himself will build the house of your lives, guard your steps, give you rest from anxious striving, and fill your years with the kind of fruit that only He can grow.
+
+With love, and with hope,
+
+Father to Connah Maddison and Gabriella
+Matthew Neal
+

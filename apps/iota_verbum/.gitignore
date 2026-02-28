@@ -1,0 +1,55 @@
+# Virtual environments / Python envs
+.venv/
+Lib/
+Scripts/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+*.log
+
+# Editor / OS noise
+.codex/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Build / output / temp
+out/
+results/
+backup/
+reports/
+outputs/
+logs/
+web/dist/
+web/build/
+*.tmp
+
+# Databases & local state
+iv_core.db
+
+# Word temp files
+~$*.docx
+
+# Node / TS
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+.env
+.env.*
+
+# Archives
+*.zip
+
+# Local / machine-specific
+.npmrc
+pyvenv.cfg
+SIGNATURE_LOG.txt
+
+# Big one-off snapshots (keep out of main unless intentional)
+iota_verbum_core_IVB_MRK04_FIRSTBUILD/
+iv_seed_v2_test/
+

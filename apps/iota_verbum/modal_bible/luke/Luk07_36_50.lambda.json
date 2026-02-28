@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Luke λ-files; safe to hand-edit after generation.",
+    "book": "Luke",
+    "passage_id": "Luk07_36_50",
+    "version": "Luk07_36_50_Lambda_IV_v0.1"
+  },
+  "passage_id": "Luk07_36_50",
+  "book": "Luke",
+  "chapter": 7,
+  "verses": "36-50",
+  "title": "Luke 7:36–50 – Forgiven Woman and the Debt Parable",
+  "interpretive_frames": [
+    "Forgiveness",
+    "Hospitality",
+    "Love"
+  ],
+  "identity_invariants": [
+    "[]GreaterAwarenessOfForgivenessProducesDeeperLoveForJesus(ForgivenSinners, Jesus)"
+  ],
+  "units": [
+    {
+      "id": "Luk07_36_50_u1",
+      "label": "Her Many Sins Are Forgiven",
+      "verses": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "illocution": "TableSceneAndParable",
+      "agents": [
+        "Jesus",
+        "PhariseeHost",
+        "SinfulWoman",
+        "Guests"
+      ],
+      "statements": [
+        {
+          "id": "Luk07_36_50_s1",
+          "type": "summary",
+          "description": "A sinful woman loves much at Jesus feet while a Pharisee withholds hospitality; Jesus explains that those forgiven much love much.",
+          "lambda_iv": [
+            "[]GreaterAwarenessOfForgivenessProducesDeeperLoveForJesus(ForgivenSinners, Jesus)",
+            "EFF(SelfRighteousnessBlindsToNeedForMercy(PhariseeHost))"
+          ]
+        }
+      ]
+    }
+  ]
+}

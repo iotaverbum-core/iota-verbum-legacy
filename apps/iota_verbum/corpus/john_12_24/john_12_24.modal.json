@@ -1,0 +1,34 @@
+{
+  "ref": "John 12:24",
+  "translation": "KJV",
+  "nodes": [
+    {
+      "id": "n1",
+      "kind": "enactment",
+      "lemma": "die",
+      "text": ", Except a corn of wheat fall into the ground and die",
+      "span": "c4",
+      "confidence": 0.75
+    },
+    {
+      "id": "n2",
+      "kind": "enactment",
+      "lemma": "die",
+      "text": ": but if it die",
+      "span": "c6",
+      "confidence": 0.75
+    }
+  ],
+  "edges": [],
+  "creed": {
+    "status": "warn",
+    "notes": [
+      "one or more modal kinds missing"
+    ]
+  },
+  "watermark": "f9dc042e28406160",
+  "meta": {
+    "postprocessed_at": "2025-10-30T11:39:17.350796Z",
+    "confidence": 0.6
+  }
+}

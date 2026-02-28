@@ -1,0 +1,757 @@
+{
+  "schema": "cne.v1",
+  "ref": "John 8",
+  "translation": "ESV",
+  "agents": {
+    "G": "Jesus",
+    "H": "Religious leaders (Pharisees/others)",
+    "W": "Woman caught in adultery",
+    "D": "Disciples",
+    "C": "Crowd"
+  },
+  "events": [
+    {
+      "id": "e1",
+      "ref": "7:53-8:2",
+      "agent": "G",
+      "verb": "go",
+      "object": "Mount_of_Olives"
+    },
+    {
+      "id": "e2",
+      "ref": "8:1-2",
+      "agent": "G",
+      "verb": "come",
+      "object": "temple",
+      "mode": "early_morning"
+    },
+    {
+      "id": "e3",
+      "ref": "8:2",
+      "agent": "C",
+      "verb": "gather",
+      "object": "around_Jesus"
+    },
+    {
+      "id": "e4",
+      "ref": "8:2",
+      "agent": "G",
+      "verb": "sit",
+      "object": "to_teach"
+    },
+    {
+      "id": "e5",
+      "ref": "8:3-4",
+      "agent": "H",
+      "verb": "bring",
+      "object": "W",
+      "mode": "public_display"
+    },
+    {
+      "id": "e6",
+      "ref": "8:4-6",
+      "agent": "H",
+      "verb": "accuse",
+      "object": "W",
+      "mode": "testing_trap"
+    },
+    {
+      "id": "e7",
+      "ref": "8:6",
+      "agent": "G",
+      "verb": "stoop",
+      "object": "write_on_ground",
+      "mode": "silence"
+    },
+    {
+      "id": "e8",
+      "ref": "8:7",
+      "agent": "H",
+      "verb": "persist",
+      "object": "question"
+    },
+    {
+      "id": "e9",
+      "ref": "8:7",
+      "agent": "G",
+      "verb": "speak",
+      "object": "Let him without sin cast first stone",
+      "mode": "counter_judgment"
+    },
+    {
+      "id": "e10",
+      "ref": "8:8",
+      "agent": "G",
+      "verb": "stoop",
+      "object": "write_on_ground",
+      "mode": "silence"
+    },
+    {
+      "id": "e11",
+      "ref": "8:9",
+      "agent": "H",
+      "verb": "depart",
+      "object": "one_by_one",
+      "mode": "convicted"
+    },
+    {
+      "id": "e12",
+      "ref": "8:10-11",
+      "agent": "G",
+      "verb": "ask",
+      "object": "Where are they? Has no one condemned you?"
+    },
+    {
+      "id": "e13",
+      "ref": "8:11",
+      "agent": "W",
+      "verb": "answer",
+      "object": "No one, Lord"
+    },
+    {
+      "id": "e14",
+      "ref": "8:11",
+      "agent": "G",
+      "verb": "speak",
+      "object": "Neither do I condemn you; go, and from now on sin no more",
+      "mode": "send"
+    },
+    {
+      "id": "e15",
+      "ref": "8:12",
+      "agent": "G",
+      "verb": "declare",
+      "object": "I am the light of the world",
+      "mode": "revelation"
+    },
+    {
+      "id": "e16",
+      "ref": "8:13",
+      "agent": "H",
+      "verb": "challenge",
+      "object": "Your testimony is not true",
+      "mode": "courtroom"
+    },
+    {
+      "id": "e17",
+      "ref": "8:14",
+      "agent": "G",
+      "verb": "respond",
+      "object": "I know where I came from and where I am going",
+      "mode": "origin_dest"
+    },
+    {
+      "id": "e18",
+      "ref": "8:15-16",
+      "agent": "G",
+      "verb": "judge",
+      "object": "not_by_flesh",
+      "mode": "clarify"
+    },
+    {
+      "id": "e19",
+      "ref": "8:16",
+      "agent": "G",
+      "verb": "assert",
+      "object": "My judgment is true; I am not alone but I and the Father who sent me",
+      "mode": "Father_witness"
+    },
+    {
+      "id": "e20",
+      "ref": "8:18",
+      "agent": "G",
+      "verb": "testify",
+      "object": "I am one who bears witness; the Father bears witness",
+      "mode": "two_witness"
+    },
+    {
+      "id": "e21",
+      "ref": "8:19",
+      "agent": "H",
+      "verb": "ask",
+      "object": "Where is your Father?",
+      "mode": "blindness"
+    },
+    {
+      "id": "e22",
+      "ref": "8:19",
+      "agent": "G",
+      "verb": "answer",
+      "object": "You know neither me nor my Father",
+      "mode": "exposure"
+    },
+    {
+      "id": "e23",
+      "ref": "8:20",
+      "agent": "C",
+      "verb": "note",
+      "object": "No one arrested him; his hour had not yet come"
+    },
+    {
+      "id": "e24",
+      "ref": "8:21-22",
+      "agent": "G",
+      "verb": "warn",
+      "object": "I am going away; you will die in your sin",
+      "mode": "departure"
+    },
+    {
+      "id": "e25",
+      "ref": "8:23-24",
+      "agent": "G",
+      "verb": "contrast",
+      "object": "I am from above; unless you believe that I am, you will die in your sins",
+      "mode": "above_below"
+    },
+    {
+      "id": "e26",
+      "ref": "8:25",
+      "agent": "H",
+      "verb": "ask",
+      "object": "Who are you?",
+      "mode": "identity_probe"
+    },
+    {
+      "id": "e27",
+      "ref": "8:25-26",
+      "agent": "G",
+      "verb": "answer",
+      "object": "Just what I have been telling you; I speak what I have heard from him who sent me",
+      "mode": "mission"
+    },
+    {
+      "id": "e28",
+      "ref": "8:27",
+      "agent": "C",
+      "verb": "note",
+      "object": "They did not understand he spoke of the Father"
+    },
+    {
+      "id": "e29",
+      "ref": "8:28",
+      "agent": "G",
+      "verb": "predict",
+      "object": "When you lift up the Son of Man, then you will know that I am he",
+      "mode": "lifted_up"
+    },
+    {
+      "id": "e30",
+      "ref": "8:29",
+      "agent": "G",
+      "verb": "assert",
+      "object": "He who sent me is with me; I always do what pleases him",
+      "mode": "withness"
+    },
+    {
+      "id": "e31",
+      "ref": "8:30",
+      "agent": "C",
+      "verb": "believe",
+      "object": "many_believed"
+    },
+    {
+      "id": "e32",
+      "ref": "8:31",
+      "agent": "G",
+      "verb": "address",
+      "object": "If you abide in my word, you are truly my disciples",
+      "mode": "abide"
+    },
+    {
+      "id": "e33",
+      "ref": "8:32",
+      "agent": "G",
+      "verb": "promise",
+      "object": "You will know the truth, and the truth will set you free",
+      "mode": "freedom"
+    },
+    {
+      "id": "e34",
+      "ref": "8:33",
+      "agent": "H",
+      "verb": "object",
+      "object": "We are offspring of Abraham and never enslaved",
+      "mode": "denial"
+    },
+    {
+      "id": "e35",
+      "ref": "8:34-36",
+      "agent": "G",
+      "verb": "reframe",
+      "object": "Everyone who sins is slave; the Son sets free indeed",
+      "mode": "son_freedom"
+    },
+    {
+      "id": "e36",
+      "ref": "8:37-38",
+      "agent": "G",
+      "verb": "expose",
+      "object": "You seek to kill me because my word finds no place in you",
+      "mode": "murder_intent"
+    },
+    {
+      "id": "e37",
+      "ref": "8:39-41",
+      "agent": "H",
+      "verb": "claim",
+      "object": "Abraham is our father; we were not born of sexual immorality",
+      "mode": "lineage"
+    },
+    {
+      "id": "e38",
+      "ref": "8:41-42",
+      "agent": "G",
+      "verb": "reply",
+      "object": "If God were your Father, you would love me; I came from God",
+      "mode": "paternity"
+    },
+    {
+      "id": "e39",
+      "ref": "8:43-44",
+      "agent": "G",
+      "verb": "diagnose",
+      "object": "You are of your father the devil; he is murderer and liar",
+      "mode": "hard_word"
+    },
+    {
+      "id": "e40",
+      "ref": "8:45-47",
+      "agent": "G",
+      "verb": "conclude",
+      "object": "Whoever is of God hears; you do not because not of God",
+      "mode": "hearing"
+    },
+    {
+      "id": "e41",
+      "ref": "8:48",
+      "agent": "H",
+      "verb": "insult",
+      "object": "You are a Samaritan and have a demon",
+      "mode": "slander"
+    },
+    {
+      "id": "e42",
+      "ref": "8:49-51",
+      "agent": "G",
+      "verb": "deny",
+      "object": "I do not have a demon; whoever keeps my word will never see death",
+      "mode": "life_promise"
+    },
+    {
+      "id": "e43",
+      "ref": "8:52-53",
+      "agent": "H",
+      "verb": "mock",
+      "object": "Are you greater than Abraham?",
+      "mode": "status"
+    },
+    {
+      "id": "e44",
+      "ref": "8:54-56",
+      "agent": "G",
+      "verb": "answer",
+      "object": "My Father glorifies me; Abraham rejoiced to see my day",
+      "mode": "glory"
+    },
+    {
+      "id": "e45",
+      "ref": "8:57",
+      "agent": "H",
+      "verb": "object",
+      "object": "You are not yet fifty",
+      "mode": "age"
+    },
+    {
+      "id": "e46",
+      "ref": "8:58",
+      "agent": "G",
+      "verb": "declare",
+      "object": "Before Abraham was, I am",
+      "mode": "I_AM"
+    },
+    {
+      "id": "e47",
+      "ref": "8:59",
+      "agent": "H",
+      "verb": "attempt",
+      "object": "stone_Jesus"
+    },
+    {
+      "id": "e48",
+      "ref": "8:59",
+      "agent": "G",
+      "verb": "hide",
+      "object": "leave_temple",
+      "mode": "withdrawal"
+    }
+  ],
+  "links": [
+    {
+      "op": "SEQ",
+      "from": "e1",
+      "to": "e2"
+    },
+    {
+      "op": "SEQ",
+      "from": "e2",
+      "to": "e3"
+    },
+    {
+      "op": "SEQ",
+      "from": "e3",
+      "to": "e4"
+    },
+    {
+      "op": "SEQ",
+      "from": "e4",
+      "to": "e5"
+    },
+    {
+      "op": "SEQ",
+      "from": "e5",
+      "to": "e6"
+    },
+    {
+      "op": "SEQ",
+      "from": "e6",
+      "to": "e7"
+    },
+    {
+      "op": "SEQ",
+      "from": "e7",
+      "to": "e8"
+    },
+    {
+      "op": "SEQ",
+      "from": "e8",
+      "to": "e9"
+    },
+    {
+      "op": "SEQ",
+      "from": "e9",
+      "to": "e10"
+    },
+    {
+      "op": "SEQ",
+      "from": "e10",
+      "to": "e11"
+    },
+    {
+      "op": "SEQ",
+      "from": "e11",
+      "to": "e12"
+    },
+    {
+      "op": "SEQ",
+      "from": "e12",
+      "to": "e13"
+    },
+    {
+      "op": "SEQ",
+      "from": "e13",
+      "to": "e14"
+    },
+    {
+      "op": "SEQ",
+      "from": "e14",
+      "to": "e15"
+    },
+    {
+      "op": "SEQ",
+      "from": "e15",
+      "to": "e16"
+    },
+    {
+      "op": "SEQ",
+      "from": "e16",
+      "to": "e17"
+    },
+    {
+      "op": "SEQ",
+      "from": "e17",
+      "to": "e18"
+    },
+    {
+      "op": "SEQ",
+      "from": "e18",
+      "to": "e19"
+    },
+    {
+      "op": "SEQ",
+      "from": "e19",
+      "to": "e20"
+    },
+    {
+      "op": "SEQ",
+      "from": "e20",
+      "to": "e21"
+    },
+    {
+      "op": "SEQ",
+      "from": "e21",
+      "to": "e22"
+    },
+    {
+      "op": "SEQ",
+      "from": "e22",
+      "to": "e23"
+    },
+    {
+      "op": "SEQ",
+      "from": "e23",
+      "to": "e24"
+    },
+    {
+      "op": "SEQ",
+      "from": "e24",
+      "to": "e25"
+    },
+    {
+      "op": "SEQ",
+      "from": "e25",
+      "to": "e26"
+    },
+    {
+      "op": "SEQ",
+      "from": "e26",
+      "to": "e27"
+    },
+    {
+      "op": "SEQ",
+      "from": "e27",
+      "to": "e28"
+    },
+    {
+      "op": "SEQ",
+      "from": "e28",
+      "to": "e29"
+    },
+    {
+      "op": "SEQ",
+      "from": "e29",
+      "to": "e30"
+    },
+    {
+      "op": "SEQ",
+      "from": "e30",
+      "to": "e31"
+    },
+    {
+      "op": "SEQ",
+      "from": "e31",
+      "to": "e32"
+    },
+    {
+      "op": "SEQ",
+      "from": "e32",
+      "to": "e33"
+    },
+    {
+      "op": "SEQ",
+      "from": "e33",
+      "to": "e34"
+    },
+    {
+      "op": "SEQ",
+      "from": "e34",
+      "to": "e35"
+    },
+    {
+      "op": "SEQ",
+      "from": "e35",
+      "to": "e36"
+    },
+    {
+      "op": "SEQ",
+      "from": "e36",
+      "to": "e37"
+    },
+    {
+      "op": "SEQ",
+      "from": "e37",
+      "to": "e38"
+    },
+    {
+      "op": "SEQ",
+      "from": "e38",
+      "to": "e39"
+    },
+    {
+      "op": "SEQ",
+      "from": "e39",
+      "to": "e40"
+    },
+    {
+      "op": "SEQ",
+      "from": "e40",
+      "to": "e41"
+    },
+    {
+      "op": "SEQ",
+      "from": "e41",
+      "to": "e42"
+    },
+    {
+      "op": "SEQ",
+      "from": "e42",
+      "to": "e43"
+    },
+    {
+      "op": "SEQ",
+      "from": "e43",
+      "to": "e44"
+    },
+    {
+      "op": "SEQ",
+      "from": "e44",
+      "to": "e45"
+    },
+    {
+      "op": "SEQ",
+      "from": "e45",
+      "to": "e46"
+    },
+    {
+      "op": "SEQ",
+      "from": "e46",
+      "to": "e47"
+    },
+    {
+      "op": "SEQ",
+      "from": "e47",
+      "to": "e48"
+    },
+    {
+      "op": "SIM",
+      "events": [
+        "e6",
+        "e7"
+      ]
+    },
+    {
+      "op": "SIM",
+      "events": [
+        "e10",
+        "e11"
+      ]
+    }
+  ],
+  "markers": [
+    {
+      "id": "m1",
+      "ref": "8:3-9",
+      "type": "CU",
+      "target": "stone_in_hand / trap",
+      "justification": "The accusation is staged publicly; the narrative centers the test."
+    },
+    {
+      "id": "m2",
+      "ref": "8:6,8",
+      "type": "SIL",
+      "target": "Jesus_writes",
+      "justification": "Jesus withholds immediate verbal defense; writing interrupts the trap."
+    },
+    {
+      "id": "m3",
+      "ref": "8:9",
+      "type": "SM",
+      "target": "one_by_one_departure",
+      "justification": "Departure is narrated in sequence, slowing the moment of exposure."
+    },
+    {
+      "id": "m4",
+      "ref": "8:12",
+      "type": "CU",
+      "target": "I_am_light",
+      "justification": "John foregrounds the self-declaration as a new scene hinge."
+    },
+    {
+      "id": "m5",
+      "ref": "8:20,59",
+      "type": "THR",
+      "target": "arrest/stoning_boundary",
+      "justification": "Hostility rises, yet Jesus is not seized; later they attempt to stone; he passes out."
+    },
+    {
+      "id": "m6",
+      "ref": "8:31-36",
+      "type": "STAY",
+      "target": "abide_word_freedom",
+      "justification": "Discipleship is framed as remaining in Jesus' word; freedom is defined against slavery to sin."
+    },
+    {
+      "id": "m7",
+      "ref": "8:58",
+      "type": "CU",
+      "target": "I_AM",
+      "justification": "The climactic claim 'I am' provokes immediate violent response."
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "type": "hinge_candidate",
+      "text": "Jesus refuses the crowd's punitive script: he absorbs the trap in silence, exposes universal guilt, and then speaks mercy with a sending that names sin without ending the person.",
+      "supported_by": [
+        "e5",
+        "e6",
+        "e7",
+        "e9",
+        "e14",
+        "m2",
+        "m3"
+      ],
+      "inference": true
+    },
+    {
+      "id": "c2",
+      "type": "scene_theology",
+      "text": "Light in John is not only illumination but judgment-by-revelation: Jesus' words expose origins (above/below), paternity (Father/devil), and the heart's posture toward hearing.",
+      "supported_by": [
+        "e15",
+        "e23",
+        "e24",
+        "e35",
+        "e41",
+        "e42",
+        "e43",
+        "e44",
+        "m4"
+      ],
+      "inference": true
+    },
+    {
+      "id": "c3",
+      "type": "scene_theology",
+      "text": "The chapter escalates from courtroom dispute to existential conflict: Jesus grounds testimony in the Father, promises freedom through abiding, names slavery to sin, and climaxes in the 'I AM' claim that triggers attempted stoning and withdrawal.",
+      "supported_by": [
+        "e16",
+        "e18",
+        "e19",
+        "e31",
+        "e32",
+        "e34",
+        "e49",
+        "e50",
+        "e51",
+        "m5",
+        "m6",
+        "m7"
+      ],
+      "inference": true
+    }
+  ],
+  "hinge": {
+    "identity_□": "Jesus is the Light of the world and the Son who speaks what he has heard from the Father; before Abraham, he is 'I AM'.",
+    "enactment_◇": "Jesus receives the trap, answers with exposing mercy, teaches in the temple, calls for abiding in his word, and testifies with the Father against hostile accusation.",
+    "effect_Δ": "The scene divides and hardens: some believe, others dispute and slander, the conflict shifts to paternity and death, and the climax provokes attempted stoning as Jesus withdraws."
+  },
+  "meta": {
+    "generated_at": "2026-02-13T14:12:08.642587Z",
+    "source": "assistant_cne_v1",
+    "confidence": 0.87,
+    "notes": [
+      "Includes 8:1-11 pericope as commonly printed; some manuscripts place it elsewhere."
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Luke λ-files; safe to hand-edit after generation.",
+    "book": "Luke",
+    "passage_id": "Luk12_13_34",
+    "version": "Luk12_13_34_Lambda_IV_v0.1"
+  },
+  "passage_id": "Luk12_13_34",
+  "book": "Luke",
+  "chapter": 12,
+  "verses": "13-34",
+  "title": "Luke 12:13–34 – Rich Fool and Treasure in Heaven",
+  "interpretive_frames": [
+    "Greed",
+    "Anxiety",
+    "Treasure"
+  ],
+  "identity_invariants": [
+    "[]LifeDoesNotConsistInPossessionsAndDisciplesMustSeekKingdomFirst(Disciples, Father)"
+  ],
+  "units": [
+    {
+      "id": "Luk12_13_34_u1",
+      "label": "Foolish to Store Up Treasure for Self",
+      "verses": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "illocution": "ParableAndExhortation",
+      "agents": [
+        "Jesus",
+        "CrowdMember",
+        "RichFool",
+        "Disciples"
+      ],
+      "statements": [
+        {
+          "id": "Luk12_13_34_s1",
+          "type": "summary",
+          "description": "Jesus warns against greed with the parable of the rich fool, then calls disciples to trust the Father and seek his kingdom instead of anxious hoarding.",
+          "lambda_iv": [
+            "[]LifeDoesNotConsistInPossessionsAndDisciplesMustSeekKingdomFirst(Disciples, Father)",
+            "EFF(TrustInFathersCareFreesFromAnxiousAccumulation(Disciples))"
+          ]
+        }
+      ]
+    }
+  ]
+}

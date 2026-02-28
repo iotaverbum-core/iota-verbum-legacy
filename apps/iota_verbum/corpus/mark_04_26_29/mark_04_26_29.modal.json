@@ -1,0 +1,147 @@
+{
+  "ref": "Mark 4:26–29",
+  "translation": "KJV",
+  "nodes": [
+    {
+      "id": "n1",
+      "kind": "identity",
+      "lemma": "identity",
+      "text": ", So is the kingdom of God",
+      "span": "c2",
+      "confidence": 0.8
+    },
+    {
+      "id": "n2",
+      "kind": "effect",
+      "lemma": "result",
+      "text": ", So is the kingdom of God",
+      "span": "c2",
+      "confidence": 0.8
+    },
+    {
+      "id": "n3",
+      "kind": "enactment",
+      "lemma": "sleep",
+      "text": "; And should sleep",
+      "span": "c4",
+      "confidence": 0.75
+    },
+    {
+      "id": "n4",
+      "kind": "enactment",
+      "lemma": "rise",
+      "text": ", and rise night and day",
+      "span": "c5",
+      "confidence": 0.75
+    },
+    {
+      "id": "n5",
+      "kind": "enactment",
+      "lemma": "grow",
+      "text": ", and the seed should spring and grow up",
+      "span": "c6",
+      "confidence": 0.75
+    },
+    {
+      "id": "n6",
+      "kind": "effect",
+      "lemma": "result",
+      "text": "then the ear",
+      "span": "c11",
+      "confidence": 0.8
+    },
+    {
+      "id": "n7",
+      "kind": "effect",
+      "lemma": "result",
+      "text": "that the full corn in the ear",
+      "span": "c13",
+      "confidence": 0.8
+    },
+    {
+      "id": "n8",
+      "kind": "effect",
+      "lemma": "result",
+      "text": "when the fruit is brought forth",
+      "span": "c15",
+      "confidence": 0.8
+    },
+    {
+      "id": "n9",
+      "kind": "enactment",
+      "lemma": "put",
+      "text": ", immediately he putteth in the sickle",
+      "span": "c16",
+      "confidence": 0.75
+    },
+    {
+      "id": "n10",
+      "kind": "enactment",
+      "lemma": "harvest",
+      "text": ", because the harvest is come",
+      "span": "c17",
+      "confidence": 0.75
+    },
+    {
+      "id": "n11",
+      "kind": "effect",
+      "lemma": "result",
+      "text": ", because the harvest is come",
+      "span": "c17",
+      "confidence": 0.8
+    }
+  ],
+  "edges": [
+    {
+      "from": "n1",
+      "to": "n3",
+      "relation": "grounds",
+      "confidence": 0.8
+    },
+    {
+      "from": "n3",
+      "to": "n2",
+      "relation": "produces",
+      "confidence": 0.75
+    },
+    {
+      "from": "n4",
+      "to": "n6",
+      "relation": "produces",
+      "confidence": 0.75
+    },
+    {
+      "from": "n5",
+      "to": "n7",
+      "relation": "produces",
+      "confidence": 0.75
+    },
+    {
+      "from": "n9",
+      "to": "n8",
+      "relation": "produces",
+      "confidence": 0.75
+    },
+    {
+      "from": "n10",
+      "to": "n11",
+      "relation": "produces",
+      "confidence": 0.75
+    },
+    {
+      "from": "n2",
+      "to": "n6",
+      "relation": "implies",
+      "confidence": 0.7
+    }
+  ],
+  "creed": {
+    "status": "pass",
+    "notes": []
+  },
+  "watermark": "45e847aa26f1a76b",
+  "meta": {
+    "postprocessed_at": "2025-10-30T11:39:16.429467Z",
+    "confidence": 0.9
+  }
+}

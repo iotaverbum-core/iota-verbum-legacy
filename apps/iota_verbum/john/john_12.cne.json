@@ -1,0 +1,153 @@
+{
+  "schema": "cne.v1",
+  "ref": "John 12",
+  "translation": "ESV",
+  "agents": {
+    "G": "Jesus",
+    "M": "Mary",
+    "J": "Judas",
+    "C": "Crowd",
+    "LDR": "Leaders",
+    "D": "Disciples"
+  },
+  "events": [
+    {
+      "id": "e1",
+      "ref": "12:3",
+      "agent": "M",
+      "verb": "anoint",
+      "object": "Jesus_feet",
+      "mode": "costly_worship"
+    },
+    {
+      "id": "e2",
+      "ref": "12:4-6",
+      "agent": "J",
+      "verb": "object",
+      "object": "waste_claim",
+      "mode": "hypocrisy"
+    },
+    {
+      "id": "e3",
+      "ref": "12:7-8",
+      "agent": "G",
+      "verb": "defend",
+      "object": "keep_for_burial",
+      "mode": "interpret"
+    },
+    {
+      "id": "e4",
+      "ref": "12:12-13",
+      "agent": "C",
+      "verb": "welcome",
+      "object": "Hosanna_king",
+      "mode": "triumphal"
+    },
+    {
+      "id": "e5",
+      "ref": "12:20-23",
+      "agent": "G",
+      "verb": "declare",
+      "object": "hour_has_come",
+      "mode": "turn"
+    },
+    {
+      "id": "e6",
+      "ref": "12:24",
+      "agent": "G",
+      "verb": "teach",
+      "object": "grain_dies_bears_much_fruit",
+      "mode": "parable"
+    },
+    {
+      "id": "e7",
+      "ref": "12:27-28",
+      "agent": "G",
+      "verb": "pray",
+      "object": "Father_glorify_name",
+      "mode": "anguish"
+    },
+    {
+      "id": "e8",
+      "ref": "12:28",
+      "agent": "F",
+      "verb": "answer",
+      "object": "voice_from_heaven",
+      "mode": "audible"
+    },
+    {
+      "id": "e9",
+      "ref": "12:31-33",
+      "agent": "G",
+      "verb": "predict",
+      "object": "lifted_up_draw_all",
+      "mode": "cross"
+    },
+    {
+      "id": "e10",
+      "ref": "12:37-40",
+      "agent": "T",
+      "verb": "note",
+      "object": "unbelief_fulfillment",
+      "mode": "Isaiah"
+    },
+    {
+      "id": "e11",
+      "ref": "12:42-43",
+      "agent": "T",
+      "verb": "note",
+      "object": "fear_of_confessing",
+      "mode": "glory_of_man"
+    }
+  ],
+  "links": [
+    {
+      "op": "SEQ",
+      "from": "e1",
+      "to": "e4"
+    },
+    {
+      "op": "SEQ",
+      "from": "e4",
+      "to": "e9"
+    }
+  ],
+  "markers": [
+    {
+      "id": "m1",
+      "ref": "12:3",
+      "type": "CU",
+      "target": "anointing",
+      "justification": "tactile devotion foregrounded"
+    },
+    {
+      "id": "m2",
+      "ref": "12:23",
+      "type": "THR",
+      "target": "hour_arrives",
+      "justification": "narrative pivots toward passion"
+    },
+    {
+      "id": "m3",
+      "ref": "12:27-28",
+      "type": "SM",
+      "target": "anguish+heaven_voice",
+      "justification": "lingers on prayer and response"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "type": "hinge_candidate",
+      "text": "Worship anticipates burial; the hour arrives: lifted-up glory draws all, yet unbelief clings to human praise.",
+      "supported_by": [
+        "e1",
+        "e3",
+        "e5",
+        "e9",
+        "e11"
+      ],
+      "inference": true
+    }
+  ]
+}

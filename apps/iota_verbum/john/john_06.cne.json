@@ -1,0 +1,680 @@
+{
+  "schema": "cne.v1",
+  "ref": "John 6",
+  "translation": "ESV",
+  "agents": {
+    "J": "Jesus",
+    "D": "Disciples (the Twelve)",
+    "C": "Crowd",
+    "P": "Philip",
+    "A": "Andrew",
+    "B": "Boy with loaves",
+    "S": "Simon Peter",
+    "F": "Father",
+    "Sp": "Spirit",
+    "N": "Narrator"
+  },
+  "events": [
+    {
+      "id": "e1",
+      "ref": "6:1-2",
+      "agent": "J",
+      "verb": "cross",
+      "object": "Sea_of_Galilee",
+      "kind": "enactment"
+    },
+    {
+      "id": "e2",
+      "ref": "6:1-2",
+      "agent": "C",
+      "verb": "follow",
+      "object": "because_signs_on_sick",
+      "kind": "enactment"
+    },
+    {
+      "id": "e3",
+      "ref": "6:3-5",
+      "agent": "J",
+      "verb": "go_up",
+      "object": "mountain_and_sit",
+      "kind": "enactment"
+    },
+    {
+      "id": "e4",
+      "ref": "6:5-7",
+      "agent": "J",
+      "verb": "ask",
+      "object": "P:where_buy_bread?",
+      "kind": "enactment"
+    },
+    {
+      "id": "e5",
+      "ref": "6:7",
+      "agent": "P",
+      "verb": "answer",
+      "object": "two_hundred_denarii_not_enough",
+      "kind": "enactment"
+    },
+    {
+      "id": "e6",
+      "ref": "6:8-9",
+      "agent": "A",
+      "verb": "note",
+      "object": "B:five_barley_loaves_two_fish (scarcity)",
+      "kind": "enactment"
+    },
+    {
+      "id": "e7",
+      "ref": "6:10-11",
+      "agent": "J",
+      "verb": "command",
+      "object": "make_people_sit (much_grass)",
+      "kind": "enactment"
+    },
+    {
+      "id": "e8",
+      "ref": "6:11",
+      "agent": "J",
+      "verb": "give_thanks_and_distribute",
+      "object": "loaves_and_fish_to_seated",
+      "kind": "enactment"
+    },
+    {
+      "id": "e9",
+      "ref": "6:12-13",
+      "agent": "C",
+      "verb": "eat",
+      "object": "and_be_satisfied",
+      "kind": "effect"
+    },
+    {
+      "id": "e10",
+      "ref": "6:12-13",
+      "agent": "D",
+      "verb": "gather",
+      "object": "fragments_fill_twelve_baskets",
+      "kind": "effect"
+    },
+    {
+      "id": "e11",
+      "ref": "6:14-15",
+      "agent": "C",
+      "verb": "identify",
+      "object": "Jesus_as_Prophet_and_intend_make_king_by_force",
+      "kind": "identity"
+    },
+    {
+      "id": "e12",
+      "ref": "6:15",
+      "agent": "J",
+      "verb": "withdraw",
+      "object": "to_mountain_alone",
+      "kind": "enactment"
+    },
+    {
+      "id": "e13",
+      "ref": "6:16-18",
+      "agent": "D",
+      "verb": "embark",
+      "object": "boat_to_Capernaum_at_night;_sea_rough",
+      "kind": "enactment",
+      "mode": "night"
+    },
+    {
+      "id": "e14",
+      "ref": "6:19",
+      "agent": "J",
+      "verb": "walk",
+      "object": "on_sea_approach_boat",
+      "kind": "enactment"
+    },
+    {
+      "id": "e15",
+      "ref": "6:19",
+      "agent": "D",
+      "verb": "fear",
+      "object": "at_Jesus_approaching_on_sea",
+      "kind": "effect"
+    },
+    {
+      "id": "e16",
+      "ref": "6:20-21",
+      "agent": "J",
+      "verb": "reveal",
+      "object": "It_is_I_(I_am);_do_not_be_afraid",
+      "kind": "identity"
+    },
+    {
+      "id": "e17",
+      "ref": "6:21",
+      "agent": "D",
+      "verb": "receive",
+      "object": "Jesus_into_boat",
+      "kind": "enactment"
+    },
+    {
+      "id": "e18",
+      "ref": "6:21",
+      "agent": "D",
+      "verb": "arrive",
+      "object": "immediately_at_land_destination",
+      "kind": "effect"
+    },
+    {
+      "id": "e19",
+      "ref": "6:22-25",
+      "agent": "C",
+      "verb": "seek",
+      "object": "Jesus_and_find_him;_ask_when?",
+      "kind": "enactment"
+    },
+    {
+      "id": "e20",
+      "ref": "6:26-27",
+      "agent": "J",
+      "verb": "declare",
+      "object": "you_seek_because_ate;_work_for_enduring_food;_Son_of_Man_gives;_Father_seals",
+      "kind": "identity"
+    },
+    {
+      "id": "e21",
+      "ref": "6:28-29",
+      "agent": "C",
+      "verb": "ask",
+      "object": "what_must_we_do?",
+      "kind": "enactment"
+    },
+    {
+      "id": "e22",
+      "ref": "6:29",
+      "agent": "J",
+      "verb": "declare",
+      "object": "work_of_God_is_believe_in_him_whom_he_sent",
+      "kind": "identity"
+    },
+    {
+      "id": "e23",
+      "ref": "6:30-33",
+      "agent": "C",
+      "verb": "demand",
+      "object": "sign_like_manna",
+      "kind": "enactment"
+    },
+    {
+      "id": "e24",
+      "ref": "6:32-33",
+      "agent": "J",
+      "verb": "declare",
+      "object": "Father_gives_true_bread;_bread_of_God_gives_life_to_world",
+      "kind": "identity"
+    },
+    {
+      "id": "e25",
+      "ref": "6:35",
+      "agent": "J",
+      "verb": "declare",
+      "object": "I_am_bread_of_life;_come/believe→no_hunger/no_thirst",
+      "kind": "identity"
+    },
+    {
+      "id": "e26",
+      "ref": "6:37-40",
+      "agent": "J",
+      "verb": "declare",
+      "object": "all_Father_gives_will_come;_not_cast_out;_came_down_to_do_Father_will;_raise_on_last_day",
+      "kind": "identity"
+    },
+    {
+      "id": "e27",
+      "ref": "6:41-42",
+      "agent": "C",
+      "verb": "murmur",
+      "object": "how_can_he_say_came_down_from_heaven?",
+      "kind": "effect"
+    },
+    {
+      "id": "e28",
+      "ref": "6:43-50",
+      "agent": "J",
+      "verb": "declare",
+      "object": "no_one_comes_unless_Father_draws;_taught_by_God;_I_am_bread;_manna_died",
+      "kind": "identity"
+    },
+    {
+      "id": "e29",
+      "ref": "6:51",
+      "agent": "J",
+      "verb": "declare",
+      "object": "bread_I_give_is_my_flesh_for_life_of_world",
+      "kind": "identity"
+    },
+    {
+      "id": "e30",
+      "ref": "6:52-56",
+      "agent": "J",
+      "verb": "declare",
+      "object": "eat/drink→life;_abide_in_me_and_I_in_him",
+      "kind": "identity"
+    },
+    {
+      "id": "e31",
+      "ref": "6:60-61",
+      "agent": "D",
+      "verb": "stumble",
+      "object": "hard_saying_and_grumbling",
+      "kind": "effect"
+    },
+    {
+      "id": "e32",
+      "ref": "6:63-65",
+      "agent": "J",
+      "verb": "declare",
+      "object": "Spirit_gives_life;_words_are_spirit_and_life;_some_do_not_believe;_come_only_if_granted",
+      "kind": "identity"
+    },
+    {
+      "id": "e33",
+      "ref": "6:66",
+      "agent": "D",
+      "verb": "turn_back",
+      "object": "no_longer_walk_with_him",
+      "kind": "effect"
+    },
+    {
+      "id": "e34",
+      "ref": "6:67",
+      "agent": "J",
+      "verb": "ask",
+      "object": "Twelve:do_you_want_to_go_away?",
+      "kind": "enactment"
+    },
+    {
+      "id": "e35",
+      "ref": "6:68-69",
+      "agent": "S",
+      "verb": "confess",
+      "object": "you_have_words_of_eternal_life;_Holy_One_of_God",
+      "kind": "identity"
+    },
+    {
+      "id": "e36",
+      "ref": "6:70-71",
+      "agent": "J",
+      "verb": "declare",
+      "object": "I_chose_you_twelve;_one_is_a_devil",
+      "kind": "identity"
+    },
+    {
+      "id": "e37",
+      "ref": "6:71",
+      "agent": "N",
+      "verb": "identify",
+      "object": "Judas_(one_of_twelve)_would_betray",
+      "kind": "identity"
+    }
+  ],
+  "links": [
+    {
+      "op": "SIM",
+      "events": [
+        "e14",
+        "e15"
+      ]
+    },
+    {
+      "op": "SEQ",
+      "from": "e1",
+      "to": "e2"
+    },
+    {
+      "op": "SEQ",
+      "from": "e2",
+      "to": "e3"
+    },
+    {
+      "op": "SEQ",
+      "from": "e3",
+      "to": "e4"
+    },
+    {
+      "op": "SEQ",
+      "from": "e4",
+      "to": "e5"
+    },
+    {
+      "op": "SEQ",
+      "from": "e5",
+      "to": "e6"
+    },
+    {
+      "op": "SEQ",
+      "from": "e6",
+      "to": "e7"
+    },
+    {
+      "op": "SEQ",
+      "from": "e7",
+      "to": "e8"
+    },
+    {
+      "op": "SEQ",
+      "from": "e8",
+      "to": "e9"
+    },
+    {
+      "op": "SEQ",
+      "from": "e9",
+      "to": "e10"
+    },
+    {
+      "op": "SEQ",
+      "from": "e10",
+      "to": "e11"
+    },
+    {
+      "op": "SEQ",
+      "from": "e11",
+      "to": "e12"
+    },
+    {
+      "op": "SEQ",
+      "from": "e12",
+      "to": "e13"
+    },
+    {
+      "op": "SEQ",
+      "from": "e13",
+      "to": "e14"
+    },
+    {
+      "op": "SEQ",
+      "from": "e14",
+      "to": "e15"
+    },
+    {
+      "op": "SEQ",
+      "from": "e15",
+      "to": "e16"
+    },
+    {
+      "op": "SEQ",
+      "from": "e16",
+      "to": "e17"
+    },
+    {
+      "op": "SEQ",
+      "from": "e17",
+      "to": "e18"
+    },
+    {
+      "op": "SEQ",
+      "from": "e18",
+      "to": "e19"
+    },
+    {
+      "op": "SEQ",
+      "from": "e19",
+      "to": "e20"
+    },
+    {
+      "op": "SEQ",
+      "from": "e20",
+      "to": "e21"
+    },
+    {
+      "op": "SEQ",
+      "from": "e21",
+      "to": "e22"
+    },
+    {
+      "op": "SEQ",
+      "from": "e22",
+      "to": "e23"
+    },
+    {
+      "op": "SEQ",
+      "from": "e23",
+      "to": "e24"
+    },
+    {
+      "op": "SEQ",
+      "from": "e24",
+      "to": "e25"
+    },
+    {
+      "op": "SEQ",
+      "from": "e25",
+      "to": "e26"
+    },
+    {
+      "op": "SEQ",
+      "from": "e26",
+      "to": "e27"
+    },
+    {
+      "op": "SEQ",
+      "from": "e27",
+      "to": "e28"
+    },
+    {
+      "op": "SEQ",
+      "from": "e28",
+      "to": "e29"
+    },
+    {
+      "op": "SEQ",
+      "from": "e29",
+      "to": "e30"
+    },
+    {
+      "op": "SEQ",
+      "from": "e30",
+      "to": "e31"
+    },
+    {
+      "op": "SEQ",
+      "from": "e31",
+      "to": "e32"
+    },
+    {
+      "op": "SEQ",
+      "from": "e32",
+      "to": "e33"
+    },
+    {
+      "op": "SEQ",
+      "from": "e33",
+      "to": "e34"
+    },
+    {
+      "op": "SEQ",
+      "from": "e34",
+      "to": "e35"
+    },
+    {
+      "op": "SEQ",
+      "from": "e35",
+      "to": "e36"
+    },
+    {
+      "op": "SEQ",
+      "from": "e36",
+      "to": "e37"
+    }
+  ],
+  "markers": [
+    {
+      "id": "m1",
+      "ref": "6:1-4",
+      "type": "WS",
+      "target": "Sea→mountain + great_crowd (Passover_near)",
+      "justification": "John frames the sign in open landscape and festival time; a public scene under a looming calendar."
+    },
+    {
+      "id": "m2",
+      "ref": "6:8-11",
+      "type": "CU",
+      "target": "five_loaves_two_fish + giving_thanks",
+      "justification": "The camera tightens on small provision and Jesus’ eucharistic action (take/thanks/distribute)."
+    },
+    {
+      "id": "m3",
+      "ref": "6:9-10",
+      "type": "THR",
+      "target": "scarcity_vs_so_many",
+      "justification": "The boundary is named: 'What are they among so many?' before Jesus acts."
+    },
+    {
+      "id": "m4",
+      "ref": "6:12-13",
+      "type": "STAY",
+      "target": "twelve_baskets_leftover",
+      "justification": "John keeps the remainder in frame; abundance is measured and carried."
+    },
+    {
+      "id": "m5",
+      "ref": "6:14-15",
+      "type": "THR",
+      "target": "kingship_by_force → withdrawal",
+      "justification": "The crowd’s political grasping is met by Jesus’ retreat; he refuses a coerced crown."
+    },
+    {
+      "id": "m6",
+      "ref": "6:16-19",
+      "type": "SM",
+      "target": "night_crossing + rough_sea",
+      "justification": "Time slows into darkness and resistance; the scene bears fear before any explanation."
+    },
+    {
+      "id": "m7",
+      "ref": "6:19-21",
+      "type": "SIL",
+      "target": "mechanism_of_walking_on_water",
+      "justification": "John narrates the act and the fear, but withholds the 'how'."
+    },
+    {
+      "id": "m8",
+      "ref": "6:20",
+      "type": "CU",
+      "target": "It_is_I_(I_am)",
+      "justification": "Revelation lands in a short sentence that steadies fear."
+    },
+    {
+      "id": "m9",
+      "ref": "6:26-27",
+      "type": "THR",
+      "target": "sign-seeking_vs_believing",
+      "justification": "Jesus crosses the crowd’s motive boundary: not sign as spectacle, but food as pointer to himself."
+    },
+    {
+      "id": "m10",
+      "ref": "6:35",
+      "type": "CU",
+      "target": "I_am_bread_of_life",
+      "justification": "The discourse centers on an 'I am' identity claim that interprets the sign."
+    },
+    {
+      "id": "m11",
+      "ref": "6:41-43",
+      "type": "STAY",
+      "target": "murmuring_at_heaven_language",
+      "justification": "The resistance is named and held in frame; the scandal is not bypassed."
+    },
+    {
+      "id": "m12",
+      "ref": "6:60-66",
+      "type": "STAY",
+      "target": "hard_saying + many_leave",
+      "justification": "The story lingers on offense and departure; discipleship is tested by words, not wonders."
+    },
+    {
+      "id": "m13",
+      "ref": "6:68-69",
+      "type": "CU",
+      "target": "Peter_confession",
+      "justification": "A close-up confession answers the crisis: staying is tethered to Jesus’ words."
+    },
+    {
+      "id": "m14",
+      "ref": "6:70-71",
+      "type": "SIL",
+      "target": "Judas_in_the_room",
+      "justification": "Betrayal is named but not resolved here; tension is stored for later chapters."
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "type": "hinge_candidate",
+      "text": "The bread sign becomes a contested threshold: the crowd tries to seize Jesus as king, but he withdraws and refuses a coerced agenda.",
+      "supported_by": [
+        "e8",
+        "e9",
+        "e11",
+        "e12",
+        "m5"
+      ],
+      "inference": false
+    },
+    {
+      "id": "c2",
+      "type": "scene_theology",
+      "text": "Jesus reinterprets hunger and signs into coming/believing: the Father gives, draws, teaches; Jesus is bread-from-heaven who gives life by his own self-gift.",
+      "supported_by": [
+        "e20",
+        "e22",
+        "e24",
+        "e25",
+        "e26",
+        "e28",
+        "e29",
+        "e30",
+        "m9",
+        "m10"
+      ],
+      "inference": true
+    },
+    {
+      "id": "c3",
+      "type": "scene_theology",
+      "text": "John stages a discipleship crisis: a hard word filters the crowd; many leave; the Twelve are asked to depart; Peter stays by confession; Judas is named as unresolved darkness within the circle.",
+      "supported_by": [
+        "e31",
+        "e33",
+        "e34",
+        "e35",
+        "e36",
+        "e37",
+        "m12",
+        "m13",
+        "m14"
+      ],
+      "inference": true
+    }
+  ],
+  "hinge": {
+    "themes": [
+      "signs",
+      "bread",
+      "Passover",
+      "fear",
+      "I_am",
+      "faith",
+      "murmuring",
+      "abiding",
+      "Spirit",
+      "words_of_life",
+      "departure",
+      "staying",
+      "betrayal"
+    ],
+    "identity_□": "Jesus is the bread from heaven who gives life; the Father draws and teaches; the Spirit gives life and Jesus’ words are spirit and life.",
+    "enactment_◇": "Jesus feeds the crowd, refuses a forced kingship, comes to his disciples in the storm, and teaches that coming and believing in him is the true work.",
+    "effect_Δ": "The sign divides: some seek him for bread, some grumble at heaven-language, many disciples turn back, and the Twelve are pressed to choose—Peter confesses staying while Judas remains a named, unresolved threat."
+  },
+  "meta": {
+    "created_at": "2026-02-13T08:29:40.965005Z",
+    "author": "iota-cne",
+    "note": "Generated from CNE lens; verse refs are warrants."
+  }
+}

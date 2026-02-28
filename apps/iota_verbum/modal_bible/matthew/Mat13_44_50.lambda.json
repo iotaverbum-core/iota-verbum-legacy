@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Matthew λ-files; safe to hand-edit after generation.",
+    "book": "Matthew",
+    "passage_id": "Mat13_44_50",
+    "version": "Mat13_44_50_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mat13_44_50",
+  "book": "Matthew",
+  "chapter": 13,
+  "verses": "44-50",
+  "title": "Matthew 13:44–50 – Treasure, Pearl, and Net",
+  "interpretive_frames": [
+    "Parable",
+    "Value",
+    "Judgment"
+  ],
+  "identity_invariants": [
+    "[]KingdomIsOfSurpassingValueAndEndsWithSeparation(Kingdom)"
+  ],
+  "units": [
+    {
+      "id": "Mat13_44_50_u1",
+      "label": "Joyful Loss and Final Sorting",
+      "verses": [
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "illocution": "Parable",
+      "agents": [
+        "Jesus",
+        "Disciples",
+        "Angels"
+      ],
+      "statements": [
+        {
+          "id": "Mat13_44_50_s1",
+          "type": "summary",
+          "description": "Jesus depicts the kingdom as treasure worth joyful loss and a net that brings final separation.",
+          "lambda_iv": [
+            "[]KingdomIsOfSurpassingValueAndEndsWithSeparation(Kingdom)",
+            "<>JoyfullySellAllForKingdom(Disciple, Kingdom)"
+          ]
+        }
+      ]
+    }
+  ]
+}

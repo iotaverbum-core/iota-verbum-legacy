@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Luke λ-files; safe to hand-edit after generation.",
+    "book": "Luke",
+    "passage_id": "Luk24_36_53",
+    "version": "Luk24_36_53_Lambda_IV_v0.1"
+  },
+  "passage_id": "Luk24_36_53",
+  "book": "Luke",
+  "chapter": 24,
+  "verses": "36-53",
+  "title": "Luke 24:36–53 – Commission, Promise, and Ascension",
+  "interpretive_frames": [
+    "Witness",
+    "SpiritPromise",
+    "Blessing"
+  ],
+  "identity_invariants": [
+    "[]RisenJesusCommissionsWitnessesOpensScripturesAndPromisesSpiritPowerBeforeAscension(Jesus, Disciples)"
+  ],
+  "units": [
+    {
+      "id": "Luk24_36_53_u1",
+      "label": "You Are Witnesses of These Things",
+      "verses": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "illocution": "CommissionAndBlessing",
+      "agents": [
+        "Jesus",
+        "Disciples"
+      ],
+      "statements": [
+        {
+          "id": "Luk24_36_53_s1",
+          "type": "summary",
+          "description": "The risen Jesus appears to the gathered disciples, opens their minds to the Scriptures, commissions them as witnesses, promises the Spirit, and ascends while blessing them.",
+          "lambda_iv": [
+            "[]RisenJesusCommissionsWitnessesOpensScripturesAndPromisesSpiritPowerBeforeAscension(Jesus, Disciples)",
+            "EFF(WorshippingJoyfulWitnessFlowsFromEncounterWithRisenAscendedLord(Church))"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "schema": "cne.v1",
+  "ref": "John 5",
+  "translation": "ESV",
+  "agents": {
+    "G": "Jesus",
+    "H": "Man at Bethesda",
+    "C": "Crowd",
+    "L": "Jewish leaders",
+    "T": "Narrator"
+  },
+  "events": [
+    {
+      "id": "e1",
+      "ref": "5:1-3",
+      "agent": "T",
+      "verb": "set_scene",
+      "object": "pool_Bethesda_many_invalid",
+      "mode": "wide"
+    },
+    {
+      "id": "e2",
+      "ref": "5:5",
+      "agent": "T",
+      "verb": "note",
+      "object": "H_infirm_38_years",
+      "mode": "time_weight"
+    },
+    {
+      "id": "e3",
+      "ref": "5:6",
+      "agent": "G",
+      "verb": "see",
+      "object": "H_lying_there",
+      "mode": "attention"
+    },
+    {
+      "id": "e4",
+      "ref": "5:6",
+      "agent": "G",
+      "verb": "ask",
+      "object": "do_you_want_to_be_healed",
+      "mode": "question"
+    },
+    {
+      "id": "e5",
+      "ref": "5:7",
+      "agent": "H",
+      "verb": "answer",
+      "object": "no_one_to_put_me_in_pool",
+      "mode": "helplessness"
+    },
+    {
+      "id": "e6",
+      "ref": "5:8",
+      "agent": "G",
+      "verb": "command",
+      "object": "get_up_take_bed_walk",
+      "mode": "imperative"
+    },
+    {
+      "id": "e7",
+      "ref": "5:9",
+      "agent": "H",
+      "verb": "be_healed",
+      "object": "immediately",
+      "mode": "result"
+    },
+    {
+      "id": "e8",
+      "ref": "5:9",
+      "agent": "T",
+      "verb": "note",
+      "object": "it_was_Sabbath",
+      "mode": "threshold"
+    },
+    {
+      "id": "e9",
+      "ref": "5:10",
+      "agent": "L",
+      "verb": "challenge",
+      "object": "not_lawful_to_carry_bed",
+      "mode": "accusation"
+    },
+    {
+      "id": "e10",
+      "ref": "5:11",
+      "agent": "H",
+      "verb": "reply",
+      "object": "the_man_who_healed_me_told_me",
+      "mode": "witness"
+    },
+    {
+      "id": "e11",
+      "ref": "5:13",
+      "agent": "T",
+      "verb": "note",
+      "object": "G_withdrew_in_crowd",
+      "mode": "silence"
+    },
+    {
+      "id": "e12",
+      "ref": "5:14",
+      "agent": "G",
+      "verb": "find",
+      "object": "H_in_temple",
+      "mode": "seek"
+    },
+    {
+      "id": "e13",
+      "ref": "5:14",
+      "agent": "G",
+      "verb": "warn",
+      "object": "sin_no_more_worse_may_happen",
+      "mode": "admonition"
+    },
+    {
+      "id": "e14",
+      "ref": "5:15-16",
+      "agent": "H",
+      "verb": "report",
+      "object": "it_was_Jesus",
+      "mode": "escalation"
+    },
+    {
+      "id": "e15",
+      "ref": "5:17",
+      "agent": "G",
+      "verb": "declare",
+      "object": "My_Father_is_working_and_I_am_working",
+      "mode": "identity"
+    },
+    {
+      "id": "e16",
+      "ref": "5:18",
+      "agent": "L",
+      "verb": "seek_kill",
+      "object": "because_equal_with_God",
+      "mode": "hostility"
+    },
+    {
+      "id": "e17",
+      "ref": "5:19-23",
+      "agent": "G",
+      "verb": "teach",
+      "object": "Son_does_what_Father_does; honor_Son",
+      "mode": "reveal"
+    },
+    {
+      "id": "e18",
+      "ref": "5:24-29",
+      "agent": "G",
+      "verb": "declare",
+      "object": "life_now_and_resurrection_judgment",
+      "mode": "authority"
+    },
+    {
+      "id": "e19",
+      "ref": "5:30",
+      "agent": "G",
+      "verb": "submit",
+      "object": "I_seek_not_my_will",
+      "mode": "alignment"
+    },
+    {
+      "id": "e20",
+      "ref": "5:31-40",
+      "agent": "G",
+      "verb": "list_witnesses",
+      "object": "John_works_Father_Scriptures",
+      "mode": "courtroom"
+    },
+    {
+      "id": "e21",
+      "ref": "5:41-47",
+      "agent": "G",
+      "verb": "expose",
+      "object": "you_seek_glory_from_man; Moses_accuses",
+      "mode": "diagnosis"
+    }
+  ],
+  "links": [
+    {
+      "op": "SEQ",
+      "from": "e1",
+      "to": "e7"
+    },
+    {
+      "op": "SEQ",
+      "from": "e7",
+      "to": "e11"
+    },
+    {
+      "op": "SEQ",
+      "from": "e11",
+      "to": "e16"
+    },
+    {
+      "op": "SEQ",
+      "from": "e16",
+      "to": "e21"
+    }
+  ],
+  "markers": [
+    {
+      "id": "m1",
+      "ref": "5:1-3",
+      "type": "WS",
+      "target": "Bethesda_crowd_of_suffering",
+      "justification": "scene begins with many invalids"
+    },
+    {
+      "id": "m2",
+      "ref": "5:5",
+      "type": "SM",
+      "target": "thirty_eight_years",
+      "justification": "time detail foregrounded"
+    },
+    {
+      "id": "m3",
+      "ref": "5:6-8",
+      "type": "CU",
+      "target": "do_you_want_to_be_healed→command",
+      "justification": "tight focus on question + imperative"
+    },
+    {
+      "id": "m4",
+      "ref": "5:9-10",
+      "type": "THR",
+      "target": "Sabbath_boundary",
+      "justification": "healing triggers legal accusation"
+    },
+    {
+      "id": "m5",
+      "ref": "5:13",
+      "type": "SIL",
+      "target": "Jesus_withdraws",
+      "justification": "text notes he slipped away in crowd"
+    },
+    {
+      "id": "m6",
+      "ref": "5:17-47",
+      "type": "SM",
+      "target": "Son-Father_work_disclosure",
+      "justification": "extended discourse after sign"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "type": "hinge_candidate",
+      "text": "Jesus heals with a command on the Sabbath and then reveals his unity of work with the Father under courtroom opposition.",
+      "supported_by": [
+        "e6",
+        "e7",
+        "e15",
+        "e20"
+      ],
+      "inference": true
+    },
+    {
+      "id": "c2",
+      "type": "scene_theology",
+      "text": "The sign becomes a trial: leaders police rest while the Son frames healing as the Father’s ongoing work and summons witnesses.",
+      "supported_by": [
+        "m4",
+        "e16",
+        "e20",
+        "e21"
+      ],
+      "inference": true
+    }
+  ]
+}

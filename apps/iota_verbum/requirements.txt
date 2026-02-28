@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydantic
+pandas
+numpy
+matplotlib
+networkx
+python-docx
+jinja2
+pyyaml
+iota-verbum-core @ git+https://github.com/iotaverbum-core/iota-verbum-core.git@v0.1.0-core-canonical

@@ -1,0 +1,87 @@
+{
+  "BaptismOfJesus": {
+    "matthew": "Mat03_13_17",
+    "mark": "Mar01_01_13",
+    "luke": "Luk03_21_22"
+  },
+  "TemptationOfJesus": {
+    "matthew": "Mat04_01_11",
+    "mark": "Mar01_01_13",
+    "luke": "Luk04_01_13"
+  },
+  "CallOfFirstDisciples": {
+    "matthew": "Mat04_18_22",
+    "mark": "Mar01_14_20",
+    "luke": "Luk05_01_11"
+  },
+  "TeachingInParables_Sower": {
+    "matthew": "Mat13_01_23",
+    "mark": "Mar04_01_20",
+    "luke": "Luk08_04_15"
+  },
+  "CalmingTheStorm": {
+    "matthew": "Mat08_23_27",
+    "mark": "Mar04_35_41",
+    "luke": "Luk08_22_25"
+  },
+  "GeraseneDemoniac": {
+    "matthew": "Mat08_28_34",
+    "mark": "Mar05_01_20",
+    "luke": "Luk08_26_39"
+  },
+  "JairusAndBleedingWoman": {
+    "matthew": "Mat09_18_38",
+    "mark": "Mar05_21_43",
+    "luke": "Luk08_40_56"
+  },
+  "FeedingOf5000": {
+    "matthew": "Mat14_13_21",
+    "mark": "Mar06_30_44",
+    "luke": "Luk09_01_17"
+  },
+  "PetersConfession": {
+    "matthew": "Mat16_13_20",
+    "mark": "Mar08_27_38",
+    "luke": "Luk09_18_27"
+  },
+  "Transfiguration": {
+    "matthew": "Mat17_01_13",
+    "mark": "Mar09_02_13",
+    "luke": "Luk09_28_36"
+  },
+  "RichYoungRuler": {
+    "matthew": "Mat19_16_30",
+    "mark": "Mar10_17_31",
+    "luke": "Luk18_18_30"
+  },
+  "ServantRansomSaying": {
+    "matthew": "Mat20_20_28",
+    "mark": "Mar10_32_45",
+    "luke": null
+  },
+  "TriumphalEntry": {
+    "matthew": "Mat21_01_22",
+    "mark": "Mar11_01_11",
+    "luke": "Luk19_28_44"
+  },
+  "LastSupper": {
+    "matthew": "Mat26_17_46",
+    "mark": "Mar14_22_31",
+    "luke": "Luk22_07_20"
+  },
+  "Gethsemane": {
+    "matthew": "Mat26_17_46",
+    "mark": "Mar14_32_42",
+    "luke": "Luk22_39_46"
+  },
+  "CrucifixionCore": {
+    "matthew": "Mat27_27_54",
+    "mark": "Mar15_21_39",
+    "luke": "Luk23_26_49"
+  },
+  "EmptyTomb": {
+    "matthew": "Mat28_01_10",
+    "mark": "Mar16_01_08",
+    "luke": "Luk24_01_12"
+  }
+}

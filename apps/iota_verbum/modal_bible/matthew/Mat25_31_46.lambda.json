@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Matthew λ-files; safe to hand-edit after generation.",
+    "book": "Matthew",
+    "passage_id": "Mat25_31_46",
+    "version": "Mat25_31_46_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mat25_31_46",
+  "book": "Matthew",
+  "chapter": 25,
+  "verses": "31-46",
+  "title": "Matthew 25:31–46 – Sheep and Goats",
+  "interpretive_frames": [
+    "Judgment",
+    "Mercy",
+    "Presence"
+  ],
+  "identity_invariants": [
+    "[]SonOfManJudgesNationsByMercyShownToHisBrothers(SonOfMan, Nations, Brothers)"
+  ],
+  "units": [
+    {
+      "id": "Mat25_31_46_u1",
+      "label": "As You Did It to One of the Least",
+      "verses": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "illocution": "JudgmentOracle",
+      "agents": [
+        "SonOfMan",
+        "Nations",
+        "Brothers"
+      ],
+      "statements": [
+        {
+          "id": "Mat25_31_46_s1",
+          "type": "summary",
+          "description": "The Son of Man separates nations on the basis of their treatment of 'the least of these' his brothers.",
+          "lambda_iv": [
+            "[]SonOfManJudgesNationsByMercyShownToHisBrothers(SonOfMan, Nations, Brothers)",
+            "EFF(MercyToLeastIsReceivedAsDoneToChrist(Actors, Christ))"
+          ]
+        }
+      ]
+    }
+  ]
+}

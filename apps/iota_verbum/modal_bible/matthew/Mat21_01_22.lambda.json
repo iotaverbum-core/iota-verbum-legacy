@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Matthew λ-files; safe to hand-edit after generation.",
+    "book": "Matthew",
+    "passage_id": "Mat21_01_22",
+    "version": "Mat21_01_22_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mat21_01_22",
+  "book": "Matthew",
+  "chapter": 21,
+  "verses": "1-22",
+  "title": "Matthew 21:1–22 – Entry, Temple, and Fig Tree",
+  "interpretive_frames": [
+    "Kingship",
+    "Judgment",
+    "HouseOfPrayer"
+  ],
+  "identity_invariants": [
+    "[]JesusEntersAsMessianicKingAndJudgesFruitlessReligion(Jesus, Temple)"
+  ],
+  "units": [
+    {
+      "id": "Mat21_01_22_u1",
+      "label": "Hosanna and Withered Fig Tree",
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "illocution": "SymbolicAction",
+      "agents": [
+        "Jesus",
+        "Crowds",
+        "Children",
+        "ChiefPriests",
+        "Scribes",
+        "FigTree"
+      ],
+      "statements": [
+        {
+          "id": "Mat21_01_22_s1",
+          "type": "summary",
+          "description": "Jesus enters Jerusalem as king, cleanses the temple, and curses a fruitless fig tree as enacted parable.",
+          "lambda_iv": [
+            "[]JesusEntersAsMessianicKingAndJudgesFruitlessReligion(Jesus, Temple)",
+            "EFF(FaithAndPrayerAreMarkedAsTrueTempleFruit(Disciples, Prayer))"
+          ]
+        }
+      ]
+    }
+  ]
+}

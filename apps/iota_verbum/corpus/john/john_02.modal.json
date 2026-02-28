@@ -1,0 +1,643 @@
+{
+  "ref": "John 2:1-25",
+  "translation": "ESV",
+  "nodes": [
+    {
+      "id": "n1",
+      "kind": "identity",
+      "lemma": "identity",
+      "text": "□ Jesus acts from an 'hour' not driven by human demand; he manifests glory through signs, claims the temple as his Father's house, speaks of his body as the true temple, and knows what is in people.",
+      "span": "c1",
+      "confidence": 0.85
+    },
+    {
+      "id": "n2",
+      "kind": "enactment",
+      "lemma": "enactment",
+      "text": "◇ At Cana Jesus commands, and water becomes wine; in Jerusalem he goes up, interrupts temple commerce, drives out sellers, and answers authority-challenges with a riddle about the temple raised in three days.",
+      "span": "c2",
+      "confidence": 0.82
+    },
+    {
+      "id": "n3",
+      "kind": "effect",
+      "lemma": "effect",
+      "text": "Δ Disciples believe as glory is revealed; conflict over authority intensifies; the temple saying is understood after resurrection; many believe because of signs, yet Jesus does not entrust himself due to heart-knowledge.",
+      "span": "c3",
+      "confidence": 0.84
+    },
+    {
+      "id": "n4",
+      "kind": "enactment",
+      "lemma": "be_wedding",
+      "text": "C.be_wedding (Cana_in_Galilee)  (2:1)",
+      "span": "c4",
+      "confidence": 0.76
+    },
+    {
+      "id": "n5",
+      "kind": "enactment",
+      "lemma": "attend",
+      "text": "G.attend (wedding)  (2:1)",
+      "span": "c5",
+      "confidence": 0.76
+    },
+    {
+      "id": "n6",
+      "kind": "enactment",
+      "lemma": "attend",
+      "text": "M.attend (wedding)  (2:1)",
+      "span": "c6",
+      "confidence": 0.76
+    },
+    {
+      "id": "n7",
+      "kind": "enactment",
+      "lemma": "be_invited",
+      "text": "D.be_invited (wedding)  (2:2)",
+      "span": "c7",
+      "confidence": 0.76
+    },
+    {
+      "id": "n8",
+      "kind": "effect",
+      "lemma": "run_out",
+      "text": "V.run_out (wine)  (2:3)",
+      "span": "c8",
+      "confidence": 0.76
+    },
+    {
+      "id": "n9",
+      "kind": "enactment",
+      "lemma": "say",
+      "text": "M.say (to_G:They_have_no_wine)  (2:3)",
+      "span": "c9",
+      "confidence": 0.76
+    },
+    {
+      "id": "n10",
+      "kind": "identity",
+      "lemma": "say",
+      "text": "G.say (Woman_what_to_me;hour_not_yet)  (2:4)",
+      "span": "c10",
+      "confidence": 0.76
+    },
+    {
+      "id": "n11",
+      "kind": "enactment",
+      "lemma": "command",
+      "text": "M.command (S:Do_whatever_he_tells_you)  (2:5)",
+      "span": "c11",
+      "confidence": 0.76
+    },
+    {
+      "id": "n12",
+      "kind": "identity",
+      "lemma": "be_jars",
+      "text": "C.be_jars (six_stone_jars_for_purification)  (2:6)",
+      "span": "c12",
+      "confidence": 0.76
+    },
+    {
+      "id": "n13",
+      "kind": "enactment",
+      "lemma": "command",
+      "text": "G.command (S:Fill_jars_with_water)  (2:7)",
+      "span": "c13",
+      "confidence": 0.76
+    },
+    {
+      "id": "n14",
+      "kind": "enactment",
+      "lemma": "fill",
+      "text": "S.fill (jars_to_brim)  (2:7)",
+      "span": "c14",
+      "confidence": 0.76
+    },
+    {
+      "id": "n15",
+      "kind": "enactment",
+      "lemma": "command",
+      "text": "G.command (S:Draw_out_and_take_to_master)  (2:8)",
+      "span": "c15",
+      "confidence": 0.76
+    },
+    {
+      "id": "n16",
+      "kind": "enactment",
+      "lemma": "take",
+      "text": "S.take (to_H)  (2:8)",
+      "span": "c16",
+      "confidence": 0.76
+    },
+    {
+      "id": "n17",
+      "kind": "enactment",
+      "lemma": "taste",
+      "text": "H.taste (water_become_wine)  (2:9)",
+      "span": "c17",
+      "confidence": 0.76
+    },
+    {
+      "id": "n18",
+      "kind": "identity",
+      "lemma": "not_know",
+      "text": "H.not_know (source_of_wine)  (2:9)",
+      "span": "c18",
+      "confidence": 0.76
+    },
+    {
+      "id": "n19",
+      "kind": "identity",
+      "lemma": "know",
+      "text": "S.know (source_of_wine)  (2:9)",
+      "span": "c19",
+      "confidence": 0.76
+    },
+    {
+      "id": "n20",
+      "kind": "effect",
+      "lemma": "say",
+      "text": "H.say (to_B:good_wine_kept_until_now)  (2:10)",
+      "span": "c20",
+      "confidence": 0.76
+    },
+    {
+      "id": "n21",
+      "kind": "enactment",
+      "lemma": "do_sign",
+      "text": "G.do_sign (first_sign;Cana)  (2:11)",
+      "span": "c21",
+      "confidence": 0.76
+    },
+    {
+      "id": "n22",
+      "kind": "effect",
+      "lemma": "manifest",
+      "text": "G.manifest (glory)  (2:11)",
+      "span": "c22",
+      "confidence": 0.76
+    },
+    {
+      "id": "n23",
+      "kind": "effect",
+      "lemma": "believe",
+      "text": "D.believe (in_G)  (2:11)",
+      "span": "c23",
+      "confidence": 0.76
+    },
+    {
+      "id": "n24",
+      "kind": "enactment",
+      "lemma": "go_down",
+      "text": "G.go_down (to_Capernaum)  (2:12)",
+      "span": "c24",
+      "confidence": 0.76
+    },
+    {
+      "id": "n25",
+      "kind": "enactment",
+      "lemma": "go_with",
+      "text": "M.go_with (G)  (2:12)",
+      "span": "c25",
+      "confidence": 0.76
+    },
+    {
+      "id": "n26",
+      "kind": "enactment",
+      "lemma": "go_with",
+      "text": "D.go_with (G)  (2:12)",
+      "span": "c26",
+      "confidence": 0.76
+    },
+    {
+      "id": "n27",
+      "kind": "enactment",
+      "lemma": "stay",
+      "text": "G.stay (few_days)  (2:12)",
+      "span": "c27",
+      "confidence": 0.76
+    },
+    {
+      "id": "n28",
+      "kind": "identity",
+      "lemma": "be_passover_near",
+      "text": "C.be_passover_near  (2:13)",
+      "span": "c28",
+      "confidence": 0.76
+    },
+    {
+      "id": "n29",
+      "kind": "enactment",
+      "lemma": "go_up",
+      "text": "G.go_up (to_Jerusalem)  (2:13)",
+      "span": "c29",
+      "confidence": 0.76
+    },
+    {
+      "id": "n30",
+      "kind": "enactment",
+      "lemma": "find",
+      "text": "G.find (V:selling_oxen_sheep_pigeons;money_changers)  (2:14)",
+      "span": "c30",
+      "confidence": 0.76
+    },
+    {
+      "id": "n31",
+      "kind": "enactment",
+      "lemma": "make",
+      "text": "G.make (whip_of_cords)  (2:15)",
+      "span": "c31",
+      "confidence": 0.76
+    },
+    {
+      "id": "n32",
+      "kind": "enactment",
+      "lemma": "drive_out",
+      "text": "G.drive_out (all_from_temple_with_sheep_oxen)  (2:15)",
+      "span": "c32",
+      "confidence": 0.76
+    },
+    {
+      "id": "n33",
+      "kind": "enactment",
+      "lemma": "pour_out",
+      "text": "G.pour_out (coins_of_money_changers)  (2:15)",
+      "span": "c33",
+      "confidence": 0.76
+    },
+    {
+      "id": "n34",
+      "kind": "enactment",
+      "lemma": "overturn",
+      "text": "G.overturn (tables)  (2:15)",
+      "span": "c34",
+      "confidence": 0.76
+    },
+    {
+      "id": "n35",
+      "kind": "identity",
+      "lemma": "say",
+      "text": "G.say (to_pigeon_sellers:Take_these_away;not_house_of_trade)  (2:16)",
+      "span": "c35",
+      "confidence": 0.76
+    },
+    {
+      "id": "n36",
+      "kind": "effect",
+      "lemma": "remember",
+      "text": "D.remember (Zeal_for_your_house_will_consume_me)  (2:17)",
+      "span": "c36",
+      "confidence": 0.76
+    },
+    {
+      "id": "n37",
+      "kind": "enactment",
+      "lemma": "ask",
+      "text": "J.ask (What_sign_do_you_show)  (2:18)",
+      "span": "c37",
+      "confidence": 0.76
+    },
+    {
+      "id": "n38",
+      "kind": "identity",
+      "lemma": "say",
+      "text": "G.say (Destroy_this_temple;in_3_days_I_raise_it)  (2:19)",
+      "span": "c38",
+      "confidence": 0.76
+    },
+    {
+      "id": "n39",
+      "kind": "effect",
+      "lemma": "say",
+      "text": "J.say (46_years_to_build;how_raise_in_3_days)  (2:20)",
+      "span": "c39",
+      "confidence": 0.76
+    },
+    {
+      "id": "n40",
+      "kind": "identity",
+      "lemma": "mean",
+      "text": "G.mean (temple_of_his_body)  (2:21)",
+      "span": "c40",
+      "confidence": 0.76
+    },
+    {
+      "id": "n41",
+      "kind": "effect",
+      "lemma": "be_raised",
+      "text": "G.be_raised (from_dead)  (2:22)",
+      "span": "c41",
+      "confidence": 0.76
+    },
+    {
+      "id": "n42",
+      "kind": "effect",
+      "lemma": "remember",
+      "text": "D.remember (word_he_spoke)  (2:22)",
+      "span": "c42",
+      "confidence": 0.76
+    },
+    {
+      "id": "n43",
+      "kind": "effect",
+      "lemma": "believe",
+      "text": "D.believe (Scripture_and_word)  (2:22)",
+      "span": "c43",
+      "confidence": 0.76
+    },
+    {
+      "id": "n44",
+      "kind": "enactment",
+      "lemma": "see",
+      "text": "C.see (signs)  (2:23)",
+      "span": "c44",
+      "confidence": 0.76
+    },
+    {
+      "id": "n45",
+      "kind": "effect",
+      "lemma": "believe",
+      "text": "C.believe (in_his_name)  (2:23)",
+      "span": "c45",
+      "confidence": 0.76
+    },
+    {
+      "id": "n46",
+      "kind": "identity",
+      "lemma": "not_entrust",
+      "text": "G.not_entrust (himself_to_them)  (2:24)",
+      "span": "c46",
+      "confidence": 0.76
+    },
+    {
+      "id": "n47",
+      "kind": "identity",
+      "lemma": "know",
+      "text": "G.know (all_people)  (2:24)",
+      "span": "c47",
+      "confidence": 0.76
+    },
+    {
+      "id": "n48",
+      "kind": "identity",
+      "lemma": "need_no_witness",
+      "text": "G.need_no_witness (about_man)  (2:25)",
+      "span": "c48",
+      "confidence": 0.76
+    },
+    {
+      "id": "n49",
+      "kind": "identity",
+      "lemma": "know",
+      "text": "G.know (what_in_man)  (2:25)",
+      "span": "c49",
+      "confidence": 0.76
+    }
+  ],
+  "edges": [
+    {
+      "from": "n1",
+      "to": "n2",
+      "relation": "grounds",
+      "confidence": 0.82
+    },
+    {
+      "from": "n2",
+      "to": "n3",
+      "relation": "produces",
+      "confidence": 0.8
+    },
+    {
+      "from": "n4",
+      "to": "n8",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n8",
+      "to": "n9",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n9",
+      "to": "n10",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n11",
+      "to": "n13",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n13",
+      "to": "n14",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n14",
+      "to": "n15",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n15",
+      "to": "n16",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n16",
+      "to": "n17",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n17",
+      "to": "n20",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n21",
+      "to": "n22",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n22",
+      "to": "n23",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n23",
+      "to": "n24",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n24",
+      "to": "n27",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n28",
+      "to": "n29",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n29",
+      "to": "n30",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n30",
+      "to": "n31",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n31",
+      "to": "n32",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n32",
+      "to": "n34",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n32",
+      "to": "n33",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n34",
+      "to": "n35",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n35",
+      "to": "n37",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n37",
+      "to": "n38",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n38",
+      "to": "n39",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n38",
+      "to": "n40",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n41",
+      "to": "n42",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n42",
+      "to": "n43",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n44",
+      "to": "n45",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n45",
+      "to": "n46",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n46",
+      "to": "n49",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n17",
+      "to": "n18",
+      "relation": "coheres",
+      "confidence": 0.68
+    },
+    {
+      "from": "n17",
+      "to": "n19",
+      "relation": "coheres",
+      "confidence": 0.68
+    },
+    {
+      "from": "n18",
+      "to": "n19",
+      "relation": "coheres",
+      "confidence": 0.68
+    },
+    {
+      "from": "n32",
+      "to": "n33",
+      "relation": "coheres",
+      "confidence": 0.68
+    },
+    {
+      "from": "n32",
+      "to": "n34",
+      "relation": "coheres",
+      "confidence": 0.68
+    },
+    {
+      "from": "n33",
+      "to": "n34",
+      "relation": "coheres",
+      "confidence": 0.68
+    }
+  ],
+  "hinges": [
+    {
+      "id": "h1",
+      "refs": [
+        "John 2:1-25"
+      ],
+      "identity_□": "Jesus acts by the Father's hour, manifests glory through signs, and names his body as the true temple.",
+      "enactment_◇": "At Cana Jesus commands and water becomes wine; in Jerusalem he interrupts temple commerce and answers authority challenges.",
+      "effect_Δ": "Disciples believe as glory is revealed, conflict over authority intensifies, and sign-faith is exposed by Jesus' knowledge of the human heart."
+    }
+  ],
+  "creed": {
+    "status": "pass",
+    "notes": []
+  },
+  "watermark": "f5ee30a38e7fc573",
+  "meta": {
+    "source": "cne_compile_v1",
+    "postprocessed_at": "2026-02-12T17:32:45.248994Z",
+    "confidence": 0.9
+  }
+}

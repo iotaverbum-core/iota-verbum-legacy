@@ -1,0 +1,811 @@
+{
+  "schema": "cne.v1",
+  "ref": "John 7:1-52",
+  "translation": "ESV",
+  "agents": {
+    "G": "Jesus",
+    "Br": "Jesus' brothers",
+    "J": "Judean leaders ('the Jews')",
+    "C": "Crowd",
+    "P": "Pharisees",
+    "Pri": "Chief priests",
+    "Off": "Temple officers",
+    "Nic": "Nicodemus",
+    "N": "Narrator"
+  },
+  "events": [
+    {
+      "id": "e1",
+      "ref": "7:1",
+      "agent": "G",
+      "verb": "stay",
+      "object": "Galilee",
+      "mode": "avoid_Judea (leaders_seek_kill)"
+    },
+    {
+      "id": "e2",
+      "ref": "7:2",
+      "agent": "N",
+      "verb": "note",
+      "object": "Feast_of_Booths_near"
+    },
+    {
+      "id": "e3",
+      "ref": "7:3-4",
+      "agent": "Br",
+      "verb": "urge",
+      "object": "go_to_Judea_and_show_works",
+      "mode": "public_display_logic"
+    },
+    {
+      "id": "e4",
+      "ref": "7:5",
+      "agent": "N",
+      "verb": "note",
+      "object": "brothers_do_not_believe"
+    },
+    {
+      "id": "e5",
+      "ref": "7:6",
+      "agent": "G",
+      "verb": "say",
+      "object": "my_time_not_yet;_your_time_always_ready",
+      "mode": "hour-language"
+    },
+    {
+      "id": "e6",
+      "ref": "7:7",
+      "agent": "G",
+      "verb": "say",
+      "object": "world_cannot_hate_you;_it_hates_me_because_I_testify_its_works_evil"
+    },
+    {
+      "id": "e7",
+      "ref": "7:8",
+      "agent": "G",
+      "verb": "refuse",
+      "object": "go_up_now",
+      "mode": "time_not_fulfilled"
+    },
+    {
+      "id": "e8",
+      "ref": "7:9",
+      "agent": "G",
+      "verb": "remain",
+      "object": "Galilee"
+    },
+    {
+      "id": "e9",
+      "ref": "7:10",
+      "agent": "G",
+      "verb": "go_up",
+      "object": "feast",
+      "mode": "in_secret"
+    },
+    {
+      "id": "e10",
+      "ref": "7:11",
+      "agent": "J",
+      "verb": "seek",
+      "object": "Jesus_at_feast"
+    },
+    {
+      "id": "e11",
+      "ref": "7:12",
+      "agent": "C",
+      "verb": "murmur",
+      "object": "about_Jesus",
+      "mode": "mixed_opinions"
+    },
+    {
+      "id": "e12",
+      "ref": "7:13",
+      "agent": "C",
+      "verb": "speak",
+      "object": "quietly",
+      "mode": "fear_of_J"
+    },
+    {
+      "id": "e13",
+      "ref": "7:14",
+      "agent": "G",
+      "verb": "go_up",
+      "object": "temple_mid-feast"
+    },
+    {
+      "id": "e14",
+      "ref": "7:14",
+      "agent": "G",
+      "verb": "teach",
+      "object": "temple"
+    },
+    {
+      "id": "e15",
+      "ref": "7:15",
+      "agent": "J",
+      "verb": "marvel",
+      "object": "How_knows_letters_without_study?"
+    },
+    {
+      "id": "e16",
+      "ref": "7:16-17",
+      "agent": "G",
+      "verb": "answer",
+      "object": "teaching_not_mine_but_his_who_sent_me;_if_anyone_wills_do_Gods_will_he_will_know"
+    },
+    {
+      "id": "e17",
+      "ref": "7:18",
+      "agent": "G",
+      "verb": "say",
+      "object": "true_speaker_seeks_sender_glory;_no_falsehood"
+    },
+    {
+      "id": "e18",
+      "ref": "7:19",
+      "agent": "G",
+      "verb": "accuse",
+      "object": "Why_seek_to_kill_me?_Moses_gave_law_yet_you_break"
+    },
+    {
+      "id": "e19",
+      "ref": "7:20",
+      "agent": "C",
+      "verb": "reply",
+      "object": "You_have_demon;_who_seeks_to_kill_you?"
+    },
+    {
+      "id": "e20",
+      "ref": "7:21",
+      "agent": "G",
+      "verb": "respond",
+      "object": "I_did_one_work_and_you_all_marvel"
+    },
+    {
+      "id": "e21",
+      "ref": "7:22-23",
+      "agent": "G",
+      "verb": "argue",
+      "object": "circumcision_on_sabbath;_why_angry_I_made_man_whole"
+    },
+    {
+      "id": "e22",
+      "ref": "7:24",
+      "agent": "G",
+      "verb": "command",
+      "object": "judge_not_by_appearance_but_right_judgment"
+    },
+    {
+      "id": "e23",
+      "ref": "7:25-26",
+      "agent": "C",
+      "verb": "whisper",
+      "object": "Is_not_this_the_man_they_seek_to_kill?"
+    },
+    {
+      "id": "e24",
+      "ref": "7:27",
+      "agent": "C",
+      "verb": "object",
+      "object": "we_know_where_he_is_from;_Messiah_origin_unknown"
+    },
+    {
+      "id": "e25",
+      "ref": "7:28",
+      "agent": "G",
+      "verb": "cry_out",
+      "object": "You_know_me_and_where_from;_I_have_not_come_of_myself;_He_who_sent_me_is_true;_you_do_not_know_him"
+    },
+    {
+      "id": "e26",
+      "ref": "7:29",
+      "agent": "G",
+      "verb": "declare",
+      "object": "I_know_him_for_I_am_from_him_and_he_sent_me"
+    },
+    {
+      "id": "e27",
+      "ref": "7:30",
+      "agent": "J",
+      "verb": "seek",
+      "object": "arrest"
+    },
+    {
+      "id": "e28",
+      "ref": "7:30",
+      "agent": "N",
+      "verb": "note",
+      "object": "no_one_laid_hand_because_hour_not_yet"
+    },
+    {
+      "id": "e29",
+      "ref": "7:31",
+      "agent": "C",
+      "verb": "believe",
+      "object": "many",
+      "mode": "sign-logic"
+    },
+    {
+      "id": "e30",
+      "ref": "7:31",
+      "agent": "C",
+      "verb": "ask",
+      "object": "Will_Christ_do_more_signs?"
+    },
+    {
+      "id": "e31",
+      "ref": "7:32",
+      "agent": "P",
+      "verb": "hear",
+      "object": "murmuring_about_Jesus"
+    },
+    {
+      "id": "e32",
+      "ref": "7:32",
+      "agent": "P",
+      "verb": "send",
+      "object": "Officers_to_arrest",
+      "with": "Pri"
+    },
+    {
+      "id": "e33",
+      "ref": "7:33",
+      "agent": "G",
+      "verb": "say",
+      "object": "I_am_with_you_a_little_longer_then_I_go_to_him_who_sent_me"
+    },
+    {
+      "id": "e34",
+      "ref": "7:34",
+      "agent": "G",
+      "verb": "say",
+      "object": "you_will_seek_me_and_not_find;_where_I_am_you_cannot_come"
+    },
+    {
+      "id": "e35",
+      "ref": "7:35-36",
+      "agent": "J",
+      "verb": "wonder",
+      "object": "Where_will_he_go?_What_means_seek_and_not_find?"
+    },
+    {
+      "id": "e36",
+      "ref": "7:37",
+      "agent": "G",
+      "verb": "stand",
+      "object": "last_day_of_feast"
+    },
+    {
+      "id": "e37",
+      "ref": "7:37",
+      "agent": "G",
+      "verb": "cry_out",
+      "object": "If_anyone_thirsts_let_him_come_to_me_and_drink"
+    },
+    {
+      "id": "e38",
+      "ref": "7:38",
+      "agent": "G",
+      "verb": "promise",
+      "object": "whoever_believes_out_of_heart_will_flow_rivers_living_water"
+    },
+    {
+      "id": "e39",
+      "ref": "7:39",
+      "agent": "N",
+      "verb": "explain",
+      "object": "this_he_said_about_Spirit;_Spirit_not_yet_given_because_Jesus_not_yet_glorified"
+    },
+    {
+      "id": "e40",
+      "ref": "7:40",
+      "agent": "C",
+      "verb": "say",
+      "object": "This_is_Prophet"
+    },
+    {
+      "id": "e41",
+      "ref": "7:41",
+      "agent": "C",
+      "verb": "say",
+      "object": "This_is_Christ"
+    },
+    {
+      "id": "e42",
+      "ref": "7:41-42",
+      "agent": "C",
+      "verb": "dispute",
+      "object": "Christ_from_Galilee? Scripture_says_Bethlehem_David_line"
+    },
+    {
+      "id": "e43",
+      "ref": "7:43",
+      "agent": "N",
+      "verb": "note",
+      "object": "division_in_crowd"
+    },
+    {
+      "id": "e44",
+      "ref": "7:44",
+      "agent": "C",
+      "verb": "seek",
+      "object": "arrest_but_no_one_laid_hand"
+    },
+    {
+      "id": "e45",
+      "ref": "7:45",
+      "agent": "Off",
+      "verb": "return",
+      "object": "to_P_and_Pri"
+    },
+    {
+      "id": "e46",
+      "ref": "7:46",
+      "agent": "Off",
+      "verb": "answer",
+      "object": "No_one_ever_spoke_like_this_man"
+    },
+    {
+      "id": "e47",
+      "ref": "7:47-49",
+      "agent": "P",
+      "verb": "rebuke",
+      "object": "Have_you_been_deceived? none_of_rulers_believe; crowd_accursed"
+    },
+    {
+      "id": "e48",
+      "ref": "7:50-51",
+      "agent": "Nic",
+      "verb": "appeal",
+      "object": "Law_judges_no_one_without_hearing_and_learning"
+    },
+    {
+      "id": "e49",
+      "ref": "7:52",
+      "agent": "P",
+      "verb": "mock",
+      "object": "Are_you_from_Galilee? Search_and_see_no_prophet_from_Galilee"
+    }
+  ],
+  "links": [
+    {
+      "op": "SIM",
+      "events": [
+        "e12",
+        "e13"
+      ]
+    },
+    {
+      "op": "SIM",
+      "events": [
+        "e26",
+        "e27"
+      ]
+    },
+    {
+      "op": "SEQ",
+      "from": "e1",
+      "to": "e2"
+    },
+    {
+      "op": "SEQ",
+      "from": "e2",
+      "to": "e3"
+    },
+    {
+      "op": "SEQ",
+      "from": "e3",
+      "to": "e4"
+    },
+    {
+      "op": "SEQ",
+      "from": "e4",
+      "to": "e5"
+    },
+    {
+      "op": "SEQ",
+      "from": "e5",
+      "to": "e6"
+    },
+    {
+      "op": "SEQ",
+      "from": "e6",
+      "to": "e7"
+    },
+    {
+      "op": "SEQ",
+      "from": "e7",
+      "to": "e8"
+    },
+    {
+      "op": "SEQ",
+      "from": "e8",
+      "to": "e9"
+    },
+    {
+      "op": "SEQ",
+      "from": "e9",
+      "to": "e10"
+    },
+    {
+      "op": "SEQ",
+      "from": "e10",
+      "to": "e11"
+    },
+    {
+      "op": "SEQ",
+      "from": "e11",
+      "to": "e12"
+    },
+    {
+      "op": "SEQ",
+      "from": "e12",
+      "to": "e13"
+    },
+    {
+      "op": "SEQ",
+      "from": "e13",
+      "to": "e14"
+    },
+    {
+      "op": "SEQ",
+      "from": "e14",
+      "to": "e15"
+    },
+    {
+      "op": "SEQ",
+      "from": "e15",
+      "to": "e16"
+    },
+    {
+      "op": "SEQ",
+      "from": "e16",
+      "to": "e17"
+    },
+    {
+      "op": "SEQ",
+      "from": "e17",
+      "to": "e18"
+    },
+    {
+      "op": "SEQ",
+      "from": "e18",
+      "to": "e19"
+    },
+    {
+      "op": "SEQ",
+      "from": "e19",
+      "to": "e20"
+    },
+    {
+      "op": "SEQ",
+      "from": "e20",
+      "to": "e21"
+    },
+    {
+      "op": "SEQ",
+      "from": "e21",
+      "to": "e22"
+    },
+    {
+      "op": "SEQ",
+      "from": "e22",
+      "to": "e23"
+    },
+    {
+      "op": "SEQ",
+      "from": "e23",
+      "to": "e24"
+    },
+    {
+      "op": "SEQ",
+      "from": "e24",
+      "to": "e25"
+    },
+    {
+      "op": "SEQ",
+      "from": "e25",
+      "to": "e26"
+    },
+    {
+      "op": "SEQ",
+      "from": "e26",
+      "to": "e27"
+    },
+    {
+      "op": "SEQ",
+      "from": "e27",
+      "to": "e28"
+    },
+    {
+      "op": "SEQ",
+      "from": "e28",
+      "to": "e29"
+    },
+    {
+      "op": "SEQ",
+      "from": "e29",
+      "to": "e30"
+    },
+    {
+      "op": "SEQ",
+      "from": "e30",
+      "to": "e31"
+    },
+    {
+      "op": "SEQ",
+      "from": "e31",
+      "to": "e32"
+    },
+    {
+      "op": "SEQ",
+      "from": "e32",
+      "to": "e33"
+    },
+    {
+      "op": "SEQ",
+      "from": "e33",
+      "to": "e34"
+    },
+    {
+      "op": "SEQ",
+      "from": "e34",
+      "to": "e35"
+    },
+    {
+      "op": "SEQ",
+      "from": "e35",
+      "to": "e36"
+    },
+    {
+      "op": "SEQ",
+      "from": "e36",
+      "to": "e37"
+    },
+    {
+      "op": "SEQ",
+      "from": "e37",
+      "to": "e38"
+    },
+    {
+      "op": "SEQ",
+      "from": "e38",
+      "to": "e39"
+    },
+    {
+      "op": "SEQ",
+      "from": "e39",
+      "to": "e40"
+    },
+    {
+      "op": "SEQ",
+      "from": "e40",
+      "to": "e41"
+    },
+    {
+      "op": "SEQ",
+      "from": "e41",
+      "to": "e42"
+    },
+    {
+      "op": "SEQ",
+      "from": "e42",
+      "to": "e43"
+    },
+    {
+      "op": "SEQ",
+      "from": "e43",
+      "to": "e44"
+    },
+    {
+      "op": "SEQ",
+      "from": "e44",
+      "to": "e45"
+    },
+    {
+      "op": "SEQ",
+      "from": "e45",
+      "to": "e46"
+    },
+    {
+      "op": "SEQ",
+      "from": "e46",
+      "to": "e47"
+    },
+    {
+      "op": "SEQ",
+      "from": "e47",
+      "to": "e48"
+    },
+    {
+      "op": "SEQ",
+      "from": "e48",
+      "to": "e49"
+    }
+  ],
+  "markers": [
+    {
+      "id": "m1",
+      "ref": "7:1-2",
+      "type": "WS",
+      "target": "Galilee_to_Judea_threat_frame",
+      "justification": "movement constrained by lethal hostility + feast approaching"
+    },
+    {
+      "id": "m2",
+      "ref": "7:6-8",
+      "type": "SM",
+      "target": "time_not_yet",
+      "justification": "'my time' delays action; hour-language slows decision"
+    },
+    {
+      "id": "m3",
+      "ref": "7:10",
+      "type": "THR",
+      "target": "public→secret_ascent",
+      "justification": "goes up in secret, crossing visibility boundary"
+    },
+    {
+      "id": "m4",
+      "ref": "7:12-13",
+      "type": "WS",
+      "target": "murmuring_crowd",
+      "justification": "crowd chatter establishes divided public atmosphere"
+    },
+    {
+      "id": "m5",
+      "ref": "7:13",
+      "type": "SIL",
+      "target": "fear_silences_speech",
+      "justification": "they would not speak openly for fear of the Jews"
+    },
+    {
+      "id": "m6",
+      "ref": "7:14-15",
+      "type": "CU",
+      "target": "Jesus_teaching_in_temple",
+      "justification": "mid-feast shift to temple teaching as focal action"
+    },
+    {
+      "id": "m7",
+      "ref": "7:28",
+      "type": "CU",
+      "target": "Jesus_cries_out_about_sender",
+      "justification": "raised-voice proclamation marks revelatory emphasis"
+    },
+    {
+      "id": "m8",
+      "ref": "7:30",
+      "type": "SIL",
+      "target": "hour_not_yet",
+      "justification": "arrest intention blocked without explanation beyond 'hour'"
+    },
+    {
+      "id": "m9",
+      "ref": "7:37",
+      "type": "SM",
+      "target": "last_day_standing_cry",
+      "justification": "festival climax; Jesus stands and cries out"
+    },
+    {
+      "id": "m10",
+      "ref": "7:39",
+      "type": "CA",
+      "target": "narrator_spirit_aside",
+      "justification": "editorial aside interprets living water as Spirit"
+    },
+    {
+      "id": "m11",
+      "ref": "7:40-43",
+      "type": "STAY",
+      "target": "division_remains",
+      "justification": "multiple confessions/objections remain unresolved"
+    },
+    {
+      "id": "m12",
+      "ref": "7:45-52",
+      "type": "THR",
+      "target": "courtroom_return_of_officers",
+      "justification": "officers cross back to authorities with refusal/admiration"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "type": "hinge_candidate",
+      "text": "Jesus’ public movement is governed by 'my time / hour'—hostility cannot force his hand.",
+      "supported_by": [
+        "e1",
+        "e5",
+        "e7",
+        "e27",
+        "m2",
+        "m8"
+      ],
+      "inference": false
+    },
+    {
+      "id": "c2",
+      "type": "scene_theology",
+      "text": "John frames revelation as contested speech: murmuring → temple teaching → cried-out origin claim → attempted arrest; the word itself becomes the battlefield.",
+      "supported_by": [
+        "e12",
+        "e14",
+        "e15",
+        "e23",
+        "e24",
+        "e26",
+        "e32",
+        "m4",
+        "m6",
+        "m7"
+      ],
+      "inference": true
+    },
+    {
+      "id": "c3",
+      "type": "scene_theology",
+      "text": "The 'living water' invitation peaks at the feast’s climax and is interpreted as Spirit-gift, tied to Jesus’ future glorification.",
+      "supported_by": [
+        "e33",
+        "e34",
+        "e35",
+        "e36",
+        "m9",
+        "m10"
+      ],
+      "inference": false
+    },
+    {
+      "id": "c4",
+      "type": "scene_theology",
+      "text": "Division persists as the dominant effect: some confess prophet/Christ, others object by origin, authorities harden, and legal hearing is refused.",
+      "supported_by": [
+        "e37",
+        "e38",
+        "e39",
+        "e40",
+        "e41",
+        "e45",
+        "e46",
+        "e47",
+        "m11"
+      ],
+      "inference": true
+    },
+    {
+      "id": "c5",
+      "type": "hinge_candidate",
+      "text": "The law is invoked to judge Jesus, yet Jesus and Nicodemus expose judgment without right hearing; fear and pride distort discernment.",
+      "supported_by": [
+        "e19",
+        "e23",
+        "e47",
+        "e48",
+        "e49"
+      ],
+      "inference": true
+    }
+  ],
+  "hinge": {
+    "identity_□": "Jesus is the one sent from the true Father; his timing is governed by the 'hour', and he offers living water interpreted as the Spirit (tied to his coming glorification).",
+    "enactment_◇": "Jesus delays, goes up in secret, teaches in the temple, cries out about his Sender, invites the thirsty to come and drink, while authorities send officers and interrogate.",
+    "effect_Δ": "The feast becomes a courtroom of divided speech: attempted arrests fail, many believe and many object, officers hesitate, and leaders harden—division remains in frame.",
+    "themes": [
+      "hour",
+      "witness",
+      "fear",
+      "judgment",
+      "origin",
+      "sent",
+      "living water",
+      "Spirit",
+      "division",
+      "Feast of Booths"
+    ]
+  },
+  "meta": {
+    "encoded_at": "2026-02-13T14:02:03Z",
+    "source": "assistant_cne_encode_v1"
+  }
+}

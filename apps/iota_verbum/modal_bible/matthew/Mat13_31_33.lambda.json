@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Matthew λ-files; safe to hand-edit after generation.",
+    "book": "Matthew",
+    "passage_id": "Mat13_31_33",
+    "version": "Mat13_31_33_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mat13_31_33",
+  "book": "Matthew",
+  "chapter": 13,
+  "verses": "31-33",
+  "title": "Matthew 13:31–33 – Mustard Seed and Leaven",
+  "interpretive_frames": [
+    "Parable",
+    "Growth",
+    "Hiddenness"
+  ],
+  "identity_invariants": [
+    "[]KingdomBeginsSmallYetGrowsLargeAndPermeatesAll(Kingdom)"
+  ],
+  "units": [
+    {
+      "id": "Mat13_31_33_u1",
+      "label": "From Small to Great",
+      "verses": [
+        31,
+        32,
+        33
+      ],
+      "illocution": "Parable",
+      "agents": [
+        "Jesus",
+        "Disciples"
+      ],
+      "statements": [
+        {
+          "id": "Mat13_31_33_s1",
+          "type": "summary",
+          "description": "Through mustard seed and leaven Jesus shows the kingdom's disproportionate, permeating growth.",
+          "lambda_iv": [
+            "[]KingdomBeginsSmallYetGrowsLargeAndPermeatesAll(Kingdom)",
+            "EFF(HiddenGrowthLeadsToVisibleShelterAndTransformation(Kingdom))"
+          ]
+        }
+      ]
+    }
+  ]
+}

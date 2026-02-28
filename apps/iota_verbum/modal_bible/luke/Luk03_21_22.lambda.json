@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Luke λ-files; safe to hand-edit after generation.",
+    "book": "Luke",
+    "passage_id": "Luk03_21_22",
+    "version": "Luk03_21_22_Lambda_IV_v0.1"
+  },
+  "passage_id": "Luk03_21_22",
+  "book": "Luke",
+  "chapter": 3,
+  "verses": "21-22",
+  "title": "Luke 3:21–22 – Heaven Opened and the Beloved Son",
+  "interpretive_frames": [
+    "Baptism",
+    "Spirit",
+    "Sonship"
+  ],
+  "identity_invariants": [
+    "[]JesusIsBelovedSonAnointedWithSpiritInPrayer(Jesus, Father, Spirit)"
+  ],
+  "units": [
+    {
+      "id": "Luk03_21_22_u1",
+      "label": "You Are My Beloved Son",
+      "verses": [
+        21,
+        22
+      ],
+      "illocution": "Theophany",
+      "agents": [
+        "Jesus",
+        "Father",
+        "Spirit",
+        "People"
+      ],
+      "statements": [
+        {
+          "id": "Luk03_21_22_s1",
+          "type": "summary",
+          "description": "While Jesus is praying at his baptism, heaven opens, the Spirit descends, and the Father declares him the beloved Son.",
+          "lambda_iv": [
+            "[]JesusIsBelovedSonAnointedWithSpiritInPrayer(Jesus, Father, Spirit)",
+            "EFF(MessianicMissionCommencesUnderTrinitarianWitness(Jesus, Father, Spirit))"
+          ]
+        }
+      ]
+    }
+  ]
+}

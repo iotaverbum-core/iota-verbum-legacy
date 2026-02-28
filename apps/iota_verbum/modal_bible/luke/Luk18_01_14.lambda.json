@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Luke λ-files; safe to hand-edit after generation.",
+    "book": "Luke",
+    "passage_id": "Luk18_01_14",
+    "version": "Luk18_01_14_Lambda_IV_v0.1"
+  },
+  "passage_id": "Luk18_01_14",
+  "book": "Luke",
+  "chapter": 18,
+  "verses": "1-14",
+  "title": "Luke 18:1–14 – Persistent Widow and Pharisee and Tax Collector",
+  "interpretive_frames": [
+    "Prayer",
+    "Justice",
+    "Humility"
+  ],
+  "identity_invariants": [
+    "[]GodHonoursPersistentFaithAndJustifiesHumbleSinnersNotSelfRighteous(Petitioners, God)"
+  ],
+  "units": [
+    {
+      "id": "Luk18_01_14_u1",
+      "label": "He Who Humbles Himself Will Be Exalted",
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "illocution": "Parables",
+      "agents": [
+        "Widow",
+        "UnjustJudge",
+        "Pharisee",
+        "TaxCollector",
+        "Jesus"
+      ],
+      "statements": [
+        {
+          "id": "Luk18_01_14_s1",
+          "type": "summary",
+          "description": "Jesus teaches that disciples must always pray and not lose heart and that the humble sinner, not the self-righteous, goes home justified.",
+          "lambda_iv": [
+            "[]GodHonoursPersistentFaithAndJustifiesHumbleSinnersNotSelfRighteous(Petitioners, God)",
+            "EFF(PostureInPrayerRevealsTrueStandingBeforeGod(Worshippers))"
+          ]
+        }
+      ]
+    }
+  ]
+}

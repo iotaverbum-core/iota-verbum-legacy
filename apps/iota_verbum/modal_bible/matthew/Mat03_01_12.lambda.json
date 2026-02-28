@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Matthew λ-files; safe to hand-edit after generation.",
+    "book": "Matthew",
+    "passage_id": "Mat03_01_12",
+    "version": "Mat03_01_12_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mat03_01_12",
+  "book": "Matthew",
+  "chapter": 3,
+  "verses": "1-12",
+  "title": "Matthew 3:1–12 – John the Baptist and the Call to Repent",
+  "interpretive_frames": [
+    "Preparation",
+    "Repentance",
+    "Judgment"
+  ],
+  "identity_invariants": [
+    "[]JohnPreparesTheWayForTheLordByCallingToRepentance(John, Israel)"
+  ],
+  "units": [
+    {
+      "id": "Mat03_01_12_u1",
+      "label": "Forerunner and Fire",
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "illocution": "PropheticWarning",
+      "agents": [
+        "John",
+        "Crowds",
+        "Pharisees",
+        "Sadducees",
+        "ComingOne"
+      ],
+      "statements": [
+        {
+          "id": "Mat03_01_12_s1",
+          "type": "summary",
+          "description": "John calls Israel to repent in light of the coming one who will baptise with the Holy Spirit and fire.",
+          "lambda_iv": [
+            "[]JohnPreparesTheWayForTheLordByCallingToRepentance(John, Israel)",
+            "<>ComingOneBaptisesWithSpiritAndFire(ComingOne, Spirit, Fire)"
+          ]
+        }
+      ]
+    }
+  ]
+}

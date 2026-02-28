@@ -1,0 +1,4 @@
+mappings:
+  love_is_constancy:
+    metrics: [delta_good, delta_harm]
+    tolerance: {delta_harm_max: 0}

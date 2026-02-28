@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Mark λ-files; safe to hand-edit after generation.",
+    "book": "Mark",
+    "passage_id": "Mar04_01_20",
+    "version": "Mar04_01_20_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mar04_01_20",
+  "book": "Mark",
+  "chapter": 4,
+  "verses": "1-20",
+  "title": "Mark 4:1–20 – Parable of the Sower and Its Explanation",
+  "interpretive_frames": [
+    "Hearing",
+    "MysteryOfKingdom",
+    "Fruitfulness"
+  ],
+  "identity_invariants": [
+    "[]WordOfKingdomBearsFruitInThoseWhoHearAcceptAndPersevere(Word, Hearers)"
+  ],
+  "units": [
+    {
+      "id": "Mar04_01_20_u1",
+      "label": "He Who Has Ears to Hear",
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "illocution": "ParableAndInterpretation",
+      "agents": [
+        "Jesus",
+        "Crowd",
+        "Disciples"
+      ],
+      "statements": [
+        {
+          "id": "Mar04_01_20_s1",
+          "type": "summary",
+          "description": "Jesus teaches from the boat the parable of the sower, then explains privately to disciples the varying soils and the mystery of the kingdom.",
+          "lambda_iv": [
+            "[]WordOfKingdomBearsFruitInThoseWhoHearAcceptAndPersevere(Word, Hearers)",
+            "EFF(ParablesBothRevealAndConcealAccordingToResponse(Hearers))"
+          ]
+        }
+      ]
+    }
+  ]
+}

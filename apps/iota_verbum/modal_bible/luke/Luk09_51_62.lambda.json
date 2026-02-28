@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Luke λ-files; safe to hand-edit after generation.",
+    "book": "Luke",
+    "passage_id": "Luk09_51_62",
+    "version": "Luk09_51_62_Lambda_IV_v0.1"
+  },
+  "passage_id": "Luk09_51_62",
+  "book": "Luke",
+  "chapter": 9,
+  "verses": "51-62",
+  "title": "Luke 9:51–62 – Setting Face to Jerusalem and Hard Call to Follow",
+  "interpretive_frames": [
+    "JourneyToJerusalem",
+    "Rejection",
+    "CostOfDiscipleship"
+  ],
+  "identity_invariants": [
+    "[]JesusResolvesToGoToJerusalemAndDemandsUndividedLoyaltyFromFollowers(Jesus, Disciples)"
+  ],
+  "units": [
+    {
+      "id": "Luk09_51_62_u1",
+      "label": "No One Who Looks Back",
+      "verses": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "illocution": "JourneyHeadingAndSayings",
+      "agents": [
+        "Jesus",
+        "Disciples",
+        "SamaritanVillage",
+        "WouldBeFollowers"
+      ],
+      "statements": [
+        {
+          "id": "Luk09_51_62_s1",
+          "type": "summary",
+          "description": "As Jesus sets his face toward Jerusalem, he is rejected by Samaritans and teaches that following him allows no divided loyalties.",
+          "lambda_iv": [
+            "[]JesusResolvesToGoToJerusalemAndDemandsUndividedLoyaltyFromFollowers(Jesus, Disciples)",
+            "EFF(DiscipleshipRequiresPriorityOverComfortFamilyAndDelay(Disciples))"
+          ]
+        }
+      ]
+    }
+  ]
+}

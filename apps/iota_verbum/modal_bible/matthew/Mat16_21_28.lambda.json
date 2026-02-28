@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Matthew λ-files; safe to hand-edit after generation.",
+    "book": "Matthew",
+    "passage_id": "Mat16_21_28",
+    "version": "Mat16_21_28_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mat16_21_28",
+  "book": "Matthew",
+  "chapter": 16,
+  "verses": "21-28",
+  "title": "Matthew 16:21–28 – First Passion Prediction and the Cross",
+  "interpretive_frames": [
+    "Cross",
+    "Discipleship",
+    "Glory"
+  ],
+  "identity_invariants": [
+    "[]SonOfManMustSufferBeKilledAndBeRaisedOnThirdDay(SonOfMan)"
+  ],
+  "units": [
+    {
+      "id": "Mat16_21_28_u1",
+      "label": "Take Up Your Cross",
+      "verses": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "illocution": "PredictionAndCall",
+      "agents": [
+        "Jesus",
+        "Disciples",
+        "Peter"
+      ],
+      "statements": [
+        {
+          "id": "Mat16_21_28_s1",
+          "type": "summary",
+          "description": "Jesus foretells his suffering and calls disciples to take up their cross and follow him.",
+          "lambda_iv": [
+            "[]SonOfManMustSufferBeKilledAndBeRaisedOnThirdDay(SonOfMan)",
+            "<>FollowByLosingLifeToFindIt(Disciple, Jesus)"
+          ]
+        }
+      ]
+    }
+  ]
+}

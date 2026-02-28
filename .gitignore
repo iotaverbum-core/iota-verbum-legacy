@@ -6,3 +6,6 @@ outputs/
 out/
 tmp/
 *.log
+apps/iota_verbum/data/original/ot_lemmas.csv
+apps/iota_verbum/john/media/*.pdf
+.backup/

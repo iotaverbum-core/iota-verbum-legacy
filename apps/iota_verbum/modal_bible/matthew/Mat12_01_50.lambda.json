@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Matthew λ-files; safe to hand-edit after generation.",
+    "book": "Matthew",
+    "passage_id": "Mat12_01_50",
+    "version": "Mat12_01_50_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mat12_01_50",
+  "book": "Matthew",
+  "chapter": 12,
+  "verses": "1-50",
+  "title": "Matthew 12:1–50 – Sabbath, Servant, Conflict, and True Family",
+  "interpretive_frames": [
+    "Sabbath",
+    "ServantSong",
+    "Blasphemy",
+    "Family"
+  ],
+  "identity_invariants": [
+    "[]JesusIsMercifulLordOfSabbathAndSpiritAnointedServantForTheNations(Jesus, Nations)"
+  ],
+  "units": [
+    {
+      "id": "Mat12_01_50_u1",
+      "label": "Something Greater Is Here",
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "illocution": "ConflictAndRevelation",
+      "agents": [
+        "Jesus",
+        "Pharisees",
+        "Crowds",
+        "Family",
+        "Spirit"
+      ],
+      "statements": [
+        {
+          "id": "Mat12_01_50_s1",
+          "type": "summary",
+          "description": "Jesus reveals himself as Lord of the Sabbath and the Servant of Isaiah while confronting hardness and redefining family.",
+          "lambda_iv": [
+            "[]JesusIsMercifulLordOfSabbathAndSpiritAnointedServantForTheNations(Jesus, Nations)",
+            "!<>AttributeSpiritsWorkToSatan(Observers, Spirit)"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,732 @@
+{
+  "ref": "John 8",
+  "translation": "ESV",
+  "nodes": [
+    {
+      "id": "n1",
+      "kind": "identity",
+      "lemma": "identity",
+      "text": "□ Jesus is the Light of the world and the Son who speaks what he has heard from the Father; before Abraham, he is 'I AM'.",
+      "span": "c1",
+      "confidence": 0.85
+    },
+    {
+      "id": "n2",
+      "kind": "enactment",
+      "lemma": "enactment",
+      "text": "◇ Jesus receives the trap, answers with exposing mercy, teaches in the temple, calls for abiding in his word, and testifies with the Father against hostile accusation.",
+      "span": "c2",
+      "confidence": 0.82
+    },
+    {
+      "id": "n3",
+      "kind": "effect",
+      "lemma": "effect",
+      "text": "Δ The scene divides and hardens: some believe, others dispute and slander, the conflict shifts to paternity and death, and the climax provokes attempted stoning as Jesus withdraws.",
+      "span": "c3",
+      "confidence": 0.84
+    },
+    {
+      "id": "n4",
+      "kind": "enactment",
+      "lemma": "go",
+      "text": "G.go (Mount_of_Olives)  (7:53-8:2)",
+      "span": "c1",
+      "confidence": 0.76
+    },
+    {
+      "id": "n5",
+      "kind": "enactment",
+      "lemma": "come",
+      "text": "G.come (temple) [early_morning]  (8:1-2)",
+      "span": "c2",
+      "confidence": 0.76
+    },
+    {
+      "id": "n6",
+      "kind": "enactment",
+      "lemma": "gather",
+      "text": "C.gather (around_Jesus)  (8:2)",
+      "span": "c3",
+      "confidence": 0.76
+    },
+    {
+      "id": "n7",
+      "kind": "enactment",
+      "lemma": "sit",
+      "text": "G.sit (to_teach)  (8:2)",
+      "span": "c4",
+      "confidence": 0.76
+    },
+    {
+      "id": "n8",
+      "kind": "enactment",
+      "lemma": "bring",
+      "text": "H.bring (W) [public_display]  (8:3-4)",
+      "span": "c5",
+      "confidence": 0.76
+    },
+    {
+      "id": "n9",
+      "kind": "enactment",
+      "lemma": "accuse",
+      "text": "H.accuse (W) [testing_trap]  (8:4-6)",
+      "span": "c6",
+      "confidence": 0.76
+    },
+    {
+      "id": "n10",
+      "kind": "enactment",
+      "lemma": "stoop",
+      "text": "G.stoop (write_on_ground) [silence]  (8:6)",
+      "span": "c7",
+      "confidence": 0.76
+    },
+    {
+      "id": "n11",
+      "kind": "enactment",
+      "lemma": "persist",
+      "text": "H.persist (question)  (8:7)",
+      "span": "c8",
+      "confidence": 0.76
+    },
+    {
+      "id": "n12",
+      "kind": "enactment",
+      "lemma": "speak",
+      "text": "G.speak (Let him without sin cast first stone) [counter_judgment]  (8:7)",
+      "span": "c9",
+      "confidence": 0.76
+    },
+    {
+      "id": "n13",
+      "kind": "enactment",
+      "lemma": "stoop",
+      "text": "G.stoop (write_on_ground) [silence]  (8:8)",
+      "span": "c10",
+      "confidence": 0.76
+    },
+    {
+      "id": "n14",
+      "kind": "enactment",
+      "lemma": "depart",
+      "text": "H.depart (one_by_one) [convicted]  (8:9)",
+      "span": "c11",
+      "confidence": 0.76
+    },
+    {
+      "id": "n15",
+      "kind": "enactment",
+      "lemma": "ask",
+      "text": "G.ask (Where are they? Has no one condemned you?)  (8:10-11)",
+      "span": "c12",
+      "confidence": 0.76
+    },
+    {
+      "id": "n16",
+      "kind": "enactment",
+      "lemma": "answer",
+      "text": "W.answer (No one, Lord)  (8:11)",
+      "span": "c13",
+      "confidence": 0.76
+    },
+    {
+      "id": "n17",
+      "kind": "enactment",
+      "lemma": "speak",
+      "text": "G.speak (Neither do I condemn you; go, and from now on sin no more) [send]  (8:11)",
+      "span": "c14",
+      "confidence": 0.76
+    },
+    {
+      "id": "n18",
+      "kind": "enactment",
+      "lemma": "declare",
+      "text": "G.declare (I am the light of the world) [revelation]  (8:12)",
+      "span": "c15",
+      "confidence": 0.76
+    },
+    {
+      "id": "n19",
+      "kind": "enactment",
+      "lemma": "challenge",
+      "text": "H.challenge (Your testimony is not true) [courtroom]  (8:13)",
+      "span": "c16",
+      "confidence": 0.76
+    },
+    {
+      "id": "n20",
+      "kind": "enactment",
+      "lemma": "respond",
+      "text": "G.respond (I know where I came from and where I am going) [origin_dest]  (8:14)",
+      "span": "c17",
+      "confidence": 0.76
+    },
+    {
+      "id": "n21",
+      "kind": "enactment",
+      "lemma": "judge",
+      "text": "G.judge (not_by_flesh) [clarify]  (8:15-16)",
+      "span": "c18",
+      "confidence": 0.76
+    },
+    {
+      "id": "n22",
+      "kind": "enactment",
+      "lemma": "assert",
+      "text": "G.assert (My judgment is true; I am not alone but I and the Father who sent me) [Father_witness]  (8:16)",
+      "span": "c19",
+      "confidence": 0.76
+    },
+    {
+      "id": "n23",
+      "kind": "enactment",
+      "lemma": "testify",
+      "text": "G.testify (I am one who bears witness; the Father bears witness) [two_witness]  (8:18)",
+      "span": "c20",
+      "confidence": 0.76
+    },
+    {
+      "id": "n24",
+      "kind": "enactment",
+      "lemma": "ask",
+      "text": "H.ask (Where is your Father?) [blindness]  (8:19)",
+      "span": "c21",
+      "confidence": 0.76
+    },
+    {
+      "id": "n25",
+      "kind": "enactment",
+      "lemma": "answer",
+      "text": "G.answer (You know neither me nor my Father) [exposure]  (8:19)",
+      "span": "c22",
+      "confidence": 0.76
+    },
+    {
+      "id": "n26",
+      "kind": "enactment",
+      "lemma": "note",
+      "text": "C.note (No one arrested him; his hour had not yet come)  (8:20)",
+      "span": "c23",
+      "confidence": 0.76
+    },
+    {
+      "id": "n27",
+      "kind": "enactment",
+      "lemma": "warn",
+      "text": "G.warn (I am going away; you will die in your sin) [departure]  (8:21-22)",
+      "span": "c24",
+      "confidence": 0.76
+    },
+    {
+      "id": "n28",
+      "kind": "enactment",
+      "lemma": "contrast",
+      "text": "G.contrast (I am from above; unless you believe that I am, you will die in your sins) [above_below]  (8:23-24)",
+      "span": "c25",
+      "confidence": 0.76
+    },
+    {
+      "id": "n29",
+      "kind": "enactment",
+      "lemma": "ask",
+      "text": "H.ask (Who are you?) [identity_probe]  (8:25)",
+      "span": "c26",
+      "confidence": 0.76
+    },
+    {
+      "id": "n30",
+      "kind": "enactment",
+      "lemma": "answer",
+      "text": "G.answer (Just what I have been telling you; I speak what I have heard from him who sent me) [mission]  (8:25-26)",
+      "span": "c27",
+      "confidence": 0.76
+    },
+    {
+      "id": "n31",
+      "kind": "enactment",
+      "lemma": "note",
+      "text": "C.note (They did not understand he spoke of the Father)  (8:27)",
+      "span": "c28",
+      "confidence": 0.76
+    },
+    {
+      "id": "n32",
+      "kind": "enactment",
+      "lemma": "predict",
+      "text": "G.predict (When you lift up the Son of Man, then you will know that I am he) [lifted_up]  (8:28)",
+      "span": "c29",
+      "confidence": 0.76
+    },
+    {
+      "id": "n33",
+      "kind": "enactment",
+      "lemma": "assert",
+      "text": "G.assert (He who sent me is with me; I always do what pleases him) [withness]  (8:29)",
+      "span": "c30",
+      "confidence": 0.76
+    },
+    {
+      "id": "n34",
+      "kind": "enactment",
+      "lemma": "believe",
+      "text": "C.believe (many_believed)  (8:30)",
+      "span": "c31",
+      "confidence": 0.76
+    },
+    {
+      "id": "n35",
+      "kind": "enactment",
+      "lemma": "address",
+      "text": "G.address (If you abide in my word, you are truly my disciples) [abide]  (8:31)",
+      "span": "c32",
+      "confidence": 0.76
+    },
+    {
+      "id": "n36",
+      "kind": "enactment",
+      "lemma": "promise",
+      "text": "G.promise (You will know the truth, and the truth will set you free) [freedom]  (8:32)",
+      "span": "c33",
+      "confidence": 0.76
+    },
+    {
+      "id": "n37",
+      "kind": "enactment",
+      "lemma": "object",
+      "text": "H.object (We are offspring of Abraham and never enslaved) [denial]  (8:33)",
+      "span": "c34",
+      "confidence": 0.76
+    },
+    {
+      "id": "n38",
+      "kind": "enactment",
+      "lemma": "reframe",
+      "text": "G.reframe (Everyone who sins is slave; the Son sets free indeed) [son_freedom]  (8:34-36)",
+      "span": "c35",
+      "confidence": 0.76
+    },
+    {
+      "id": "n39",
+      "kind": "enactment",
+      "lemma": "expose",
+      "text": "G.expose (You seek to kill me because my word finds no place in you) [murder_intent]  (8:37-38)",
+      "span": "c36",
+      "confidence": 0.76
+    },
+    {
+      "id": "n40",
+      "kind": "enactment",
+      "lemma": "claim",
+      "text": "H.claim (Abraham is our father; we were not born of sexual immorality) [lineage]  (8:39-41)",
+      "span": "c37",
+      "confidence": 0.76
+    },
+    {
+      "id": "n41",
+      "kind": "enactment",
+      "lemma": "reply",
+      "text": "G.reply (If God were your Father, you would love me; I came from God) [paternity]  (8:41-42)",
+      "span": "c38",
+      "confidence": 0.76
+    },
+    {
+      "id": "n42",
+      "kind": "enactment",
+      "lemma": "diagnose",
+      "text": "G.diagnose (You are of your father the devil; he is murderer and liar) [hard_word]  (8:43-44)",
+      "span": "c39",
+      "confidence": 0.76
+    },
+    {
+      "id": "n43",
+      "kind": "enactment",
+      "lemma": "conclude",
+      "text": "G.conclude (Whoever is of God hears; you do not because not of God) [hearing]  (8:45-47)",
+      "span": "c40",
+      "confidence": 0.76
+    },
+    {
+      "id": "n44",
+      "kind": "enactment",
+      "lemma": "insult",
+      "text": "H.insult (You are a Samaritan and have a demon) [slander]  (8:48)",
+      "span": "c41",
+      "confidence": 0.76
+    },
+    {
+      "id": "n45",
+      "kind": "enactment",
+      "lemma": "deny",
+      "text": "G.deny (I do not have a demon; whoever keeps my word will never see death) [life_promise]  (8:49-51)",
+      "span": "c42",
+      "confidence": 0.76
+    },
+    {
+      "id": "n46",
+      "kind": "enactment",
+      "lemma": "mock",
+      "text": "H.mock (Are you greater than Abraham?) [status]  (8:52-53)",
+      "span": "c43",
+      "confidence": 0.76
+    },
+    {
+      "id": "n47",
+      "kind": "enactment",
+      "lemma": "answer",
+      "text": "G.answer (My Father glorifies me; Abraham rejoiced to see my day) [glory]  (8:54-56)",
+      "span": "c44",
+      "confidence": 0.76
+    },
+    {
+      "id": "n48",
+      "kind": "enactment",
+      "lemma": "object",
+      "text": "H.object (You are not yet fifty) [age]  (8:57)",
+      "span": "c45",
+      "confidence": 0.76
+    },
+    {
+      "id": "n49",
+      "kind": "enactment",
+      "lemma": "declare",
+      "text": "G.declare (Before Abraham was, I am) [I_AM]  (8:58)",
+      "span": "c46",
+      "confidence": 0.76
+    },
+    {
+      "id": "n50",
+      "kind": "enactment",
+      "lemma": "attempt",
+      "text": "H.attempt (stone_Jesus)  (8:59)",
+      "span": "c47",
+      "confidence": 0.76
+    },
+    {
+      "id": "n51",
+      "kind": "enactment",
+      "lemma": "hide",
+      "text": "G.hide (leave_temple) [withdrawal]  (8:59)",
+      "span": "c48",
+      "confidence": 0.76
+    }
+  ],
+  "edges": [
+    {
+      "from": "n1",
+      "to": "n2",
+      "relation": "grounds",
+      "confidence": 0.82
+    },
+    {
+      "from": "n2",
+      "to": "n3",
+      "relation": "produces",
+      "confidence": 0.8
+    },
+    {
+      "from": "n4",
+      "to": "n5",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n5",
+      "to": "n6",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n6",
+      "to": "n7",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n7",
+      "to": "n8",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n8",
+      "to": "n9",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n9",
+      "to": "n10",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n10",
+      "to": "n11",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n11",
+      "to": "n12",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n12",
+      "to": "n13",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n13",
+      "to": "n14",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n14",
+      "to": "n15",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n15",
+      "to": "n16",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n16",
+      "to": "n17",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n17",
+      "to": "n18",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n18",
+      "to": "n19",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n19",
+      "to": "n20",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n20",
+      "to": "n21",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n21",
+      "to": "n22",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n22",
+      "to": "n23",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n23",
+      "to": "n24",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n24",
+      "to": "n25",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n25",
+      "to": "n26",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n26",
+      "to": "n27",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n27",
+      "to": "n28",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n28",
+      "to": "n29",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n29",
+      "to": "n30",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n30",
+      "to": "n31",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n31",
+      "to": "n32",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n32",
+      "to": "n33",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n33",
+      "to": "n34",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n34",
+      "to": "n35",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n35",
+      "to": "n36",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n36",
+      "to": "n37",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n37",
+      "to": "n38",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n38",
+      "to": "n39",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n39",
+      "to": "n40",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n40",
+      "to": "n41",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n41",
+      "to": "n42",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n42",
+      "to": "n43",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n43",
+      "to": "n44",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n44",
+      "to": "n45",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n45",
+      "to": "n46",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n46",
+      "to": "n47",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n47",
+      "to": "n48",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n48",
+      "to": "n49",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n49",
+      "to": "n50",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n50",
+      "to": "n51",
+      "relation": "implies",
+      "confidence": 0.7
+    },
+    {
+      "from": "n9",
+      "to": "n10",
+      "relation": "coheres",
+      "confidence": 0.68
+    },
+    {
+      "from": "n13",
+      "to": "n14",
+      "relation": "coheres",
+      "confidence": 0.68
+    }
+  ],
+  "creed": {
+    "status": "pass",
+    "notes": []
+  },
+  "meta": {
+    "postprocessed_at": "2026-02-13T14:12:08.643287Z",
+    "confidence": 0.9,
+    "source": "cne_compile_v1"
+  },
+  "watermark": "7a6efe5921fef0f4"
+}

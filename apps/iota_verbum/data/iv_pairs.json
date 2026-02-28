@@ -1,0 +1,29 @@
+﻿[
+  {
+    "id": "IVP001",
+    "source_id": "H009",
+    "target_id": "H009-MICRO-01",
+    "relation": "echoes",
+    "weight": 0.9,
+    "themes": ["deuteronomic", "hearing", "obedience"],
+    "notes": "Deuteronomic life/death choice echoed in Jesus' wise/foolish builder hinge."
+  },
+  {
+    "id": "IVP002",
+    "source_id": "H009",
+    "target_id": "H009-MICRO-02",
+    "relation": "intensifies",
+    "weight": 0.9,
+    "themes": ["deuteronomic", "abiding", "fruit"],
+    "notes": "Blessing/curse in the land intensified into abiding/withered branches in Christ."
+  },
+  {
+    "id": "IVP003",
+    "source_id": "H013",
+    "target_id": "H005",
+    "relation": "fulfills",
+    "weight": 0.95,
+    "themes": ["cross-echo", "sacrifice", "substitution"],
+    "notes": "The cross fulfils the 'God will provide the lamb' pattern from the binding of Isaac."
+  }
+]

@@ -1,0 +1,146 @@
+{
+  "schema": "cne.v1",
+  "ref": "John 21",
+  "translation": "ESV",
+  "agents": {
+    "G": "Jesus",
+    "D": "Disciples",
+    "P": "Peter",
+    "J": "John"
+  },
+  "events": [
+    {
+      "id": "e1",
+      "ref": "21:1-6",
+      "agent": "G",
+      "verb": "direct",
+      "object": "cast_net_right_side",
+      "mode": "shore_appearance"
+    },
+    {
+      "id": "e2",
+      "ref": "21:6",
+      "agent": "D",
+      "verb": "haul",
+      "object": "153_fish",
+      "mode": "abundance"
+    },
+    {
+      "id": "e3",
+      "ref": "21:12-13",
+      "agent": "G",
+      "verb": "host",
+      "object": "breakfast_bread_fish",
+      "mode": "table"
+    },
+    {
+      "id": "e4",
+      "ref": "21:15-17",
+      "agent": "G",
+      "verb": "ask_three_times",
+      "object": "do_you_love_me",
+      "mode": "restoration"
+    },
+    {
+      "id": "e5",
+      "ref": "21:15-17",
+      "agent": "G",
+      "verb": "commission",
+      "object": "feed_my_sheep",
+      "mode": "pastoral"
+    },
+    {
+      "id": "e6",
+      "ref": "21:18-19",
+      "agent": "G",
+      "verb": "predict",
+      "object": "Peter_death_glorify_God",
+      "mode": "future"
+    },
+    {
+      "id": "e7",
+      "ref": "21:19",
+      "agent": "G",
+      "verb": "command",
+      "object": "follow_me",
+      "mode": "call"
+    },
+    {
+      "id": "e8",
+      "ref": "21:20-22",
+      "agent": "G",
+      "verb": "redirect",
+      "object": "what_is_that_to_you",
+      "mode": "focus"
+    },
+    {
+      "id": "e9",
+      "ref": "21:24-25",
+      "agent": "T",
+      "verb": "testify",
+      "object": "beloved_disciple_witness",
+      "mode": "closing"
+    }
+  ],
+  "links": [
+    {
+      "op": "SEQ",
+      "from": "e1",
+      "to": "e3"
+    },
+    {
+      "op": "SEQ",
+      "from": "e3",
+      "to": "e7"
+    },
+    {
+      "op": "SEQ",
+      "from": "e7",
+      "to": "e9"
+    }
+  ],
+  "markers": [
+    {
+      "id": "m1",
+      "ref": "21:1-6",
+      "type": "SM",
+      "target": "shore_sign",
+      "justification": "stepwise direction and recognition"
+    },
+    {
+      "id": "m2",
+      "ref": "21:12-13",
+      "type": "CU",
+      "target": "breakfast",
+      "justification": "quiet hosting"
+    },
+    {
+      "id": "m3",
+      "ref": "21:15-17",
+      "type": "STAY",
+      "target": "triple_question",
+      "justification": "restoration through repeated love-question"
+    },
+    {
+      "id": "m4",
+      "ref": "21:19",
+      "type": "CU",
+      "target": "follow_me",
+      "justification": "final imperative"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "type": "hinge_candidate",
+      "text": "The risen Jesus hosts, restores Peter by repeated love, commissions shepherding, and calls him again to follow.",
+      "supported_by": [
+        "e3",
+        "e4",
+        "e5",
+        "e7"
+      ],
+      "inference": true
+    }
+  ]
+}

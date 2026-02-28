@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Luke λ-files; safe to hand-edit after generation.",
+    "book": "Luke",
+    "passage_id": "Luk01_57_80",
+    "version": "Luk01_57_80_Lambda_IV_v0.1"
+  },
+  "passage_id": "Luk01_57_80",
+  "book": "Luke",
+  "chapter": 1,
+  "verses": "57-80",
+  "title": "Luke 1:57–80 – Benedictus and Dawn from on High",
+  "interpretive_frames": [
+    "Fulfilment",
+    "Dawn",
+    "Forgiveness"
+  ],
+  "identity_invariants": [
+    "[]GodRaisesHornOfSalvationToGuidePeopleIntoPeace(YHWH, People)"
+  ],
+  "units": [
+    {
+      "id": "Luk01_57_80_u1",
+      "label": "Visited and Redeemed",
+      "verses": [
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ],
+      "illocution": "PropheticHymn",
+      "agents": [
+        "Zechariah",
+        "John",
+        "Jesus",
+        "Israel",
+        "YHWH"
+      ],
+      "statements": [
+        {
+          "id": "Luk01_57_80_s1",
+          "type": "summary",
+          "description": "At John’s birth, Zechariah prophesies that God has visited and redeemed his people, raising a horn of salvation and giving light to those in darkness.",
+          "lambda_iv": [
+            "[]GodRaisesHornOfSalvationToGuidePeopleIntoPeace(YHWH, People)",
+            "EFF(PropheticForerunnerPreparesWayByProclaimingForgiveness(John, People))"
+          ]
+        }
+      ]
+    }
+  ]
+}

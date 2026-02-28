@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Mark λ-files; safe to hand-edit after generation.",
+    "book": "Mark",
+    "passage_id": "Mar01_14_20",
+    "version": "Mar01_14_20_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mar01_14_20",
+  "book": "Mark",
+  "chapter": 1,
+  "verses": "14-20",
+  "title": "Mark 1:14–20 – First Preaching and Call of the Four",
+  "interpretive_frames": [
+    "KingdomAnnouncement",
+    "Repentance",
+    "Call"
+  ],
+  "identity_invariants": [
+    "[]JesusProclaimsArrivalOfKingdomCallingForRepentanceAndFaith(Jesus, Hearers)"
+  ],
+  "units": [
+    {
+      "id": "Mar01_14_20_u1",
+      "label": "Follow Me",
+      "verses": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "illocution": "SummaryProclamationAndCall",
+      "agents": [
+        "Jesus",
+        "Simon",
+        "Andrew",
+        "James",
+        "John"
+      ],
+      "statements": [
+        {
+          "id": "Mar01_14_20_s1",
+          "type": "summary",
+          "description": "After Johns arrest, Jesus preaches the gospel of God and calls fishermen to leave nets and follow him as fishers of people.",
+          "lambda_iv": [
+            "[]JesusProclaimsArrivalOfKingdomCallingForRepentanceAndFaith(Jesus, Hearers)",
+            "EFF(CallOfDisciplesModelsImmediateResponsiveObedience(Disciples))"
+          ]
+        }
+      ]
+    }
+  ]
+}

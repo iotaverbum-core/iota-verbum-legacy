@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Reach Online – Sermon Hub (Demo)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Fonts (simple, readable, similar vibe to current site) -->
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --reach-navy: #102a43;
+      --reach-blue: #1f6f8b;
+      --reach-light: #f7fafc;
+      --reach-grey: #4a5568;
+      --reach-border: #e2e8f0;
+      --reach-accent: #f6ad55;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #ffffff;
+      color: var(--reach-grey);
+      line-height: 1.6;
+    }
+
+    a {
+      color: var(--reach-blue);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    header {
+      border-bottom: 1px solid var(--reach-border);
+      background: #ffffff;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .nav {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0.75rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .nav-brand {
+      font-family: 'Lora', serif;
+      font-weight: 600;
+      font-size: 1.1rem;
+      letter-spacing: 0.04em;
+      color: var(--reach-navy);
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 1rem;
+      font-size: 0.9rem;
+    }
+
+    .nav-links a {
+      color: var(--reach-grey);
+      font-weight: 500;
+    }
+
+    .nav-links .pill {
+      padding: 0.35rem 0.9rem;
+      border-radius: 999px;
+      border: 1px solid var(--reach-border);
+    }
+
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 1.5rem;
+    }
+
+    .hero {
+      display: grid;
+      gap: 1.75rem;
+      grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+      align-items: center;
+      padding: 1.5rem 0 2rem;
+      border-bottom: 1px solid var(--reach-border);
+    }
+
+    @media (max-width: 800px) {
+      .hero {
+        grid-template-columns: 1fr;
+      }
+      .nav-links {
+        display: none;
+      }
+    }
+
+    .hero-title {
+      font-family: 'Lora', serif;
+      font-size: clamp(1.8rem, 3vw, 2.4rem);
+      color: var(--reach-navy);
+      margin: 0 0 0.75rem;
+    }
+
+    .hero-tagline {
+      font-size: 0.95rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--reach-blue);
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    .hero-text {
+      font-size: 0.98rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero-highlight {
+      padding: 0.75rem 1rem;
+      background: var(--reach-light);
+      border-left: 3px solid var(--reach-blue);
+      font-size: 0.9rem;
+      border-radius: 4px;
+    }
+
+    .hero-actions {
+      margin-top: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      align-items: center;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.6rem 1.2rem;
+      border-radius: 999px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      border: none;
+      cursor: pointer;
+      transition: transform 0.05s ease, box-shadow 0.05s ease, background-color 0.15s ease;
+      text-decoration: none;
+    }
+
+    .btn-primary {
+      background: var(--reach-blue);
+      color: #fff;
+      box-shadow: 0 2px 4px rgba(15, 23, 42, 0.18);
+    }
+
+    .btn-primary:hover {
+      background: #1b5e72;
+      transform: translateY(-1px);
+      box-shadow: 0 3px 6px rgba(15, 23, 42, 0.25);
+    }
+
+    .btn-secondary {
+      background: transparent;
+      color: var(--reach-blue);
+      border: 1px solid var(--reach-border);
+    }
+
+    .btn-secondary:hover {
+      background: var(--reach-light);
+    }
+
+    .hero-note {
+      font-size: 0.8rem;
+      color: #718096;
+    }
+
+    .hero-panel {
+      padding: 1rem 1.25rem;
+      border-radius: 8px;
+      border: 1px solid var(--reach-border);
+      background: #fdfdfd;
+    }
+
+    .hero-panel h3 {
+      font-family: 'Lora', serif;
+      font-size: 1.05rem;
+      margin-top: 0;
+      color: var(--reach-navy);
+    }
+
+    .hero-panel ul {
+      padding-left: 1.1rem;
+      margin: 0.5rem 0 0;
+      font-size: 0.88rem;
+    }
+
+    .hero-panel li + li {
+      margin-top: 0.25rem;
+    }
+
+    .section-title {
+      margin: 2rem 0 0.75rem;
+      font-family: 'Lora', serif;
+      font-size: 1.3rem;
+      color: var(--reach-navy);
+    }
+
+    .section-subtitle {
+      font-size: 0.9rem;
+      color: #718096;
+      margin-bottom: 1.25rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1.25rem;
+    }
+
+    @media (max-width: 900px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .card {
+      border-radius: 10px;
+      border: 1px solid var(--reach-border);
+      padding: 1rem 1.1rem;
+      background: #ffffff;
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 0.4rem;
+    }
+
+    .card-title {
+      font-family: 'Lora', serif;
+      font-size: 1rem;
+      color: var(--reach-navy);
+      margin: 0;
+    }
+
+    .card-tag {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: #a0aec0;
+      font-weight: 600;
+    }
+
+    .card-meta {
+      font-size: 0.8rem;
+      color: #718096;
+      margin-bottom: 0.6rem;
+    }
+
+    .card-body {
+      font-size: 0.88rem;
+      margin-bottom: 0.7rem;
+    }
+
+    .card-footer {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      font-size: 0.8rem;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.15rem 0.55rem;
+      border-radius: 999px;
+      border: 1px solid var(--reach-border);
+      background: var(--reach-light);
+      color: #4a5568;
+    }
+
+    .layout-split {
+      display: grid;
+      grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+      gap: 1.5rem;
+      align-items: flex-start;
+    }
+
+    @media (max-width: 900px) {
+      .layout-split {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .list-steps {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      font-size: 0.9rem;
+    }
+
+    .list-steps li {
+      display: flex;
+      gap: 0.75rem;
+      padding: 0.6rem 0;
+      border-bottom: 1px dashed var(--reach-border);
+    }
+
+    .step-number {
+      width: 1.5rem;
+      height: 1.5rem;
+      border-radius: 999px;
+      background: var(--reach-blue);
+      color: #fff;
+      font-size: 0.8rem;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 0.2rem;
+      flex-shrink: 0;
+    }
+
+    footer {
+      border-top: 1px solid var(--reach-border);
+      padding: 1rem 1.5rem 2rem;
+      margin-top: 2.5rem;
+      font-size: 0.8rem;
+      color: #a0aec0;
+      text-align: center;
+    }
+
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+      font-size: 0.8rem;
+      background: #edf2f7;
+      padding: 0.1rem 0.3rem;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="nav">
+    <div class="nav-brand">REACH Table View</div>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#">Sunday</a>
+      <a href="#">I'm New</a>
+      <a href="#">Church Life</a>
+      <a href="#" class="pill">Sermons</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero">
+    <div>
+      <div class="hero-tagline">Pilot · Iota Verbum x Reach</div>
+      <h1 class="hero-title">Reach Online – Sermon Hub</h1>
+      <p class="hero-text">
+        A quiet engine behind the website that turns one Sunday sermon into a week of
+        discipleship — YouTube, podcast, website, groups and families — with less admin,
+        not more.
+      </p>
+      <div class="hero-highlight">
+        “To make and mature disciples of Jesus in Table View, up the West Coast, across
+        Africa and to the ends of the earth.” This demo shows how the same mission can
+        flow through Reach’s online presence.
+      </div>
+      <div class="hero-actions">
+        <button id="btn-process" class="btn btn-primary">
+          Process latest sermon (demo)
+        </button>
+        <span class="hero-note">
+          This button would call the Reach Online API on Sunday/Monday.
+        </span>
+      </div>
+    </div>
+
+    <aside class="hero-panel">
+      <h3>What happens when media clicks once?</h3>
+      <ul>
+        <li>Latest live is trimmed to the sermon and uploaded to YouTube.</li>
+        <li>KidsTalk copy goes to Dropbox.</li>
+        <li>Audio is moved and linked for podcast / website.</li>
+        <li>Website block, social caption, email snippet and guides are generated.</li>
+      </ul>
+    </aside>
+  </section>
+
+  <!-- LATEST SERMON CARD -->
+  <section aria-labelledby="latest-sermon-heading">
+    <h2 id="latest-sermon-heading" class="section-title">Latest sermon (from the API)</h2>
+    <p class="section-subtitle">
+      When the media team runs the pipeline, the latest sermon appears here, ready
+      for the website and communication channels.
+    </p>
+
+    <div class="card" id="sermon-card">
+      <div class="card-header">
+        <h3 class="card-title" id="sermon-title">Israel Had No King</h3>
+        <span class="card-tag" id="sermon-series">Judges · Series</span>
+      </div>
+      <div class="card-meta" id="sermon-meta">
+        Nov 23, 2025 · Judges 17:1–18:31 · Preacher: John Doe
+      </div>
+      <div class="card-body" id="sermon-big-idea">
+        Big idea: When we do what is right in our own eyes, the story collapses — but
+        God’s strange grace raises a better King.
+      </div>
+      <div class="card-footer">
+        <a href="#" id="sermon-youtube" class="btn btn-secondary">Watch on YouTube</a>
+        <a href="#" id="sermon-audio" class="btn btn-secondary">Listen to audio</a>
+        <span class="badge">Group guide ready</span>
+        <span class="badge">Family follow-up ready</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS + CONTENT EXAMPLES -->
+  <section aria-labelledby="how-heading">
+    <h2 id="how-heading" class="section-title">How the Reach Online pipeline works</h2>
+    <p class="section-subtitle">
+      Behind the scenes, a simple API keeps all the pieces aligned: YouTube, Dropbox,
+      sermons archive and discipleship content.
+    </p>
+
+    <div class="layout-split">
+      <div>
+        <ol class="list-steps">
+          <li>
+            <span class="step-number">1</span>
+            <div>
+              <strong>Media triggers the pipeline once.</strong>
+              <br />
+              On Sunday afternoon or Monday morning, media enters the sermon title,
+              passage, preacher and start/end times. The API pulls the latest live,
+              trims the sermon and uploads it with the right title and series.
+            </div>
+          </li>
+          <li>
+            <span class="step-number">2</span>
+            <div>
+              <strong>Files are tidied and linked.</strong>
+              <br />
+              The live copy goes to <code>/KidsTalk</code> on Dropbox, the sermon
+              audio is moved to <code>/Sermons</code>, and a simple JSON entry is
+              added to the Reach sermon archive.
+            </div>
+          </li>
+          <li>
+            <span class="step-number">3</span>
+            <div>
+              <strong>Discipleship content is generated.</strong>
+              <br />
+              From the same metadata, the API returns a website block, social caption,
+              email snippet, community-group guide and a kids/family follow-up card —
+              all anchored in the actual passage preached.
+            </div>
+          </li>
+        </ol>
+      </div>
+
+      <div class="grid">
+        <!-- Website block preview -->
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title">Website block</h3>
+            <span class="card-tag">Squarespace ready</span>
+          </div>
+          <div class="card-body">
+            <p style="font-size:0.85rem; margin-top:0;">
+              A ready-made HTML snippet that can be pasted into the existing Sermons
+              page on Squarespace. It embeds the YouTube video and links the audio.
+            </p>
+            <pre id="html-preview" style="font-size:0.7rem; background:#f7fafc; padding:0.6rem; border-radius:6px; overflow:auto; max-height:180px;">
+&lt;div class="sermon-entry"&gt;
+  &lt;h2&gt;Israel Had No King&lt;/h2&gt;
+  &lt;p&gt;&lt;strong&gt;Text:&lt;/strong&gt; Judges 17:1–18:31&lt;/p&gt;
+  &lt;iframe src="https://www.youtube.com/embed/..."&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+            </pre>
+          </div>
+        </div>
+
+        <!-- Group guide -->
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title">Community-group guide</h3>
+            <span class="card-tag">Leaders</span>
+          </div>
+          <div class="card-body">
+            <p id="group-preview" style="font-size:0.8rem; white-space:pre-line;">
+1. Read Judges 17–18 together.
+2. In your own words, how would you summarise Sunday’s message?
+3. Where did you feel comforted? Where were you challenged?
+4. What would obedience look like this week in your home, work or studies?
+            </p>
+          </div>
+        </div>
+
+        <!-- Kids / family follow-up -->
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title">Kids &amp; family follow-up</h3>
+            <span class="card-tag">Home</span>
+          </div>
+          <div class="card-body">
+            <p id="kids-preview" style="font-size:0.8rem; white-space:pre-line;">
+This week’s simple line:
+“Jesus is the good King we really need.”
+
+Family question:
+“When have we tried to do things ‘our own way’ instead of God’s way?”
+
+Prayer:
+“Lord Jesus, thank you that you are a better King. Help us trust and follow you.”
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  Demo only – this page shows how a Reach Online API could serve your existing
+  website and ministries. Data will be live once connected to the actual pipeline.
+</footer>
+
+<script>
+  // Small helper to populate the page from the API if available
+  async function fetchLatestSermon() {
+    const cardTitleEl   = document.getElementById('sermon-title');
+    const cardSeriesEl  = document.getElementById('sermon-series');
+    const cardMetaEl    = document.getElementById('sermon-meta');
+    const cardBigIdeaEl = document.getElementById('sermon-big-idea');
+    const ytLinkEl      = document.getElementById('sermon-youtube');
+    const audioLinkEl   = document.getElementById('sermon-audio');
+    const htmlPreviewEl = document.getElementById('html-preview');
+    const groupPreviewEl= document.getElementById('group-preview');
+    const kidsPreviewEl = document.getElementById('kids-preview');
+
+    try {
+      const res = await fetch('http://localhost:8000/sermons');
+      if (!res.ok) throw new Error('No API');
+      const sermons = await res.json();
+      if (!Array.isArray(sermons) || sermons.length === 0) return;
+
+      const latest = sermons[sermons.length - 1];
+
+      cardTitleEl.textContent  = latest.title;
+      cardSeriesEl.textContent = latest.series_name;
+      cardMetaEl.textContent   = `${latest.date} · ${latest.passage} · Preacher: ${latest.preacher}`;
+      cardBigIdeaEl.textContent = `Big idea: ${latest.big_idea}`;
+      ytLinkEl.href            = latest.youtube_url || '#';
+      audioLinkEl.href         = latest.mp3_url || '#';
+
+      // Now fetch the expanded content for that sermon (by index)
+      const index = sermons.length - 1;
+      const resDetail = await fetch(`http://localhost:8000/sermons/${index}`);
+      if (resDetail.ok) {
+        const detail = await resDetail.json();
+        htmlPreviewEl.textContent = detail.html_block.trim();
+        groupPreviewEl.textContent = detail.group_guide.trim();
+        kidsPreviewEl.textContent = detail.kids_blurb.trim();
+      }
+    } catch (err) {
+      console.warn('Could not reach API, using demo placeholders.');
+    }
+  }
+
+  document.getElementById('btn-process').addEventListener('click', () => {
+    alert('In the live setup, this button would trigger POST /sermons/process-latest-live.\n\nHere it just shows the concept.');
+  });
+
+  // Try fetch on load
+  fetchLatestSermon();
+</script>
+</body>
+</html>

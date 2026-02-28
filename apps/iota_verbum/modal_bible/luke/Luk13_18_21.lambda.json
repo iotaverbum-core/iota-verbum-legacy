@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Luke λ-files; safe to hand-edit after generation.",
+    "book": "Luke",
+    "passage_id": "Luk13_18_21",
+    "version": "Luk13_18_21_Lambda_IV_v0.1"
+  },
+  "passage_id": "Luk13_18_21",
+  "book": "Luke",
+  "chapter": 13,
+  "verses": "18-21",
+  "title": "Luke 13:18–21 – Mustard Seed and Leaven",
+  "interpretive_frames": [
+    "KingdomGrowth",
+    "Hiddenness",
+    "Inevitability"
+  ],
+  "identity_invariants": [
+    "[]KingdomOfGodStartsSmallAndQuietYetGrowsPervasivelyToMaturity(Kingdom, World)"
+  ],
+  "units": [
+    {
+      "id": "Luk13_18_21_u1",
+      "label": "From Small to All",
+      "verses": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "illocution": "Parables",
+      "agents": [
+        "Jesus",
+        "Crowds"
+      ],
+      "statements": [
+        {
+          "id": "Luk13_18_21_s1",
+          "type": "summary",
+          "description": "Jesus likens the kingdom to a mustard seed and to leaven, showing its surprising growth from small beginnings to pervasive influence.",
+          "lambda_iv": [
+            "[]KingdomOfGodStartsSmallAndQuietYetGrowsPervasivelyToMaturity(Kingdom, World)",
+            "EFF(ApparentInsignificanceDoesNotPredictKingdomsFinalScope(Disciples))"
+          ]
+        }
+      ]
+    }
+  ]
+}

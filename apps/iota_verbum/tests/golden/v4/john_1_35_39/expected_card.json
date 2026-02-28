@@ -1,0 +1,2358 @@
+{
+  "id": "witness_card_b22aad649661",
+  "modal_triad": {
+    "effect": [
+      "Hope opens without demand.",
+      "Attention becomes shelter.",
+      "A path forward becomes visible."
+    ],
+    "enactment": [
+      "Enters the scene quietly.",
+      "Stays with what is real.",
+      "Moves toward the vulnerable."
+    ],
+    "identity": [
+      "God comes near.",
+      "Presence without fear.",
+      "Mercy that does not withdraw."
+    ]
+  },
+  "moment": "I feel uncertain about what comes next, and I want to know where to stay.",
+  "passage": {
+    "ref": "John 1:35-39",
+    "text": "The next day again John was standing with two of his disciples, and he looked at Jesus as he walked by and said, \"Behold, the Lamb of God!\" The two disciples heard him say this, and they followed Jesus. Jesus turned and saw them following and said to them, \"What are you seeking?\" And they said to him, \"Rabbi\" (which means Teacher), \"where are you staying?\" He said to them, \"Come and you will see.\" So they came and saw where he was staying, and they stayed with him that day, for it was about the tenth hour."
+  },
+  "prayer": "Lord Jesus, You turn toward those who follow.\nTeach me to ask honestly.\nGive me grace to come, and patience to see.\nHelp me stay with You in this day.",
+  "safety": {
+    "avoidances": [
+      "moralism",
+      "fixing",
+      "certainty claims"
+    ],
+    "notes": [
+      "This is pastoral presence, not diagnosis.",
+      "Invite gently; do not pressure outcomes.",
+      "Keep questions invitational; do not corner the reader.",
+      "Do not rush from seeking to certainty; let the scene unfold.",
+      "Stay close to the passage's verbs: follow, turn, see, ask, come, stay."
+    ]
+  },
+  "scene": {
+    "camera_moves": [
+      "close-up",
+      "tracking shot",
+      "slow pan"
+    ],
+    "characters": [
+      {
+        "char_id": "char_john",
+        "label": "John",
+        "mentions": [
+          {
+            "clause_id": "s0.c0",
+            "surface": "John",
+            "token_span": [
+              19,
+              23
+            ]
+          }
+        ]
+      },
+      {
+        "char_id": "char_disciples",
+        "label": "disciples",
+        "mentions": [
+          {
+            "clause_id": "s0.c0",
+            "surface": "disciples",
+            "token_span": [
+              53,
+              62
+            ]
+          },
+          {
+            "clause_id": "s1.c0",
+            "surface": "disciples",
+            "token_span": [
+              148,
+              157
+            ]
+          }
+        ]
+      },
+      {
+        "char_id": "char_jesus",
+        "label": "Jesus",
+        "mentions": [
+          {
+            "clause_id": "s0.c1",
+            "surface": "Jesus",
+            "token_span": [
+              81,
+              86
+            ]
+          },
+          {
+            "clause_id": "s1.c1",
+            "surface": "Jesus",
+            "token_span": [
+              196,
+              201
+            ]
+          },
+          {
+            "clause_id": "s2.c0",
+            "surface": "Jesus",
+            "token_span": [
+              203,
+              208
+            ]
+          }
+        ]
+      },
+      {
+        "char_id": "char_unknown_P_1",
+        "label": "unknown_P",
+        "mentions": []
+      },
+      {
+        "char_id": "char_unknown_P_2",
+        "label": "unknown_P",
+        "mentions": []
+      },
+      {
+        "char_id": "char_unknown_M_1",
+        "label": "unknown_M",
+        "mentions": []
+      },
+      {
+        "char_id": "char_unknown_P_3",
+        "label": "unknown_P",
+        "mentions": []
+      },
+      {
+        "char_id": "char_unknown_M_2",
+        "label": "unknown_M",
+        "mentions": []
+      },
+      {
+        "char_id": "char_unknown_N_1",
+        "label": "unknown_N",
+        "mentions": []
+      }
+    ],
+    "coref_links": [
+      {
+        "evidence": "resolved his to char_jesus by gender_match",
+        "from": {
+          "clause_id": "s0.c0",
+          "surface_pronoun": "his",
+          "token_span": [
+            49,
+            52
+          ]
+        },
+        "id": "coref_0",
+        "rule": "gender_match",
+        "to_char_id": "char_jesus"
+      },
+      {
+        "evidence": "resolved he to char_jesus by gender_match",
+        "from": {
+          "clause_id": "s0.c1",
+          "surface_pronoun": "he",
+          "token_span": [
+            68,
+            70
+          ]
+        },
+        "id": "coref_1",
+        "rule": "gender_match",
+        "to_char_id": "char_jesus"
+      },
+      {
+        "evidence": "resolved he to char_jesus by gender_match",
+        "from": {
+          "clause_id": "s0.c1",
+          "surface_pronoun": "he",
+          "token_span": [
+            90,
+            92
+          ]
+        },
+        "id": "coref_2",
+        "rule": "gender_match",
+        "to_char_id": "char_jesus"
+      },
+      {
+        "evidence": "resolved him to char_jesus by gender_match",
+        "from": {
+          "clause_id": "s1.c0",
+          "surface_pronoun": "him",
+          "token_span": [
+            164,
+            167
+          ]
+        },
+        "id": "coref_3",
+        "rule": "gender_match",
+        "to_char_id": "char_jesus"
+      },
+      {
+        "evidence": "resolved they to char_disciples by number_match",
+        "from": {
+          "clause_id": "s1.c1",
+          "surface_pronoun": "they",
+          "token_span": [
+            182,
+            186
+          ]
+        },
+        "id": "coref_4",
+        "rule": "number_match",
+        "to_char_id": "char_disciples"
+      },
+      {
+        "evidence": "resolved them to char_disciples by number_match",
+        "from": {
+          "clause_id": "s2.c1",
+          "surface_pronoun": "them",
+          "token_span": [
+            224,
+            228
+          ]
+        },
+        "id": "coref_5",
+        "rule": "number_match",
+        "to_char_id": "char_disciples"
+      },
+      {
+        "evidence": "resolved them to char_disciples by number_match",
+        "from": {
+          "clause_id": "s2.c2",
+          "surface_pronoun": "them",
+          "token_span": [
+            251,
+            255
+          ]
+        },
+        "id": "coref_6",
+        "rule": "number_match",
+        "to_char_id": "char_disciples"
+      },
+      {
+        "evidence": "resolved they to char_disciples by number_match",
+        "from": {
+          "clause_id": "s3.c0",
+          "surface_pronoun": "they",
+          "token_span": [
+            285,
+            289
+          ]
+        },
+        "id": "coref_7",
+        "rule": "number_match",
+        "to_char_id": "char_disciples"
+      },
+      {
+        "evidence": "resolved him to char_jesus by gender_match",
+        "from": {
+          "clause_id": "s3.c0",
+          "surface_pronoun": "him",
+          "token_span": [
+            298,
+            301
+          ]
+        },
+        "id": "coref_8",
+        "rule": "gender_match",
+        "to_char_id": "char_jesus"
+      },
+      {
+        "evidence": "resolved He to char_jesus by gender_match",
+        "from": {
+          "clause_id": "s4.c0",
+          "surface_pronoun": "He",
+          "token_span": [
+            359,
+            361
+          ]
+        },
+        "id": "coref_9",
+        "rule": "gender_match",
+        "to_char_id": "char_jesus"
+      },
+      {
+        "evidence": "no match within lookback for them",
+        "from": {
+          "clause_id": "s4.c0",
+          "surface_pronoun": "them",
+          "token_span": [
+            370,
+            374
+          ]
+        },
+        "id": "coref_10",
+        "rule": "lookback_limit",
+        "to_char_id": "char_unknown_P_1"
+      },
+      {
+        "evidence": "no match within lookback for they",
+        "from": {
+          "clause_id": "s5.c0",
+          "surface_pronoun": "they",
+          "token_span": [
+            404,
+            408
+          ]
+        },
+        "id": "coref_11",
+        "rule": "lookback_limit",
+        "to_char_id": "char_unknown_P_2"
+      },
+      {
+        "evidence": "no match within lookback for he",
+        "from": {
+          "clause_id": "s5.c1",
+          "surface_pronoun": "he",
+          "token_span": [
+            428,
+            430
+          ]
+        },
+        "id": "coref_12",
+        "rule": "lookback_limit",
+        "to_char_id": "char_unknown_M_1"
+      },
+      {
+        "evidence": "no match within lookback for they",
+        "from": {
+          "clause_id": "s5.c2",
+          "surface_pronoun": "they",
+          "token_span": [
+            448,
+            452
+          ]
+        },
+        "id": "coref_13",
+        "rule": "lookback_limit",
+        "to_char_id": "char_unknown_P_3"
+      },
+      {
+        "evidence": "no match within lookback for him",
+        "from": {
+          "clause_id": "s5.c2",
+          "surface_pronoun": "him",
+          "token_span": [
+            465,
+            468
+          ]
+        },
+        "id": "coref_14",
+        "rule": "lookback_limit",
+        "to_char_id": "char_unknown_M_2"
+      },
+      {
+        "evidence": "no match within lookback for it",
+        "from": {
+          "clause_id": "s5.c2",
+          "surface_pronoun": "it",
+          "token_span": [
+            483,
+            485
+          ]
+        },
+        "id": "coref_15",
+        "rule": "lookback_limit",
+        "to_char_id": "char_unknown_N_1"
+      }
+    ],
+    "evidence_map": {
+      "characters": [
+        {
+          "char_id": "char_john",
+          "first_mention_clause_id": "s0.c0",
+          "first_mention_token_span": [
+            19,
+            23
+          ],
+          "label": "John"
+        },
+        {
+          "char_id": "char_disciples",
+          "first_mention_clause_id": "s0.c0",
+          "first_mention_token_span": [
+            53,
+            62
+          ],
+          "label": "disciples"
+        },
+        {
+          "char_id": "char_jesus",
+          "first_mention_clause_id": "s0.c1",
+          "first_mention_token_span": [
+            81,
+            86
+          ],
+          "label": "Jesus"
+        }
+      ],
+      "coref_links": [
+        {
+          "evidence": "resolved his to char_jesus by gender_match",
+          "from": {
+            "clause_id": "s0.c0",
+            "surface_pronoun": "his",
+            "token_span": [
+              49,
+              52
+            ]
+          },
+          "id": "coref_0",
+          "rule": "gender_match",
+          "to_char_id": "char_jesus"
+        },
+        {
+          "evidence": "resolved he to char_jesus by gender_match",
+          "from": {
+            "clause_id": "s0.c1",
+            "surface_pronoun": "he",
+            "token_span": [
+              68,
+              70
+            ]
+          },
+          "id": "coref_1",
+          "rule": "gender_match",
+          "to_char_id": "char_jesus"
+        },
+        {
+          "evidence": "resolved he to char_jesus by gender_match",
+          "from": {
+            "clause_id": "s0.c1",
+            "surface_pronoun": "he",
+            "token_span": [
+              90,
+              92
+            ]
+          },
+          "id": "coref_2",
+          "rule": "gender_match",
+          "to_char_id": "char_jesus"
+        },
+        {
+          "evidence": "resolved him to char_jesus by gender_match",
+          "from": {
+            "clause_id": "s1.c0",
+            "surface_pronoun": "him",
+            "token_span": [
+              164,
+              167
+            ]
+          },
+          "id": "coref_3",
+          "rule": "gender_match",
+          "to_char_id": "char_jesus"
+        },
+        {
+          "evidence": "resolved they to char_disciples by number_match",
+          "from": {
+            "clause_id": "s1.c1",
+            "surface_pronoun": "they",
+            "token_span": [
+              182,
+              186
+            ]
+          },
+          "id": "coref_4",
+          "rule": "number_match",
+          "to_char_id": "char_disciples"
+        },
+        {
+          "evidence": "resolved them to char_disciples by number_match",
+          "from": {
+            "clause_id": "s2.c1",
+            "surface_pronoun": "them",
+            "token_span": [
+              224,
+              228
+            ]
+          },
+          "id": "coref_5",
+          "rule": "number_match",
+          "to_char_id": "char_disciples"
+        },
+        {
+          "evidence": "resolved them to char_disciples by number_match",
+          "from": {
+            "clause_id": "s2.c2",
+            "surface_pronoun": "them",
+            "token_span": [
+              251,
+              255
+            ]
+          },
+          "id": "coref_6",
+          "rule": "number_match",
+          "to_char_id": "char_disciples"
+        },
+        {
+          "evidence": "resolved they to char_disciples by number_match",
+          "from": {
+            "clause_id": "s3.c0",
+            "surface_pronoun": "they",
+            "token_span": [
+              285,
+              289
+            ]
+          },
+          "id": "coref_7",
+          "rule": "number_match",
+          "to_char_id": "char_disciples"
+        },
+        {
+          "evidence": "resolved him to char_jesus by gender_match",
+          "from": {
+            "clause_id": "s3.c0",
+            "surface_pronoun": "him",
+            "token_span": [
+              298,
+              301
+            ]
+          },
+          "id": "coref_8",
+          "rule": "gender_match",
+          "to_char_id": "char_jesus"
+        },
+        {
+          "evidence": "resolved He to char_jesus by gender_match",
+          "from": {
+            "clause_id": "s4.c0",
+            "surface_pronoun": "He",
+            "token_span": [
+              359,
+              361
+            ]
+          },
+          "id": "coref_9",
+          "rule": "gender_match",
+          "to_char_id": "char_jesus"
+        },
+        {
+          "evidence": "no match within lookback for them",
+          "from": {
+            "clause_id": "s4.c0",
+            "surface_pronoun": "them",
+            "token_span": [
+              370,
+              374
+            ]
+          },
+          "id": "coref_10",
+          "rule": "lookback_limit",
+          "to_char_id": "char_unknown_P_1"
+        },
+        {
+          "evidence": "no match within lookback for they",
+          "from": {
+            "clause_id": "s5.c0",
+            "surface_pronoun": "they",
+            "token_span": [
+              404,
+              408
+            ]
+          },
+          "id": "coref_11",
+          "rule": "lookback_limit",
+          "to_char_id": "char_unknown_P_2"
+        },
+        {
+          "evidence": "no match within lookback for he",
+          "from": {
+            "clause_id": "s5.c1",
+            "surface_pronoun": "he",
+            "token_span": [
+              428,
+              430
+            ]
+          },
+          "id": "coref_12",
+          "rule": "lookback_limit",
+          "to_char_id": "char_unknown_M_1"
+        },
+        {
+          "evidence": "no match within lookback for they",
+          "from": {
+            "clause_id": "s5.c2",
+            "surface_pronoun": "they",
+            "token_span": [
+              448,
+              452
+            ]
+          },
+          "id": "coref_13",
+          "rule": "lookback_limit",
+          "to_char_id": "char_unknown_P_3"
+        },
+        {
+          "evidence": "no match within lookback for him",
+          "from": {
+            "clause_id": "s5.c2",
+            "surface_pronoun": "him",
+            "token_span": [
+              465,
+              468
+            ]
+          },
+          "id": "coref_14",
+          "rule": "lookback_limit",
+          "to_char_id": "char_unknown_M_2"
+        },
+        {
+          "evidence": "no match within lookback for it",
+          "from": {
+            "clause_id": "s5.c2",
+            "surface_pronoun": "it",
+            "token_span": [
+              483,
+              485
+            ]
+          },
+          "id": "coref_15",
+          "rule": "lookback_limit",
+          "to_char_id": "char_unknown_N_1"
+        }
+      ],
+      "frames": [
+        {
+          "actor": "John",
+          "clause_id": "s0.c0",
+          "id": "frame_0",
+          "indirect_object": null,
+          "object": "Jesus",
+          "token_span": [
+            24,
+            27
+          ],
+          "verb": "was"
+        },
+        {
+          "actor": "John",
+          "clause_id": "s0.c0",
+          "id": "frame_1",
+          "indirect_object": null,
+          "object": "Jesus",
+          "token_span": [
+            28,
+            36
+          ],
+          "verb": "standing"
+        },
+        {
+          "actor": "Jesus",
+          "clause_id": "s0.c1",
+          "id": "frame_2",
+          "indirect_object": null,
+          "object": "Jesus",
+          "token_span": [
+            71,
+            77
+          ],
+          "verb": "looked"
+        },
+        {
+          "actor": "Jesus",
+          "clause_id": "s0.c1",
+          "id": "frame_3",
+          "indirect_object": null,
+          "object": null,
+          "token_span": [
+            93,
+            99
+          ],
+          "verb": "walked"
+        },
+        {
+          "actor": "unknown_actor_1",
+          "clause_id": "s0.c2",
+          "id": "frame_4",
+          "indirect_object": null,
+          "object": null,
+          "token_span": [
+            107,
+            111
+          ],
+          "verb": "said"
+        },
+        {
+          "actor": "unknown_actor_2",
+          "clause_id": "s0.c2",
+          "id": "frame_5",
+          "indirect_object": null,
+          "object": null,
+          "token_span": [
+            114,
+            120
+          ],
+          "verb": "Behold"
+        },
+        {
+          "actor": "disciples",
+          "clause_id": "s1.c0",
+          "id": "frame_6",
+          "indirect_object": null,
+          "object": "Jesus",
+          "token_span": [
+            158,
+            163
+          ],
+          "verb": "heard"
+        },
+        {
+          "actor": "Jesus",
+          "clause_id": "s1.c0",
+          "id": "frame_7",
+          "indirect_object": null,
+          "object": null,
+          "token_span": [
+            168,
+            171
+          ],
+          "verb": "say"
+        },
+        {
+          "actor": "disciples",
+          "clause_id": "s1.c1",
+          "id": "frame_8",
+          "indirect_object": null,
+          "object": "Jesus",
+          "token_span": [
+            187,
+            195
+          ],
+          "verb": "followed"
+        },
+        {
+          "actor": "Jesus",
+          "clause_id": "s2.c0",
+          "id": "frame_9",
+          "indirect_object": null,
+          "object": null,
+          "token_span": [
+            209,
+            215
+          ],
+          "verb": "turned"
+        },
+        {
+          "actor": "unknown_actor_3",
+          "clause_id": "s2.c1",
+          "id": "frame_10",
+          "indirect_object": null,
+          "object": "disciples",
+          "token_span": [
+            220,
+            223
+          ],
+          "verb": "saw"
+        },
+        {
+          "actor": "disciples",
+          "clause_id": "s2.c1",
+          "id": "frame_11",
+          "indirect_object": null,
+          "object": null,
+          "token_span": [
+            229,
+            238
+          ],
+          "verb": "following"
+        },
+        {
+          "actor": "unknown_actor_4",
+          "clause_id": "s2.c2",
+          "id": "frame_12",
+          "indirect_object": "them",
+          "object": "disciples",
+          "token_span": [
+            243,
+            247
+          ],
+          "verb": "said"
+        },
+        {
+          "actor": "disciples",
+          "clause_id": "s2.c2",
+          "id": "frame_13",
+          "indirect_object": null,
+          "object": null,
+          "token_span": [
+            263,
+            266
+          ],
+          "verb": "are"
+        },
+        {
+          "actor": "disciples",
+          "clause_id": "s2.c2",
+          "id": "frame_14",
+          "indirect_object": null,
+          "object": null,
+          "token_span": [
+            271,
+            278
+          ],
+          "verb": "seeking"
+        },
+        {
+          "actor": "disciples",
+          "clause_id": "s3.c0",
+          "id": "frame_15",
+          "indirect_object": "him",
+          "object": "Jesus",
+          "token_span": [
+            290,
+            294
+          ],
+          "verb": "said"
+        },
+        {
+          "actor": "Jesus",
+          "clause_id": "s3.c0",
+          "id": "frame_16",
+          "indirect_object": null,
+          "object": null,
+          "token_span": [
+            341,
+            344
+          ],
+          "verb": "are"
+        },
+        {
+          "actor": "Jesus",
+          "clause_id": "s3.c0",
+          "id": "frame_17",
+          "indirect_object": null,
+          "object": null,
+          "token_span": [
+            349,
+            356
+          ],
+          "verb": "staying"
+        },
+        {
+          "actor": "Jesus",
+          "clause_id": "s4.c0",
+          "id": "frame_18",
+          "indirect_object": "them",
+          "object": "unknown_P",
+          "token_span": [
+            362,
+            366
+          ],
+          "verb": "said"
+        },
+        {
+          "actor": "unknown_P",
+          "clause_id": "s4.c0",
+          "id": "frame_19",
+          "indirect_object": null,
+          "object": null,
+          "token_span": [
+            377,
+            381
+          ],
+          "verb": "Come"
+        },
+        {
+          "actor": "unknown_actor_5",
+          "clause_id": "s4.c1",
+          "id": "frame_20",
+          "indirect_object": null,
+          "object": null,
+          "token_span": [
+            395,
+            398
+          ],
+          "verb": "see"
+        },
+        {
+          "actor": "unknown_P",
+          "clause_id": "s5.c0",
+          "id": "frame_21",
+          "indirect_object": null,
+          "object": null,
+          "token_span": [
+            409,
+            413
+          ],
+          "verb": "came"
+        },
+        {
+          "actor": "unknown_actor_6",
+          "clause_id": "s5.c1",
+          "id": "frame_22",
+          "indirect_object": null,
+          "object": "unknown_M",
+          "token_span": [
+            418,
+            421
+          ],
+          "verb": "saw"
+        },
+        {
+          "actor": "unknown_M",
+          "clause_id": "s5.c1",
+          "id": "frame_23",
+          "indirect_object": null,
+          "object": null,
+          "token_span": [
+            431,
+            434
+          ],
+          "verb": "was"
+        },
+        {
+          "actor": "unknown_M",
+          "clause_id": "s5.c1",
+          "id": "frame_24",
+          "indirect_object": null,
+          "object": null,
+          "token_span": [
+            435,
+            442
+          ],
+          "verb": "staying"
+        },
+        {
+          "actor": "unknown_P",
+          "clause_id": "s5.c2",
+          "id": "frame_25",
+          "indirect_object": "it was about the tenth hour",
+          "object": "unknown_M",
+          "token_span": [
+            453,
+            459
+          ],
+          "verb": "stayed"
+        },
+        {
+          "actor": "unknown_N",
+          "clause_id": "s5.c2",
+          "id": "frame_26",
+          "indirect_object": null,
+          "object": null,
+          "token_span": [
+            486,
+            489
+          ],
+          "verb": "was"
+        }
+      ],
+      "silences": [
+        {
+          "clause_ids": [
+            "s0.c0"
+          ],
+          "id": "silence_0",
+          "note_seed": "thick with nouns, few verbs",
+          "signal": "low_verb_ratio",
+          "type": "density"
+        },
+        {
+          "clause_ids": [
+            "s0.c1"
+          ],
+          "id": "silence_1",
+          "note_seed": "weighty terms clustered without explanation",
+          "signal": "focus_noun_cluster",
+          "type": "withholding"
+        },
+        {
+          "clause_ids": [
+            "s0.c2"
+          ],
+          "id": "silence_2",
+          "note_seed": "weighty terms clustered without explanation",
+          "signal": "focus_noun_cluster",
+          "type": "withholding"
+        },
+        {
+          "clause_ids": [
+            "s5.c2"
+          ],
+          "id": "silence_3",
+          "note_seed": "thick with nouns, few verbs",
+          "signal": "low_verb_ratio",
+          "type": "density"
+        },
+        {
+          "clause_ids": [
+            "s5.c2"
+          ],
+          "id": "silence_4",
+          "note_seed": "weighty terms clustered without explanation",
+          "signal": "focus_noun_cluster",
+          "type": "withholding"
+        }
+      ],
+      "thresholds": [
+        {
+          "clause_id": "s0.c1",
+          "evidence_after": "and he looked at Jesus as he walked by and said, \"Behold, th",
+          "evidence_before": "next day again John was standing with two of his disciples,",
+          "id": "threshold_0",
+          "kind": "disclosure",
+          "token_span": [
+            64,
+            70
+          ],
+          "trigger": "and he"
+        },
+        {
+          "clause_id": "s0.c2",
+          "evidence_after": "and said, \"Behold, the Lamb of God!\" The two disciples heard",
+          "evidence_before": "wo of his disciples, and he looked at Jesus as he walked by",
+          "id": "threshold_1",
+          "kind": "interruption",
+          "token_span": [
+            103,
+            117
+          ],
+          "trigger": "quote_boundary"
+        },
+        {
+          "clause_id": "s1.c1",
+          "evidence_after": "and they followed Jesus. Jesus turned and saw them following",
+          "evidence_before": "ld, the Lamb of God!\" The two disciples heard him say this,",
+          "id": "threshold_2",
+          "kind": "disclosure",
+          "token_span": [
+            178,
+            186
+          ],
+          "trigger": "and they"
+        },
+        {
+          "clause_id": "s1.c1",
+          "evidence_after": "and they followed Jesus. Jesus turned and saw them following",
+          "evidence_before": "ld, the Lamb of God!\" The two disciples heard him say this,",
+          "id": "threshold_3",
+          "kind": "interruption",
+          "token_span": [
+            178,
+            192
+          ],
+          "trigger": "quote_boundary"
+        },
+        {
+          "clause_id": "s2.c2",
+          "evidence_after": "and said to them, \"What are you seeking?\" And they said to h",
+          "evidence_before": "nd they followed Jesus. Jesus turned and saw them following",
+          "id": "threshold_4",
+          "kind": "interruption",
+          "token_span": [
+            239,
+            253
+          ],
+          "trigger": "quote_boundary"
+        },
+        {
+          "clause_id": "s4.c1",
+          "evidence_after": "and you will see.\" So they came and saw where he was staying",
+          "evidence_before": "s Teacher), \"where are you staying?\" He said to them, \"Come",
+          "id": "threshold_5",
+          "kind": "interruption",
+          "token_span": [
+            382,
+            396
+          ],
+          "trigger": "quote_boundary"
+        },
+        {
+          "clause_id": "s5.c0",
+          "evidence_after": "\" So they came and saw where he was staying, and they stayed",
+          "evidence_before": "e are you staying?\" He said to them, \"Come and you will see.",
+          "id": "threshold_6",
+          "kind": "interruption",
+          "token_span": [
+            399,
+            413
+          ],
+          "trigger": "quote_boundary"
+        },
+        {
+          "clause_id": "s5.c1",
+          "evidence_after": "and saw where he was staying, and they stayed with him that",
+          "evidence_before": "ng?\" He said to them, \"Come and you will see.\" So they came",
+          "id": "threshold_7",
+          "kind": "interruption",
+          "token_span": [
+            414,
+            428
+          ],
+          "trigger": "quote_boundary"
+        },
+        {
+          "clause_id": "s5.c2",
+          "evidence_after": "and they stayed with him that day, for it was about the tent",
+          "evidence_before": "d you will see.\" So they came and saw where he was staying,",
+          "id": "threshold_8",
+          "kind": "disclosure",
+          "token_span": [
+            444,
+            452
+          ],
+          "trigger": "and they"
+        }
+      ],
+      "utterances": [
+        {
+          "clause_id": "s0.c2",
+          "id": "utterance_0",
+          "speaker_guess": "Jesus",
+          "speech_act": "unknown",
+          "text": "Behold, the Lamb of God!",
+          "token_span": [
+            114,
+            138
+          ]
+        },
+        {
+          "clause_id": "s2.c2",
+          "id": "utterance_1",
+          "speaker_guess": "Jesus",
+          "speech_act": "question",
+          "text": "What are you seeking?",
+          "token_span": [
+            258,
+            279
+          ]
+        },
+        {
+          "clause_id": "s3.c0",
+          "id": "utterance_2",
+          "speaker_guess": "Jesus",
+          "speech_act": "unknown",
+          "text": "Rabbi",
+          "token_span": [
+            304,
+            309
+          ]
+        },
+        {
+          "clause_id": "s3.c0",
+          "id": "utterance_3",
+          "speaker_guess": "disciples",
+          "speech_act": "question",
+          "text": "where are you staying?",
+          "token_span": [
+            335,
+            357
+          ]
+        },
+        {
+          "clause_id": "s4.c0",
+          "id": "utterance_4",
+          "speaker_guess": "Jesus",
+          "speech_act": "invitation",
+          "text": "Come and you will see.",
+          "token_span": [
+            377,
+            399
+          ]
+        }
+      ],
+      "witness_prompts": [
+        {
+          "id": "prompt_0",
+          "linked_silence": null,
+          "linked_threshold": null,
+          "linked_utterance": null,
+          "text": "The scene begins with 'The next day'. What kind of time does that place you in today?"
+        },
+        {
+          "id": "prompt_1",
+          "linked_silence": null,
+          "linked_threshold": null,
+          "linked_utterance": null,
+          "text": "Where do you notice John was Jesus or John standing Jesus in this scene?"
+        },
+        {
+          "id": "prompt_2",
+          "linked_silence": null,
+          "linked_threshold": null,
+          "linked_utterance": null,
+          "text": "Jesus says, '{missing:testimony_1}'. What does that testimony open in you?"
+        },
+        {
+          "id": "prompt_3",
+          "linked_silence": null,
+          "linked_threshold": null,
+          "linked_utterance": "utterance_0",
+          "text": "Jesus turns and asks, 'What are you seeking?'. If you answer with one honest phrase, what is it?"
+        },
+        {
+          "id": "prompt_4",
+          "linked_silence": null,
+          "linked_threshold": null,
+          "linked_utterance": null,
+          "text": "He says, 'Come and you will see.'. What would a small, safe step of coming look like today?"
+        }
+      ]
+    },
+    "frames": [
+      "John was Jesus",
+      "John standing Jesus",
+      "Jesus looked Jesus",
+      "Jesus walked",
+      "unknown_actor_1 said",
+      "unknown_actor_2 Behold",
+      "disciples heard Jesus",
+      "Jesus say",
+      "disciples followed Jesus",
+      "Jesus turned",
+      "unknown_actor_3 saw disciples",
+      "disciples following",
+      "unknown_actor_4 said to them",
+      "disciples are",
+      "disciples seeking",
+      "disciples said to him",
+      "Jesus are",
+      "Jesus staying",
+      "Jesus said to them",
+      "unknown_P Come",
+      "unknown_actor_5 see",
+      "unknown_P came",
+      "unknown_actor_6 saw unknown_M",
+      "unknown_M was",
+      "unknown_M staying",
+      "unknown_P stayed to it was about the tenth hour",
+      "unknown_N was"
+    ],
+    "frames_detailed": [
+      {
+        "actor": "John",
+        "clause_id": "s0.c0",
+        "id": "frame_0",
+        "indirect_object": null,
+        "modifiers": [
+          "with two of his disciples"
+        ],
+        "object": "Jesus",
+        "polarity": "affirm",
+        "token_span": [
+          24,
+          27
+        ],
+        "verb": "was",
+        "voice_guess": "active"
+      },
+      {
+        "actor": "John",
+        "clause_id": "s0.c0",
+        "id": "frame_1",
+        "indirect_object": null,
+        "modifiers": [
+          "with two of his disciples"
+        ],
+        "object": "Jesus",
+        "polarity": "affirm",
+        "token_span": [
+          28,
+          36
+        ],
+        "verb": "standing",
+        "voice_guess": "active"
+      },
+      {
+        "actor": "Jesus",
+        "clause_id": "s0.c1",
+        "id": "frame_2",
+        "indirect_object": null,
+        "modifiers": [
+          "at Jesus as he walked by",
+          "by"
+        ],
+        "object": "Jesus",
+        "polarity": "affirm",
+        "token_span": [
+          71,
+          77
+        ],
+        "verb": "looked",
+        "voice_guess": "active"
+      },
+      {
+        "actor": "Jesus",
+        "clause_id": "s0.c1",
+        "id": "frame_3",
+        "indirect_object": null,
+        "modifiers": [
+          "by"
+        ],
+        "object": null,
+        "polarity": "affirm",
+        "token_span": [
+          93,
+          99
+        ],
+        "verb": "walked",
+        "voice_guess": "active"
+      },
+      {
+        "actor": "unknown_actor_1",
+        "clause_id": "s0.c2",
+        "id": "frame_4",
+        "indirect_object": null,
+        "modifiers": [],
+        "object": null,
+        "polarity": "affirm",
+        "token_span": [
+          107,
+          111
+        ],
+        "verb": "said",
+        "voice_guess": "active"
+      },
+      {
+        "actor": "unknown_actor_2",
+        "clause_id": "s0.c2",
+        "id": "frame_5",
+        "indirect_object": null,
+        "modifiers": [],
+        "object": null,
+        "polarity": "affirm",
+        "token_span": [
+          114,
+          120
+        ],
+        "verb": "Behold",
+        "voice_guess": "active"
+      },
+      {
+        "actor": "disciples",
+        "clause_id": "s1.c0",
+        "id": "frame_6",
+        "indirect_object": null,
+        "modifiers": [],
+        "object": "Jesus",
+        "polarity": "affirm",
+        "token_span": [
+          158,
+          163
+        ],
+        "verb": "heard",
+        "voice_guess": "active"
+      },
+      {
+        "actor": "Jesus",
+        "clause_id": "s1.c0",
+        "id": "frame_7",
+        "indirect_object": null,
+        "modifiers": [],
+        "object": null,
+        "polarity": "affirm",
+        "token_span": [
+          168,
+          171
+        ],
+        "verb": "say",
+        "voice_guess": "active"
+      },
+      {
+        "actor": "disciples",
+        "clause_id": "s1.c1",
+        "id": "frame_8",
+        "indirect_object": null,
+        "modifiers": [],
+        "object": "Jesus",
+        "polarity": "affirm",
+        "token_span": [
+          187,
+          195
+        ],
+        "verb": "followed",
+        "voice_guess": "active"
+      },
+      {
+        "actor": "Jesus",
+        "clause_id": "s2.c0",
+        "id": "frame_9",
+        "indirect_object": null,
+        "modifiers": [],
+        "object": null,
+        "polarity": "affirm",
+        "token_span": [
+          209,
+          215
+        ],
+        "verb": "turned",
+        "voice_guess": "active"
+      },
+      {
+        "actor": "unknown_actor_3",
+        "clause_id": "s2.c1",
+        "id": "frame_10",
+        "indirect_object": null,
+        "modifiers": [],
+        "object": "disciples",
+        "polarity": "affirm",
+        "token_span": [
+          220,
+          223
+        ],
+        "verb": "saw",
+        "voice_guess": "active"
+      },
+      {
+        "actor": "disciples",
+        "clause_id": "s2.c1",
+        "id": "frame_11",
+        "indirect_object": null,
+        "modifiers": [],
+        "object": null,
+        "polarity": "affirm",
+        "token_span": [
+          229,
+          238
+        ],
+        "verb": "following",
+        "voice_guess": "active"
+      },
+      {
+        "actor": "unknown_actor_4",
+        "clause_id": "s2.c2",
+        "id": "frame_12",
+        "indirect_object": "them",
+        "modifiers": [
+          "to them"
+        ],
+        "object": "disciples",
+        "polarity": "affirm",
+        "token_span": [
+          243,
+          247
+        ],
+        "verb": "said",
+        "voice_guess": "active"
+      },
+      {
+        "actor": "disciples",
+        "clause_id": "s2.c2",
+        "id": "frame_13",
+        "indirect_object": null,
+        "modifiers": [],
+        "object": null,
+        "polarity": "affirm",
+        "token_span": [
+          263,
+          266
+        ],
+        "verb": "are",
+        "voice_guess": "active"
+      },
+      {
+        "actor": "disciples",
+        "clause_id": "s2.c2",
+        "id": "frame_14",
+        "indirect_object": null,
+        "modifiers": [],
+        "object": null,
+        "polarity": "affirm",
+        "token_span": [
+          271,
+          278
+        ],
+        "verb": "seeking",
+        "voice_guess": "active"
+      },
+      {
+        "actor": "disciples",
+        "clause_id": "s3.c0",
+        "id": "frame_15",
+        "indirect_object": "him",
+        "modifiers": [
+          "to him"
+        ],
+        "object": "Jesus",
+        "polarity": "affirm",
+        "token_span": [
+          290,
+          294
+        ],
+        "verb": "said",
+        "voice_guess": "active"
+      },
+      {
+        "actor": "Jesus",
+        "clause_id": "s3.c0",
+        "id": "frame_16",
+        "indirect_object": null,
+        "modifiers": [],
+        "object": null,
+        "polarity": "affirm",
+        "token_span": [
+          341,
+          344
+        ],
+        "verb": "are",
+        "voice_guess": "active"
+      },
+      {
+        "actor": "Jesus",
+        "clause_id": "s3.c0",
+        "id": "frame_17",
+        "indirect_object": null,
+        "modifiers": [],
+        "object": null,
+        "polarity": "affirm",
+        "token_span": [
+          349,
+          356
+        ],
+        "verb": "staying",
+        "voice_guess": "active"
+      },
+      {
+        "actor": "Jesus",
+        "clause_id": "s4.c0",
+        "id": "frame_18",
+        "indirect_object": "them",
+        "modifiers": [
+          "to them"
+        ],
+        "object": "unknown_P",
+        "polarity": "affirm",
+        "token_span": [
+          362,
+          366
+        ],
+        "verb": "said",
+        "voice_guess": "active"
+      },
+      {
+        "actor": "unknown_P",
+        "clause_id": "s4.c0",
+        "id": "frame_19",
+        "indirect_object": null,
+        "modifiers": [],
+        "object": null,
+        "polarity": "affirm",
+        "token_span": [
+          377,
+          381
+        ],
+        "verb": "Come",
+        "voice_guess": "active"
+      },
+      {
+        "actor": "unknown_actor_5",
+        "clause_id": "s4.c1",
+        "id": "frame_20",
+        "indirect_object": null,
+        "modifiers": [],
+        "object": null,
+        "polarity": "affirm",
+        "token_span": [
+          395,
+          398
+        ],
+        "verb": "see",
+        "voice_guess": "active"
+      },
+      {
+        "actor": "unknown_P",
+        "clause_id": "s5.c0",
+        "id": "frame_21",
+        "indirect_object": null,
+        "modifiers": [],
+        "object": null,
+        "polarity": "affirm",
+        "token_span": [
+          409,
+          413
+        ],
+        "verb": "came",
+        "voice_guess": "active"
+      },
+      {
+        "actor": "unknown_actor_6",
+        "clause_id": "s5.c1",
+        "id": "frame_22",
+        "indirect_object": null,
+        "modifiers": [],
+        "object": "unknown_M",
+        "polarity": "affirm",
+        "token_span": [
+          418,
+          421
+        ],
+        "verb": "saw",
+        "voice_guess": "active"
+      },
+      {
+        "actor": "unknown_M",
+        "clause_id": "s5.c1",
+        "id": "frame_23",
+        "indirect_object": null,
+        "modifiers": [],
+        "object": null,
+        "polarity": "affirm",
+        "token_span": [
+          431,
+          434
+        ],
+        "verb": "was",
+        "voice_guess": "active"
+      },
+      {
+        "actor": "unknown_M",
+        "clause_id": "s5.c1",
+        "id": "frame_24",
+        "indirect_object": null,
+        "modifiers": [],
+        "object": null,
+        "polarity": "affirm",
+        "token_span": [
+          435,
+          442
+        ],
+        "verb": "staying",
+        "voice_guess": "active"
+      },
+      {
+        "actor": "unknown_P",
+        "clause_id": "s5.c2",
+        "id": "frame_25",
+        "indirect_object": "it was about the tenth hour",
+        "modifiers": [
+          "for it was about the tenth hour",
+          "with him that day",
+          "about the tenth hour",
+          "that day"
+        ],
+        "object": "unknown_M",
+        "polarity": "affirm",
+        "token_span": [
+          453,
+          459
+        ],
+        "verb": "stayed",
+        "voice_guess": "active"
+      },
+      {
+        "actor": "unknown_N",
+        "clause_id": "s5.c2",
+        "id": "frame_26",
+        "indirect_object": null,
+        "modifiers": [
+          "about the tenth hour"
+        ],
+        "object": null,
+        "polarity": "affirm",
+        "token_span": [
+          486,
+          489
+        ],
+        "verb": "was",
+        "voice_guess": "active"
+      }
+    ],
+    "questions": [
+      "What are you seeking?",
+      "where are you staying?"
+    ],
+    "segments": [
+      {
+        "clause_id": "s0.c0",
+        "sentence_id": 0,
+        "text": "The next day again John was standing with two of his disciples,",
+        "token_end": 63,
+        "token_start": 0
+      },
+      {
+        "clause_id": "s0.c1",
+        "sentence_id": 0,
+        "text": "and he looked at Jesus as he walked by",
+        "token_end": 102,
+        "token_start": 64
+      },
+      {
+        "clause_id": "s0.c2",
+        "sentence_id": 0,
+        "text": "and said, \"Behold, the Lamb of God!",
+        "token_end": 138,
+        "token_start": 103
+      },
+      {
+        "clause_id": "s1.c0",
+        "sentence_id": 1,
+        "text": "\" The two disciples heard him say this,",
+        "token_end": 177,
+        "token_start": 138
+      },
+      {
+        "clause_id": "s1.c1",
+        "sentence_id": 1,
+        "text": "and they followed Jesus.",
+        "token_end": 202,
+        "token_start": 178
+      },
+      {
+        "clause_id": "s2.c0",
+        "sentence_id": 2,
+        "text": "Jesus turned",
+        "token_end": 215,
+        "token_start": 203
+      },
+      {
+        "clause_id": "s2.c1",
+        "sentence_id": 2,
+        "text": "and saw them following",
+        "token_end": 238,
+        "token_start": 216
+      },
+      {
+        "clause_id": "s2.c2",
+        "sentence_id": 2,
+        "text": "and said to them, \"What are you seeking?",
+        "token_end": 279,
+        "token_start": 239
+      },
+      {
+        "clause_id": "s3.c0",
+        "sentence_id": 3,
+        "text": "\" And they said to him, \"Rabbi\" (which means Teacher), \"where are you staying?",
+        "token_end": 357,
+        "token_start": 279
+      },
+      {
+        "clause_id": "s4.c0",
+        "sentence_id": 4,
+        "text": "\" He said to them, \"Come",
+        "token_end": 381,
+        "token_start": 357
+      },
+      {
+        "clause_id": "s4.c1",
+        "sentence_id": 4,
+        "text": "and you will see.",
+        "token_end": 399,
+        "token_start": 382
+      },
+      {
+        "clause_id": "s5.c0",
+        "sentence_id": 5,
+        "text": "\" So they came",
+        "token_end": 413,
+        "token_start": 399
+      },
+      {
+        "clause_id": "s5.c1",
+        "sentence_id": 5,
+        "text": "and saw where he was staying,",
+        "token_end": 443,
+        "token_start": 414
+      },
+      {
+        "clause_id": "s5.c2",
+        "sentence_id": 5,
+        "text": "and they stayed with him that day, for it was about the tenth hour.",
+        "token_end": 511,
+        "token_start": 444
+      }
+    ],
+    "silences": [
+      "density",
+      "withholding",
+      "withholding",
+      "density",
+      "withholding"
+    ],
+    "silences_detailed": [
+      {
+        "clause_id": "s0.c0",
+        "note_seed": "thick with nouns, few verbs",
+        "signal": "low_verb_ratio",
+        "silence_type": "density"
+      },
+      {
+        "clause_id": "s0.c1",
+        "note_seed": "weighty terms clustered without explanation",
+        "signal": "focus_noun_cluster",
+        "silence_type": "withholding"
+      },
+      {
+        "clause_id": "s0.c2",
+        "note_seed": "weighty terms clustered without explanation",
+        "signal": "focus_noun_cluster",
+        "silence_type": "withholding"
+      },
+      {
+        "clause_id": "s5.c2",
+        "note_seed": "thick with nouns, few verbs",
+        "signal": "low_verb_ratio",
+        "silence_type": "density"
+      },
+      {
+        "clause_id": "s5.c2",
+        "note_seed": "weighty terms clustered without explanation",
+        "signal": "focus_noun_cluster",
+        "silence_type": "withholding"
+      }
+    ],
+    "speakers": [
+      "Jesus",
+      "disciples"
+    ],
+    "thresholds": [
+      "and he",
+      "quote_boundary",
+      "and they",
+      "quote_boundary",
+      "quote_boundary",
+      "quote_boundary",
+      "quote_boundary",
+      "quote_boundary",
+      "and they"
+    ],
+    "thresholds_detailed": [
+      {
+        "evidence_after": "and he looked at Jesus as he walked by and said, \"Behold, th",
+        "evidence_before": "next day again John was standing with two of his disciples,",
+        "from_clause_id": "s0.c0",
+        "kind": "disclosure",
+        "to_clause_id": "s0.c1",
+        "token_span": [
+          64,
+          70
+        ],
+        "trigger": "and he"
+      },
+      {
+        "evidence_after": "and said, \"Behold, the Lamb of God!\" The two disciples heard",
+        "evidence_before": "wo of his disciples, and he looked at Jesus as he walked by",
+        "from_clause_id": "s0.c1",
+        "kind": "interruption",
+        "to_clause_id": "s0.c2",
+        "token_span": [
+          103,
+          117
+        ],
+        "trigger": "quote_boundary"
+      },
+      {
+        "evidence_after": "and they followed Jesus. Jesus turned and saw them following",
+        "evidence_before": "ld, the Lamb of God!\" The two disciples heard him say this,",
+        "from_clause_id": "s1.c0",
+        "kind": "disclosure",
+        "to_clause_id": "s1.c1",
+        "token_span": [
+          178,
+          186
+        ],
+        "trigger": "and they"
+      },
+      {
+        "evidence_after": "and they followed Jesus. Jesus turned and saw them following",
+        "evidence_before": "ld, the Lamb of God!\" The two disciples heard him say this,",
+        "from_clause_id": "s1.c0",
+        "kind": "interruption",
+        "to_clause_id": "s1.c1",
+        "token_span": [
+          178,
+          192
+        ],
+        "trigger": "quote_boundary"
+      },
+      {
+        "evidence_after": "and said to them, \"What are you seeking?\" And they said to h",
+        "evidence_before": "nd they followed Jesus. Jesus turned and saw them following",
+        "from_clause_id": "s2.c1",
+        "kind": "interruption",
+        "to_clause_id": "s2.c2",
+        "token_span": [
+          239,
+          253
+        ],
+        "trigger": "quote_boundary"
+      },
+      {
+        "evidence_after": "and you will see.\" So they came and saw where he was staying",
+        "evidence_before": "s Teacher), \"where are you staying?\" He said to them, \"Come",
+        "from_clause_id": "s4.c0",
+        "kind": "interruption",
+        "to_clause_id": "s4.c1",
+        "token_span": [
+          382,
+          396
+        ],
+        "trigger": "quote_boundary"
+      },
+      {
+        "evidence_after": "\" So they came and saw where he was staying, and they stayed",
+        "evidence_before": "e are you staying?\" He said to them, \"Come and you will see.",
+        "from_clause_id": "s4.c1",
+        "kind": "interruption",
+        "to_clause_id": "s5.c0",
+        "token_span": [
+          399,
+          413
+        ],
+        "trigger": "quote_boundary"
+      },
+      {
+        "evidence_after": "and saw where he was staying, and they stayed with him that",
+        "evidence_before": "ng?\" He said to them, \"Come and you will see.\" So they came",
+        "from_clause_id": "s5.c0",
+        "kind": "interruption",
+        "to_clause_id": "s5.c1",
+        "token_span": [
+          414,
+          428
+        ],
+        "trigger": "quote_boundary"
+      },
+      {
+        "evidence_after": "and they stayed with him that day, for it was about the tent",
+        "evidence_before": "d you will see.\" So they came and saw where he was staying,",
+        "from_clause_id": "s5.c1",
+        "kind": "disclosure",
+        "to_clause_id": "s5.c2",
+        "token_span": [
+          444,
+          452
+        ],
+        "trigger": "and they"
+      }
+    ],
+    "time_markers": [
+      "The next day",
+      "Behold"
+    ],
+    "time_markers_detailed": [
+      {
+        "clause_id": "s0.c0",
+        "scope": "clause",
+        "sentence_id": 0,
+        "text": "The next day",
+        "token_span": [
+          0,
+          12
+        ],
+        "type": "sequence"
+      },
+      {
+        "clause_id": "s0.c2",
+        "scope": "clause",
+        "sentence_id": 0,
+        "text": "Behold",
+        "token_span": [
+          114,
+          120
+        ],
+        "type": "anchor"
+      }
+    ],
+    "utterances": [
+      "Behold, the Lamb of God!",
+      "What are you seeking?",
+      "Rabbi",
+      "where are you staying?",
+      "Come and you will see."
+    ],
+    "utterances_detailed": [
+      {
+        "clause_id": "s0.c2",
+        "speaker_guess": "Jesus",
+        "speech_act": "unknown",
+        "text": "Behold, the Lamb of God!",
+        "token_span": [
+          114,
+          138
+        ]
+      },
+      {
+        "clause_id": "s2.c2",
+        "speaker_guess": "Jesus",
+        "speech_act": "question",
+        "text": "What are you seeking?",
+        "token_span": [
+          258,
+          279
+        ]
+      },
+      {
+        "clause_id": "s3.c0",
+        "speaker_guess": "Jesus",
+        "speech_act": "unknown",
+        "text": "Rabbi",
+        "token_span": [
+          304,
+          309
+        ]
+      },
+      {
+        "clause_id": "s3.c0",
+        "speaker_guess": "disciples",
+        "speech_act": "question",
+        "text": "where are you staying?",
+        "token_span": [
+          335,
+          357
+        ]
+      },
+      {
+        "clause_id": "s4.c0",
+        "speaker_guess": "Jesus",
+        "speech_act": "invitation",
+        "text": "Come and you will see.",
+        "token_span": [
+          377,
+          399
+        ]
+      }
+    ],
+    "verbs": [
+      "was",
+      "standing",
+      "looked",
+      "walked",
+      "said",
+      "Behold",
+      "heard",
+      "say",
+      "followed",
+      "turned",
+      "saw",
+      "following",
+      "said",
+      "are",
+      "seeking",
+      "said",
+      "are",
+      "staying",
+      "said",
+      "Come",
+      "see",
+      "came",
+      "saw",
+      "was",
+      "staying",
+      "stayed",
+      "was"
+    ],
+    "verbs_detailed": [
+      {
+        "clause_id": "s0.c0",
+        "lemma_guess": "be",
+        "role": "action",
+        "tense_guess": "past",
+        "token_span": [
+          24,
+          27
+        ],
+        "verb_text": "was"
+      },
+      {
+        "clause_id": "s0.c0",
+        "lemma_guess": "stand",
+        "role": "action",
+        "tense_guess": "present",
+        "token_span": [
+          28,
+          36
+        ],
+        "verb_text": "standing"
+      },
+      {
+        "clause_id": "s0.c1",
+        "lemma_guess": "look",
+        "role": "action",
+        "tense_guess": "past",
+        "token_span": [
+          71,
+          77
+        ],
+        "verb_text": "looked"
+      },
+      {
+        "clause_id": "s0.c1",
+        "lemma_guess": "walk",
+        "role": "action",
+        "tense_guess": "past",
+        "token_span": [
+          93,
+          99
+        ],
+        "verb_text": "walked"
+      },
+      {
+        "clause_id": "s0.c2",
+        "lemma_guess": "say",
+        "role": "speech_introducer",
+        "tense_guess": "past",
+        "token_span": [
+          107,
+          111
+        ],
+        "verb_text": "said"
+      },
+      {
+        "clause_id": "s0.c2",
+        "lemma_guess": "behold",
+        "role": "action",
+        "tense_guess": "unknown",
+        "token_span": [
+          114,
+          120
+        ],
+        "verb_text": "Behold"
+      },
+      {
+        "clause_id": "s1.c0",
+        "lemma_guess": "heard",
+        "role": "action",
+        "tense_guess": "unknown",
+        "token_span": [
+          158,
+          163
+        ],
+        "verb_text": "heard"
+      },
+      {
+        "clause_id": "s1.c0",
+        "lemma_guess": "say",
+        "role": "speech_introducer",
+        "tense_guess": "unknown",
+        "token_span": [
+          168,
+          171
+        ],
+        "verb_text": "say"
+      },
+      {
+        "clause_id": "s1.c1",
+        "lemma_guess": "follow",
+        "role": "action",
+        "tense_guess": "past",
+        "token_span": [
+          187,
+          195
+        ],
+        "verb_text": "followed"
+      },
+      {
+        "clause_id": "s2.c0",
+        "lemma_guess": "turn",
+        "role": "action",
+        "tense_guess": "past",
+        "token_span": [
+          209,
+          215
+        ],
+        "verb_text": "turned"
+      },
+      {
+        "clause_id": "s2.c1",
+        "lemma_guess": "see",
+        "role": "action",
+        "tense_guess": "past",
+        "token_span": [
+          220,
+          223
+        ],
+        "verb_text": "saw"
+      },
+      {
+        "clause_id": "s2.c1",
+        "lemma_guess": "follow",
+        "role": "action",
+        "tense_guess": "present",
+        "token_span": [
+          229,
+          238
+        ],
+        "verb_text": "following"
+      },
+      {
+        "clause_id": "s2.c2",
+        "lemma_guess": "say",
+        "role": "speech_introducer",
+        "tense_guess": "past",
+        "token_span": [
+          243,
+          247
+        ],
+        "verb_text": "said"
+      },
+      {
+        "clause_id": "s2.c2",
+        "lemma_guess": "be",
+        "role": "action",
+        "tense_guess": "present",
+        "token_span": [
+          263,
+          266
+        ],
+        "verb_text": "are"
+      },
+      {
+        "clause_id": "s2.c2",
+        "lemma_guess": "seeke",
+        "role": "action",
+        "tense_guess": "present",
+        "token_span": [
+          271,
+          278
+        ],
+        "verb_text": "seeking"
+      },
+      {
+        "clause_id": "s3.c0",
+        "lemma_guess": "say",
+        "role": "speech_introducer",
+        "tense_guess": "past",
+        "token_span": [
+          290,
+          294
+        ],
+        "verb_text": "said"
+      },
+      {
+        "clause_id": "s3.c0",
+        "lemma_guess": "be",
+        "role": "action",
+        "tense_guess": "present",
+        "token_span": [
+          341,
+          344
+        ],
+        "verb_text": "are"
+      },
+      {
+        "clause_id": "s3.c0",
+        "lemma_guess": "stay",
+        "role": "action",
+        "tense_guess": "present",
+        "token_span": [
+          349,
+          356
+        ],
+        "verb_text": "staying"
+      },
+      {
+        "clause_id": "s4.c0",
+        "lemma_guess": "say",
+        "role": "speech_introducer",
+        "tense_guess": "past",
+        "token_span": [
+          362,
+          366
+        ],
+        "verb_text": "said"
+      },
+      {
+        "clause_id": "s4.c0",
+        "lemma_guess": "come",
+        "role": "action",
+        "tense_guess": "unknown",
+        "token_span": [
+          377,
+          381
+        ],
+        "verb_text": "Come"
+      },
+      {
+        "clause_id": "s4.c1",
+        "lemma_guess": "see",
+        "role": "action",
+        "tense_guess": "unknown",
+        "token_span": [
+          395,
+          398
+        ],
+        "verb_text": "see"
+      },
+      {
+        "clause_id": "s5.c0",
+        "lemma_guess": "come",
+        "role": "action",
+        "tense_guess": "past",
+        "token_span": [
+          409,
+          413
+        ],
+        "verb_text": "came"
+      },
+      {
+        "clause_id": "s5.c1",
+        "lemma_guess": "see",
+        "role": "action",
+        "tense_guess": "past",
+        "token_span": [
+          418,
+          421
+        ],
+        "verb_text": "saw"
+      },
+      {
+        "clause_id": "s5.c1",
+        "lemma_guess": "be",
+        "role": "action",
+        "tense_guess": "past",
+        "token_span": [
+          431,
+          434
+        ],
+        "verb_text": "was"
+      },
+      {
+        "clause_id": "s5.c1",
+        "lemma_guess": "stay",
+        "role": "action",
+        "tense_guess": "present",
+        "token_span": [
+          435,
+          442
+        ],
+        "verb_text": "staying"
+      },
+      {
+        "clause_id": "s5.c2",
+        "lemma_guess": "stay",
+        "role": "action",
+        "tense_guess": "past",
+        "token_span": [
+          453,
+          459
+        ],
+        "verb_text": "stayed"
+      },
+      {
+        "clause_id": "s5.c2",
+        "lemma_guess": "be",
+        "role": "action",
+        "tense_guess": "past",
+        "token_span": [
+          486,
+          489
+        ],
+        "verb_text": "was"
+      }
+    ]
+  },
+  "spec_version": "v4",
+  "template": {
+    "id": "john_1_35_39_v4",
+    "path": "data/templates/witness_cards/v4/john_1_35_39.json"
+  },
+  "witness_prompts": [
+    "The scene begins with 'The next day'. What kind of time does that place you in today?",
+    "Where do you notice John was Jesus or John standing Jesus in this scene?",
+    "Jesus says, '{missing:testimony_1}'. What does that testimony open in you?",
+    "Jesus turns and asks, 'What are you seeking?'. If you answer with one honest phrase, what is it?",
+    "He says, 'Come and you will see.'. What would a small, safe step of coming look like today?"
+  ]
+}

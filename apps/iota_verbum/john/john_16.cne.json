@@ -1,0 +1,126 @@
+{
+  "schema": "cne.v1",
+  "ref": "John 16",
+  "translation": "ESV",
+  "agents": {
+    "G": "Jesus",
+    "H": "Disciples",
+    "S": "Spirit",
+    "W": "World"
+  },
+  "events": [
+    {
+      "id": "e1",
+      "ref": "16:1-2",
+      "agent": "G",
+      "verb": "warn",
+      "object": "they_will_put_you_out_kill_think_service",
+      "mode": "sobering"
+    },
+    {
+      "id": "e2",
+      "ref": "16:5-7",
+      "agent": "G",
+      "verb": "say",
+      "object": "I_go; it_is_to_your_advantage",
+      "mode": "departure"
+    },
+    {
+      "id": "e3",
+      "ref": "16:7",
+      "agent": "G",
+      "verb": "promise",
+      "object": "send_Helper",
+      "mode": "gift"
+    },
+    {
+      "id": "e4",
+      "ref": "16:8-11",
+      "agent": "S",
+      "verb": "convict",
+      "object": "world_sin_righteousness_judgment",
+      "mode": "work"
+    },
+    {
+      "id": "e5",
+      "ref": "16:13",
+      "agent": "S",
+      "verb": "guide",
+      "object": "into_all_truth",
+      "mode": "lead"
+    },
+    {
+      "id": "e6",
+      "ref": "16:20",
+      "agent": "G",
+      "verb": "declare",
+      "object": "sorrow_to_joy",
+      "mode": "promise"
+    },
+    {
+      "id": "e7",
+      "ref": "16:21-22",
+      "agent": "G",
+      "verb": "compare",
+      "object": "labor_pains_to_joy",
+      "mode": "image"
+    },
+    {
+      "id": "e8",
+      "ref": "16:33",
+      "agent": "G",
+      "verb": "give",
+      "object": "peace_take_heart_I_overcame_world",
+      "mode": "assurance"
+    }
+  ],
+  "links": [
+    {
+      "op": "SEQ",
+      "from": "e1",
+      "to": "e4"
+    },
+    {
+      "op": "SEQ",
+      "from": "e4",
+      "to": "e8"
+    }
+  ],
+  "markers": [
+    {
+      "id": "m1",
+      "ref": "16:1-4",
+      "type": "THR",
+      "target": "expulsion",
+      "justification": "put out of synagogues"
+    },
+    {
+      "id": "m2",
+      "ref": "16:20-22",
+      "type": "SM",
+      "target": "sorrow_to_joy",
+      "justification": "extended metaphor"
+    },
+    {
+      "id": "m3",
+      "ref": "16:33",
+      "type": "CU",
+      "target": "overcome_world",
+      "justification": "final anchoring assurance"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "type": "hinge_candidate",
+      "text": "Jesus’ departure becomes advantage: the Spirit convicts and guides, and sorrow turns to joy under Christ’s victory.",
+      "supported_by": [
+        "e2",
+        "e4",
+        "e6",
+        "e8"
+      ],
+      "inference": true
+    }
+  ]
+}

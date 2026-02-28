@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Matthew λ-files; safe to hand-edit after generation.",
+    "book": "Matthew",
+    "passage_id": "Mat28_16_20",
+    "version": "Mat28_16_20_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mat28_16_20",
+  "book": "Matthew",
+  "chapter": 28,
+  "verses": "16-20",
+  "title": "Matthew 28:16–20 – The Great Commission",
+  "interpretive_frames": [
+    "Mission",
+    "Authority",
+    "Presence"
+  ],
+  "identity_invariants": [
+    "[]RisenJesusHasAllAuthorityAndRemainsWithDisciplesInMission(Jesus, Disciples)"
+  ],
+  "units": [
+    {
+      "id": "Mat28_16_20_u1",
+      "label": "Make Disciples of All Nations",
+      "verses": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "illocution": "Commission",
+      "agents": [
+        "Jesus",
+        "Eleven"
+      ],
+      "statements": [
+        {
+          "id": "Mat28_16_20_s1",
+          "type": "summary",
+          "description": "The risen Christ commissions his disciples to make disciples of all nations in the presence of his abiding authority.",
+          "lambda_iv": [
+            "[]RisenJesusHasAllAuthorityAndRemainsWithDisciplesInMission(Jesus, Disciples)",
+            "<>GoBaptiseTeachToObeyAllHeCommanded(Disciples, Nations)"
+          ]
+        }
+      ]
+    }
+  ]
+}

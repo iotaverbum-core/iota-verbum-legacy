@@ -1,0 +1,452 @@
+{
+  "schema": "cne.v1",
+  "ref": "John 4",
+  "translation": "ESV",
+  "agents": {
+    "J": "Jesus",
+    "W": "Samaritan woman",
+    "D": "Disciples",
+    "S": "Samaritans (townspeople)",
+    "O": "Royal official",
+    "H": "Household/servants"
+  },
+  "events": [
+    {
+      "id": "e1",
+      "ref": "4:3-4",
+      "agent": "J",
+      "verb": "travel",
+      "object": "Judea→Galilee (through Samaria)",
+      "kind": "enactment"
+    },
+    {
+      "id": "e2",
+      "ref": "4:6",
+      "agent": "J",
+      "verb": "sit",
+      "object": "Jacob_well",
+      "kind": "enactment",
+      "mode": "tired",
+      "duration": "sixth_hour"
+    },
+    {
+      "id": "e3",
+      "ref": "4:7",
+      "agent": "W",
+      "verb": "come",
+      "object": "draw_water",
+      "kind": "enactment"
+    },
+    {
+      "id": "e4",
+      "ref": "4:7",
+      "agent": "J",
+      "verb": "ask",
+      "object": "drink",
+      "kind": "enactment"
+    },
+    {
+      "id": "e5",
+      "ref": "4:9",
+      "agent": "W",
+      "verb": "question",
+      "object": "Jew/Samaritan boundary",
+      "kind": "enactment",
+      "mode": "social_threshold"
+    },
+    {
+      "id": "e6",
+      "ref": "4:10",
+      "agent": "J",
+      "verb": "reveal",
+      "object": "gift_of_God + living_water",
+      "kind": "identity"
+    },
+    {
+      "id": "e7",
+      "ref": "4:15",
+      "agent": "W",
+      "verb": "request",
+      "object": "living_water",
+      "kind": "enactment"
+    },
+    {
+      "id": "e8",
+      "ref": "4:16",
+      "agent": "J",
+      "verb": "command",
+      "object": "call_husband",
+      "kind": "enactment"
+    },
+    {
+      "id": "e9",
+      "ref": "4:17-18",
+      "agent": "J",
+      "verb": "reveal",
+      "object": "her_story (no_husband; five_husbands; current_not_husband)",
+      "kind": "identity"
+    },
+    {
+      "id": "e10",
+      "ref": "4:19",
+      "agent": "W",
+      "verb": "perceive",
+      "object": "J_is_prophet",
+      "kind": "effect"
+    },
+    {
+      "id": "e11",
+      "ref": "4:21-24",
+      "agent": "J",
+      "verb": "declare",
+      "object": "true_worship: Spirit_and_truth; Father_seeks_worshipers",
+      "kind": "identity"
+    },
+    {
+      "id": "e12",
+      "ref": "4:25",
+      "agent": "W",
+      "verb": "speak",
+      "object": "Messiah_will_come",
+      "kind": "enactment"
+    },
+    {
+      "id": "e13",
+      "ref": "4:26",
+      "agent": "J",
+      "verb": "identify",
+      "object": "I_am_he (Messiah)",
+      "kind": "identity"
+    },
+    {
+      "id": "e14",
+      "ref": "4:28-30",
+      "agent": "W",
+      "verb": "testify",
+      "object": "come_see; he_told_me_all",
+      "kind": "enactment",
+      "mode": "leaves_jar"
+    },
+    {
+      "id": "e15",
+      "ref": "4:30",
+      "agent": "S",
+      "verb": "come",
+      "object": "to_Jesus",
+      "kind": "enactment"
+    },
+    {
+      "id": "e16",
+      "ref": "4:39",
+      "agent": "S",
+      "verb": "believe",
+      "object": "because_of_woman_testimony",
+      "kind": "effect"
+    },
+    {
+      "id": "e17",
+      "ref": "4:40",
+      "agent": "S",
+      "verb": "ask",
+      "object": "Jesus_stay",
+      "kind": "enactment"
+    },
+    {
+      "id": "e18",
+      "ref": "4:40",
+      "agent": "J",
+      "verb": "stay",
+      "object": "with_them",
+      "kind": "enactment",
+      "duration": "P2D"
+    },
+    {
+      "id": "e19",
+      "ref": "4:41",
+      "agent": "S",
+      "verb": "believe",
+      "object": "because_of_his_word",
+      "kind": "effect"
+    },
+    {
+      "id": "e20",
+      "ref": "4:42",
+      "agent": "S",
+      "verb": "identify",
+      "object": "Jesus=Savior_of_world",
+      "kind": "identity"
+    },
+    {
+      "id": "e21",
+      "ref": "4:46-47",
+      "agent": "O",
+      "verb": "beg",
+      "object": "heal_son",
+      "kind": "enactment"
+    },
+    {
+      "id": "e22",
+      "ref": "4:50",
+      "agent": "J",
+      "verb": "declare",
+      "object": "Go; your_son_will_live",
+      "kind": "identity"
+    },
+    {
+      "id": "e23",
+      "ref": "4:50",
+      "agent": "O",
+      "verb": "believe",
+      "object": "Jesus_word",
+      "kind": "effect"
+    },
+    {
+      "id": "e24",
+      "ref": "4:51-53",
+      "agent": "H",
+      "verb": "report",
+      "object": "son_lives",
+      "kind": "effect"
+    },
+    {
+      "id": "e25",
+      "ref": "4:53",
+      "agent": "H",
+      "verb": "believe",
+      "object": "whole_household",
+      "kind": "effect"
+    },
+    {
+      "id": "e26",
+      "ref": "4:54",
+      "agent": "J",
+      "verb": "identify",
+      "object": "second_sign",
+      "kind": "identity"
+    }
+  ],
+  "links": [
+    {
+      "op": "SEQ",
+      "from": "e1",
+      "to": "e2"
+    },
+    {
+      "op": "SEQ",
+      "from": "e2",
+      "to": "e4"
+    },
+    {
+      "op": "SEQ",
+      "from": "e4",
+      "to": "e5"
+    },
+    {
+      "op": "SEQ",
+      "from": "e5",
+      "to": "e6"
+    },
+    {
+      "op": "SEQ",
+      "from": "e6",
+      "to": "e8"
+    },
+    {
+      "op": "SEQ",
+      "from": "e8",
+      "to": "e9"
+    },
+    {
+      "op": "SEQ",
+      "from": "e9",
+      "to": "e13"
+    },
+    {
+      "op": "SEQ",
+      "from": "e13",
+      "to": "e14"
+    },
+    {
+      "op": "SEQ",
+      "from": "e14",
+      "to": "e16"
+    },
+    {
+      "op": "SEQ",
+      "from": "e17",
+      "to": "e18"
+    },
+    {
+      "op": "SEQ",
+      "from": "e18",
+      "to": "e19"
+    },
+    {
+      "op": "SEQ",
+      "from": "e21",
+      "to": "e22"
+    },
+    {
+      "op": "SEQ",
+      "from": "e22",
+      "to": "e23"
+    },
+    {
+      "op": "SEQ",
+      "from": "e23",
+      "to": "e25"
+    }
+  ],
+  "markers": [
+    {
+      "id": "m1",
+      "ref": "4:3-6",
+      "type": "WS",
+      "target": "journey→well",
+      "justification": "movement from Judea to Galilee through contested land; scene settles at Jacob's well"
+    },
+    {
+      "id": "m2",
+      "ref": "4:6",
+      "type": "SM",
+      "target": "sixth_hour + fatigue",
+      "justification": "time stamp and bodily tiredness slow the frame before the dialogue begins"
+    },
+    {
+      "id": "m3",
+      "ref": "4:7-9",
+      "type": "THR",
+      "target": "Jew/Samaritan + gender/public_boundary",
+      "justification": "a Jewish man asks a Samaritan woman for a drink; the boundary is named in dialogue"
+    },
+    {
+      "id": "m4",
+      "ref": "4:10-15",
+      "type": "CU",
+      "target": "living_water_offer",
+      "justification": "dialogue concentrates on a single gift image that carries the scene"
+    },
+    {
+      "id": "m5",
+      "ref": "4:16-19",
+      "type": "CU",
+      "target": "exposure_of_story",
+      "justification": "Jesus turns from metaphor to personal history; the scene tightens around her life"
+    },
+    {
+      "id": "m6",
+      "ref": "4:21-24",
+      "type": "THR",
+      "target": "worship_boundary_shift",
+      "justification": "from 'this mountain/Jerusalem' to 'Spirit and truth'—access is re-framed"
+    },
+    {
+      "id": "m7",
+      "ref": "4:26",
+      "type": "CU",
+      "target": "I_am_he",
+      "justification": "explicit self-identification; revelation lands in direct speech"
+    },
+    {
+      "id": "m8",
+      "ref": "4:28",
+      "type": "STAY",
+      "target": "water_jar_left",
+      "justification": "the jar is named and abandoned; a prop becomes a theological marker of urgency/new desire"
+    },
+    {
+      "id": "m9",
+      "ref": "4:35-38",
+      "type": "WS",
+      "target": "harvest_fields",
+      "justification": "Jesus widens the frame to the fields and the coming harvest; reorients the disciples"
+    },
+    {
+      "id": "m10",
+      "ref": "4:40-42",
+      "type": "STAY",
+      "target": "Jesus_stays_two_days",
+      "justification": "the narrative emphasizes duration of presence; many believe because of his word"
+    },
+    {
+      "id": "m11",
+      "ref": "4:48",
+      "type": "SIL",
+      "target": "mechanism_of_signs",
+      "justification": "Jesus critiques sign-seeking; the story does not explain 'how' the word heals"
+    },
+    {
+      "id": "m12",
+      "ref": "4:50-53",
+      "type": "SM",
+      "target": "seventh_hour_confirmation",
+      "justification": "timing is checked and narrated; the healing is tied to Jesus' spoken word"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "type": "hinge_candidate",
+      "text": "Jesus crosses named social thresholds (Jew/Samaritan; public/gender) by requesting a drink, then offers living water that reframes access to God.",
+      "supported_by": [
+        "e4",
+        "e5",
+        "e6",
+        "m3",
+        "m4"
+      ]
+    },
+    {
+      "id": "c2",
+      "type": "scene_theology",
+      "text": "Revelation moves from gift (living water) to exposure (her story) to worship (Spirit and truth) to self-identification (Messiah) — and then becomes witness that multiplies belief.",
+      "supported_by": [
+        "e6",
+        "e9",
+        "e11",
+        "e13",
+        "e14",
+        "e16",
+        "e19",
+        "m4",
+        "m5",
+        "m7"
+      ],
+      "inference": true
+    },
+    {
+      "id": "c3",
+      "type": "scene_theology",
+      "text": "John pairs two belief-arcs: Samaritans believe through staying with Jesus; the official believes by trusting Jesus' word before seeing — both are forms of 'seeing' redefined.",
+      "supported_by": [
+        "e18",
+        "e19",
+        "e23",
+        "m10",
+        "m11"
+      ],
+      "inference": true
+    }
+  ],
+  "hinge": {
+    "themes": [
+      "living water",
+      "thresholds",
+      "worship",
+      "witness",
+      "staying",
+      "harvest",
+      "signs",
+      "belief",
+      "word"
+    ],
+    "identity_□": "Jesus gives living water, reveals the Father’s sought worshipers in Spirit and truth, and identifies himself as the Messiah and Savior of the world; his spoken word carries life.",
+    "enactment_◇": "Jesus travels into contested space, sits in weariness, asks, discloses, exposes, and speaks; the woman testifies; the Samaritans invite him to stay; the official seeks help and trusts his word.",
+    "effect_Δ": "The outsider is seen and becomes a witness; many believe through Jesus’ staying and word; a household believes through a life-giving word that heals at a distance."
+  },
+  "meta": {
+    "created_at": "2026-02-12T18:43:31.237337Z",
+    "author": "iota-cne",
+    "note": "Generated from CNE lens; verse refs are warrants."
+  }
+}

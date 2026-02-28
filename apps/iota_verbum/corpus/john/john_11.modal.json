@@ -1,0 +1,54 @@
+{
+  "schema": "iv.modal.json.v1",
+  "passage": "John 11",
+  "source": {
+    "translation": "ESV"
+  },
+  "meta": {
+    "compiled_from": "cne.v1",
+    "compiled_at": "2026-02-13T14:23:56"
+  },
+  "nodes": [
+    {
+      "id": "n1",
+      "type": "scene",
+      "ref": "11:1-27",
+      "label": "Delay + I am resurrection and life"
+    },
+    {
+      "id": "n2",
+      "type": "scene",
+      "ref": "11:28-44",
+      "label": "Weeping → stone removed → Lazarus called out"
+    },
+    {
+      "id": "n3",
+      "type": "scene",
+      "ref": "11:45-54",
+      "label": "Division → council plot → withdrawal"
+    }
+  ],
+  "edges": [
+    {
+      "from": "n1",
+      "to": "n2",
+      "type": "SEQ"
+    },
+    {
+      "from": "n2",
+      "to": "n3",
+      "type": "SEQ"
+    }
+  ],
+  "hinges": [
+    {
+      "id": "h1",
+      "refs": [
+        "John 11"
+      ],
+      "identity_□": "Jesus is the Resurrection and the Life.",
+      "enactment_◇": "He delays, enters grief, commands the tomb, and calls Lazarus out.",
+      "effect_Δ": "Many believe; leaders plot his death; Jesus withdraws as Passover nears."
+    }
+  ]
+}

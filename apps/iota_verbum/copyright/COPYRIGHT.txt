@@ -1,0 +1,54 @@
+iota Verbum – Modal Coherence Engine
+“Every word accountable to the Word.”
+
+© 2025 Matthew Neal. All rights reserved.
+
+Author and original rights holder:
+    Matthew Neal
+    Cape Town, South Africa
+    Founder, iota Verbum Ltd
+
+SCOPE OF WORK
+
+The term “iota Verbum” in this repository refers collectively to:
+
+  • All source code (including but not limited to main.py, engine modules,
+    web APIs, test scripts, configuration files, and build tooling).
+  • All documentation, prompts, specifications, schemas, and white papers,
+    including governance and theology briefs.
+  • All designs and artefacts, including reviewer console layouts, diagrams,
+    and UI/UX concepts.
+  • All modal-logic structures, triad grammars (□ / ◇ / Δ), and the
+    “Executable Coherence / Attested AI” framing developed for this project.
+
+Unless explicitly stated otherwise in a file header, all such materials are the
+intellectual property of Matthew Neal.
+
+AI-ASSISTED AUTHORING
+
+AI tools (including OpenAI’s ChatGPT family of models) have been used as
+assistants in drafting code, prose, and designs. Their outputs have been
+curated, edited, and integrated under the creative control of Matthew Neal.
+The resulting work is original and is owned by Matthew Neal / iota Verbum Ltd.
+
+LICENSE / USE
+
+This codebase and associated materials are provided for theological,
+educational, and evaluation purposes only. No part of iota Verbum may be
+reproduced, copied, modified, merged, published, distributed, sublicensed, or
+sold without the prior written consent of Matthew Neal or an authorised
+representative of iota Verbum Ltd.
+
+Any evaluation access granted to institutions (including seminaries, churches,
+or research partners) is on a non-exclusive, revocable basis and does not
+transfer or dilute ownership of the underlying intellectual property.
+
+ASSIGNMENT TO IOTA VERBUM LTD
+
+By separate written assignment dated [YYYY-MM-DD], Matthew Neal has assigned
+all rights, title, and interest in the iota Verbum intellectual property to
+iota Verbum Ltd, retaining moral authorship. In case of conflict between this
+notice and that assignment, the assignment document takes precedence.
+
+For licensing or partnership enquiries:
+    Email: iotaverbum@thedailycovenant.com

@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Luke λ-files; safe to hand-edit after generation.",
+    "book": "Luke",
+    "passage_id": "Luk05_12_26",
+    "version": "Luk05_12_26_Lambda_IV_v0.1"
+  },
+  "passage_id": "Luk05_12_26",
+  "book": "Luke",
+  "chapter": 5,
+  "verses": "12-26",
+  "title": "Luke 5:12–26 – Cleansing the Leper and Forgiving the Paralytic",
+  "interpretive_frames": [
+    "Purity",
+    "AuthorityToForgive",
+    "Faith"
+  ],
+  "identity_invariants": [
+    "[]JesusHasAuthorityToCleanseImpurityAndForgiveSins(Jesus, Impure, Sinners)"
+  ],
+  "units": [
+    {
+      "id": "Luk05_12_26_u1",
+      "label": "Who Can Forgive Sins but God Alone?",
+      "verses": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "illocution": "MiracleAndControversy",
+      "agents": [
+        "Jesus",
+        "Leper",
+        "Paralytic",
+        "Friends",
+        "ScribesAndPharisees"
+      ],
+      "statements": [
+        {
+          "id": "Luk05_12_26_s1",
+          "type": "summary",
+          "description": "Jesus touches and cleanses a leper and then heals a paralytic to demonstrate his authority on earth to forgive sins.",
+          "lambda_iv": [
+            "[]JesusHasAuthorityToCleanseImpurityAndForgiveSins(Jesus, Impure, Sinners)",
+            "EFF(FaithBreaksThroughObstaclesToReachJesus(Friends, Paralytic))"
+          ]
+        }
+      ]
+    }
+  ]
+}

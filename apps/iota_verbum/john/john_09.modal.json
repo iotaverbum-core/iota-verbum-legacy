@@ -1,0 +1,54 @@
+{
+  "schema": "iv.modal.json.v1",
+  "passage": "John 9",
+  "source": {
+    "translation": "ESV"
+  },
+  "meta": {
+    "compiled_from": "cne.v1",
+    "compiled_at": "2026-02-13T14:17:58"
+  },
+  "nodes": [
+    {
+      "id": "n1",
+      "type": "scene",
+      "ref": "9:1-7",
+      "label": "Seeing → Light declaration → mud/anoint/send → sight"
+    },
+    {
+      "id": "n2",
+      "type": "scene",
+      "ref": "9:8-34",
+      "label": "Neighbors/Pharisees interrogation → division → witness → expulsion"
+    },
+    {
+      "id": "n3",
+      "type": "scene",
+      "ref": "9:35-41",
+      "label": "Jesus finds expelled man → reveal Son of Man → worship → judgment saying"
+    }
+  ],
+  "edges": [
+    {
+      "from": "n1",
+      "to": "n2",
+      "type": "SEQ"
+    },
+    {
+      "from": "n2",
+      "to": "n3",
+      "type": "SEQ"
+    }
+  ],
+  "hinges": [
+    {
+      "id": "h1",
+      "refs": [
+        "John 9:1-41"
+      ],
+      "identity_□": "Jesus is the Light of the world who reveals by giving sight and by self-disclosure to the cast out.",
+      "enactment_◇": "Jesus sees, works (mud/anoint/send), then hears of expulsion and finds the man, questions and reveals himself.",
+      "effect_Δ": "The blind man comes to confession and worship; opponents harden into culpable blindness."
+    }
+  ]
+}

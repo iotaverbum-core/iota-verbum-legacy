@@ -1,0 +1,27 @@
+﻿# chap	verse	pos	surface	lemma	morph	pos_tag	strongs
+4	26	1	Kai	kai	CONJ	CONJ	G2532
+4	26	2	elegen	lego	V-IAI-3S	V	G3004
+4	26	3	houtos	houtos	DEM	PRON	G3778
+4	26	4	estin	eimi	V-PAI-3S	V	G1510
+4	26	5	he	ho	ART	DET	G3588
+4	26	6	basileia	basileia	N-NSF	N	G932
+4	26	7	tou	ho	ART	DET	G3588
+4	26	8	theou	theos	N-GSM	N	G2316
+
+4	27	1	kai	kai	CONJ	CONJ	G2532
+4	27	2	katheude	katheudo	V-PAS-3S	V	G2518
+4	27	3	egeiretai	egeiro	V-PMI-3S	V	G1453
+4	27	4	nux	nux	N-NSF	N	G3571
+4	27	5	hemera	hemera	N-NSF	N	G2250
+
+4	28	1	automate	automatos	ADV	ADV	G844
+4	28	2	he	ho	ART	DET	G3588
+4	28	3	ge	ge	N-NSF	N	G1093
+4	28	4	karpophorei	karpophoreo	V-PAI-3S	V	G2592
+
+4	29	1	hotan	hotan	CONJ	CONJ	G3752
+4	29	2	ho	ho	ART	DET	G3588
+4	29	3	karpos	karpos	N-NSM	N	G2590
+4	29	4	aposteilei	apostello	V-AAS-3S	V	G649
+4	29	5	to	to	ART	DET	G3588
+4	29	6	drepanon	drepanon	N-ASN	N	G1407

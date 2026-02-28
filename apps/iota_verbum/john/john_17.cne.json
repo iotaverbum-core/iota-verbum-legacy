@@ -1,0 +1,121 @@
+{
+  "schema": "cne.v1",
+  "ref": "John 17",
+  "translation": "ESV",
+  "agents": {
+    "G": "Jesus",
+    "F": "Father",
+    "H": "Disciples",
+    "W": "World"
+  },
+  "events": [
+    {
+      "id": "e1",
+      "ref": "17:1",
+      "agent": "G",
+      "verb": "pray",
+      "object": "Father_glorify_Son",
+      "mode": "high_priestly"
+    },
+    {
+      "id": "e2",
+      "ref": "17:2-3",
+      "agent": "G",
+      "verb": "define",
+      "object": "eternal_life=know_Father+Jesus",
+      "mode": "definition"
+    },
+    {
+      "id": "e3",
+      "ref": "17:6",
+      "agent": "G",
+      "verb": "reveal",
+      "object": "Father_name_to_disciples",
+      "mode": "disclosure"
+    },
+    {
+      "id": "e4",
+      "ref": "17:11",
+      "agent": "G",
+      "verb": "ask",
+      "object": "keep_them_in_your_name",
+      "mode": "protection"
+    },
+    {
+      "id": "e5",
+      "ref": "17:17",
+      "agent": "G",
+      "verb": "ask",
+      "object": "sanctify_them_in_truth",
+      "mode": "consecration"
+    },
+    {
+      "id": "e6",
+      "ref": "17:18",
+      "agent": "G",
+      "verb": "send",
+      "object": "as_you_sent_me_so_I_send_them",
+      "mode": "mission"
+    },
+    {
+      "id": "e7",
+      "ref": "17:21-23",
+      "agent": "G",
+      "verb": "ask",
+      "object": "that_they_may_be_one",
+      "mode": "unity"
+    },
+    {
+      "id": "e8",
+      "ref": "17:24",
+      "agent": "G",
+      "verb": "desire",
+      "object": "they_see_my_glory",
+      "mode": "hope"
+    }
+  ],
+  "links": [
+    {
+      "op": "SEQ",
+      "from": "e1",
+      "to": "e8"
+    }
+  ],
+  "markers": [
+    {
+      "id": "m1",
+      "ref": "17:1",
+      "type": "CU",
+      "target": "lifted_eyes_prayer",
+      "justification": "prayer fills chapter"
+    },
+    {
+      "id": "m2",
+      "ref": "17:21-23",
+      "type": "STAY",
+      "target": "oneness",
+      "justification": "repeated unity request"
+    },
+    {
+      "id": "m3",
+      "ref": "17:17-19",
+      "type": "THR",
+      "target": "sent_into_world",
+      "justification": "mission across boundary"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "type": "hinge_candidate",
+      "text": "Jesus prays the Father’s keeping and sanctifying for a sent people, so their oneness reveals divine glory to the world.",
+      "supported_by": [
+        "e1",
+        "e4",
+        "e6",
+        "e7"
+      ],
+      "inference": true
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Matthew λ-files; safe to hand-edit after generation.",
+    "book": "Matthew",
+    "passage_id": "Mat19_01_12",
+    "version": "Mat19_01_12_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mat19_01_12",
+  "book": "Matthew",
+  "chapter": 19,
+  "verses": "1-12",
+  "title": "Matthew 19:1–12 – Marriage, Divorce, and Creation",
+  "interpretive_frames": [
+    "Marriage",
+    "Creation",
+    "HardnessOfHeart"
+  ],
+  "identity_invariants": [
+    "[]FromBeginningCreatorMadeMarriageAsCovenantUnionOfMaleAndFemale(Creator, Marriage)"
+  ],
+  "units": [
+    {
+      "id": "Mat19_01_12_u1",
+      "label": "What God Has Joined Together",
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "illocution": "Teaching",
+      "agents": [
+        "Jesus",
+        "Pharisees",
+        "Disciples"
+      ],
+      "statements": [
+        {
+          "id": "Mat19_01_12_s1",
+          "type": "summary",
+          "description": "Jesus returns to Genesis to teach about marriage, divorce, and celibacy for the kingdom.",
+          "lambda_iv": [
+            "[]FromBeginningCreatorMadeMarriageAsCovenantUnionOfMaleAndFemale(Creator, Marriage)",
+            "!<>DivorceWithoutRegardForGodsDesign(Spouses)"
+          ]
+        }
+      ]
+    }
+  ]
+}

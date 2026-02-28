@@ -1,0 +1,1 @@
+﻿.\corpus\john_12_24\ref.txt

@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Mark λ-files; safe to hand-edit after generation.",
+    "book": "Mark",
+    "passage_id": "Mar16_01_08",
+    "version": "Mar16_01_08_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mar16_01_08",
+  "book": "Mark",
+  "chapter": 16,
+  "verses": "1-8",
+  "title": "Mark 16:1–8 – Empty Tomb and Trembling Witnesses",
+  "interpretive_frames": [
+    "Resurrection",
+    "Fear",
+    "Commission"
+  ],
+  "identity_invariants": [
+    "[]CrucifiedJesusIsRaisedAndAnnouncedYetFearInitiallySilencesWitnesses(Jesus, Women)"
+  ],
+  "units": [
+    {
+      "id": "Mar16_01_08_u1",
+      "label": "He Has Risen, He Is Not Here",
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "illocution": "ResurrectionAnnouncement",
+      "agents": [
+        "Women",
+        "YoungManInTomb",
+        "Disciples",
+        "Peter"
+      ],
+      "statements": [
+        {
+          "id": "Mar16_01_08_s1",
+          "type": "summary",
+          "description": "Women find the stone rolled away, hear the announcement of Jesus resurrection, and are charged to tell disciples and Peter, yet flee in trembling and fear.",
+          "lambda_iv": [
+            "[]CrucifiedJesusIsRaisedAndAnnouncedYetFearInitiallySilencesWitnesses(Jesus, Women)",
+            "EFF(ResurrectionMessageOvercomesInitialFearToLaunchWitness(Church))"
+          ]
+        }
+      ]
+    }
+  ]
+}

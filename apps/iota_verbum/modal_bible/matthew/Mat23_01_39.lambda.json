@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Matthew λ-files; safe to hand-edit after generation.",
+    "book": "Matthew",
+    "passage_id": "Mat23_01_39",
+    "version": "Mat23_01_39_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mat23_01_39",
+  "book": "Matthew",
+  "chapter": 23,
+  "verses": "1-39",
+  "title": "Matthew 23:1–39 – Woes on the Scribes and Pharisees and Lament",
+  "interpretive_frames": [
+    "Woe",
+    "Hypocrisy",
+    "Lament"
+  ],
+  "identity_invariants": [
+    "[]JesusAsPropheticLordPronouncesWoeOnHypocrisyYetLamentsJerusalem(Jesus, Jerusalem)"
+  ],
+  "units": [
+    {
+      "id": "Mat23_01_39_u1",
+      "label": "Woe and How Often Would I",
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "illocution": "WoeOracleAndLament",
+      "agents": [
+        "Jesus",
+        "Scribes",
+        "Pharisees",
+        "Crowds",
+        "Jerusalem"
+      ],
+      "statements": [
+        {
+          "id": "Mat23_01_39_s1",
+          "type": "summary",
+          "description": "Jesus exposes religious hypocrisy in woes and laments over Jerusalem's hardness.",
+          "lambda_iv": [
+            "[]JesusAsPropheticLordPronouncesWoeOnHypocrisyYetLamentsJerusalem(Jesus, Jerusalem)",
+            "EFF(DivineLamentPrecedesJudgmentOnUnrepentantCity(Jerusalem))"
+          ]
+        }
+      ]
+    }
+  ]
+}

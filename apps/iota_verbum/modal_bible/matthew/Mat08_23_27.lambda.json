@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Matthew λ-files; safe to hand-edit after generation.",
+    "book": "Matthew",
+    "passage_id": "Mat08_23_27",
+    "version": "Mat08_23_27_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mat08_23_27",
+  "book": "Matthew",
+  "chapter": 8,
+  "verses": "23-27",
+  "title": "Matthew 8:23–27 – Calming the Storm",
+  "interpretive_frames": [
+    "Authority",
+    "Creation",
+    "Faith"
+  ],
+  "identity_invariants": [
+    "[]JesusExercisesDivineAuthorityOverWindAndSea(Jesus, Creation)"
+  ],
+  "units": [
+    {
+      "id": "Mat08_23_27_u1",
+      "label": "What Sort of Man Is This?",
+      "verses": [
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "illocution": "SignNarrative",
+      "agents": [
+        "Jesus",
+        "Disciples"
+      ],
+      "statements": [
+        {
+          "id": "Mat08_23_27_s1",
+          "type": "summary",
+          "description": "Jesus stills a great storm, exposing the disciples' little faith and revealing his divine authority.",
+          "lambda_iv": [
+            "[]JesusExercisesDivineAuthorityOverWindAndSea(Jesus, Creation)",
+            "EFF(FearConfrontedByRevealedAuthority(Disciples, Jesus))"
+          ]
+        }
+      ]
+    }
+  ]
+}

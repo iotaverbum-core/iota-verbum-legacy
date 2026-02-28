@@ -1,0 +1,7 @@
+# passage | key-phrase (optional) | modal-map | alignment-tags (comma-separated)
+Romans 8:26–27 | kata Theon | □ Love (Father) → ◇E Intercession-in-us (Spirit) → Δ Assurance (Church) | Trinity, Lament, Prayer
+John 1:1–3 | Logos Theos ēn | □ Word-as-God → ◇E Incarnation/Creation → Δ Worship/Confession | Christology, Creation
+Philippians 2:5–11 | μορφῇ θεοῦ… ἐταπείνωσεν | □ Divine Form → ◇E Self-Emptying/Obedience → Δ Exaltation/Confession | Christology, Kenosis
+Hebrews 1:1–3 | ἀπαύγασμα τῆς δόξης | □ Divine Glory → ◇E Son-as-Radiance/Sustainer → Δ Perseverance/Confidence | Trinity, Revelation
+Genesis 1:1–3 | בְּרֵאשִׁית… וְרוּחַ אֱלֹהִים | □ Creator → ◇E Speaking/Spirit-hovering → Δ Sabbath/Stewardship | Creation, Spirit
+John 11:33–35 | ἐνεβριμήσατο… ἐδάκρυσεν | □ Love unchanging → ◇E Jesus weeps/anger at death → Δ Hope-in-Resurrection | Compassion, Lament

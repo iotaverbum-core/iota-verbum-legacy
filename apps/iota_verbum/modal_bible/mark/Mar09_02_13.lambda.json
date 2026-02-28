@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Mark λ-files; safe to hand-edit after generation.",
+    "book": "Mark",
+    "passage_id": "Mar09_02_13",
+    "version": "Mar09_02_13_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mar09_02_13",
+  "book": "Mark",
+  "chapter": 9,
+  "verses": "2-13",
+  "title": "Mark 9:2–13 – Transfiguration and Elijah Question",
+  "interpretive_frames": [
+    "Glory",
+    "Sonship",
+    "ScriptureFulfilment"
+  ],
+  "identity_invariants": [
+    "[]JesusIsBelovedSonWhoMustBeHeardAlongPathOfSuffering(Jesus, Father, Disciples)"
+  ],
+  "units": [
+    {
+      "id": "Mar09_02_13_u1",
+      "label": "This Is My Beloved Son",
+      "verses": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "illocution": "Theophany",
+      "agents": [
+        "Jesus",
+        "Peter",
+        "James",
+        "John",
+        "Moses",
+        "Elijah",
+        "Father"
+      ],
+      "statements": [
+        {
+          "id": "Mar09_02_13_s1",
+          "type": "summary",
+          "description": "Jesus is transfigured in glory before three disciples; the Father commands them to listen to him as they puzzle over Elijah and suffering.",
+          "lambda_iv": [
+            "[]JesusIsBelovedSonWhoMustBeHeardAlongPathOfSuffering(Jesus, Father, Disciples)",
+            "EFF(GloryVisionInterpretsComingPassionForDisciples(Disciples))"
+          ]
+        }
+      ]
+    }
+  ]
+}

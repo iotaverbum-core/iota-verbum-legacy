@@ -1,0 +1,11 @@
+﻿render:
+  show_labels: true
+  export_svg: true
+  colors:
+    identity: "#4682B4"   # steelblue
+    enactment: "#2E8B57"  # sea green
+    effect:   "#B22222"   # firebrick
+paths:
+  inputs: "samples"
+  out:    "out"
+  results:"results"

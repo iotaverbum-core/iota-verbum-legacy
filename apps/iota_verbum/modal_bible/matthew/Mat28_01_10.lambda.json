@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Matthew λ-files; safe to hand-edit after generation.",
+    "book": "Matthew",
+    "passage_id": "Mat28_01_10",
+    "version": "Mat28_01_10_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mat28_01_10",
+  "book": "Matthew",
+  "chapter": 28,
+  "verses": "1-10",
+  "title": "Matthew 28:1–10 – Resurrection and First Witnesses",
+  "interpretive_frames": [
+    "Resurrection",
+    "FearAndJoy",
+    "Worship"
+  ],
+  "identity_invariants": [
+    "[]JesusIsRisenAsHeSaidAndMeetsHisFollowers(Jesus, Followers)"
+  ],
+  "units": [
+    {
+      "id": "Mat28_01_10_u1",
+      "label": "Fear and Great Joy",
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "illocution": "ResurrectionNarrative",
+      "agents": [
+        "Jesus",
+        "Women",
+        "Angel"
+      ],
+      "statements": [
+        {
+          "id": "Mat28_01_10_s1",
+          "type": "summary",
+          "description": "Women find the tomb empty, hear of Jesus' resurrection, and meet the risen Lord.",
+          "lambda_iv": [
+            "[]JesusIsRisenAsHeSaidAndMeetsHisFollowers(Jesus, Followers)",
+            "EFF(FearTurnsToJoyAndWorshipAtRisenPresence(Followers, Jesus))"
+          ]
+        }
+      ]
+    }
+  ]
+}

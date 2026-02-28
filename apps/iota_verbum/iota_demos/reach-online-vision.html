@@ -1,0 +1,1256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Reach Online – From Seed to Fruit (Vision Demo)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --reach-navy: #102a43;
+      --reach-blue: #1f6f8b;
+      --reach-light: #f7fafc;
+      --reach-grey: #4a5568;
+      --reach-border: #e2e8f0;
+      --reach-accent: #f6ad55;
+      --reach-green: #38a169;
+      --reach-bg: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: var(--reach-bg);
+      color: var(--reach-grey);
+      line-height: 1.6;
+    }
+
+    a {
+      color: var(--reach-blue);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    header {
+      border-bottom: 1px solid var(--reach-border);
+      background: #ffffffcc;
+      backdrop-filter: blur(6px);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .nav {
+      max-width: 1150px;
+      margin: 0 auto;
+      padding: 0.75rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .nav-brand {
+      font-family: 'Lora', serif;
+      font-weight: 600;
+      font-size: 1.1rem;
+      letter-spacing: 0.04em;
+      color: var(--reach-navy);
+    }
+
+    .nav-sub {
+      font-size: 0.8rem;
+      color: #a0aec0;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 1rem;
+      font-size: 0.85rem;
+    }
+
+    .nav-links a {
+      color: var(--reach-grey);
+      font-weight: 500;
+    }
+
+    .nav-links .pill {
+      padding: 0.35rem 0.9rem;
+      border-radius: 999px;
+      border: 1px solid var(--reach-border);
+    }
+
+    main {
+      max-width: 1150px;
+      margin: 0 auto;
+      padding: 1.5rem;
+    }
+
+    @media (max-width: 800px) {
+      main {
+        padding: 1.2rem;
+      }
+      .nav-links {
+        display: none;
+      }
+    }
+
+    /* HERO */
+
+    .hero {
+      display: grid;
+      gap: 2rem;
+      grid-template-columns: minmax(0, 3fr) minmax(0, 2.5fr);
+      align-items: center;
+      padding: 1.5rem 0 2rem;
+      border-bottom: 1px solid var(--reach-border);
+    }
+
+    @media (max-width: 900px) {
+      .hero {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .hero-tagline {
+      font-size: 0.86rem;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      color: var(--reach-blue);
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    .hero-title {
+      font-family: 'Lora', serif;
+      font-size: clamp(1.9rem, 3.3vw, 2.6rem);
+      color: var(--reach-navy);
+      margin: 0 0 0.7rem;
+    }
+
+    .hero-title span {
+      color: var(--reach-green);
+    }
+
+    .hero-text {
+      font-size: 0.98rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero-note {
+      font-size: 0.85rem;
+      color: #718096;
+      margin-top: 0.5rem;
+    }
+
+    .badge-scripture {
+      display: inline-flex;
+      align-items: baseline;
+      gap: 0.35rem;
+      font-size: 0.82rem;
+      padding: 0.4rem 0.6rem;
+      border-radius: 999px;
+      background: var(--reach-light);
+      border: 1px solid var(--reach-border);
+      color: #4a5568;
+      margin-bottom: 0.75rem;
+    }
+
+    .badge-scripture strong {
+      font-family: 'Lora', serif;
+    }
+
+    .hero-actions {
+      margin-top: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.7rem;
+      align-items: center;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.6rem 1.2rem;
+      border-radius: 999px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      border: none;
+      cursor: pointer;
+      transition: transform 0.05s ease, box-shadow 0.05s ease, background-color 0.15s ease;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .btn-primary {
+      background: var(--reach-blue);
+      color: #fff;
+      box-shadow: 0 2px 4px rgba(15, 23, 42, 0.18);
+    }
+
+    .btn-primary:hover {
+      background: #1b5e72;
+      transform: translateY(-1px);
+      box-shadow: 0 3px 7px rgba(15, 23, 42, 0.25);
+    }
+
+    .btn-secondary {
+      background: transparent;
+      color: var(--reach-blue);
+      border: 1px solid var(--reach-border);
+    }
+
+    .btn-secondary:hover {
+      background: var(--reach-light);
+    }
+
+    /* Seed to Tree graphic */
+
+    .seed-panel {
+      position: relative;
+      padding: 1.2rem 1.4rem;
+      border-radius: 12px;
+      border: 1px solid var(--reach-border);
+      background: radial-gradient(circle at top, #edf2f7 0, #ffffff 60%);
+      overflow: hidden;
+      min-height: 260px;
+    }
+
+    .seed-panel h3 {
+      font-family: 'Lora', serif;
+      font-size: 1.05rem;
+      margin-top: 0;
+      color: var(--reach-navy);
+      margin-bottom: 0.5rem;
+    }
+
+    .seed-panel p {
+      font-size: 0.86rem;
+      margin-bottom: 0.75rem;
+      color: #4a5568;
+    }
+
+    .seed-canvas {
+      position: relative;
+      margin-top: 0.6rem;
+      height: 170px;
+    }
+
+    .soil-line {
+      position: absolute;
+      left: -10%;
+      right: -10%;
+      bottom: 32px;
+      height: 2px;
+      background: #cbd5e0;
+    }
+
+    .seed {
+      position: absolute;
+      left: 20%;
+      bottom: 28px;
+      width: 18px;
+      height: 24px;
+      border-radius: 50% 50% 45% 45%;
+      background: #d69e2e;
+      box-shadow: 0 0 0 0 rgba(214,158,46,0.4);
+      animation: seedPulse 2.4s infinite;
+    }
+
+    @keyframes seedPulse {
+      0%   { box-shadow: 0 0 0 0 rgba(214,158,46,0.4); }
+      70%  { box-shadow: 0 0 0 18px rgba(214,158,46,0); }
+      100% { box-shadow: 0 0 0 0 rgba(214,158,46,0); }
+    }
+
+    .root {
+      position: absolute;
+      left: 20.4%;
+      bottom: 30px;
+      width: 3px;
+      height: 35px;
+      background: #975a16;
+      border-radius: 999px;
+      transform-origin: bottom;
+      opacity: 0.9;
+    }
+
+    .stem {
+      position: absolute;
+      left: 20.4%;
+      bottom: 60px;
+      width: 3px;
+      height: 80px;
+      background: #2f855a;
+      border-radius: 999px;
+      transform-origin: bottom;
+    }
+
+    .branch {
+      position: absolute;
+      width: 40px;
+      height: 3px;
+      background: #2f855a;
+      border-radius: 999px;
+    }
+
+    .branch-left {
+      left: calc(20.4% - 38px);
+      bottom: 115px;
+    }
+
+    .branch-right {
+      left: 20.4%;
+      bottom: 130px;
+    }
+
+    .leaf {
+      position: absolute;
+      width: 10px;
+      height: 18px;
+      border-radius: 50% 50% 30% 30%;
+      background: #48bb78;
+    }
+
+    .leaf.l1 {
+      left: calc(20.4% - 42px);
+      bottom: 118px;
+    }
+    .leaf.l2 {
+      left: calc(20.4% + 30px);
+      bottom: 131px;
+    }
+    .leaf.l3 {
+      left: calc(20.4% - 10px);
+      bottom: 146px;
+    }
+
+    .bird {
+      position: absolute;
+      right: 18%;
+      bottom: 150px;
+      width: 32px;
+      height: 24px;
+      border-radius: 70% 30% 70% 30%;
+      background: #2b6cb0;
+      opacity: 0;
+      transform: translateY(8px);
+    }
+
+    .bird::after {
+      content: "";
+      position: absolute;
+      right: -4px;
+      top: 7px;
+      width: 8px;
+      height: 6px;
+      border-radius: 50%;
+      background: #2b6cb0;
+    }
+
+    .bird-eye {
+      position: absolute;
+      right: 6px;
+      top: 6px;
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      background: #f7fafc;
+    }
+
+    .bird-eye::after {
+      content: "";
+      position: absolute;
+      width: 2px;
+      height: 2px;
+      border-radius: 50%;
+      background: #1a202c;
+      left: 1px;
+      top: 1px;
+    }
+
+    .stage-label {
+      position: absolute;
+      font-size: 0.75rem;
+      color: #718096;
+      background: rgba(255,255,255,0.9);
+      padding: 0.2rem 0.4rem;
+      border-radius: 999px;
+      border: 1px solid var(--reach-border);
+    }
+
+    .stage-label.seed {
+      left: 24%;
+      bottom: 45px;
+    }
+
+    .stage-label.tree {
+      left: 36%;
+      bottom: 155px;
+    }
+
+    .stage-label.birds {
+      right: 14%;
+      bottom: 175px;
+    }
+
+    .seed-stage-1 .root,
+    .seed-stage-1 .stem,
+    .seed-stage-1 .branch,
+    .seed-stage-1 .leaf,
+    .seed-stage-1 .bird,
+    .seed-stage-1 .stage-label.tree,
+    .seed-stage-1 .stage-label.birds {
+      opacity: 0;
+    }
+
+    .seed-stage-2 .stem {
+      height: 40px;
+    }
+    .seed-stage-2 .branch,
+    .seed-stage-2 .leaf,
+    .seed-stage-2 .bird,
+    .seed-stage-2 .stage-label.tree,
+    .seed-stage-2 .stage-label.birds {
+      opacity: 0;
+    }
+
+    .seed-stage-3 .stem {
+      height: 80px;
+      transition: height 0.6s ease;
+    }
+    .seed-stage-3 .branch,
+    .seed-stage-3 .leaf {
+      opacity: 1;
+      transition: opacity 0.4s ease;
+    }
+    .seed-stage-3 .bird {
+      opacity: 1;
+      transform: translateY(0);
+      transition: opacity 0.7s ease, transform 0.7s ease;
+    }
+
+    .seed-stage-3 .stage-label.tree,
+    .seed-stage-3 .stage-label.birds {
+      opacity: 1;
+    }
+
+    .stage-tabs {
+      display: flex;
+      gap: 0.45rem;
+      margin-top: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    .stage-tab {
+      border-radius: 999px;
+      padding: 0.25rem 0.75rem;
+      font-size: 0.8rem;
+      border: 1px solid var(--reach-border);
+      background: #ffffffaa;
+      cursor: pointer;
+      color: #4a5568;
+    }
+
+    .stage-tab.active {
+      background: var(--reach-green);
+      border-color: var(--reach-green);
+      color: #fff;
+    }
+
+    /* Sections */
+
+    .section-title {
+      margin: 2.2rem 0 0.6rem;
+      font-family: 'Lora', serif;
+      font-size: 1.35rem;
+      color: var(--reach-navy);
+    }
+
+    .section-subtitle {
+      font-size: 0.9rem;
+      color: #718096;
+      margin-bottom: 1.35rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1.2rem;
+    }
+
+    @media (max-width: 1000px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .card {
+      border-radius: 12px;
+      border: 1px solid var(--reach-border);
+      padding: 1rem 1.1rem;
+      background: #ffffff;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at top right, rgba(31,111,139,0.08), transparent 55%);
+      opacity: 0;
+      transition: opacity 0.2s ease;
+      pointer-events: none;
+    }
+
+    .card:hover::before {
+      opacity: 1;
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 0.4rem;
+    }
+
+    .card-title {
+      font-family: 'Lora', serif;
+      font-size: 1rem;
+      color: var(--reach-navy);
+      margin: 0;
+    }
+
+    .card-tag {
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: #a0aec0;
+      font-weight: 600;
+    }
+
+    .card-body {
+      font-size: 0.9rem;
+      margin-bottom: 0.7rem;
+    }
+
+    .pill-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin-top: 0.4rem;
+    }
+
+    .pill {
+      font-size: 0.75rem;
+      padding: 0.15rem 0.6rem;
+      border-radius: 999px;
+      border: 1px solid var(--reach-border);
+      background: var(--reach-light);
+      color: #4a5568;
+    }
+
+    /* Fruit map */
+
+    .fruit-map {
+      margin-top: 1.2rem;
+      border-radius: 14px;
+      border: 1px solid var(--reach-border);
+      padding: 1rem 1.2rem;
+      background: radial-gradient(circle at top, #edf2f7, #ffffff 55%);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .fruit-map-inner {
+      display: grid;
+      grid-template-columns: minmax(0, 2.3fr) minmax(0, 2.7fr);
+      gap: 1.5rem;
+    }
+
+    @media (max-width: 900px) {
+      .fruit-map-inner {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .fruit-map-canvas {
+      position: relative;
+      min-height: 260px;
+    }
+
+    .node {
+      position: absolute;
+      padding: 0.35rem 0.7rem;
+      border-radius: 999px;
+      font-size: 0.78rem;
+      background: #ffffff;
+      border: 1px solid var(--reach-border);
+      box-shadow: 0 6px 14px rgba(15, 23, 42, 0.08);
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      cursor: default;
+    }
+
+    .node-main {
+      background: var(--reach-blue);
+      color: #fff;
+      border-color: var(--reach-blue);
+    }
+
+    .node:before {
+      content: "";
+      width: 6px;
+      height: 6px;
+      border-radius: 999px;
+      background: var(--reach-green);
+    }
+
+    .node-main:before {
+      background: var(--reach-accent);
+    }
+
+    .node-label {
+      font-weight: 600;
+    }
+
+    .node-sub {
+      font-size: 0.7rem;
+      color: #a0aec0;
+    }
+
+    .node-1 { left: 45%; top: 45%; transform: translate(-50%, -50%); }
+    .node-2 { left: 14%; top: 18%; }
+    .node-3 { left: 75%; top: 20%; }
+    .node-4 { left: 12%; top: 72%; }
+    .node-5 { left: 77%; top: 72%; }
+    .node-6 { left: 52%; top: 15%; }
+    .node-7 { left: 52%; top: 77%; }
+
+    .node-pulse {
+      animation: nodePulse 2.6s infinite;
+    }
+
+    @keyframes nodePulse {
+      0%   { box-shadow: 0 0 0 0 rgba(72,187,120,0.5); }
+      60%  { box-shadow: 0 0 0 15px rgba(72,187,120,0); }
+      100% { box-shadow: 0 0 0 0 rgba(72,187,120,0); }
+    }
+
+    .fruit-map-copy p {
+      font-size: 0.88rem;
+      margin-top: 0;
+      margin-bottom: 0.8rem;
+    }
+
+    .fruit-map-copy ul {
+      margin: 0;
+      padding-left: 1.1rem;
+      font-size: 0.84rem;
+    }
+
+    .fruit-map-copy li + li {
+      margin-top: 0.25rem;
+    }
+
+    /* Weekly flow */
+
+    .week-grid {
+      margin-top: 1rem;
+      border-radius: 12px;
+      border: 1px solid var(--reach-border);
+      padding: 0.9rem 1rem;
+      background: #ffffff;
+      display: grid;
+      grid-template-columns: minmax(0, 1.4fr) minmax(0, 2.6fr);
+      gap: 1rem;
+    }
+
+    @media (max-width: 900px) {
+      .week-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .week-days {
+      display: grid;
+      grid-template-columns: repeat(7, minmax(0, 1fr));
+      gap: 0.25rem;
+      font-size: 0.75rem;
+    }
+
+    .week-day {
+      border-radius: 999px;
+      padding: 0.35rem 0.2rem;
+      border: 1px solid var(--reach-border);
+      text-align: center;
+      cursor: pointer;
+      color: #4a5568;
+      background: #f7fafc;
+    }
+
+    .week-day.active {
+      background: var(--reach-blue);
+      border-color: var(--reach-blue);
+      color: #fff;
+      font-weight: 600;
+    }
+
+    .week-detail-title {
+      font-family: 'Lora', serif;
+      font-size: 1rem;
+      margin: 0 0 0.4rem;
+      color: var(--reach-navy);
+    }
+
+    .week-detail-body {
+      font-size: 0.86rem;
+      white-space: pre-line;
+    }
+
+    /* Attestation */
+
+    .attestation {
+      border-radius: 12px;
+      border: 1px solid var(--reach-border);
+      padding: 1rem 1.1rem;
+      background: #0b1120;
+      color: #e2e8f0;
+      font-size: 0.86rem;
+      margin-top: 1.3rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .attestation::before {
+      content: "";
+      position: absolute;
+      inset: -40%;
+      background: radial-gradient(circle at top left, rgba(56,189,248,0.25), transparent 55%);
+      opacity: 0.8;
+      pointer-events: none;
+    }
+
+    .attestation-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      position: relative;
+      z-index: 1;
+    }
+
+    .attestation-title {
+      font-family: 'Lora', serif;
+      font-size: 1rem;
+      margin: 0;
+      color: #fefcbf;
+    }
+
+    .attestation-badge {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      color: #a0aec0;
+    }
+
+    .attestation-content {
+      margin-top: 0.7rem;
+      display: grid;
+      grid-template-columns: minmax(0, 2.3fr) minmax(0, 2fr);
+      gap: 1rem;
+      position: relative;
+      z-index: 1;
+    }
+
+    @media (max-width: 900px) {
+      .attestation-content {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .attestation-answer {
+      font-size: 0.86rem;
+    }
+
+    .attestation-answer strong {
+      color: #e6fffa;
+    }
+
+    .attestation-meta {
+      font-size: 0.8rem;
+      background: rgba(15,23,42,0.9);
+      border-radius: 10px;
+      border: 1px solid rgba(148,163,184,0.7);
+      padding: 0.6rem 0.7rem;
+    }
+
+    .attestation-meta dt {
+      font-weight: 600;
+      color: #e2e8f0;
+    }
+
+    .attestation-meta dd {
+      margin: 0 0 0.4rem;
+      color: #cbd5f5;
+    }
+
+    .attestation-meta code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+      font-size: 0.78rem;
+      background: rgba(15,23,42,0.9);
+      padding: 0.1rem 0.3rem;
+      border-radius: 3px;
+      border: 1px solid rgba(148,163,184,0.6);
+      color: #a5b4fc;
+    }
+
+    footer {
+      border-top: 1px solid var(--reach-border);
+      padding: 1.2rem 1.5rem 2.2rem;
+      margin-top: 2.5rem;
+      font-size: 0.8rem;
+      color: #a0aec0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="nav">
+    <div>
+      <div class="nav-brand">REACH Table View</div>
+      <div class="nav-sub">Iota Verbum · From Seed to Fruit (Vision)</div>
+    </div>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#seed">Seed</a>
+      <a href="#branches">Branches</a>
+      <a href="#week">Fruit</a>
+      <a href="#attestation" class="pill">Sovereign AI</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- HERO: Mustard Seed -->
+  <section class="hero" id="seed">
+    <div>
+      <div class="hero-tagline">“The kingdom of God is like a mustard seed…”</div>
+      <h1 class="hero-title">
+        When a small <span>Reach Online</span> seed grows into a tree.
+      </h1>
+      <div class="badge-scripture">
+        <strong>Mark 4:30–32</strong>
+        <span>…it becomes the largest of all garden plants.</span>
+      </div>
+      <p class="hero-text">
+        This page shows what could grow if Reach plants just one small, faithful seed:
+        a simple sermon pipeline. Iota Verbum doesn’t replace your preaching or your
+        people. It simply helps that Sunday seed take root — into an online tree
+        where disciples, families, youth and even strangers find shade.
+      </p>
+      <p class="hero-note">
+        Think of the first demo as the seed. This page shows you the branches and fruit.
+      </p>
+      <div class="hero-actions">
+        <button class="btn btn-primary" id="btn-stage-next">
+          See the tree grow
+        </button>
+        <button class="btn btn-secondary" onclick="document.getElementById('week').scrollIntoView({behavior:'smooth'})">
+          Jump to “one week of fruit”
+        </button>
+      </div>
+    </div>
+
+    <!-- Mustard Seed / Tree visual -->
+    <aside class="seed-panel seed-stage-1" id="seed-panel">
+      <h3>From seed… to roots… to branches… to birds.</h3>
+      <p id="seed-caption">
+        Stage 1 · A single script. One small act of faithfulness: media runs the Reach
+        Online pipeline after Sunday.
+      </p>
+
+      <div class="seed-canvas">
+        <div class="soil-line"></div>
+        <div class="seed"></div>
+        <div class="root"></div>
+        <div class="stem"></div>
+        <div class="branch branch-left"></div>
+        <div class="branch branch-right"></div>
+        <div class="leaf l1"></div>
+        <div class="leaf l2"></div>
+        <div class="leaf l3"></div>
+        <div class="bird">
+          <div class="bird-eye"></div>
+        </div>
+
+        <div class="stage-label seed">Seed: one script</div>
+        <div class="stage-label tree">Tree: habits &amp; habits</div>
+        <div class="stage-label birds">Birds: people resting</div>
+      </div>
+
+      <div class="stage-tabs">
+        <button class="stage-tab active" data-stage="1">Seed · One script</button>
+        <button class="stage-tab" data-stage="2">Roots · Archive</button>
+        <button class="stage-tab" data-stage="3">Tree &amp; birds · Ecosystem</button>
+      </div>
+    </aside>
+  </section>
+
+  <!-- BRANCHES: Ecosystem Cards + Fruit Map -->
+  <section aria-labelledby="branches-heading" id="branches">
+    <h2 id="branches-heading" class="section-title">What grows from that one small seed?</h2>
+    <p class="section-subtitle">
+      Over time, the same faithful pipeline can quietly grow branches: pastoral care,
+      search, family discipleship, youth resources and even mission-shaped analytics —
+      all rooted in the same preached Word.
+    </p>
+
+    <div class="grid">
+      <article class="card">
+        <div class="card-header">
+          <h3 class="card-title">Root system · Sermon archive</h3>
+          <span class="card-tag">Year 1–2</span>
+        </div>
+        <div class="card-body">
+          Every time the pipeline runs, Reach gains a new “ring” in its tree:
+          one entry in a living sermon index with dates, passages, preachers,
+          series and links.
+          <div class="pill-row">
+            <span class="pill">Find past series quickly</span>
+            <span class="pill">“What have we preached on Job?”</span>
+            <span class="pill">Curate playlists for seekers</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-header">
+          <h3 class="card-title">Branches · Discipleship flows</h3>
+          <span class="card-tag">Year 2–3</span>
+        </div>
+        <div class="card-body">
+          From the same Sunday text, Iota Verbum feeds families, groups, youth and
+          newcomers with age-appropriate prompts — all aligned with your doctrine
+          and actual sermons.
+          <div class="pill-row">
+            <span class="pill">Family follow-up cards</span>
+            <span class="pill">Group guides &amp; questions</span>
+            <span class="pill">Youth-specific prompts</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-header">
+          <h3 class="card-title">Birds in the branches · Reach Rule</h3>
+          <span class="card-tag">Year 3–5</span>
+        </div>
+        <div class="card-body">
+          A gentle sovereign-AI layer means that anyone who asks questions online
+          is answered under Reach’s own theological “rule”, with an attested trail
+          of Scriptures and safeguards.
+          <div class="pill-row">
+            <span class="pill">Doctrinally aligned answers</span>
+            <span class="pill">Elder oversight without spying</span>
+            <span class="pill">Care for anxious hearts at scale</span>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <!-- Fruit Map -->
+    <div class="fruit-map">
+      <div class="fruit-map-inner">
+        <div class="fruit-map-canvas">
+          <div class="node node-main node-1 node-pulse">
+            <span class="node-label">Sunday sermon</span>
+            <span class="node-sub">Seed: Word preached</span>
+          </div>
+          <div class="node node-2">
+            <span class="node-label">Sermon archive</span>
+            <span class="node-sub">Roots in time</span>
+          </div>
+          <div class="node node-3">
+            <span class="node-label">Search &amp; playlists</span>
+            <span class="node-sub">“Show me sermons on…”</span>
+          </div>
+          <div class="node node-4">
+            <span class="node-label">Communities</span>
+            <span class="node-sub">Group guides each week</span>
+          </div>
+          <div class="node node-5">
+            <span class="node-label">Families &amp; youth</span>
+            <span class="node-sub">Table talks &amp; teens</span>
+          </div>
+          <div class="node node-6">
+            <span class="node-label">Online seekers</span>
+            <span class="node-sub">Safe Q&amp;A at the edge</span>
+          </div>
+          <div class="node node-7">
+            <span class="node-label">Leaders &amp; elders</span>
+            <span class="node-sub">Patterns &amp; prayer fuel</span>
+          </div>
+        </div>
+
+        <div class="fruit-map-copy">
+          <p>
+            The same Sunday message can quietly “flow” to many branches without
+            diluting its content. The small seed is still the preached Word —
+            Iota Verbum simply remembers it, routes it and guards it.
+          </p>
+          <ul>
+            <li><strong>Upwards:</strong> elders see patterns in questions and needs.</li>
+            <li><strong>Outwards:</strong> seekers find sermons on what they’re actually facing.</li>
+            <li><strong>Sideways:</strong> groups and families walk through the same passage together.</li>
+            <li><strong>Downwards:</strong> an archive of grace grows year after year.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WEEK: “One week of fruit from one sermon” -->
+  <section aria-labelledby="week-heading" id="week">
+    <h2 id="week-heading" class="section-title">What one sermon can yield in seven days</h2>
+    <p class="section-subtitle">
+      Imagine we preach Mark 8:22–26 this Sunday. With the Reach Online seed in place,
+      here’s what the week could look like for a normal family, a student, a newcomer
+      and an elder — all from that same passage.
+    </p>
+
+    <div class="week-grid">
+      <div>
+        <div class="week-days" id="week-days">
+          <button class="week-day active" data-day="sun">Sun</button>
+          <button class="week-day" data-day="mon">Mon</button>
+          <button class="week-day" data-day="tue">Tue</button>
+          <button class="week-day" data-day="wed">Wed</button>
+          <button class="week-day" data-day="thu">Thu</button>
+          <button class="week-day" data-day="fri">Fri</button>
+          <button class="week-day" data-day="sat">Sat</button>
+        </div>
+        <p style="font-size:0.8rem; color:#718096; margin-top:0.5rem;">
+          Click a day to see how that same sermon bears fruit in different places.
+        </p>
+      </div>
+
+      <div>
+        <h3 class="week-detail-title" id="week-detail-title">Sunday · Seed planted</h3>
+        <div class="week-detail-body" id="week-detail-body">
+          • The Word is preached: “Do not go back to the village” (Mark 8:22–26).  
+          • Online viewers join the live stream as usual.  
+          • After church, media runs the Reach Online pipeline once:  
+            – Live is copied for KidsTalk.  
+            – Sermon is trimmed and uploaded to YouTube.  
+            – Audio is filed for the podcast.  
+            – Website block, social caption, group guide and kids follow-up are generated.  
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ATTESTATION: Sovereign AI for Reach -->
+  <section aria-labelledby="attestation-heading" id="attestation">
+    <h2 id="attestation-heading" class="section-title">If someone asks a hard question online…</h2>
+    <p class="section-subtitle">
+      …Reach doesn’t send them to a random chatbot. Iota Verbum answers under a
+      “Reach Rule” – a small, church-owned sovereignty layer that ties answers back
+      to Scripture, doctrine and pastoral wisdom.
+    </p>
+
+    <article class="attestation">
+      <div class="attestation-header">
+        <h3 class="attestation-title">Attested AI for Reach (vision)</h3>
+        <span class="attestation-badge">Sovereign AI · Under Reach Rule</span>
+      </div>
+      <div class="attestation-content">
+        <div class="attestation-answer">
+          <p><strong>Member’s anonymous question:</strong></p>
+          <p style="font-style:italic; color:#cbd5f5;">
+            “I feel like I only ever ‘half see’ what Jesus is doing. I’m scared
+            that I’ll never properly change. What if I stay stuck like this forever?”
+          </p>
+          <p><strong>Reach Answer (example):</strong></p>
+          <p>
+            You’re not alone in feeling that way. In Mark 8:22–26, the man’s healing
+            comes in two stages. Jesus does that on purpose, not because he’s weak,
+            but to show his disciples (and us) that spiritual sight often clears
+            slowly. The important thing is not how fast you “see”, but that you stay
+            with Jesus and don’t go back to the old village.
+          </p>
+          <p>
+            It may help to:  
+            • keep bringing your confusion to him in prayer,  
+            • stay close to a community that will remind you of his grace, and  
+            • remember that the One who began a good work in you will carry it on
+            to completion (Philippians 1:6).
+          </p>
+          <p style="color:#9ae6b4;">
+            This answer is not a diagnosis or replacement for pastoral care.
+            If this lands deeply, please speak to an elder or trusted Christian friend.
+          </p>
+        </div>
+
+        <dl class="attestation-meta">
+          <dt>Scriptures used</dt>
+          <dd>Mark 8:22–26; Philippians 1:6; pattern of gradual sight in the Gospels.</dd>
+
+          <dt>Doctrinal anchors</dt>
+          <dd>
+            <code>Trinity · Grace · Sanctification · Perseverance</code>
+          </dd>
+
+          <dt>Policy checks (summary)</dt>
+          <dd>
+            <code>ReachRule.gospel-centered = true</code><br />
+            <code>ReachRule.no-medical-advice = passed</code><br />
+            <code>ReachRule.escalate-if-self-harm = not triggered</code>
+          </dd>
+
+          <dt>Accountability</dt>
+          <dd>
+            Answer traceable to: sermon index (“Mark 8:22–26 – ‘Don’t go back to the
+            village’”), Reach doctrinal statement, and this member’s privacy settings.
+          </dd>
+        </dl>
+      </div>
+    </article>
+  </section>
+</main>
+
+<footer>
+  Vision demo – showing where a simple Reach Online seed could grow if planted
+  and tended over the next few years. The first HTML demo is the seed; this one
+  is the tree.
+</footer>
+
+<script>
+  // Seed / tree stage switching
+  const seedPanel = document.getElementById('seed-panel');
+  const seedCaption = document.getElementById('seed-caption');
+  const stageTabs = document.querySelectorAll('.stage-tab');
+  const btnStageNext = document.getElementById('btn-stage-next');
+  let currentStage = 1;
+
+  function setStage(stage) {
+    currentStage = stage;
+    seedPanel.classList.remove('seed-stage-1', 'seed-stage-2', 'seed-stage-3');
+    seedPanel.classList.add(`seed-stage-${stage}`);
+    stageTabs.forEach(tab => {
+      tab.classList.toggle('active', Number(tab.dataset.stage) === stage);
+    });
+
+    if (stage === 1) {
+      seedCaption.textContent =
+        'Stage 1 · A single script. One small act of faithfulness: media runs the Reach Online pipeline after Sunday.';
+    } else if (stage === 2) {
+      seedCaption.textContent =
+        'Stage 2 · Roots under the surface. Week by week, the sermon archive grows — Reach quietly gains a history of God’s Word among this people.';
+    } else {
+      seedCaption.textContent =
+        'Stage 3 · Branches and birds. The same Sunday Word now shades many: seekers, families, groups and leaders — all under Reach’s own theological tree.';
+    }
+  }
+
+  stageTabs.forEach(tab => {
+    tab.addEventListener('click', () => setStage(Number(tab.dataset.stage)));
+  });
+
+  btnStageNext.addEventListener('click', () => {
+    const next = currentStage === 3 ? 1 : currentStage + 1;
+    setStage(next);
+  });
+
+  // Week day switching
+  const weekDaysEl = document.getElementById('week-days');
+  const weekTitleEl = document.getElementById('week-detail-title');
+  const weekBodyEl = document.getElementById('week-detail-body');
+
+  const weekContent = {
+    sun: {
+      title: 'Sunday · Seed planted',
+      body:
+        '• The Word is preached: “Do not go back to the village” (Mark 8:22–26).\n' +
+        '• Online viewers join the live stream as usual.\n' +
+        '• After church, media runs the Reach Online pipeline once:\n' +
+        '  – Live is copied for KidsTalk.\n' +
+        '  – Sermon is trimmed and uploaded to YouTube.\n' +
+        '  – Audio is filed for the podcast.\n' +
+        '  – Website block, social caption, group guide and kids follow-up are generated.'
+    },
+    mon: {
+      title: 'Monday · Leaders & archive',
+      body:
+        '• Office receives a simple link pack: YouTube, audio, website, guide, kids card.\n' +
+        '• The sermon archive quietly gains a new entry: date, passage, preacher, series, links.\n' +
+        '• Elders glance at a weekly “snapshot” — not to chase metrics, but to pray: who has been listening? What patterns are we seeing?'
+    },
+    tue: {
+      title: 'Tuesday · Community groups',
+      body:
+        '• Community-group leaders receive the group guide for Mark 8:22–26.\n' +
+        '• The questions echo Sunday’s big idea: “Don’t go back to the old village.”\n' +
+        '• Instead of inventing material, leaders can focus on people: listening, praying, applying.'
+    },
+    wed: {
+      title: 'Wednesday · Families & youth',
+      body:
+        '• Parents receive a short “Family Follow-Up” card:\n' +
+        '  – One kids question about seeing Jesus more clearly.\n' +
+        '  – One teen question about where they are tempted to go back.\n' +
+        '  – A simple family prayer.\n' +
+        '• Youth leaders adapt the same passage for Friday night – teens hear the same text, at their level.'
+    },
+    thu: {
+      title: 'Thursday · Seekers & archives',
+      body:
+        '• Someone in Table View googles “stuck spiritually half blind” and lands on Reach’s sermon archive.\n' +
+        '• The Mark 8 sermon appears alongside 2–3 related messages on spiritual growth.\n' +
+        '• They watch a highlight clip and quietly bookmark the full series.'
+    },
+    fri: {
+      title: 'Friday · Elders & sovereign AI',
+      body:
+        '• An elder logs into a simple “Reach Rule” console.\n' +
+        '• They see anonymised themes from the week’s online questions: “assurance”, “forgiveness”, “fear of not changing”.\n' +
+        '• They don’t see names, but they do see enough to shape prayer, follow-up and future preaching.'
+    },
+    sat: {
+      title: 'Saturday · Preparing the next seed',
+      body:
+        '• The next sermon is prepared, knowing it will flow into the same pathways.\n' +
+        '• Series pages, playlists and family rhythms build over time — not as a project, but as a habit.\n' +
+        '• On Sunday, another seed is planted… and the tree quietly grows another ring.'
+    }
+  };
+
+  weekDaysEl.addEventListener('click', (e) => {
+    const btn = e.target.closest('.week-day');
+    if (!btn) return;
+    const day = btn.dataset.day;
+    if (!weekContent[day]) return;
+
+    weekDaysEl.querySelectorAll('.week-day').forEach(d => d.classList.remove('active'));
+    btn.classList.add('active');
+
+    weekTitleEl.textContent = weekContent[day].title;
+    weekBodyEl.textContent = weekContent[day].body;
+  });
+
+  // Initialise default stage
+  setStage(1);
+</script>
+</body>
+</html>

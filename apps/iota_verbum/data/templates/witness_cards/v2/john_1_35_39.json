@@ -1,0 +1,37 @@
+{
+  "passage": "John 1:35-39",
+  "version": "v2",
+  "id": "john_1_35_39_v2",
+  "scene_title": "Follow, ask, come, stay",
+  "focus_nouns": [
+    "next day",
+    "looked",
+    "walked by",
+    "Behold",
+    "Lamb",
+    "followed",
+    "turned",
+    "saw",
+    "seeking",
+    "staying",
+    "Come",
+    "see",
+    "stayed",
+    "tenth hour"
+  ],
+  "witness_prompts": [
+    "The scene begins with '{time_marker_1}'. What kind of time does that place you in today?",
+    "Where do you notice the move to {verb_1} or {verb_2} in this scene?",
+    "Jesus turns and asks, 'What are you seeking?' If you answer with one honest phrase, what is it?",
+    "The text pauses on 'where are you staying?' What does staying mean for your moment right now?",
+    "He says, 'Come and you will see.' What would a small, safe step of coming look like today?"
+  ],
+  "prayer_frames": [
+    "Lord Jesus, You turn toward those who follow.\nTeach me to ask honestly.\nGive me grace to come, and patience to see.\nHelp me stay with You in this day."
+  ],
+  "safety_notes_append": [
+    "Keep questions invitational; do not corner the reader.",
+    "Do not rush from seeking to certainty; let the scene unfold.",
+    "Stay close to the passage's verbs: follow, turn, see, ask, come, stay."
+  ]
+}

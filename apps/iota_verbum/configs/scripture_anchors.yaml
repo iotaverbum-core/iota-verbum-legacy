@@ -1,0 +1,59 @@
+﻿# Scripture → Invariant Bridge (Λ v0.1)
+#
+# Each entry ties a named invariant (lambda_invariant) to one or more
+# specific Λ lines in the Modal Bible files.
+#
+# Domain schemas (River Rule, Sanctuary Rule, Desert Rule) can refer
+# to these IDs, e.g.:
+#
+#   scripture_invariant_ids:
+#     - FaithfulDelivererBoundary
+#     - HiddenGrowthToHarvest
+
+- id: FaithfulDelivererBoundary
+  description: "God’s faithfulness to the righteous sufferer (Psalm 22)."
+  lambda_invariant: "[]FaithfulDeliverer(YHWH)"
+  scripture_anchors:
+    - passage_id: "Ps22"
+      unit_id: "Ps22_19_21"
+      statement_id: "Ps22_19_21_s2"
+      lambda: "[]FaithfulDeliverer(YHWH) & RS(Psalmist) -> !<>FinalState(ForsakenForever(Psalmist))"
+
+- id: HiddenGrowthToHarvest
+  description: "God as giver of growth and finisher of harvest (Mark 4:26–29)."
+  lambda_invariant: "[]GiverOfGrowth(YHWH)"
+  scripture_anchors:
+    - passage_id: "Mk4_26_29"
+      unit_id: "Mk4_28"
+      statement_id: "Mk4_28_s2"
+      lambda: "[]GiverOfGrowth(YHWH) -> <>BringToMaturity(KingdomOfGod, t_grow)"
+    - passage_id: "Mk4_26_29"
+      unit_id: "Mk4_29"
+      statement_id: "Mk4_29_s3"
+      lambda: "[]OwnerOfKingdom(YHWH) & EFF(GrainIsRipe(KingdomHarvest)) -> <>PutInSickle(SonOfMan, HarvestTime)"
+- id: EmptyRitualWithoutJusticeBoundary
+  description: "Ritual piety combined with oppression is incoherent worship (Isaiah 58:1–5)."
+  lambda_invariant: "[]DefenderOfOppressed(YHWH)"
+  scripture_anchors:
+    - passage_id: "Isa58_1_12"
+      unit_id: "Isa58_1_5"
+      statement_id: "Isa58_1_5_s2"
+      lambda: "EFF(Fast(People) & SeekOwnPleasure(People) & Oppress(Workers))"
+    - passage_id: "Isa58_1_12"
+      unit_id: "Isa58_1_5"
+      statement_id: "Isa58_1_5_s3"
+      lambda: "EFF(Fast(People) & Strife(People) & StrikeWithWickedFist(People))"
+
+- id: JusticeAsFastInvariant
+  description: "The fast YHWH chooses is concrete acts of justice and mercy (Isaiah 58:6–7)."
+  lambda_invariant: "[]DefenderOfOppressed(YHWH)"
+  scripture_anchors:
+    - passage_id: "Isa58_1_12"
+      unit_id: "Isa58_6_7"
+      statement_id: "Isa58_6_7_s1"
+      lambda: "[]DefenderOfOppressed(YHWH) -> <>LooseBondsOfWickedness(Community, Oppressed)"
+    - passage_id: "Isa58_1_12"
+      unit_id: "Isa58_6_7"
+      statement_id: "Isa58_6_7_s2"
+      lambda: "[]DefenderOfOppressed(YHWH) -> <>ShareBread(Community, Hungry)"
+

@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Matthew λ-files; safe to hand-edit after generation.",
+    "book": "Matthew",
+    "passage_id": "Mat15_21_28",
+    "version": "Mat15_21_28_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mat15_21_28",
+  "book": "Matthew",
+  "chapter": 15,
+  "verses": "21-28",
+  "title": "Matthew 15:21–28 – Canaanite Woman’s Faith",
+  "interpretive_frames": [
+    "Faith",
+    "Inclusion",
+    "Persistence"
+  ],
+  "identity_invariants": [
+    "[]GentileFaithInMessiahIsWelcomedIntoCovenantMercy(Gentiles, Jesus)"
+  ],
+  "units": [
+    {
+      "id": "Mat15_21_28_u1",
+      "label": "Even the Dogs Eat the Crumbs",
+      "verses": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "illocution": "Narration",
+      "agents": [
+        "Jesus",
+        "CanaaniteWoman",
+        "Disciples"
+      ],
+      "statements": [
+        {
+          "id": "Mat15_21_28_s1",
+          "type": "summary",
+          "description": "A Gentile woman perseveres in faith and receives deliverance for her daughter.",
+          "lambda_iv": [
+            "[]GentileFaithInMessiahIsWelcomedIntoCovenantMercy(Gentiles, Jesus)",
+            "EFF(PersistentFaithReceivesMercyFromJesus(CanaaniteWoman, Jesus))"
+          ]
+        }
+      ]
+    }
+  ]
+}

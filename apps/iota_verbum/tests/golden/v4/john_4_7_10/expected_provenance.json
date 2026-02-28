@@ -1,0 +1,16 @@
+{
+  "card_sha256": "a941e64ce85a480757d53318769929d75005372111d66a988aecddbf97bd9973",
+  "generator_sha256": "569d2603ddfe2a92e869a4e577178754d4b5bb91b5ea468a0d6b57b8a7bb6869",
+  "inputs": {
+    "moment": "I feel thirsty for clarity and a steady voice.",
+    "passage_ref": "John 4:7-10",
+    "textfile": "data/scripture/sample_john_4_7_10.txt"
+  },
+  "method": "heuristic_v4",
+  "normalized_text_sha256": "b03d44adb3107ed251a843976bea13cb7cf1879797317a0821b296e873f7a60d",
+  "passage_text_sha256": "b03d44adb3107ed251a843976bea13cb7cf1879797317a0821b296e873f7a60d",
+  "review_md_generated": false,
+  "review_mode": "none",
+  "template_path": "data/templates/witness_cards/v4/john_4_7_10.json",
+  "version": "v4"
+}

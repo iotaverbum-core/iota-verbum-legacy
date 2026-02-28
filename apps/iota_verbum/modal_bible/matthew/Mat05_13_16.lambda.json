@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Matthew λ-files; safe to hand-edit after generation.",
+    "book": "Matthew",
+    "passage_id": "Mat05_13_16",
+    "version": "Mat05_13_16_Lambda_IV_v0.1"
+  },
+  "passage_id": "Mat05_13_16",
+  "book": "Matthew",
+  "chapter": 5,
+  "verses": "13-16",
+  "title": "Matthew 5:13–16 – Salt and Light",
+  "interpretive_frames": [
+    "Witness",
+    "Identity",
+    "GloryOfGod"
+  ],
+  "identity_invariants": [
+    "[]DisciplesAreConstitutivelySaltAndLightInTheWorld(Disciples, World)"
+  ],
+  "units": [
+    {
+      "id": "Mat05_13_16_u1",
+      "label": "Public Holiness",
+      "verses": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "illocution": "Exhortation",
+      "agents": [
+        "Jesus",
+        "Disciples",
+        "World",
+        "Father"
+      ],
+      "statements": [
+        {
+          "id": "Mat05_13_16_s1",
+          "type": "summary",
+          "description": "Disciples are called salt and light whose good works are to lead others to glorify the Father.",
+          "lambda_iv": [
+            "[]DisciplesAreConstitutivelySaltAndLightInTheWorld(Disciples, World)",
+            "<>DoGoodWorksToGlorifyFather(Disciples, Father)"
+          ]
+        }
+      ]
+    }
+  ]
+}

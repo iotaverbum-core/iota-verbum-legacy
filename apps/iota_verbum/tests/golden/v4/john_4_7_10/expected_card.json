@@ -1,0 +1,1398 @@
+{
+  "id": "witness_card_073931cc10f6",
+  "modal_triad": {
+    "effect": [
+      "Hope opens without demand.",
+      "Attention becomes shelter.",
+      "A path forward becomes visible."
+    ],
+    "enactment": [
+      "Enters the scene quietly.",
+      "Stays with what is real.",
+      "Moves toward the vulnerable."
+    ],
+    "identity": [
+      "God comes near.",
+      "Presence without fear.",
+      "Mercy that does not withdraw."
+    ]
+  },
+  "moment": "I feel thirsty for clarity and a steady voice.",
+  "passage": {
+    "ref": "John 4:7-10",
+    "text": "A woman from Samaria came to draw water. Jesus said to her, \"Give me a drink.\" (For his disciples had gone away into the city to buy food.) The Samaritan woman said to him, \"How is it that you, a Jew, ask for a drink from me, a woman of Samaria?\" (For Jews have no dealings with Samaritans.) Jesus answered her, \"If you knew the gift of God, and who it is that is saying to you, 'Give me a drink,' you would have asked him, and he would have given you living water.\""
+  },
+  "prayer": "Jesus, You ask without coercion.\nTeach me to name my questions.\nLet Your gift become living water in me.",
+  "safety": {
+    "avoidances": [
+      "moralism",
+      "fixing",
+      "certainty claims"
+    ],
+    "notes": [
+      "This is pastoral presence, not diagnosis.",
+      "Invite gently; do not pressure outcomes.",
+      "Honor boundaries named in the passage.",
+      "Do not rush the exchange; let the dialogue breathe."
+    ]
+  },
+  "scene": {
+    "camera_moves": [
+      "tracking shot",
+      "over-the-shoulder",
+      "wide shot",
+      "close-up",
+      "slow pan"
+    ],
+    "characters": [
+      {
+        "char_id": "char_jesus",
+        "label": "Jesus",
+        "mentions": [
+          {
+            "clause_id": "s1.c0",
+            "surface": "Jesus",
+            "token_span": [
+              41,
+              46
+            ]
+          },
+          {
+            "clause_id": "s5.c0",
+            "surface": "Jesus",
+            "token_span": [
+              292,
+              297
+            ]
+          }
+        ]
+      },
+      {
+        "char_id": "char_disciples",
+        "label": "disciples",
+        "mentions": [
+          {
+            "clause_id": "s2.c0",
+            "surface": "disciples",
+            "token_span": [
+              88,
+              97
+            ]
+          }
+        ]
+      },
+      {
+        "char_id": "char_woman_of_samaria",
+        "label": "woman_of_Samaria",
+        "mentions": [
+          {
+            "clause_id": "s3.c0",
+            "surface": "Samaritan woman",
+            "token_span": [
+              144,
+              159
+            ]
+          },
+          {
+            "clause_id": "s3.c0",
+            "surface": "woman of Samaria",
+            "token_span": [
+              228,
+              244
+            ]
+          }
+        ]
+      },
+      {
+        "char_id": "char_unknown_F_1",
+        "label": "unknown_F",
+        "mentions": []
+      }
+    ],
+    "coref_links": [
+      {
+        "evidence": "no match within lookback for her",
+        "from": {
+          "clause_id": "s1.c0",
+          "surface_pronoun": "her",
+          "token_span": [
+            55,
+            58
+          ]
+        },
+        "id": "coref_0",
+        "rule": "lookback_limit",
+        "to_char_id": "char_unknown_F_1"
+      },
+      {
+        "evidence": "resolved his to char_jesus by gender_match",
+        "from": {
+          "clause_id": "s2.c0",
+          "surface_pronoun": "his",
+          "token_span": [
+            84,
+            87
+          ]
+        },
+        "id": "coref_1",
+        "rule": "gender_match",
+        "to_char_id": "char_jesus"
+      },
+      {
+        "evidence": "resolved him to char_jesus by gender_match",
+        "from": {
+          "clause_id": "s3.c0",
+          "surface_pronoun": "him",
+          "token_span": [
+            168,
+            171
+          ]
+        },
+        "id": "coref_2",
+        "rule": "gender_match",
+        "to_char_id": "char_jesus"
+      },
+      {
+        "evidence": "resolved it to char_woman_of_samaria by role_priority",
+        "from": {
+          "clause_id": "s3.c0",
+          "surface_pronoun": "it",
+          "token_span": [
+            181,
+            183
+          ]
+        },
+        "id": "coref_3",
+        "rule": "role_priority",
+        "to_char_id": "char_woman_of_samaria"
+      },
+      {
+        "evidence": "resolved her to char_woman_of_samaria by gender_match",
+        "from": {
+          "clause_id": "s5.c0",
+          "surface_pronoun": "her",
+          "token_span": [
+            307,
+            310
+          ]
+        },
+        "id": "coref_4",
+        "rule": "gender_match",
+        "to_char_id": "char_woman_of_samaria"
+      },
+      {
+        "evidence": "resolved it to char_jesus by role_priority",
+        "from": {
+          "clause_id": "s5.c1",
+          "surface_pronoun": "it",
+          "token_span": [
+            350,
+            352
+          ]
+        },
+        "id": "coref_5",
+        "rule": "role_priority",
+        "to_char_id": "char_jesus"
+      },
+      {
+        "evidence": "resolved him to char_jesus by gender_match",
+        "from": {
+          "clause_id": "s5.c1",
+          "surface_pronoun": "him",
+          "token_span": [
+            419,
+            422
+          ]
+        },
+        "id": "coref_6",
+        "rule": "gender_match",
+        "to_char_id": "char_jesus"
+      },
+      {
+        "evidence": "resolved he to char_jesus by gender_match",
+        "from": {
+          "clause_id": "s5.c2",
+          "surface_pronoun": "he",
+          "token_span": [
+            428,
+            430
+          ]
+        },
+        "id": "coref_7",
+        "rule": "gender_match",
+        "to_char_id": "char_jesus"
+      }
+    ],
+    "evidence_map": {
+      "characters": [
+        {
+          "char_id": "char_jesus",
+          "first_mention_clause_id": "s1.c0",
+          "first_mention_token_span": [
+            41,
+            46
+          ],
+          "label": "Jesus"
+        },
+        {
+          "char_id": "char_disciples",
+          "first_mention_clause_id": "s2.c0",
+          "first_mention_token_span": [
+            88,
+            97
+          ],
+          "label": "disciples"
+        },
+        {
+          "char_id": "char_woman_of_samaria",
+          "first_mention_clause_id": "s3.c0",
+          "first_mention_token_span": [
+            144,
+            159
+          ],
+          "label": "woman_of_Samaria"
+        }
+      ],
+      "coref_links": [
+        {
+          "evidence": "no match within lookback for her",
+          "from": {
+            "clause_id": "s1.c0",
+            "surface_pronoun": "her",
+            "token_span": [
+              55,
+              58
+            ]
+          },
+          "id": "coref_0",
+          "rule": "lookback_limit",
+          "to_char_id": "char_unknown_F_1"
+        },
+        {
+          "evidence": "resolved his to char_jesus by gender_match",
+          "from": {
+            "clause_id": "s2.c0",
+            "surface_pronoun": "his",
+            "token_span": [
+              84,
+              87
+            ]
+          },
+          "id": "coref_1",
+          "rule": "gender_match",
+          "to_char_id": "char_jesus"
+        },
+        {
+          "evidence": "resolved him to char_jesus by gender_match",
+          "from": {
+            "clause_id": "s3.c0",
+            "surface_pronoun": "him",
+            "token_span": [
+              168,
+              171
+            ]
+          },
+          "id": "coref_2",
+          "rule": "gender_match",
+          "to_char_id": "char_jesus"
+        },
+        {
+          "evidence": "resolved it to char_woman_of_samaria by role_priority",
+          "from": {
+            "clause_id": "s3.c0",
+            "surface_pronoun": "it",
+            "token_span": [
+              181,
+              183
+            ]
+          },
+          "id": "coref_3",
+          "rule": "role_priority",
+          "to_char_id": "char_woman_of_samaria"
+        },
+        {
+          "evidence": "resolved her to char_woman_of_samaria by gender_match",
+          "from": {
+            "clause_id": "s5.c0",
+            "surface_pronoun": "her",
+            "token_span": [
+              307,
+              310
+            ]
+          },
+          "id": "coref_4",
+          "rule": "gender_match",
+          "to_char_id": "char_woman_of_samaria"
+        },
+        {
+          "evidence": "resolved it to char_jesus by role_priority",
+          "from": {
+            "clause_id": "s5.c1",
+            "surface_pronoun": "it",
+            "token_span": [
+              350,
+              352
+            ]
+          },
+          "id": "coref_5",
+          "rule": "role_priority",
+          "to_char_id": "char_jesus"
+        },
+        {
+          "evidence": "resolved him to char_jesus by gender_match",
+          "from": {
+            "clause_id": "s5.c1",
+            "surface_pronoun": "him",
+            "token_span": [
+              419,
+              422
+            ]
+          },
+          "id": "coref_6",
+          "rule": "gender_match",
+          "to_char_id": "char_jesus"
+        },
+        {
+          "evidence": "resolved he to char_jesus by gender_match",
+          "from": {
+            "clause_id": "s5.c2",
+            "surface_pronoun": "he",
+            "token_span": [
+              428,
+              430
+            ]
+          },
+          "id": "coref_7",
+          "rule": "gender_match",
+          "to_char_id": "char_jesus"
+        }
+      ],
+      "frames": [
+        {
+          "actor": "unknown_actor_1",
+          "clause_id": "s0.c0",
+          "id": "frame_0",
+          "indirect_object": "draw water",
+          "object": null,
+          "token_span": [
+            21,
+            25
+          ],
+          "verb": "came"
+        },
+        {
+          "actor": "Jesus",
+          "clause_id": "s1.c0",
+          "id": "frame_1",
+          "indirect_object": "her",
+          "object": "unknown_F",
+          "token_span": [
+            47,
+            51
+          ],
+          "verb": "said"
+        },
+        {
+          "actor": "unknown_F",
+          "clause_id": "s1.c0",
+          "id": "frame_2",
+          "indirect_object": null,
+          "object": null,
+          "token_span": [
+            61,
+            65
+          ],
+          "verb": "Give"
+        },
+        {
+          "actor": "disciples",
+          "clause_id": "s2.c0",
+          "id": "frame_3",
+          "indirect_object": "buy food",
+          "object": null,
+          "token_span": [
+            98,
+            101
+          ],
+          "verb": "had"
+        },
+        {
+          "actor": "woman_of_Samaria",
+          "clause_id": "s3.c0",
+          "id": "frame_4",
+          "indirect_object": "him",
+          "object": "Jesus",
+          "token_span": [
+            160,
+            164
+          ],
+          "verb": "said"
+        },
+        {
+          "actor": "Jesus",
+          "clause_id": "s3.c0",
+          "id": "frame_5",
+          "indirect_object": "a drink from me",
+          "object": "woman_of_Samaria",
+          "token_span": [
+            178,
+            180
+          ],
+          "verb": "is"
+        },
+        {
+          "actor": "unknown_actor_2",
+          "clause_id": "s4.c0",
+          "id": "frame_6",
+          "indirect_object": null,
+          "object": null,
+          "token_span": [
+            257,
+            261
+          ],
+          "verb": "have"
+        },
+        {
+          "actor": "Jesus",
+          "clause_id": "s5.c0",
+          "id": "frame_7",
+          "indirect_object": null,
+          "object": "woman_of_Samaria",
+          "token_span": [
+            298,
+            306
+          ],
+          "verb": "answered"
+        },
+        {
+          "actor": "woman_of_Samaria",
+          "clause_id": "s5.c0",
+          "id": "frame_8",
+          "indirect_object": null,
+          "object": null,
+          "token_span": [
+            320,
+            324
+          ],
+          "verb": "knew"
+        },
+        {
+          "actor": "Jesus",
+          "clause_id": "s5.c1",
+          "id": "frame_9",
+          "indirect_object": "you",
+          "object": "Jesus",
+          "token_span": [
+            353,
+            355
+          ],
+          "verb": "is"
+        },
+        {
+          "actor": "Jesus",
+          "clause_id": "s5.c1",
+          "id": "frame_10",
+          "indirect_object": "you",
+          "object": "Jesus",
+          "token_span": [
+            361,
+            363
+          ],
+          "verb": "is"
+        },
+        {
+          "actor": "Jesus",
+          "clause_id": "s5.c1",
+          "id": "frame_11",
+          "indirect_object": "you",
+          "object": "Jesus",
+          "token_span": [
+            364,
+            370
+          ],
+          "verb": "saying"
+        },
+        {
+          "actor": "Jesus",
+          "clause_id": "s5.c1",
+          "id": "frame_12",
+          "indirect_object": null,
+          "object": "Jesus",
+          "token_span": [
+            408,
+            412
+          ],
+          "verb": "have"
+        },
+        {
+          "actor": "Jesus",
+          "clause_id": "s5.c1",
+          "id": "frame_13",
+          "indirect_object": null,
+          "object": "Jesus",
+          "token_span": [
+            413,
+            418
+          ],
+          "verb": "asked"
+        },
+        {
+          "actor": "Jesus",
+          "clause_id": "s5.c2",
+          "id": "frame_14",
+          "indirect_object": null,
+          "object": null,
+          "token_span": [
+            437,
+            441
+          ],
+          "verb": "have"
+        },
+        {
+          "actor": "Jesus",
+          "clause_id": "s5.c2",
+          "id": "frame_15",
+          "indirect_object": null,
+          "object": null,
+          "token_span": [
+            452,
+            458
+          ],
+          "verb": "living"
+        }
+      ],
+      "silences": [
+        {
+          "clause_ids": [
+            "s2.c0"
+          ],
+          "id": "silence_0",
+          "note_seed": "thick with nouns, few verbs",
+          "signal": "low_verb_ratio",
+          "type": "density"
+        },
+        {
+          "clause_ids": [
+            "s3.c0"
+          ],
+          "id": "silence_1",
+          "note_seed": "thick with nouns, few verbs",
+          "signal": "low_verb_ratio",
+          "type": "density"
+        },
+        {
+          "clause_ids": [
+            "s5.c2"
+          ],
+          "id": "silence_2",
+          "note_seed": "weighty terms clustered without explanation",
+          "signal": "focus_noun_cluster",
+          "type": "withholding"
+        }
+      ],
+      "thresholds": [
+        {
+          "clause_id": "s1.c0",
+          "evidence_after": "Jesus said to her, \"Give me a drink.\" (For his disciples had",
+          "evidence_before": "A woman from Samaria came to draw water.",
+          "id": "threshold_0",
+          "kind": "interruption",
+          "token_span": [
+            41,
+            55
+          ],
+          "trigger": "quote_boundary"
+        },
+        {
+          "clause_id": "s5.c1",
+          "evidence_after": "and who it is that is saying to you, 'Give me a drink,' you",
+          "evidence_before": "aritans.) Jesus answered her, \"If you knew the gift of God,",
+          "id": "threshold_1",
+          "kind": "interruption",
+          "token_span": [
+            342,
+            356
+          ],
+          "trigger": "quote_boundary"
+        },
+        {
+          "clause_id": "s5.c2",
+          "evidence_after": "and he would have given you living water.\"",
+          "evidence_before": "saying to you, 'Give me a drink,' you would have asked him,",
+          "id": "threshold_2",
+          "kind": "disclosure",
+          "token_span": [
+            424,
+            430
+          ],
+          "trigger": "and he"
+        },
+        {
+          "clause_id": "s6.c0",
+          "evidence_after": "\"",
+          "evidence_before": "ld have asked him, and he would have given you living water.",
+          "id": "threshold_3",
+          "kind": "interruption",
+          "token_span": [
+            465,
+            479
+          ],
+          "trigger": "quote_boundary"
+        }
+      ],
+      "utterances": [
+        {
+          "clause_id": "s1.c0",
+          "id": "utterance_0",
+          "speaker_guess": "Jesus",
+          "speech_act": "command",
+          "text": "Give me a drink.",
+          "token_span": [
+            61,
+            77
+          ]
+        },
+        {
+          "clause_id": "s3.c0",
+          "id": "utterance_1",
+          "speaker_guess": "woman_of_Samaria",
+          "speech_act": "question",
+          "text": "How is it that you, a Jew, ask for a drink from me, a woman of Samaria?",
+          "token_span": [
+            174,
+            245
+          ]
+        },
+        {
+          "clause_id": "s5.c0",
+          "id": "utterance_2",
+          "speaker_guess": "Jesus",
+          "speech_act": "response",
+          "text": "If you knew the gift of God, and who it is that is saying to you, 'Give me a drink,' you would have asked him, and he would have given you living water.",
+          "token_span": [
+            313,
+            465
+          ]
+        }
+      ],
+      "witness_prompts": [
+        {
+          "id": "prompt_0",
+          "linked_silence": null,
+          "linked_threshold": null,
+          "linked_utterance": null,
+          "text": "unknown_actor_1 begins with 'Give me a drink.'. What does that request surface for you?"
+        },
+        {
+          "id": "prompt_1",
+          "linked_silence": null,
+          "linked_threshold": null,
+          "linked_utterance": "utterance_0",
+          "text": "Jesus asks, 'How is it that you, a Jew, ask for a drink from me, a woman of Samaria?'. What boundary does that name?"
+        },
+        {
+          "id": "prompt_2",
+          "linked_silence": null,
+          "linked_threshold": null,
+          "linked_utterance": null,
+          "text": "unknown_actor_1 responds, 'unknown_F Give'. What is being offered here?"
+        },
+        {
+          "id": "prompt_3",
+          "linked_silence": null,
+          "linked_threshold": null,
+          "linked_utterance": null,
+          "text": "Where do you notice the movement from need to gift?"
+        },
+        {
+          "id": "prompt_4",
+          "linked_silence": null,
+          "linked_threshold": null,
+          "linked_utterance": null,
+          "text": "What would it mean to receive without bargaining?"
+        }
+      ]
+    },
+    "frames": [
+      "unknown_actor_1 came to draw water",
+      "Jesus said to her",
+      "unknown_F Give",
+      "disciples had to buy food",
+      "woman_of_Samaria said to him",
+      "Jesus is to a drink from me",
+      "unknown_actor_2 have",
+      "Jesus answered woman_of_Samaria",
+      "woman_of_Samaria knew",
+      "Jesus is to you",
+      "Jesus is to you",
+      "Jesus saying to you",
+      "Jesus have Jesus",
+      "Jesus asked Jesus",
+      "Jesus have",
+      "Jesus living"
+    ],
+    "frames_detailed": [
+      {
+        "actor": "unknown_actor_1",
+        "clause_id": "s0.c0",
+        "id": "frame_0",
+        "indirect_object": "draw water",
+        "modifiers": [
+          "to draw water"
+        ],
+        "object": null,
+        "polarity": "affirm",
+        "token_span": [
+          21,
+          25
+        ],
+        "verb": "came",
+        "voice_guess": "active"
+      },
+      {
+        "actor": "Jesus",
+        "clause_id": "s1.c0",
+        "id": "frame_1",
+        "indirect_object": "her",
+        "modifiers": [
+          "to her"
+        ],
+        "object": "unknown_F",
+        "polarity": "affirm",
+        "token_span": [
+          47,
+          51
+        ],
+        "verb": "said",
+        "voice_guess": "active"
+      },
+      {
+        "actor": "unknown_F",
+        "clause_id": "s1.c0",
+        "id": "frame_2",
+        "indirect_object": null,
+        "modifiers": [],
+        "object": null,
+        "polarity": "affirm",
+        "token_span": [
+          61,
+          65
+        ],
+        "verb": "Give",
+        "voice_guess": "active"
+      },
+      {
+        "actor": "disciples",
+        "clause_id": "s2.c0",
+        "id": "frame_3",
+        "indirect_object": "buy food",
+        "modifiers": [
+          "to buy food",
+          "into the city to buy food"
+        ],
+        "object": null,
+        "polarity": "affirm",
+        "token_span": [
+          98,
+          101
+        ],
+        "verb": "had",
+        "voice_guess": "active"
+      },
+      {
+        "actor": "woman_of_Samaria",
+        "clause_id": "s3.c0",
+        "id": "frame_4",
+        "indirect_object": "him",
+        "modifiers": [
+          "to him",
+          "from me"
+        ],
+        "object": "Jesus",
+        "polarity": "affirm",
+        "token_span": [
+          160,
+          164
+        ],
+        "verb": "said",
+        "voice_guess": "active"
+      },
+      {
+        "actor": "Jesus",
+        "clause_id": "s3.c0",
+        "id": "frame_5",
+        "indirect_object": "a drink from me",
+        "modifiers": [
+          "for a drink from me",
+          "from me"
+        ],
+        "object": "woman_of_Samaria",
+        "polarity": "affirm",
+        "token_span": [
+          178,
+          180
+        ],
+        "verb": "is",
+        "voice_guess": "active"
+      },
+      {
+        "actor": "unknown_actor_2",
+        "clause_id": "s4.c0",
+        "id": "frame_6",
+        "indirect_object": null,
+        "modifiers": [
+          "with Samaritans"
+        ],
+        "object": null,
+        "polarity": "neg",
+        "token_span": [
+          257,
+          261
+        ],
+        "verb": "have",
+        "voice_guess": "active"
+      },
+      {
+        "actor": "Jesus",
+        "clause_id": "s5.c0",
+        "id": "frame_7",
+        "indirect_object": null,
+        "modifiers": [],
+        "object": "woman_of_Samaria",
+        "polarity": "affirm",
+        "token_span": [
+          298,
+          306
+        ],
+        "verb": "answered",
+        "voice_guess": "active"
+      },
+      {
+        "actor": "woman_of_Samaria",
+        "clause_id": "s5.c0",
+        "id": "frame_8",
+        "indirect_object": null,
+        "modifiers": [],
+        "object": null,
+        "polarity": "affirm",
+        "token_span": [
+          320,
+          324
+        ],
+        "verb": "knew",
+        "voice_guess": "active"
+      },
+      {
+        "actor": "Jesus",
+        "clause_id": "s5.c1",
+        "id": "frame_9",
+        "indirect_object": "you",
+        "modifiers": [
+          "to you"
+        ],
+        "object": "Jesus",
+        "polarity": "affirm",
+        "token_span": [
+          353,
+          355
+        ],
+        "verb": "is",
+        "voice_guess": "active"
+      },
+      {
+        "actor": "Jesus",
+        "clause_id": "s5.c1",
+        "id": "frame_10",
+        "indirect_object": "you",
+        "modifiers": [
+          "to you"
+        ],
+        "object": "Jesus",
+        "polarity": "affirm",
+        "token_span": [
+          361,
+          363
+        ],
+        "verb": "is",
+        "voice_guess": "active"
+      },
+      {
+        "actor": "Jesus",
+        "clause_id": "s5.c1",
+        "id": "frame_11",
+        "indirect_object": "you",
+        "modifiers": [
+          "to you"
+        ],
+        "object": "Jesus",
+        "polarity": "affirm",
+        "token_span": [
+          364,
+          370
+        ],
+        "verb": "saying",
+        "voice_guess": "active"
+      },
+      {
+        "actor": "Jesus",
+        "clause_id": "s5.c1",
+        "id": "frame_12",
+        "indirect_object": null,
+        "modifiers": [],
+        "object": "Jesus",
+        "polarity": "affirm",
+        "token_span": [
+          408,
+          412
+        ],
+        "verb": "have",
+        "voice_guess": "active"
+      },
+      {
+        "actor": "Jesus",
+        "clause_id": "s5.c1",
+        "id": "frame_13",
+        "indirect_object": null,
+        "modifiers": [],
+        "object": "Jesus",
+        "polarity": "affirm",
+        "token_span": [
+          413,
+          418
+        ],
+        "verb": "asked",
+        "voice_guess": "active"
+      },
+      {
+        "actor": "Jesus",
+        "clause_id": "s5.c2",
+        "id": "frame_14",
+        "indirect_object": null,
+        "modifiers": [],
+        "object": null,
+        "polarity": "affirm",
+        "token_span": [
+          437,
+          441
+        ],
+        "verb": "have",
+        "voice_guess": "active"
+      },
+      {
+        "actor": "Jesus",
+        "clause_id": "s5.c2",
+        "id": "frame_15",
+        "indirect_object": null,
+        "modifiers": [],
+        "object": null,
+        "polarity": "affirm",
+        "token_span": [
+          452,
+          458
+        ],
+        "verb": "living",
+        "voice_guess": "active"
+      }
+    ],
+    "questions": [
+      "How is it that you, a Jew, ask for a drink from me, a woman of Samaria?"
+    ],
+    "segments": [
+      {
+        "clause_id": "s0.c0",
+        "sentence_id": 0,
+        "text": "A woman from Samaria came to draw water.",
+        "token_end": 40,
+        "token_start": 0
+      },
+      {
+        "clause_id": "s1.c0",
+        "sentence_id": 1,
+        "text": "Jesus said to her, \"Give me a drink.",
+        "token_end": 77,
+        "token_start": 41
+      },
+      {
+        "clause_id": "s2.c0",
+        "sentence_id": 2,
+        "text": "\" (For his disciples had gone away into the city to buy food.",
+        "token_end": 138,
+        "token_start": 77
+      },
+      {
+        "clause_id": "s3.c0",
+        "sentence_id": 3,
+        "text": ") The Samaritan woman said to him, \"How is it that you, a Jew, ask for a drink from me, a woman of Samaria?",
+        "token_end": 245,
+        "token_start": 138
+      },
+      {
+        "clause_id": "s4.c0",
+        "sentence_id": 4,
+        "text": "\" (For Jews have no dealings with Samaritans.",
+        "token_end": 290,
+        "token_start": 245
+      },
+      {
+        "clause_id": "s5.c0",
+        "sentence_id": 5,
+        "text": ") Jesus answered her, \"If you knew the gift of God,",
+        "token_end": 341,
+        "token_start": 290
+      },
+      {
+        "clause_id": "s5.c1",
+        "sentence_id": 5,
+        "text": "and who it is that is saying to you, 'Give me a drink,' you would have asked him,",
+        "token_end": 423,
+        "token_start": 342
+      },
+      {
+        "clause_id": "s5.c2",
+        "sentence_id": 5,
+        "text": "and he would have given you living water.",
+        "token_end": 465,
+        "token_start": 424
+      },
+      {
+        "clause_id": "s6.c0",
+        "sentence_id": 6,
+        "text": "\"",
+        "token_end": 466,
+        "token_start": 465
+      }
+    ],
+    "silences": [
+      "density",
+      "density",
+      "withholding"
+    ],
+    "silences_detailed": [
+      {
+        "clause_id": "s2.c0",
+        "note_seed": "thick with nouns, few verbs",
+        "signal": "low_verb_ratio",
+        "silence_type": "density"
+      },
+      {
+        "clause_id": "s3.c0",
+        "note_seed": "thick with nouns, few verbs",
+        "signal": "low_verb_ratio",
+        "silence_type": "density"
+      },
+      {
+        "clause_id": "s5.c2",
+        "note_seed": "weighty terms clustered without explanation",
+        "signal": "focus_noun_cluster",
+        "silence_type": "withholding"
+      }
+    ],
+    "speakers": [
+      "Jesus",
+      "woman_of_Samaria"
+    ],
+    "thresholds": [
+      "quote_boundary",
+      "quote_boundary",
+      "and he",
+      "quote_boundary"
+    ],
+    "thresholds_detailed": [
+      {
+        "evidence_after": "Jesus said to her, \"Give me a drink.\" (For his disciples had",
+        "evidence_before": "A woman from Samaria came to draw water.",
+        "from_clause_id": "s0.c0",
+        "kind": "interruption",
+        "to_clause_id": "s1.c0",
+        "token_span": [
+          41,
+          55
+        ],
+        "trigger": "quote_boundary"
+      },
+      {
+        "evidence_after": "and who it is that is saying to you, 'Give me a drink,' you",
+        "evidence_before": "aritans.) Jesus answered her, \"If you knew the gift of God,",
+        "from_clause_id": "s5.c0",
+        "kind": "interruption",
+        "to_clause_id": "s5.c1",
+        "token_span": [
+          342,
+          356
+        ],
+        "trigger": "quote_boundary"
+      },
+      {
+        "evidence_after": "and he would have given you living water.\"",
+        "evidence_before": "saying to you, 'Give me a drink,' you would have asked him,",
+        "from_clause_id": "s5.c1",
+        "kind": "disclosure",
+        "to_clause_id": "s5.c2",
+        "token_span": [
+          424,
+          430
+        ],
+        "trigger": "and he"
+      },
+      {
+        "evidence_after": "\"",
+        "evidence_before": "ld have asked him, and he would have given you living water.",
+        "from_clause_id": "s5.c2",
+        "kind": "interruption",
+        "to_clause_id": "s6.c0",
+        "token_span": [
+          465,
+          479
+        ],
+        "trigger": "quote_boundary"
+      }
+    ],
+    "time_markers": [],
+    "time_markers_detailed": [],
+    "utterances": [
+      "Give me a drink.",
+      "How is it that you, a Jew, ask for a drink from me, a woman of Samaria?",
+      "If you knew the gift of God, and who it is that is saying to you, 'Give me a drink,' you would have asked him, and he would have given you living water."
+    ],
+    "utterances_detailed": [
+      {
+        "clause_id": "s1.c0",
+        "speaker_guess": "Jesus",
+        "speech_act": "command",
+        "text": "Give me a drink.",
+        "token_span": [
+          61,
+          77
+        ]
+      },
+      {
+        "clause_id": "s3.c0",
+        "speaker_guess": "woman_of_Samaria",
+        "speech_act": "question",
+        "text": "How is it that you, a Jew, ask for a drink from me, a woman of Samaria?",
+        "token_span": [
+          174,
+          245
+        ]
+      },
+      {
+        "clause_id": "s5.c0",
+        "speaker_guess": "Jesus",
+        "speech_act": "response",
+        "text": "If you knew the gift of God, and who it is that is saying to you, 'Give me a drink,' you would have asked him, and he would have given you living water.",
+        "token_span": [
+          313,
+          465
+        ]
+      }
+    ],
+    "verbs": [
+      "came",
+      "said",
+      "Give",
+      "had",
+      "said",
+      "is",
+      "have",
+      "answered",
+      "knew",
+      "is",
+      "is",
+      "saying",
+      "have",
+      "asked",
+      "have",
+      "living"
+    ],
+    "verbs_detailed": [
+      {
+        "clause_id": "s0.c0",
+        "lemma_guess": "come",
+        "role": "action",
+        "tense_guess": "past",
+        "token_span": [
+          21,
+          25
+        ],
+        "verb_text": "came"
+      },
+      {
+        "clause_id": "s1.c0",
+        "lemma_guess": "say",
+        "role": "speech_introducer",
+        "tense_guess": "past",
+        "token_span": [
+          47,
+          51
+        ],
+        "verb_text": "said"
+      },
+      {
+        "clause_id": "s1.c0",
+        "lemma_guess": "give",
+        "role": "action",
+        "tense_guess": "unknown",
+        "token_span": [
+          61,
+          65
+        ],
+        "verb_text": "Give"
+      },
+      {
+        "clause_id": "s2.c0",
+        "lemma_guess": "have",
+        "role": "action",
+        "tense_guess": "past",
+        "token_span": [
+          98,
+          101
+        ],
+        "verb_text": "had"
+      },
+      {
+        "clause_id": "s3.c0",
+        "lemma_guess": "say",
+        "role": "speech_introducer",
+        "tense_guess": "past",
+        "token_span": [
+          160,
+          164
+        ],
+        "verb_text": "said"
+      },
+      {
+        "clause_id": "s3.c0",
+        "lemma_guess": "be",
+        "role": "action",
+        "tense_guess": "present",
+        "token_span": [
+          178,
+          180
+        ],
+        "verb_text": "is"
+      },
+      {
+        "clause_id": "s4.c0",
+        "lemma_guess": "have",
+        "role": "action",
+        "tense_guess": "unknown",
+        "token_span": [
+          257,
+          261
+        ],
+        "verb_text": "have"
+      },
+      {
+        "clause_id": "s5.c0",
+        "lemma_guess": "answer",
+        "role": "action",
+        "tense_guess": "past",
+        "token_span": [
+          298,
+          306
+        ],
+        "verb_text": "answered"
+      },
+      {
+        "clause_id": "s5.c0",
+        "lemma_guess": "know",
+        "role": "action",
+        "tense_guess": "past",
+        "token_span": [
+          320,
+          324
+        ],
+        "verb_text": "knew"
+      },
+      {
+        "clause_id": "s5.c1",
+        "lemma_guess": "be",
+        "role": "action",
+        "tense_guess": "present",
+        "token_span": [
+          353,
+          355
+        ],
+        "verb_text": "is"
+      },
+      {
+        "clause_id": "s5.c1",
+        "lemma_guess": "be",
+        "role": "action",
+        "tense_guess": "present",
+        "token_span": [
+          361,
+          363
+        ],
+        "verb_text": "is"
+      },
+      {
+        "clause_id": "s5.c1",
+        "lemma_guess": "say",
+        "role": "speech_introducer",
+        "tense_guess": "present",
+        "token_span": [
+          364,
+          370
+        ],
+        "verb_text": "saying"
+      },
+      {
+        "clause_id": "s5.c1",
+        "lemma_guess": "have",
+        "role": "action",
+        "tense_guess": "unknown",
+        "token_span": [
+          408,
+          412
+        ],
+        "verb_text": "have"
+      },
+      {
+        "clause_id": "s5.c1",
+        "lemma_guess": "ask",
+        "role": "action",
+        "tense_guess": "past",
+        "token_span": [
+          413,
+          418
+        ],
+        "verb_text": "asked"
+      },
+      {
+        "clause_id": "s5.c2",
+        "lemma_guess": "have",
+        "role": "action",
+        "tense_guess": "unknown",
+        "token_span": [
+          437,
+          441
+        ],
+        "verb_text": "have"
+      },
+      {
+        "clause_id": "s5.c2",
+        "lemma_guess": "liv",
+        "role": "action",
+        "tense_guess": "present",
+        "token_span": [
+          452,
+          458
+        ],
+        "verb_text": "living"
+      }
+    ]
+  },
+  "spec_version": "v4",
+  "template": {
+    "id": "john_4_7_10_v4",
+    "path": "data/templates/witness_cards/v4/john_4_7_10.json"
+  },
+  "witness_prompts": [
+    "unknown_actor_1 begins with 'Give me a drink.'. What does that request surface for you?",
+    "Jesus asks, 'How is it that you, a Jew, ask for a drink from me, a woman of Samaria?'. What boundary does that name?",
+    "unknown_actor_1 responds, 'unknown_F Give'. What is being offered here?",
+    "Where do you notice the movement from need to gift?",
+    "What would it mean to receive without bargaining?"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Luke λ-files; safe to hand-edit after generation.",
+    "book": "Luke",
+    "passage_id": "Luk05_27_39",
+    "version": "Luk05_27_39_Lambda_IV_v0.1"
+  },
+  "passage_id": "Luk05_27_39",
+  "book": "Luke",
+  "chapter": 5,
+  "verses": "27-39",
+  "title": "Luke 5:27–39 – Levi Called, New Wine in New Wineskins",
+  "interpretive_frames": [
+    "Call",
+    "TableFellowship",
+    "Newness"
+  ],
+  "identity_invariants": [
+    "[]JesusCallsSinnersAndBringsNewCovenantReality(Jesus, Levi, Sinners)"
+  ],
+  "units": [
+    {
+      "id": "Luk05_27_39_u1",
+      "label": "I Have Not Come to Call the Righteous",
+      "verses": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "illocution": "CallAndParable",
+      "agents": [
+        "Jesus",
+        "Levi",
+        "TaxCollectors",
+        "Pharisees",
+        "Disciples"
+      ],
+      "statements": [
+        {
+          "id": "Luk05_27_39_s1",
+          "type": "summary",
+          "description": "Jesus calls Levi, eats with tax collectors and sinners, defends his mission, and teaches that new wine requires new wineskins.",
+          "lambda_iv": [
+            "[]JesusCallsSinnersAndBringsNewCovenantReality(Jesus, Levi, Sinners)",
+            "EFF(ReligiousResistanceToMercyRevealsAttachmentToOldForms(Pharisees))"
+          ]
+        }
+      ]
+    }
+  ]
+}

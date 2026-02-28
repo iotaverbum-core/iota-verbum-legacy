@@ -1,0 +1,54 @@
+{
+  "schema": "iv.modal.json.v1",
+  "passage": "John 12",
+  "source": {
+    "translation": "ESV"
+  },
+  "meta": {
+    "compiled_from": "cne.v1",
+    "compiled_at": "2026-02-13T14:23:56"
+  },
+  "nodes": [
+    {
+      "id": "n1",
+      "type": "scene",
+      "ref": "12:1-11",
+      "label": "Mary anoints → burial framing"
+    },
+    {
+      "id": "n2",
+      "type": "scene",
+      "ref": "12:12-19",
+      "label": "Triumphal entry"
+    },
+    {
+      "id": "n3",
+      "type": "scene",
+      "ref": "12:20-50",
+      "label": "Hour arrives → grain dies → lifted up → unbelief"
+    }
+  ],
+  "edges": [
+    {
+      "from": "n1",
+      "to": "n2",
+      "type": "SEQ"
+    },
+    {
+      "from": "n2",
+      "to": "n3",
+      "type": "SEQ"
+    }
+  ],
+  "hinges": [
+    {
+      "id": "h1",
+      "refs": [
+        "John 12"
+      ],
+      "identity_□": "Jesus is the King whose glory comes through being lifted up.",
+      "enactment_◇": "He receives anointing, enters Jerusalem, announces the hour, and interprets his death as fruitful lifting-up.",
+      "effect_Δ": "Some believe, many fear confession; judgment on the ruler of this world is announced."
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+﻿{
+  "meta": {
+    "format": "iota.modal_bible.lambda_json",
+    "lambda_version": "v0.1",
+    "description": "Modal Bible encoding of Mark 4:26–29 (Parable of the Growing Seed) using Iota Verbum's Λ grammar (□ identity / ◇ enactment / Δ effect).",
+    "grammar_ref": "docs/Modal_Grammar_v1.0.md",
+    "notes": [
+      "All formulas in `identity_invariants` and `units[*].statements[*].lambda_iv` use Λ v0.1 ASCII syntax:",
+      "[] = □ (necessity / identity), <> = ◇ (possibility / enactment), EFF() = Δ (effect), !, &, |, -> for logic.",
+      "This file is a theological encoding, not just data. Corrections should preserve the Λ triad and syntax."
+    ],
+    "created_by": "Matthew + Iota (Λ)",
+    "version": "Mk4_26_29_Lambda_IV_v0.1"
+  },
+
+  "passage_id": "Mk4_26_29",
+  "book": "Mark",
+  "chapter": 4,
+  "verses": "26-29",
+  "title": "Mark 4:26–29 – The Growing Seed: Hidden Growth and Certain Harvest",
+  "interpretive_frames": [
+    "KingdomParable",
+    "HiddenGrowth",
+    "EschatologicalHarvest",
+    "EconomyOfGod_GrowthToHarvest"
+  ],
+
+  "identity_invariants": [
+    "I(OwnerOfKingdom(YHWH)) -> []OwnerOfKingdom(YHWH)",
+    "I(GiverOfGrowth(YHWH)) -> []GiverOfGrowth(YHWH)",
+    "I(L(YHWH)) -> []L(YHWH)"
+  ],
+
+  "units": [
+    {
+      "id": "Mk4_26_27",
+      "label": "Sower, Seed, and Hidden Growth",
+      "verses": [26, 27],
+      "illocution": "ParableSetup",
+      "agents": ["Jesus", "Sower", "YHWH", "Seed", "Field"],
+      "statements": [
+        {
+          "id": "Mk4_26_27_s1",
+          "type": "state",
+          "description": "Sower scatters seed and lives ordinary life; the seed grows while he does not understand how.",
+          "lambda_iv": [
+             "EFF(State(Sower, OrdinaryAgent) & State(Sower, LimitedUnderstanding))",
+             "<>ScatterSeed(Sower, Field, t0)",
+             "<>SleepAndRise(Sower, t1_to_tn)",
+             "EFF(SeedSproutsAndGrows(Seed, Field))",
+             "Preserves(SeedSproutsAndGrows(Seed, Field), GiverOfGrowth(YHWH))"
+]
+
+        },
+        {
+          "id": "Mk4_26_27_s2",
+          "type": "contrast",
+          "description": "Hidden causal agency of God contrasted with the sower's ignorance.",
+          "lambda_iv": [
+            "State(Sower, DoesNotKnowHow)",
+            "HiddenCause(SeedSproutsAndGrows(Seed, Field), YHWH)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Mk4_28",
+      "label": "Automatic and Ordered Growth",
+      "verses": [28],
+      "illocution": "Explanation",
+      "agents": ["Earth", "YHWH", "Seed"],
+      "statements": [
+        {
+          "id": "Mk4_28_s1",
+          "type": "state",
+          "description": "The earth produces fruit automatically and in ordered stages.",
+          "lambda_iv": [
+            "State(Earth, InstrumentOf(YHWH))",
+            "EFF(AutomaticGrowth(Seed, Earth, Order(Blade, Ear, FullGrain)))",
+            "HiddenYetOrderedGrowth(KingdomOfGod)"
+          ]
+        },
+        {
+          "id": "Mk4_28_s2",
+          "type": "theological_pattern",
+          "description": "Kingdom growth is God-driven, gradual, and unstoppable.",
+          "lambda_iv": [
+            "[]GiverOfGrowth(YHWH) -> <>BringToMaturity(KingdomOfGod, t_grow)",
+            "EFF(OrdinaryProcess(BladeToFullGrain(KingdomOfGod)))"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Mk4_29",
+      "label": "Ripeness and Harvest",
+      "verses": [29],
+      "illocution": "Punchline",
+      "agents": ["Sower", "SonOfMan", "YHWH", "KingdomOfGod"],
+      "statements": [
+        {
+          "id": "Mk4_29_s1",
+          "type": "state",
+          "description": "The grain becomes ripe; harvest time arrives.",
+          "lambda_iv": [
+            "EFF(GrainIsRipe(KingdomHarvest))",
+            "HarvestTime(KingdomHarvest, t_harvest)"
+          ]
+        },
+        {
+          "id": "Mk4_29_s2",
+          "type": "enactment",
+          "description": "When ripeness comes, the sower immediately puts in the sickle.",
+          "lambda_iv": [
+            "<>PutInSickle(Sower, KingdomHarvest, t_harvest)",
+            "PromptActionWhenRipe(Sower, KingdomHarvest)"
+          ]
+        },
+        {
+          "id": "Mk4_29_s3",
+          "type": "analogical_impassibility",
+          "description": "Given God's ownership of the kingdom, final harvest cannot be indefinitely ignored once ripeness is reached.",
+          "lambda_iv": [
+            "[]OwnerOfKingdom(YHWH) & EFF(GrainIsRipe(KingdomHarvest)) -> <>PutInSickle(SonOfMan, HarvestTime)",
+            "[]OwnerOfKingdom(YHWH) -> !<>IgnoreHarvestForever(SonOfMan)"
+          ]
+        },
+        {
+          "id": "Mk4_29_s4",
+          "type": "eschatological_pattern",
+          "description": "The parable gestures toward an eschatological harvest at the end of the age.",
+          "lambda_iv": [
+            "ParableRefersTo(KingdomOfGod, EschatologicalHarvest)",
+            "EFF(EschatologicalReadinessTrajectory(KingdomOfGod))"
+          ]
+        }
+      ]
+    }
+  ]
+}

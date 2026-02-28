@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "author": "Iota Verbum – Modal Bible Prototype",
+    "encoding": "Lambda_IV_v0.1",
+    "notes": "Auto-generated Luke λ-files; safe to hand-edit after generation.",
+    "book": "Luke",
+    "passage_id": "Luk06_12_26",
+    "version": "Luk06_12_26_Lambda_IV_v0.1"
+  },
+  "passage_id": "Luk06_12_26",
+  "book": "Luke",
+  "chapter": 6,
+  "verses": "12-26",
+  "title": "Luke 6:12–26 – Twelve Apostles and Blessings and Woes",
+  "interpretive_frames": [
+    "Apostles",
+    "Blessing",
+    "Reversal"
+  ],
+  "identity_invariants": [
+    "[]JesusConstitutesNewPeopleAroundHimselfWithReversedFortunes(Jesus, Apostles, Poor, Rich)"
+  ],
+  "units": [
+    {
+      "id": "Luk06_12_26_u1",
+      "label": "Blessed Are You Who Are Poor",
+      "verses": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "illocution": "ConstitutionSpeech",
+      "agents": [
+        "Jesus",
+        "TwelveApostles",
+        "Disciples",
+        "Crowds"
+      ],
+      "statements": [
+        {
+          "id": "Luk06_12_26_s1",
+          "type": "summary",
+          "description": "Jesus chooses twelve apostles and pronounces blessings on the poor and woes on the rich, redefining who is truly blessed.",
+          "lambda_iv": [
+            "[]JesusConstitutesNewPeopleAroundHimselfWithReversedFortunes(Jesus, Apostles, Poor, Rich)",
+            "EFF(ValuesOfKingdomInvertWorldlyMeasuresOfSuccess(Disciples))"
+          ]
+        }
+      ]
+    }
+  ]
+}
